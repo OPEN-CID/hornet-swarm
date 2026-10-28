@@ -15,6 +15,7 @@ metadata:
 - worked examples
 - graded practice set
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Lesson: concept, worked example, 3 practice problems with answers
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

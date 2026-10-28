@@ -15,6 +15,7 @@ metadata:
 - contract list
 - SLA table
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Arch note: sources, models, contracts, freshness SLAs
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -1,6 +1,6 @@
 # Hornet Swarm — Universal Agent Skills
 
-165 lightweight, universal (`SKILL.md`) skills covering every domain where
+186 lightweight, universal (`SKILL.md`) skills covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
 Claude Code, Cursor, Copilot, Gemini, Windsurf.
@@ -13,7 +13,7 @@ Claude Code, Cursor, Copilot, Gemini, Windsurf.
 Copy-Item -Recurse skills/meal-plan .agents/skills/
 # also supported: .claude/skills/ , .opencode/skills/
 
-# or install all 165
+# or install all 186
 powershell scripts/install.ps1 -Target .agents/skills
 bash scripts/install.sh --target .agents/skills
 ```
@@ -37,6 +37,7 @@ Start at [`wiki/README.md`](wiki/README.md) — 19 categories:
 | data-pipeline | 6 | `etl-pipeline`, `data-doc-parse`, `dashboard-design` |
 | creative-media | 7 | `blog-writer`, `brief-parse`, `content-review` |
 | career | 6 | `resume-writer`, `job-post-parse`, `interview-prep` |
+| languages | 20 + `repo-structure-guide` | `python-code`, `go-code`, `rust-code`… each with toolchain, style, idioms, arch patterns, pitfalls |
 
 Every domain follows the same 5 kinds — **Translate → Parse → Do →
 Review → Playbook** (see [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md)):
@@ -66,4 +67,4 @@ Docs: [`docs/PLAN.md`](docs/PLAN.md) (vision) ·
 [`docs/WORLD-TAXONOMY.md`](docs/WORLD-TAXONOMY.md) (all domains) ·
 [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md) (the 5 kinds) ·
 [`CONTRIBUTING.md`](CONTRIBUTING.md) (contribution rules).
-Machine index: [`registry.json`](registry.json) (165 entries).
+Machine index: [`registry.json`](registry.json) (186 entries).

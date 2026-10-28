@@ -26,8 +26,9 @@ Dev-only catalogs cover ~10% of agent work. This repo covers the rest:
 | 17 | Data pipelines | `data-pipeline` | 6 | ETL, quality, dashboards, spreadsheets, surveys, scraping |
 | 18 | Creative & media | `creative-media` | 7 | blog, video, podcast, newsletter, photo, music, brand |
 | 19 | Career | `career` | 6 | resume, cover letter, interviews, LinkedIn, negotiation, reviews |
+| 20 | Languages | `languages` | 20 | python, typescript, javascript, go, rust, java, csharp, cpp, c, ruby, php, swift, kotlin, dart, r, scala, elixir, bash, powershell, lua — each with toolchain, style, idioms, arch patterns, pitfalls |
 
-(19 category keys; "14 domains" groups some. Total: 36 dev + 80 task + 47 family + 2 community = **165 skills** and growing via `docs/INTAKE.md`.)
+(19 category keys + languages = 20 keys. Total: 36 dev + 80 task + 47 family + 2 community + 20 language + 1 repo-structure = **186 skills**.)
 
 ## Naming convention (avoids collisions across the world)
 

@@ -15,6 +15,7 @@ metadata:
 - sowing calendar
 - care schedule
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Bed plan: layout, sowing calendar, watering, harvest windows
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

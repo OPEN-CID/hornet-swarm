@@ -15,6 +15,7 @@ metadata:
 - keyword set
 - gap plan
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent missing pages, values, or signatures.
 
 ## Output format
 
-``text
+```text
 ## Match matrix: requirements, keywords, gaps, tailor list
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

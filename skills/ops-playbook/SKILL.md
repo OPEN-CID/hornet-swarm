@@ -15,6 +15,7 @@ metadata:
 - ownership map
 - anti-patterns
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Operating cadence: meetings, metrics, ownership, anti-patterns
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -15,6 +15,7 @@ metadata:
 - concept notes
 - safety reminders
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Walkthrough: balanced equation, mole map, lab safety notes
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

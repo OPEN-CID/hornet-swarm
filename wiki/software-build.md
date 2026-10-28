@@ -11,5 +11,6 @@ Design, write, fix, and reshape code.
 | `debugging` | Diagnose bugs systematically with reproduction, hypothesis, and fix verification. Use when investigating any error, failure, or unexpected behavior. |
 | `frontend-component` | Build accessible reusable UI components with props, states, and tests. Use when creating or refactoring any frontend component or page. |
 | `refactoring` | Restructure code safely in small behavior-preserving steps. Use when cleaning duplication, renaming, or extracting modules. |
+| `repo-structure-guide` | Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: skills/<name>/SKILL.md

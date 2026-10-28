@@ -15,6 +15,7 @@ metadata:
 - visibility plan
 - yearly goals
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Growth system: visibility, skills, sponsors + yearly plan
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

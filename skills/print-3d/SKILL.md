@@ -15,6 +15,7 @@ metadata:
 - orientation call
 - post-processing steps
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Print sheet: orientation, layer height, supports, time estimate
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

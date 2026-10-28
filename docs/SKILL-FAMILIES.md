@@ -30,6 +30,16 @@ science, data, business, architecture — anything.
 | creative-media | tone-translate | brief-parse | blog-writer, video-script | content-review | creative-playbook |
 | career | feedback-translate | job-post-parse | resume-writer, interview-prep | application-review | career-playbook |
 | software-build | code-explain | api-spec-parse | api-design, debugging | code-review | review-playbook |
+| languages | n/a (each `-code` skill embeds plain-language idioms) | api-spec-parse | 20 × `-code` (do + playbook in one) | code-review | style + arch + pitfalls embedded per language |
+
+## Language skills (the 6th family in practice)
+
+One skill per programming language (`python-code`, `go-code`, ...) generated
+from `catalog/languages*.json` by `scripts/generate-lang-skills.ps1`. Each
+contains toolchain commands, style rules, native idioms with a sample,
+architecture patterns with when-to-use, a pitfalls table, and testing notes —
+do + playbook fused. Data per language: description, toolchain, style[5],
+idioms[5], arch[4], pitfalls[4], testing, sample.
 
 ## Kind contracts (enforced by the generator)
 

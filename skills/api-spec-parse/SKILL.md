@@ -15,6 +15,7 @@ metadata:
 - client sketch
 - gotcha list
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent missing pages, values, or signatures.
 
 ## Output format
 
-``text
+```text
 ## Integration pack: endpoints used, client code, test list, gotchas
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

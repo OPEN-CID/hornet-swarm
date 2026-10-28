@@ -15,6 +15,7 @@ metadata:
 - quality flags
 - join keys
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent missing pages, values, or signatures.
 
 ## Output format
 
-``text
+```text
 ## Profile: schema, types, nulls, oddities, quality flags
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

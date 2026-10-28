@@ -15,6 +15,7 @@ metadata:
 - STAR feedback
 - retry list
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Mock: questions, STAR answers, feedback, retry list
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

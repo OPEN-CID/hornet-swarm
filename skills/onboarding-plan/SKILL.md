@@ -15,6 +15,7 @@ metadata:
 - buddy checklist
 - success metrics
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## 30-60-90: week-1 wins, month-1 ownership, month-3 outcomes
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

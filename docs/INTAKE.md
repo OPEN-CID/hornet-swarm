@@ -44,17 +44,20 @@ hand-written files unless passed `-Force`.
 
 ```text
 catalog/
-  README.md        # schema + which file to use
-  world.json       # core task skills (curated)
-  families.json    # translate/parse/review/playbook skills (curated)
-  custom.json      # community entries (created by new-skill.ps1)
-  imports.json     # created by import-skills.ps1 (git-ignored if noisy)
+  README.md       # schema + which file to use
+  world.json      # core task skills (curated)
+  families.json   # translate/parse/review/playbook skills (curated)
+  languages1.json # language skills part 1: python, ts, js, go, rust, java, c#, cpp, c, ruby
+  languages2.json # language skills part 2: php, swift, kotlin, dart, r, scala, elixir, bash, powershell, lua
+  custom.json     # community entries (created by new-skill.ps1)
+  imports.json    # created by import-skills.ps1 (git-ignored if noisy)
 templates/
   SKILL.md            # hand-write starting point
   skills.csv          # CSV starting point
   PROPOSER-PROMPT.md  # chatbot starting point
 scripts/
-  generate-skills.ps1  # catalog -> SKILL.md (kind-aware detail)
+  generate-skills.ps1      # catalog -> SKILL.md (kind-aware detail)
+  generate-lang-skills.ps1 # languages*.json -> 20 language SKILL.md (toolchain/style/idioms/arch/pitfalls)
   rebuild-registry.ps1 # skills -> registry.json
   generate-wiki.ps1    # registry -> wiki/
   import-skills.ps1    # csv -> catalog + skills

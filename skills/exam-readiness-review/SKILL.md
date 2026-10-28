@@ -15,6 +15,7 @@ metadata:
 - gap list
 - final-week plan
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Readiness: mock score, gap list, final-week drill plan, verdict
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

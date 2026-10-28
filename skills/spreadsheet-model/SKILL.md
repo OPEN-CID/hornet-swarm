@@ -15,6 +15,7 @@ metadata:
 - check cells
 - scenario tabs
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Model sheet: inputs, formulas, checks, scenario tabs, audit trail
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

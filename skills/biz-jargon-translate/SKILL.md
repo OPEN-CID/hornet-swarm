@@ -15,6 +15,7 @@ metadata:
 - implication notes
 - questions to ask back
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: drop warnings, risks, or side effects while simplifying.
 
 ## Output format
 
-``text
+```text
 ## Decoded: term, what it really means, what to ask back
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

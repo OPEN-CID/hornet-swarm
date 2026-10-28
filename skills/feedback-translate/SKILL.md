@@ -15,6 +15,7 @@ metadata:
 - action list
 - reply draft
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: drop warnings, risks, or side effects while simplifying.
 
 ## Output format
 
-``text
+```text
 ## Decoded feedback: what they meant, 3 concrete actions, reply draft
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

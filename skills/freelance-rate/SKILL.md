@@ -17,6 +17,7 @@ metadata:
 
 > General information only: not legal, tax, or financial advice. Confirm consequential decisions with a licensed professional.
 
+
 ## When to use me
 
 Use when:
@@ -43,11 +44,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Rate card: costs, market range, quote template for this project
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

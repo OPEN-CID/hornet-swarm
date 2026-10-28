@@ -15,6 +15,7 @@ metadata:
 - reminder cadence
 - contractor contacts
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Year wheel: seasonal tasks, reminders, contractor call list
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

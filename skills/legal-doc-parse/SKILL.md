@@ -17,6 +17,7 @@ metadata:
 
 > General information only: not legal, tax, or financial advice. Confirm consequential decisions with a licensed professional.
 
+
 ## When to use me
 
 Use when:
@@ -45,11 +46,11 @@ MUST NOT: invent missing pages, values, or signatures.
 
 ## Output format
 
-``text
+```text
 ## Fact sheet: parties, dates, amounts, obligations, renewal terms
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

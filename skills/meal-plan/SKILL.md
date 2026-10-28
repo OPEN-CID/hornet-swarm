@@ -15,6 +15,7 @@ metadata:
 - prep order
 - shopping list
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Meal plan (Mon-Sun): dinners, prep order, leftovers, shopping list
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

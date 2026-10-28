@@ -17,6 +17,7 @@ metadata:
 
 > Information only: never a diagnosis, dose change, or treatment decision. Confirm anything medical with a qualified clinician or pharmacist.
 
+
 ## When to use me
 
 Use when:
@@ -45,11 +46,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Care review: gaps, interaction questions, follow-up check, verdict
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

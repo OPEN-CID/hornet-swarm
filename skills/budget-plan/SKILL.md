@@ -17,6 +17,7 @@ metadata:
 
 > General information only: not legal, tax, or financial advice. Confirm consequential decisions with a licensed professional.
 
+
 ## When to use me
 
 Use when:
@@ -44,11 +45,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Monthly budget: income, fixed, variable, savings target, tracker
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

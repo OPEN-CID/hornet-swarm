@@ -8,7 +8,7 @@ Universal agent skills: one folder per skill, every domain covered.
 - Use a skill: copy skills/<name> into .agents/skills/ (or .claude/skills/, .opencode/skills/).
 - Add a skill: 6 lines of JSON in catalog/ plus scripts/generate-skills.ps1 (see docs/SKILL-FACTORY.md).
 
-## Domains (19) - 165 skills
+## Domains (20) - 186 skills
 
 - [business-ops](business-ops.md) (14) - Validate, sell, hire, and operate.
 - [career](career.md) (10) - Apply, interview, negotiate, grow.
@@ -22,13 +22,14 @@ Universal agent skills: one folder per skill, every domain covered.
 - [education](education.md) (12) - Learn anything with tutoring and study systems.
 - [git-release](git-release.md) (5) - Clean history, reviewable PRs, safe releases.
 - [home-life](home-life.md) (14) - Meals, cleaning, maintenance, moves, pets, safety.
+- [languages](languages.md) (20) - Idiomatic code in 20 languages: toolchain, style, idioms, arch patterns, pitfalls.
 - [legal-finance](legal-finance.md) (11) - Organize money and paperwork. General info - confirm big decisions professionally.
 - [medical-health](medical-health.md) (12) - Organize health information. Info only - always consult a professional.
 - [meta](meta.md) (2) - Skills about skills: create and onboard.
 - [productivity](productivity.md) (3) - Plan work and run better meetings.
 - [quality-testing](quality-testing.md) (7) - Prove it works: tests, reviews, QA, performance, security.
 - [science-lab](science-lab.md) (10) - Run trustworthy experiments and read papers well.
-- [software-build](software-build.md) (7) - Design, write, fix, and reshape code.
+- [software-build](software-build.md) (8) - Design, write, fix, and reshape code.
 
 ## Family pattern
 

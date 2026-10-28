@@ -15,6 +15,7 @@ metadata:
 - batching system
 - repurposing map
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Publishing system: backlog, batching, repurposing, calendar
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

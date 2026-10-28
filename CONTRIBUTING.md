@@ -35,7 +35,8 @@ powershell scripts/import-skills.ps1 -Csv my-skills.csv   # spreadsheet
 # or edit catalog/custom.json by hand
 
 # 2. generate + index + wiki
-powershell scripts/generate-skills.ps1
+powershell scripts/generate-skills.ps1      # task + family skills
+powershell scripts/generate-lang-skills.ps1 # language skills (if languages*.json changed)
 powershell scripts/rebuild-registry.ps1
 powershell scripts/generate-wiki.ps1
 

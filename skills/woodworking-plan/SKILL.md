@@ -15,6 +15,7 @@ metadata:
 - tool list
 - assembly order
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Build sheet: sketch, cut list, tools, assembly order, finish
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -15,6 +15,7 @@ metadata:
 - practice questions
 - mock test schedule
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Study plan: topics by day, spaced drills, 2 mock tests
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

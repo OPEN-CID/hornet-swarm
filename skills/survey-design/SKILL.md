@@ -15,6 +15,7 @@ metadata:
 - sampling plan
 - analysis plan
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Survey kit: unbiased questions, sampling, analysis plan
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

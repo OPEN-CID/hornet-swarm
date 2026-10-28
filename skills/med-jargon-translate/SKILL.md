@@ -17,6 +17,7 @@ metadata:
 
 > Information only: never a diagnosis, dose change, or treatment decision. Confirm anything medical with a qualified clinician or pharmacist.
 
+
 ## When to use me
 
 Use when:
@@ -44,11 +45,11 @@ MUST NOT: drop warnings, risks, or side effects while simplifying.
 
 ## Output format
 
-``text
+```text
 ## In plain words: <rewrite> | Term | Means | Ask next
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

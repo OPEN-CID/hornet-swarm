@@ -15,6 +15,7 @@ metadata:
 - cost notes
 - priority fixes
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Fitness review: scale, security, cost findings + priority fixes
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

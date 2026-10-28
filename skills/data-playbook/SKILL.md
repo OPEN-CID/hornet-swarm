@@ -15,6 +15,7 @@ metadata:
 - contract template
 - runbook outline
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Data standards: idempotency, contracts, observability, runbooks
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

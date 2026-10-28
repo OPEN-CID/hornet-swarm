@@ -15,6 +15,7 @@ metadata:
 - flow map
 - change pointers
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: drop warnings, risks, or side effects while simplifying.
 
 ## Output format
 
-``text
+```text
 ## Explained: what it does, flow map, risks, where to change
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

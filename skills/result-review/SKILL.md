@@ -15,6 +15,7 @@ metadata:
 - stats flags
 - publish verdict
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Peer check: errors, stats flags, clarity gaps, publish verdict
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

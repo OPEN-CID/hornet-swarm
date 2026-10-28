@@ -17,6 +17,7 @@ metadata:
 
 > Information only: never a diagnosis, dose change, or treatment decision. Confirm anything medical with a qualified clinician or pharmacist.
 
+
 ## When to use me
 
 Use when:
@@ -43,11 +44,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Reset session: 10-min breathing + journaling prompts + next step
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

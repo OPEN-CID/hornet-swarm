@@ -17,6 +17,8 @@ jobs:
       - name: Check registry and wiki are in sync
         shell: powershell
         run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-skills.ps1
+          powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-lang-skills.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/rebuild-registry.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-wiki.ps1
           git diff --exit-code -- registry.json wiki/ catalog/

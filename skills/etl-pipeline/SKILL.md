@@ -15,6 +15,7 @@ metadata:
 - failure handling
 - alert rules
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Pipeline spec: sources, transforms, idempotency, retries, alerts
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

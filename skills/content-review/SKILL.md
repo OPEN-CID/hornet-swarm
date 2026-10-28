@@ -15,6 +15,7 @@ metadata:
 - rights check
 - go/fix verdict
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Pre-publish check: clarity, claims, rights, brand + go/fix verdict
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

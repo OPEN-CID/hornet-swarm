@@ -15,6 +15,7 @@ metadata:
 - keyword match
 - 1-2 page resume
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Resume v1: tailored bullets with numbers, keywords, 1-2 pages
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

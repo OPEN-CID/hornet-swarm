@@ -28,6 +28,7 @@ note. Category safety notes (medical/legal) are injected automatically.
 ```powershell
 powershell scripts/new-skill.ps1        # interactive: 6 prompts → catalog + skill
 powershell scripts/generate-skills.ps1  # regenerate from catalog (skips hand-written unless -Force)
+powershell scripts/generate-lang-skills.ps1  # regenerate 20 language skills from catalog/languages*.json
 powershell scripts/rebuild-registry.ps1 # registry.json from skills/*/SKILL.md
 powershell scripts/generate-wiki.ps1    # wiki/ index + per-category pages
 powershell scripts/validate.ps1         # spec check, must print PASS

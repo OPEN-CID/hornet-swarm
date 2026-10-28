@@ -15,6 +15,7 @@ metadata:
 - technique blocks
 - progress log
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Practice plan: warmup, technique blocks, pieces, weekly log
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

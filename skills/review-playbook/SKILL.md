@@ -15,6 +15,7 @@ metadata:
 - checklist
 - culture rules
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Review culture: SLAs, checklists, kindness rules, metrics
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

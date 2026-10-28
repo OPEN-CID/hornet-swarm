@@ -15,6 +15,7 @@ metadata:
 - assumption checks
 - plain-language read-out
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Stats call: test name, assumptions check, read-out, next step
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

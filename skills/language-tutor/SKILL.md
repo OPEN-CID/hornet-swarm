@@ -15,6 +15,7 @@ metadata:
 - vocabulary drill
 - daily homework
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Session: dialogue practice, corrections, 10-word drill, homework
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

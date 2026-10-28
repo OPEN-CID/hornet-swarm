@@ -15,6 +15,7 @@ metadata:
 - maintenance schedule
 - layout guide
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Shop rules: PPE, tool care, layout, first-aid, mistake log
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

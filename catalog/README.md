@@ -11,6 +11,7 @@ here as short entries; `scripts/generate-skills.ps1` expands them.
 | `families.json` | translate/parse/review/playbook skills (curated) | maintainers |
 | `custom.json` | community entries (created by `new-skill.ps1`) | anyone via PR |
 | `imports.json` | created by `import-skills.ps1` | anyone via PR |
+| `languages1.json`, `languages2.json` | per-language data (toolchain, style, idioms, arch, pitfalls, sample) | maintainers |
 
 ## Entry schema (6 fields)
 

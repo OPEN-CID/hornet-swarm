@@ -15,6 +15,7 @@ metadata:
 - thresholds
 - owner routing
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Quality suite: freshness, schema, volume, anomaly checks + owners
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

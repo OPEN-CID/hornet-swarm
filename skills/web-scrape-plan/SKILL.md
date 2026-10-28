@@ -15,6 +15,7 @@ metadata:
 - politeness rules
 - storage schema
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Scrape plan: targets, rate limits, legal check, storage schema
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -15,6 +15,7 @@ metadata:
 - concept recap
 - parent check note
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Hint ladder: 3 hints then the method, kid solves the last step
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

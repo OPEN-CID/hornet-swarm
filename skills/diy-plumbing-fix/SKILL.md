@@ -15,6 +15,7 @@ metadata:
 - parts list
 - step-by-step fix
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Fix card: cause, parts, steps, test, when to call a plumber
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -3,7 +3,7 @@
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  165,
+    "count":  186,
     "skills":  [
                    {
                        "name":  "adr-writer",
@@ -146,6 +146,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "c-code",
+                       "description":  "Write defensive C with -Werror warnings, explicit sizes, and checked errors. Use for any C code or review.",
+                       "category":  "languages",
+                       "path":  "skills/c-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "changelog-release",
                        "description":  "Draft release notes and changelogs from merged PRs and tags. Use when preparing any tagged release or version announcement.",
                        "category":  "git-release",
@@ -223,6 +230,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "cpp-code",
+                       "description":  "Write modern C++ (17/20) with RAII, smart pointers, and const-correctness. Use for any C++ code or review.",
+                       "category":  "languages",
+                       "path":  "skills/cpp-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "creative-playbook",
                        "description":  "Publishing-cadence best practices for consistent output. Use when content is sporadic.",
                        "category":  "creative-media",
@@ -230,10 +244,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "csharp-code",
+                       "description":  "Write modern C# with records, pattern matching, and async discipline. Use for any C# or .NET code and reviews.",
+                       "category":  "languages",
+                       "path":  "skills/csharp-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "curriculum-plan",
                        "description":  "Design a self-study syllabus with milestones. Use when learning a subject solo.",
                        "category":  "education",
                        "path":  "skills/curriculum-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "dart-code",
+                       "description":  "Write null-safe Dart and Flutter with analyzer-clean code and widget tests. Use for any Dart or Flutter work.",
+                       "category":  "languages",
+                       "path":  "skills/dart-code/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -332,6 +360,13 @@
                        "description":  "Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic.",
                        "category":  "education",
                        "path":  "skills/eli5-explainer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "elixir-code",
+                       "description":  "Write concurrent Elixir with OTP discipline, changesets, and ExUnit proof. Use for any Elixir code or review.",
+                       "category":  "languages",
+                       "path":  "skills/elixir-code/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -468,6 +503,13 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "go-code",
+                       "description":  "Write idiomatic Go with wrapped errors, table tests, and race-clean concurrency. Use for any Go code or review.",
+                       "category":  "languages",
+                       "path":  "skills/go-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "grocery-list",
                        "description":  "Turn meal plans into organized shopping lists. Use before grocery runs.",
                        "category":  "home-life",
@@ -545,6 +587,20 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "java-code",
+                       "description":  "Write modern Java with records, sealed types, and java.time. Use for any Java code or review.",
+                       "category":  "languages",
+                       "path":  "skills/java-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "javascript-code",
+                       "description":  "Write modern JavaScript (ESM, async await) with eslint-clean style. Use for Node or browser JS code and reviews.",
+                       "category":  "languages",
+                       "path":  "skills/javascript-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "job-post-parse",
                        "description":  "Parse job posts into requirements and match matrix. Use before tailoring an application.",
                        "category":  "career",
@@ -556,6 +612,13 @@
                        "description":  "Guide kids to answers with hints, never direct solutions. Use for K-12 homework help.",
                        "category":  "education",
                        "path":  "skills/kid-homework/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "kotlin-code",
+                       "description":  "Write null-safe Kotlin with coroutines discipline and detekt-clean code. Use for any Kotlin code or review.",
+                       "category":  "languages",
+                       "path":  "skills/kotlin-code/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -620,6 +683,13 @@
                        "category":  "devops-infra",
                        "path":  "skills/log-triage/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "lua-code",
+                       "description":  "Write clean Lua with locals discipline, 1-index awareness, and busted proof. Use for Lua, Neovim plugins, or game scripting.",
+                       "category":  "languages",
+                       "path":  "skills/lua-code/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "manual-parse",
@@ -825,6 +895,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "php-code",
+                       "description":  "Write strict PHP 8 with types, static analysis, and Pest proof. Use for any PHP code or review.",
+                       "category":  "languages",
+                       "path":  "skills/php-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "physics-tutor",
                        "description":  "Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework.",
                        "category":  "education",
@@ -867,6 +944,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "powershell-code",
+                       "description":  "Write pipeline-friendly PowerShell with approved verbs, Pester tests, and analyzer-clean code. Use for any PowerShell code or review.",
+                       "category":  "languages",
+                       "path":  "skills/powershell-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "pr-create",
                        "description":  "Open focused reviewable pull requests with context and test proof. Use when the branch is ready for review or merge.",
                        "category":  "git-release",
@@ -895,6 +979,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "python-code",
+                       "description":  "Write idiomatic Python with type hints, ruff-clean style, and pytest proof. Use for any Python code, review, or packaging.",
+                       "category":  "languages",
+                       "path":  "skills/python-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "qa-checklist",
                        "description":  "Run release-ready quality gates across function, UX, and rollout. Use before any release, merge to main, or demo.",
                        "category":  "quality-testing",
@@ -916,6 +1007,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "r-code",
+                       "description":  "Write vectorized R with renv reproducibility and testthat proof. Use for any R analysis or package code.",
+                       "category":  "languages",
+                       "path":  "skills/r-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "readme-writer",
                        "description":  "Write README files that onboard in five minutes with setup and usage. Use when creating or overhauling any project README.",
                        "category":  "docs-research",
@@ -934,6 +1032,13 @@
                        "description":  "Onboard anyone to a repo with setup, tour, and first task. Use when a new dev or agent joins a codebase.",
                        "category":  "meta",
                        "path":  "skills/repo-onboarder/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "repo-structure-guide",
+                       "description":  "Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository.",
+                       "category":  "software-build",
+                       "path":  "skills/repo-structure-guide/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -965,6 +1070,20 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "ruby-code",
+                       "description":  "Write idiomatic Ruby with RuboCop-clean style and RSpec proof. Use for Ruby or Rails code and reviews.",
+                       "category":  "languages",
+                       "path":  "skills/ruby-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "rust-code",
+                       "description":  "Write safe Rust with ownership discipline, Result handling, and clippy-clean code. Use for any Rust code or review.",
+                       "category":  "languages",
+                       "path":  "skills/rust-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "salary-compare",
                        "description":  "Compare job offers on total compensation. Use when evaluating competing offers.",
                        "category":  "legal-finance",
@@ -983,6 +1102,13 @@
                        "description":  "Write personalized cold emails and follow-ups. Use for prospecting.",
                        "category":  "business-ops",
                        "path":  "skills/sales-outreach/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "scala-code",
+                       "description":  "Write immutable Scala 3 with ADTs, for-comprehensions, and munit proof. Use for any Scala code or review.",
+                       "category":  "languages",
+                       "path":  "skills/scala-code/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1005,6 +1131,13 @@
                        "category":  "quality-testing",
                        "path":  "skills/security-audit/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "shell-code",
+                       "description":  "Write safe Bash with strict mode, quoting discipline, and shellcheck-clean code. Use for any shell scripting or review.",
+                       "category":  "languages",
+                       "path":  "skills/shell-code/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "skill-creator",
@@ -1084,6 +1217,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "swift-code",
+                       "description":  "Write modern Swift with optionals discipline, value types, and actor-safe concurrency. Use for any Swift code or review.",
+                       "category":  "languages",
+                       "path":  "skills/swift-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "task-planner",
                        "description":  "Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project.",
                        "category":  "productivity",
@@ -1123,6 +1263,13 @@
                        "description":  "Adapt any text to a target reading level or audience. Use when experts write for beginners and vice versa.",
                        "category":  "creative-media",
                        "path":  "skills/tone-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "typescript-code",
+                       "description":  "Write strict TypeScript with no-explicit-any, discriminated unions, and vitest proof. Use for any TypeScript code or review.",
+                       "category":  "languages",
+                       "path":  "skills/typescript-code/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {

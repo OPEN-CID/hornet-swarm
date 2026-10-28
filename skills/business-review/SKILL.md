@@ -15,6 +15,7 @@ metadata:
 - risk list
 - top actions
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Health check: revenue, pipeline, costs, risks, top 3 actions
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -15,6 +15,7 @@ metadata:
 - hidden-cost flags
 - negotiation points
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent missing pages, values, or signatures.
 
 ## Output format
 
-``text
+```text
 ## Compare sheet: price, terms, deliverables, risks per vendor
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

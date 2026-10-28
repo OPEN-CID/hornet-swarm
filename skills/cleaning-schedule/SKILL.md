@@ -15,6 +15,7 @@ metadata:
 - weekly room rotation
 - monthly deep-clean
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Schedule: daily 10-min, weekly rooms, monthly deep-cleans
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

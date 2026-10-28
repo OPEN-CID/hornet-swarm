@@ -15,6 +15,7 @@ metadata:
 - variable map
 - analysis plan
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Experiment sheet: hypothesis, variables, controls, n, analysis
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

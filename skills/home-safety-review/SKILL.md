@@ -15,6 +15,7 @@ metadata:
 - fix list
 - safety verdict
 
+
 ## When to use me
 
 Use when:
@@ -43,11 +44,11 @@ MUST NOT: rewrite the whole artifact; propose minimal fixes.
 
 ## Output format
 
-``text
+```text
 ## Safety audit: room findings ranked, fixes, cost, verdict
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

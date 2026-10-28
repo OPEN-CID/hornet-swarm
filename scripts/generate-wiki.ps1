@@ -19,6 +19,7 @@ $CatBlurb = @{
   'meta'             = "Skills about skills: create and onboard."
   'medical-health'   = "Organize health information. Info only - always consult a professional."
   'legal-finance'    = "Organize money and paperwork. General info - confirm big decisions professionally."
+  'languages'        = "Idiomatic code in 20 languages: toolchain, style, idioms, arch patterns, pitfalls."
   'education'        = "Learn anything with tutoring and study systems."
   'science-lab'      = "Run trustworthy experiments and read papers well."
   'home-life'        = "Meals, cleaning, maintenance, moves, pets, safety."

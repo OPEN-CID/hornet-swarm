@@ -15,6 +15,7 @@ metadata:
 - monthly DIY checks
 - mechanic triggers
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Service log: due dates, DIY checks, mechanic-visit triggers
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

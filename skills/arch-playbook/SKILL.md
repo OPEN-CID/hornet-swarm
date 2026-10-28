@@ -15,6 +15,7 @@ metadata:
 - standard templates
 - ADR backlog
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Standards: decoupling, contracts, evolvability + ADRs to write
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

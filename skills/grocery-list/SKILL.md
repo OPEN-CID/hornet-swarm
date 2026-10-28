@@ -15,6 +15,7 @@ metadata:
 - quantity estimates
 - budget check
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## List by aisle: produce, protein, pantry, with quantities + budget
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

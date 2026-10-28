@@ -15,6 +15,7 @@ metadata:
 - change notes
 - readability check
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: drop warnings, risks, or side effects while simplifying.
 
 ## Output format
 
-``text
+```text
 ## Rewrite at target level + what changed and why
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

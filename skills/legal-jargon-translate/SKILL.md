@@ -17,6 +17,7 @@ metadata:
 
 > General information only: not legal, tax, or financial advice. Confirm consequential decisions with a licensed professional.
 
+
 ## When to use me
 
 Use when:
@@ -44,11 +45,11 @@ MUST NOT: drop warnings, risks, or side effects while simplifying.
 
 ## Output format
 
-``text
+```text
 ## Clause in plain words: obligation, risk, ask-a-lawyer flag
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

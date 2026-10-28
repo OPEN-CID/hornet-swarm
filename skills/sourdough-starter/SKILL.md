@@ -15,6 +15,7 @@ metadata:
 - troubleshooting table
 - bake-day timeline
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Starter plan: ratio schedule float-test checkpoints
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

@@ -2,6 +2,7 @@
 .SYNOPSIS
   Generate detailed SKILL.md files from catalog/*.json (the skill factory).
   Skips skills that already have a hand-written SKILL.md unless -Force.
+  Uses literal token replacement so backticks and $ in data render exactly.
 .EXAMPLE
   powershell scripts/generate-skills.ps1
   powershell scripts/generate-skills.ps1 -Force
@@ -90,6 +91,46 @@ $SafetyNote = @{
   'legal-finance'  = "> General information only: not legal, tax, or financial advice. Confirm consequential decisions with a licensed professional."
 }
 
+$Template = @'
+__FM__
+
+## What I do
+
+__OUTS__
+
+__SAFETY__
+## When to use me
+
+Use when:
+
+__TRIGS__
+
+Don't use when:
+
+- The request is outside this skill's job. Say so and point to the right skill if you know it.
+- You lack the source material this task needs. Ask for it first instead of guessing.
+
+## Workflow
+
+__WF__
+
+## Rules / Constraints
+
+__RULES__
+
+## Output format
+
+```text
+__ARTIFACT__
+- Sources checked: <what you read>
+- Confidence: <high/medium/low + what would raise it>
+```
+
+## References
+
+- No extra files by default. If the task grows complex, split it: parse first, then review, then act.
+'@
+
 $entries = @()
 foreach ($f in Get-ChildItem -Path $CatalogDir -Filter *.json) {
   $rawJson = Get-Content -LiteralPath $f.FullName -Raw
@@ -99,6 +140,7 @@ foreach ($f in Get-ChildItem -Path $CatalogDir -Filter *.json) {
 
 $made = 0; $skipped = 0
 foreach ($s in $entries) {
+  if ($s.category -eq 'languages') { continue }
   $dir = Join-Path $RepoRoot ("skills/" + $s.name)
   $file = Join-Path $dir "SKILL.md"
   if ((Test-Path -LiteralPath $file) -and -not $Force) { $skipped++; continue }
@@ -107,51 +149,16 @@ foreach ($s in $entries) {
   $steps = @()
   $i = 0
   foreach ($w in $KindWorkflow[$kind]) { $i++; $steps += "$i. $w" }
-  $wf = $steps -join "`n"
-  $rules = ($KindRules[$kind] -join "`n")
-  $outs = (($s.outcomes | ForEach-Object { "- $_" }) -join "`n")
-  $trigs = (($s.triggers | ForEach-Object { "- $_" }) -join "`n")
   $safety = $SafetyNote[$s.category]
   if ($null -eq $safety) { $safety = "" } else { $safety = $safety + "`n`n" }
   $fm = "---`nname: $($s.name)`ndescription: $($s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n---"
-  $body = @"
-$fm
-
-## What I do
-
-$outs
-
-$safety## When to use me
-
-Use when:
-
-$trigs
-
-Don't use when:
-
-- The request is outside this skill's job. Say so and point to the right skill if you know it.
-- You lack the source material this task needs. Ask for it first instead of guessing.
-
-## Workflow
-
-$wf
-
-## Rules / Constraints
-
-$rules
-
-## Output format
-
-````text
-$($s.artifact)
-- Sources checked: <what you read>
-- Confidence: <high/medium/low + what would raise it>
-````
-
-## References
-
-- No extra files by default. If the task grows complex, split it: parse first, then review, then act.
-"@
+  $body = $Template.Replace('__FM__', $fm)
+  $body = $body.Replace('__OUTS__', (($s.outcomes | ForEach-Object { "- $_" }) -join "`n"))
+  $body = $body.Replace('__SAFETY__', $safety)
+  $body = $body.Replace('__TRIGS__', (($s.triggers | ForEach-Object { "- $_" }) -join "`n"))
+  $body = $body.Replace('__WF__', ($steps -join "`n"))
+  $body = $body.Replace('__RULES__', ($KindRules[$kind] -join "`n"))
+  $body = $body.Replace('__ARTIFACT__', $s.artifact)
   Set-Content -LiteralPath $file -Value $body -Encoding UTF8
   $made++
 }

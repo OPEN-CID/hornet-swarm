@@ -15,6 +15,7 @@ metadata:
 - ask scripts
 - walk-away line
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Negotiation sheet: range, asks, scripts, walk-away line
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

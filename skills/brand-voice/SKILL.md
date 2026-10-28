@@ -15,6 +15,7 @@ metadata:
 - example bank
 - rewrite sample
 
+
 ## When to use me
 
 Use when:
@@ -41,11 +42,11 @@ MUST NOT: invent sources, URLs, or data.
 
 ## Output format
 
-``text
+```text
 ## Voice card: tone words, do/don't examples, sample rewrite
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 

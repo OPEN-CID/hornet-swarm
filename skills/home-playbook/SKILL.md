@@ -15,6 +15,7 @@ metadata:
 - supply list
 - contact sheet
 
+
 ## When to use me
 
 Use when:
@@ -42,11 +43,11 @@ MUST NOT: generic motivation with no actionable steps.
 
 ## Output format
 
-``text
+```text
 ## Household OS: seasonal wheel, supplies, contacts, handoff note
 - Sources checked: <what you read>
 - Confidence: <high/medium/low + what would raise it>
-``
+```
 
 ## References
 
