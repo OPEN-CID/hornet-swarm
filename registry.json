@@ -1,0 +1,1164 @@
+﻿{
+    "$schema":  "https://json-schema.org/draft/2020-12/schema",
+    "name":  "hornet-swarm-registry",
+    "version":  "1.0.0",
+    "spec":  "anthropic-agent-skills",
+    "count":  165,
+    "skills":  [
+                   {
+                       "name":  "adr-writer",
+                       "description":  "Record architecture decisions with context, options, and consequences. Use when choosing frameworks, patterns, or data models.",
+                       "category":  "docs-research",
+                       "path":  "skills/adr-writer/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "api-design",
+                       "description":  "Design clean REST or RPC APIs with resources, schemas, and error contracts. Use when creating or changing any API endpoint or data contract.",
+                       "category":  "software-build",
+                       "path":  "skills/api-design/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "api-docs",
+                       "description":  "Write accurate API references with examples from real code. Use when documenting endpoints, SDKs, or modules.",
+                       "category":  "docs-research",
+                       "path":  "skills/api-docs/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "api-spec-parse",
+                       "description":  "Parse OpenAPI specs and docs into client code and test lists. Use when integrating a third-party API.",
+                       "category":  "software-build",
+                       "path":  "skills/api-spec-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "application-review",
+                       "description":  "Pre-submit review of resume and letter against the post. Use before hitting apply.",
+                       "category":  "career",
+                       "path":  "skills/application-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "arch-doc-parse",
+                       "description":  "Parse existing architecture docs into a current-state map. Use when inheriting a system.",
+                       "category":  "company-arch",
+                       "path":  "skills/arch-doc-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "arch-playbook",
+                       "description":  "Architecture best practices for evolvable systems. Use when setting engineering standards.",
+                       "category":  "company-arch",
+                       "path":  "skills/arch-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "arch-review",
+                       "description":  "Fitness review of an architecture against scale, security, and cost. Use quarterly or before big bets.",
+                       "category":  "company-arch",
+                       "path":  "skills/arch-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "backend-arch",
+                       "description":  "Design service boundaries, APIs, and data ownership. Use when splitting monoliths or starting services.",
+                       "category":  "company-arch",
+                       "path":  "skills/backend-arch/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "bike-commute",
+                       "description":  "Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work.",
+                       "category":  "home-life",
+                       "path":  "skills/bike-commute/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "biz-jargon-translate",
+                       "description":  "Translate investor, legal, and finance jargon for founders. Use when term sheets or metrics confuse.",
+                       "category":  "business-ops",
+                       "path":  "skills/biz-jargon-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "blog-writer",
+                       "description":  "Draft structured blog posts with hooks and SEO basics. Use for content marketing.",
+                       "category":  "creative-media",
+                       "path":  "skills/blog-writer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "brand-voice",
+                       "description":  "Define a brand voice with examples. Use for consistent company writing.",
+                       "category":  "creative-media",
+                       "path":  "skills/brand-voice/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "brief-parse",
+                       "description":  "Turn client briefs into scope and production checklists. Use when starting creative work.",
+                       "category":  "creative-media",
+                       "path":  "skills/brief-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "budget-plan",
+                       "description":  "Build a monthly budget from income and spending. Use when money feels chaotic.",
+                       "category":  "legal-finance",
+                       "path":  "skills/budget-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "build-review",
+                       "description":  "Pre-cut review of plans for safety, measurements, and missing steps. Use before any irreversible cut.",
+                       "category":  "diy-maker",
+                       "path":  "skills/build-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "business-plan",
+                       "description":  "Draft lean business plans with unit economics. Use when pitching or planning.",
+                       "category":  "business-ops",
+                       "path":  "skills/business-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "business-review",
+                       "description":  "Monthly business health review of revenue, pipeline, and costs. Use on the first Monday monthly.",
+                       "category":  "business-ops",
+                       "path":  "skills/business-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "career-playbook",
+                       "description":  "Career-growth best practices for steady advancement. Use for yearly planning.",
+                       "category":  "career",
+                       "path":  "skills/career-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "car-maintenance",
+                       "description":  "Track car service with DIY checks and schedules. Use for routine vehicle care.",
+                       "category":  "diy-maker",
+                       "path":  "skills/car-maintenance/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "changelog-release",
+                       "description":  "Draft release notes and changelogs from merged PRs and tags. Use when preparing any tagged release or version announcement.",
+                       "category":  "git-release",
+                       "path":  "skills/changelog-release/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "chemistry-helper",
+                       "description":  "Balance equations and explain lab concepts safely. Use for chemistry homework and labs.",
+                       "category":  "education",
+                       "path":  "skills/chemistry-helper/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "ci-pipeline",
+                       "description":  "Build fast reliable CI with lint, test, and deploy gates. Use when creating or fixing continuous integration workflows.",
+                       "category":  "devops-infra",
+                       "path":  "skills/ci-pipeline/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "citation-check",
+                       "description":  "Verify claims against cited sources. Use when fact-checking writing.",
+                       "category":  "science-lab",
+                       "path":  "skills/citation-check/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "cleaning-schedule",
+                       "description":  "Build room-by-room cleaning routines. Use when the house needs a system.",
+                       "category":  "home-life",
+                       "path":  "skills/cleaning-schedule/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "codebase-explorer",
+                       "description":  "Map unfamiliar codebases to entry points, flows, and ownership. Use when onboarding, scoping work, or finding where to change.",
+                       "category":  "docs-research",
+                       "path":  "skills/codebase-explorer/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "code-explain",
+                       "description":  "Translate code into plain-language explanations with flow maps. Use when onboarding or reviewing unfamiliar code.",
+                       "category":  "software-build",
+                       "path":  "skills/code-explain/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "code-review",
+                       "description":  "Perform thorough actionable code reviews with severity-ranked findings. Use when reviewing a diff, PR, or uncommitted changes.",
+                       "category":  "quality-testing",
+                       "path":  "skills/code-review/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "content-review",
+                       "description":  "Pre-publish review for clarity, claims, rights, and brand fit. Use before anything goes public.",
+                       "category":  "creative-media",
+                       "path":  "skills/content-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "contract-reader",
+                       "description":  "Summarize contracts into obligations, risks, and questions. Use before signing anything. Not legal advice.",
+                       "category":  "legal-finance",
+                       "path":  "skills/contract-reader/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "cover-letter",
+                       "description":  "Write short specific cover letters. Use for each application.",
+                       "category":  "career",
+                       "path":  "skills/cover-letter/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "creative-playbook",
+                       "description":  "Publishing-cadence best practices for consistent output. Use when content is sporadic.",
+                       "category":  "creative-media",
+                       "path":  "skills/creative-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "curriculum-plan",
+                       "description":  "Design a self-study syllabus with milestones. Use when learning a subject solo.",
+                       "category":  "education",
+                       "path":  "skills/curriculum-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "dashboard-design",
+                       "description":  "Design dashboards that answer decisions. Use for BI and reporting work.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/dashboard-design/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "data-analysis",
+                       "description":  "Plan analyses from question to chart to conclusion. Use for small datasets.",
+                       "category":  "science-lab",
+                       "path":  "skills/data-analysis/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "data-arch",
+                       "description":  "Design warehouse layouts and data contracts. Use when unifying analytics data.",
+                       "category":  "company-arch",
+                       "path":  "skills/data-arch/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "data-clean",
+                       "description":  "Profile and clean messy datasets with auditable rules. Use when data has nulls, duplicates, or inconsistent formats.",
+                       "category":  "data-ai",
+                       "path":  "skills/data-clean/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "data-doc-parse",
+                       "description":  "Profile CSVs and API docs into schema and quality notes. Use before building any pipeline.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/data-doc-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "data-playbook",
+                       "description":  "Data-engineering best practices for trusted pipelines. Use when setting team standards.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/data-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "data-quality-check",
+                       "description":  "Define freshness, schema, and anomaly checks. Use when data breaks trust.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/data-quality-check/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "db-migration",
+                       "description":  "Write safe reversible database migrations with backfill plans. Use when changing schema, adding indexes, or backfilling data.",
+                       "category":  "software-build",
+                       "path":  "skills/db-migration/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "debugging",
+                       "description":  "Diagnose bugs systematically with reproduction, hypothesis, and fix verification. Use when investigating any error, failure, or unexpected behavior.",
+                       "category":  "software-build",
+                       "path":  "skills/debugging/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "deploy-checklist",
+                       "description":  "Ship safely with preflight checks, rollout steps, and rollback. Use before any production deploy or release rollout.",
+                       "category":  "devops-infra",
+                       "path":  "skills/deploy-checklist/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "diy-electrical-safety",
+                       "description":  "Assess home electrical tasks and know when to call an electrician. Use before any wiring work. Safety first.",
+                       "category":  "diy-maker",
+                       "path":  "skills/diy-electrical-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "diy-plumbing-fix",
+                       "description":  "Diagnose and fix common leaks and clogs safely. Use for minor plumbing issues.",
+                       "category":  "diy-maker",
+                       "path":  "skills/diy-plumbing-fix/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "docker-setup",
+                       "description":  "Containerize apps with lean Dockerfiles and compose for local dev. Use when adding Docker or fixing image and compose issues.",
+                       "category":  "devops-infra",
+                       "path":  "skills/docker-setup/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "eli5-explainer",
+                       "description":  "Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic.",
+                       "category":  "education",
+                       "path":  "skills/eli5-explainer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "emergency-kit",
+                       "description":  "Assemble home emergency supplies and plans. Use for disaster preparedness.",
+                       "category":  "home-life",
+                       "path":  "skills/emergency-kit/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "env-config",
+                       "description":  "Organize env vars and secrets with schemas and safe rotation. Use when adding config, onboarding devs, or fixing env bugs.",
+                       "category":  "devops-infra",
+                       "path":  "skills/env-config/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "essay-feedback",
+                       "description":  "Critique essays for thesis, structure, and evidence. Use when revising writing.",
+                       "category":  "education",
+                       "path":  "skills/essay-feedback/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "etl-pipeline",
+                       "description":  "Design extract-transform-load jobs with idempotency and retries. Use when moving data between systems.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/etl-pipeline/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "eval-harness",
+                       "description":  "Score AI behavior on fixed cases with rubrics and regression gates. Use when shipping or changing any model or prompt.",
+                       "category":  "data-ai",
+                       "path":  "skills/eval-harness/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "exam-prep",
+                       "description":  "Build an exam study plan with spaced practice tests. Use before any exam.",
+                       "category":  "education",
+                       "path":  "skills/exam-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "exam-readiness-review",
+                       "description":  "Audit exam readiness with a timed mock and gap list. Use one week before any exam.",
+                       "category":  "education",
+                       "path":  "skills/exam-readiness-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "expense-audit",
+                       "description":  "Find wasteful subscriptions and spending leaks. Use for quarterly money cleanup.",
+                       "category":  "legal-finance",
+                       "path":  "skills/expense-audit/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "experiment-design",
+                       "description":  "Design controlled experiments with variables and controls. Use when testing any hypothesis.",
+                       "category":  "science-lab",
+                       "path":  "skills/experiment-design/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "feedback-translate",
+                       "description":  "Decode vague interview or review feedback into concrete actions. Use after rejections or ratings.",
+                       "category":  "career",
+                       "path":  "skills/feedback-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "finance-review",
+                       "description":  "Run a monthly money review of spending versus budget. Use on the first of each month.",
+                       "category":  "legal-finance",
+                       "path":  "skills/finance-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "fitness-plan",
+                       "description":  "Build progressive workout plans around goals and limits. Use when starting or fixing a training routine.",
+                       "category":  "medical-health",
+                       "path":  "skills/fitness-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "freelance-rate",
+                       "description":  "Price freelance work from costs and market rates. Use when quoting clients.",
+                       "category":  "legal-finance",
+                       "path":  "skills/freelance-rate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "frontend-arch",
+                       "description":  "Design frontend architecture with routing, state, and boundaries. Use when scaffolding or scaling a UI codebase.",
+                       "category":  "company-arch",
+                       "path":  "skills/frontend-arch/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "frontend-component",
+                       "description":  "Build accessible reusable UI components with props, states, and tests. Use when creating or refactoring any frontend component or page.",
+                       "category":  "software-build",
+                       "path":  "skills/frontend-component/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "furniture-assemble",
+                       "description":  "Guide flat-pack furniture assembly without leftover screws. Use for IKEA-style builds.",
+                       "category":  "diy-maker",
+                       "path":  "skills/furniture-assemble/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "gardening-plan",
+                       "description":  "Plan seasonal vegetable or flower gardens. Use when starting a garden.",
+                       "category":  "diy-maker",
+                       "path":  "skills/gardening-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "git-branch",
+                       "description":  "Manage clean focused branches with safe sync and naming. Use when starting work, switching context, or cleaning up branches.",
+                       "category":  "git-release",
+                       "path":  "skills/git-branch/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "git-commit",
+                       "description":  "Craft conventional commits from diffs. Use when the user asks to commit, write a commit message, or clean up VCS history.",
+                       "category":  "git-release",
+                       "path":  "skills/git-commit/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "grocery-list",
+                       "description":  "Turn meal plans into organized shopping lists. Use before grocery runs.",
+                       "category":  "home-life",
+                       "path":  "skills/grocery-list/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "health-playbook",
+                       "description":  "Best-practice playbook for ongoing health routines: meds, activity, sleep, records. Use when building a sustainable health system.",
+                       "category":  "medical-health",
+                       "path":  "skills/health-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "hiring-interview",
+                       "description":  "Design structured interviews with scorecards. Use when hiring.",
+                       "category":  "business-ops",
+                       "path":  "skills/hiring-interview/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "home-energy-audit",
+                       "description":  "Find home energy waste and prioritize fixes. Use to cut utility bills.",
+                       "category":  "diy-maker",
+                       "path":  "skills/home-energy-audit/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "home-maintenance",
+                       "description":  "Track seasonal home maintenance tasks. Use for yearly house care.",
+                       "category":  "home-life",
+                       "path":  "skills/home-maintenance/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "home-playbook",
+                       "description":  "Best-practice home routines for a calm household. Use when setting up a household system.",
+                       "category":  "home-life",
+                       "path":  "skills/home-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "home-safety-review",
+                       "description":  "Room-by-room home safety audit with priority fixes. Use yearly or with new kids or pets.",
+                       "category":  "home-life",
+                       "path":  "skills/home-safety-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "idea-validate",
+                       "description":  "Stress-test startup ideas with customers and numbers. Use before building anything.",
+                       "category":  "business-ops",
+                       "path":  "skills/idea-validate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "interview-prep",
+                       "description":  "Run mock interviews with STAR feedback. Use before real interviews.",
+                       "category":  "career",
+                       "path":  "skills/interview-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "invoice-maker",
+                       "description":  "Create client-ready invoices with tax and payment terms. Use when billing freelance work.",
+                       "category":  "legal-finance",
+                       "path":  "skills/invoice-maker/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "issue-breakdown",
+                       "description":  "Split big issues into small shippable slices with acceptance criteria. Use when an issue is too big to start.",
+                       "category":  "productivity",
+                       "path":  "skills/issue-breakdown/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "job-post-parse",
+                       "description":  "Parse job posts into requirements and match matrix. Use before tailoring an application.",
+                       "category":  "career",
+                       "path":  "skills/job-post-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "kid-homework",
+                       "description":  "Guide kids to answers with hints, never direct solutions. Use for K-12 homework help.",
+                       "category":  "education",
+                       "path":  "skills/kid-homework/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "kpi-dashboard",
+                       "description":  "Define KPIs and dashboard layouts that drive action. Use for team reporting.",
+                       "category":  "business-ops",
+                       "path":  "skills/kpi-dashboard/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "label-reader",
+                       "description":  "Decode food, cleaning, and clothing-care labels into guidance. Use while shopping or sorting laundry.",
+                       "category":  "home-life",
+                       "path":  "skills/label-reader/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "lab-protocol",
+                       "description":  "Write repeatable step-by-step lab protocols. Use before bench work.",
+                       "category":  "science-lab",
+                       "path":  "skills/lab-protocol/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "language-tutor",
+                       "description":  "Practice a language with corrections and drills. Use for daily speaking and writing practice.",
+                       "category":  "education",
+                       "path":  "skills/language-tutor/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "learn-playbook",
+                       "description":  "Learning-science best practices for efficient study. Use when study feels inefficient.",
+                       "category":  "education",
+                       "path":  "skills/learn-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "legal-doc-parse",
+                       "description":  "Extract parties, dates, amounts, and obligations from legal documents into a fact sheet. Use when comparing versions or summarizing a file.",
+                       "category":  "legal-finance",
+                       "path":  "skills/legal-doc-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "legal-jargon-translate",
+                       "description":  "Translate legal clauses into plain obligations. Use when a contract paragraph makes no sense. Not legal advice.",
+                       "category":  "legal-finance",
+                       "path":  "skills/legal-jargon-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "linkedin-optimize",
+                       "description":  "Rewrite LinkedIn profiles for recruiter search. Use for job hunting.",
+                       "category":  "career",
+                       "path":  "skills/linkedin-optimize/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "log-triage",
+                       "description":  "Triage logs and incidents to scope, cause, and next fix. Use when debugging production alerts or incident reports.",
+                       "category":  "devops-infra",
+                       "path":  "skills/log-triage/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "manual-parse",
+                       "description":  "Turn appliance manuals into one-page quick-use and troubleshooting cards. Use for any new appliance.",
+                       "category":  "home-life",
+                       "path":  "skills/manual-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "marketing-copy",
+                       "description":  "Write landing pages and ads that convert. Use for launches and campaigns.",
+                       "category":  "business-ops",
+                       "path":  "skills/marketing-copy/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "material-translate",
+                       "description":  "Decode lumber grades, fastener codes, and paint labels into what to buy. Use at the hardware store.",
+                       "category":  "diy-maker",
+                       "path":  "skills/material-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "math-tutor",
+                       "description":  "Teach math step by step with practice problems. Use when stuck on algebra through calculus.",
+                       "category":  "education",
+                       "path":  "skills/math-tutor/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "meal-plan",
+                       "description":  "Plan a week of dinners around budget and diet. Use for weekly cooking.",
+                       "category":  "home-life",
+                       "path":  "skills/meal-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-care-review",
+                       "description":  "Review a home care plan for gaps, interactions, and missing follow-ups. Use monthly or after any medication change. Information only; pharmacist confirms.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-care-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-discharge-helper",
+                       "description":  "Turn discharge papers into a home care checklist. Use after a hospital discharge.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-discharge-helper/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-jargon-translate",
+                       "description":  "Translate medical jargon into plain language with a glossary. Use when discharge notes, reports, or prescriptions are hard to understand. Information only.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-jargon-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-lab-reader",
+                       "description":  "Explain lab results in plain language with questions to ask. Use when reviewing bloodwork or test reports. Information only.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-lab-reader/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-pill-schedule",
+                       "description":  "Build a daily medication schedule from prescription labels. Use when managing multiple meds. Never changes doses; confirm with pharmacist.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-pill-schedule/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-record-parse",
+                       "description":  "Extract medications, doses, and appointments from medical documents into a structured list. Use when organizing prescriptions or visit papers. Never alters doses.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-record-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "med-symptom-triage",
+                       "description":  "Organize symptoms into a clear timeline summary for a clinician visit. Use when preparing for a doctor appointment. Information only, never a diagnosis.",
+                       "category":  "medical-health",
+                       "path":  "skills/med-symptom-triage/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "meeting-notes",
+                       "description":  "Turn meetings into decisions, owners, and dated actions. Use for any meeting worth remembering.",
+                       "category":  "productivity",
+                       "path":  "skills/meeting-notes/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "mental-reset",
+                       "description":  "Guide a short stress-reset routine with journaling prompts. Use when stressed. Not therapy; crisis situations need a professional.",
+                       "category":  "medical-health",
+                       "path":  "skills/mental-reset/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "ml-arch",
+                       "description":  "Design ML systems from features to serving to monitoring. Use when shipping models to production.",
+                       "category":  "company-arch",
+                       "path":  "skills/ml-arch/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "money-playbook",
+                       "description":  "Personal-finance best practices for long-term habits. Use when building money systems. General information, not professional advice.",
+                       "category":  "legal-finance",
+                       "path":  "skills/money-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "moving-checklist",
+                       "description":  "Plan a move with timeline, boxes, and address changes. Use when relocating.",
+                       "category":  "home-life",
+                       "path":  "skills/moving-checklist/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "music-practice",
+                       "description":  "Build deliberate music practice routines. Use when learning an instrument.",
+                       "category":  "creative-media",
+                       "path":  "skills/music-practice/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "newsletter-writer",
+                       "description":  "Draft newsletters people open and finish. Use for weekly publishing.",
+                       "category":  "creative-media",
+                       "path":  "skills/newsletter-writer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "nutrition-plan",
+                       "description":  "Plan balanced meals around budget and restrictions. Use when meal planning for health goals. General information, not medical advice.",
+                       "category":  "medical-health",
+                       "path":  "skills/nutrition-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "onboarding-plan",
+                       "description":  "Build 30-60-90 onboarding for new hires. Use for every new role.",
+                       "category":  "business-ops",
+                       "path":  "skills/onboarding-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "ops-playbook",
+                       "description":  "Operating-cadence best practices for calm teams. Use when the team feels chaotic.",
+                       "category":  "business-ops",
+                       "path":  "skills/ops-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "paper-parse",
+                       "description":  "Extract question, method, results, and limits from papers into a structured brief. Use for literature review.",
+                       "category":  "science-lab",
+                       "path":  "skills/paper-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "paper-summarizer",
+                       "description":  "Distill papers into findings, methods, and limits. Use for literature review.",
+                       "category":  "science-lab",
+                       "path":  "skills/paper-summarizer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "parenting-routine",
+                       "description":  "Design morning and bedtime routines for kids. Use when days feel chaotic.",
+                       "category":  "home-life",
+                       "path":  "skills/parenting-routine/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "performance-review",
+                       "description":  "Write self-reviews with evidence and growth goals. Use at review season.",
+                       "category":  "career",
+                       "path":  "skills/performance-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "perf-profile",
+                       "description":  "Measure first, then optimize hot paths with before-after proof. Use when facing slowness, timeouts, or high resource usage.",
+                       "category":  "quality-testing",
+                       "path":  "skills/perf-profile/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "pet-care",
+                       "description":  "Build feeding, exercise, and vet schedules. Use for new or busy pet owners.",
+                       "category":  "home-life",
+                       "path":  "skills/pet-care/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "photo-brief",
+                       "description":  "Write shot lists and edit briefs for shoots. Use before photo sessions.",
+                       "category":  "creative-media",
+                       "path":  "skills/photo-brief/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "physics-tutor",
+                       "description":  "Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework.",
+                       "category":  "education",
+                       "path":  "skills/physics-tutor/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pipeline-review",
+                       "description":  "Review a data pipeline for correctness, cost, and failure modes. Use before productionizing.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/pipeline-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pitch-deck",
+                       "description":  "Outline investor pitch decks slide by slide. Use before fundraising.",
+                       "category":  "business-ops",
+                       "path":  "skills/pitch-deck/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "plan-parse",
+                       "description":  "Read build plans and schematics into cut lists and step order. Use before buying materials.",
+                       "category":  "diy-maker",
+                       "path":  "skills/plan-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "platform-arch",
+                       "description":  "Design internal platforms, environments, and golden paths. Use when scaling engineering orgs.",
+                       "category":  "company-arch",
+                       "path":  "skills/platform-arch/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "podcast-outline",
+                       "description":  "Outline podcast episodes with segments and questions. Use when planning shows.",
+                       "category":  "creative-media",
+                       "path":  "skills/podcast-outline/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pr-create",
+                       "description":  "Open focused reviewable pull requests with context and test proof. Use when the branch is ready for review or merge.",
+                       "category":  "git-release",
+                       "path":  "skills/pr-create/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "print-3d",
+                       "description":  "Prepare models for 3D printing with slicer settings. Use when printing parts.",
+                       "category":  "diy-maker",
+                       "path":  "skills/print-3d/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "prompt-engineer",
+                       "description":  "Design testable prompts with context, examples, and output contracts. Use when building or fixing LLM features.",
+                       "category":  "data-ai",
+                       "path":  "skills/prompt-engineer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "proposal-parse",
+                       "description":  "Extract pricing, terms, and deliverables from vendor proposals into a comparison sheet. Use when choosing vendors.",
+                       "category":  "business-ops",
+                       "path":  "skills/proposal-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "qa-checklist",
+                       "description":  "Run release-ready quality gates across function, UX, and rollout. Use before any release, merge to main, or demo.",
+                       "category":  "quality-testing",
+                       "path":  "skills/qa-checklist/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "query-translate",
+                       "description":  "Turn business questions into query plans and SQL sketches. Use when stakeholders ask for numbers.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/query-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "rag-builder",
+                       "description":  "Build retrieval-augmented pipelines with chunking, eval, and citations. Use when answers must ground in your documents.",
+                       "category":  "data-ai",
+                       "path":  "skills/rag-builder/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "readme-writer",
+                       "description":  "Write README files that onboard in five minutes with setup and usage. Use when creating or overhauling any project README.",
+                       "category":  "docs-research",
+                       "path":  "skills/readme-writer/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "refactoring",
+                       "description":  "Restructure code safely in small behavior-preserving steps. Use when cleaning duplication, renaming, or extracting modules.",
+                       "category":  "software-build",
+                       "path":  "skills/refactoring/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "repo-onboarder",
+                       "description":  "Onboard anyone to a repo with setup, tour, and first task. Use when a new dev or agent joins a codebase.",
+                       "category":  "meta",
+                       "path":  "skills/repo-onboarder/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "research-playbook",
+                       "description":  "Reproducibility best practices for trustworthy research. Use when starting a project.",
+                       "category":  "science-lab",
+                       "path":  "skills/research-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "result-review",
+                       "description":  "Peer-review results and analyses for errors before sharing. Use before publishing or presenting.",
+                       "category":  "science-lab",
+                       "path":  "skills/result-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "resume-writer",
+                       "description":  "Tailor resumes to job posts with measurable impact. Use when applying for jobs.",
+                       "category":  "career",
+                       "path":  "skills/resume-writer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "review-playbook",
+                       "description":  "Best practices for running fast, kind, effective code reviews. Use when setting team review culture.",
+                       "category":  "quality-testing",
+                       "path":  "skills/review-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "salary-compare",
+                       "description":  "Compare job offers on total compensation. Use when evaluating competing offers.",
+                       "category":  "legal-finance",
+                       "path":  "skills/salary-compare/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "salary-negotiate",
+                       "description":  "Plan negotiation scripts with ranges and walk-aways. Use with an offer in hand.",
+                       "category":  "career",
+                       "path":  "skills/salary-negotiate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sales-outreach",
+                       "description":  "Write personalized cold emails and follow-ups. Use for prospecting.",
+                       "category":  "business-ops",
+                       "path":  "skills/sales-outreach/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sci-term-translate",
+                       "description":  "Translate dense paper jargon and units into plain explanations. Use when a paper is unreadable.",
+                       "category":  "science-lab",
+                       "path":  "skills/sci-term-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "security-arch",
+                       "description":  "Design identity, secrets, and network controls. Use when threat-modeling a system.",
+                       "category":  "company-arch",
+                       "path":  "skills/security-arch/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "security-audit",
+                       "description":  "Hunt OWASP-style vulnerabilities with severity and concrete fixes. Use when auditing auth, inputs, secrets, or before releases.",
+                       "category":  "quality-testing",
+                       "path":  "skills/security-audit/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "skill-creator",
+                       "description":  "Author new spec-compliant SKILL.md skills from scratch. Use when creating, updating, or reviewing any skill in this repo.",
+                       "category":  "meta",
+                       "path":  "skills/skill-creator/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "sleep-improve",
+                       "description":  "Audit sleep habits and build an improvement plan. Use for insomnia or fatigue routines.",
+                       "category":  "medical-health",
+                       "path":  "skills/sleep-improve/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sop-writer",
+                       "description":  "Turn tribal knowledge into step-by-step SOPs. Use when processes live in heads.",
+                       "category":  "business-ops",
+                       "path":  "skills/sop-writer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sourdough-starter",
+                       "description":  "Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.",
+                       "category":  "home-life",
+                       "path":  "skills/sourdough-starter/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "spreadsheet-model",
+                       "description":  "Build auditable spreadsheet models with checks. Use for financial or ops models.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/spreadsheet-model/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sql-query",
+                       "description":  "Write correct parameterized SQL with joins, aggregates, and EXPLAIN checks. Use when querying or changing relational data.",
+                       "category":  "data-ai",
+                       "path":  "skills/sql-query/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "stakeholder-translate",
+                       "description":  "Explain architecture decisions to non-engineers in business terms. Use before steering or board reviews.",
+                       "category":  "company-arch",
+                       "path":  "skills/stakeholder-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "stats-helper",
+                       "description":  "Pick the right statistical test and interpret output. Use when analyzing results.",
+                       "category":  "science-lab",
+                       "path":  "skills/stats-helper/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "study-doc-parse",
+                       "description":  "Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material.",
+                       "category":  "education",
+                       "path":  "skills/study-doc-parse/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "support-reply",
+                       "description":  "Draft empathetic customer support responses. Use for tickets and bad reviews.",
+                       "category":  "business-ops",
+                       "path":  "skills/support-reply/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "survey-design",
+                       "description":  "Write unbiased surveys with analysis plans. Use before collecting responses.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/survey-design/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "task-planner",
+                       "description":  "Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project.",
+                       "category":  "productivity",
+                       "path":  "skills/task-planner/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "tax-prep-checklist",
+                       "description":  "Organize documents for tax filing. Use at tax season. General information, confirm with a tax professional.",
+                       "category":  "legal-finance",
+                       "path":  "skills/tax-prep-checklist/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "tdd-workflow",
+                       "description":  "Drive development red-green-refactor in tiny verifiable loops. Use when building features test-first or fixing bugs with regression proof.",
+                       "category":  "quality-testing",
+                       "path":  "skills/tdd-workflow/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "tech-research",
+                       "description":  "Compare options with evidence and give a justified recommendation. Use when choosing libraries, tools, or approaches.",
+                       "category":  "docs-research",
+                       "path":  "skills/tech-research/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "test-generator",
+                       "description":  "Generate focused unit, integration, and e2e tests with clear arrange-act-assert. Use when adding tests for new or uncovered code.",
+                       "category":  "quality-testing",
+                       "path":  "skills/test-generator/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "tone-translate",
+                       "description":  "Adapt any text to a target reading level or audience. Use when experts write for beginners and vice versa.",
+                       "category":  "creative-media",
+                       "path":  "skills/tone-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "version-bump",
+                       "description":  "Propose correct semver bumps from change types and breaking notes. Use when deciding the next version number before release.",
+                       "category":  "git-release",
+                       "path":  "skills/version-bump/SKILL.md",
+                       "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "video-script",
+                       "description":  "Write video scripts with hooks and chapters. Use for video production.",
+                       "category":  "creative-media",
+                       "path":  "skills/video-script/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "web-scrape-plan",
+                       "description":  "Plan ethical scraping with rate limits and legal checks. Use when gathering public web data.",
+                       "category":  "data-pipeline",
+                       "path":  "skills/web-scrape-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "woodworking-plan",
+                       "description":  "Plan beginner woodworking builds with cut lists. Use for furniture projects.",
+                       "category":  "diy-maker",
+                       "path":  "skills/woodworking-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "workshop-playbook",
+                       "description":  "Workshop safety and tool-care best practices. Use when setting up or leveling up a shop.",
+                       "category":  "diy-maker",
+                       "path":  "skills/workshop-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   }
+               ]
+}

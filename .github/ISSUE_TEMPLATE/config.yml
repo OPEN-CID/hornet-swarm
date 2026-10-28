@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Browse the skill wiki
+    url: https://github.com/OPEN-CID/hornet-swarm/tree/main/wiki
+    about: Find a skill before proposing a duplicate.
+  - name: Contribution guide
+    url: https://github.com/OPEN-CID/hornet-swarm/blob/main/CONTRIBUTING.md
+    about: All 5 ways to add a skill.

@@ -1,0 +1,31 @@
+name: Skill fix
+description: Report a wrong, stale, or unsafe skill.
+title: "[fix] "
+labels: [skill-fix]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: meal-plan
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Problem type
+      options:
+        - wrong advice or facts
+        - stale (no longer works)
+        - unsafe (missing disclaimer, risky instruction)
+        - unclear (bad description or workflow)
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and evidence
+      description: What is wrong, and what should it say instead?
+    validations:
+      required: true

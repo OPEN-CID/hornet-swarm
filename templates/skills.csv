@@ -1,0 +1,3 @@
+name,category,description,outcomes,triggers,artifact
+sourdough-starter,home-life,Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.,feeding schedule|troubleshooting table|bake-day timeline,baking sourdough at home,## Starter plan: ratio schedule float-test checkpoints
+bike-commute,home-life,Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work.,route checklist|gear list|maintenance rhythm,starting to cycle to work,## Commute plan: route gear schedule

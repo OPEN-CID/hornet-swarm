@@ -1,0 +1,71 @@
+name: Skill proposal (no code needed)
+description: Propose a new skill in 6 fields. A maintainer generates it.
+title: "[skill] "
+labels: [skill-proposal]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in 6 fields. A maintainer (or the factory) turns this into a detailed `SKILL.md`.
+        Design help: `docs/SKILL-FAMILIES.md`. Kinds: translate, parse, do, review, playbook.
+  - type: input
+    id: name
+    attributes:
+      label: Skill name (kebab-case, e.g. sourdough-starter)
+      placeholder: sourdough-starter
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - software-build
+        - quality-testing
+        - git-release
+        - docs-research
+        - devops-infra
+        - data-ai
+        - productivity
+        - meta
+        - medical-health
+        - legal-finance
+        - education
+        - science-lab
+        - home-life
+        - diy-maker
+        - business-ops
+        - company-arch
+        - data-pipeline
+        - creative-media
+        - career
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description (WHAT it does + WHEN to use it, one paragraph)
+      placeholder: Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: Outcomes (3 concrete results, one per line)
+      placeholder: "feeding schedule\ntroubleshooting table\nbake-day timeline"
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Triggers (when to use it, one per line)
+      placeholder: "baking sourdough at home"
+    validations:
+      required: true
+  - type: textarea
+    id: artifact
+    attributes:
+      label: Output artifact (first line of what the agent must produce)
+      placeholder: "## Starter plan: ratio, schedule, float-test checkpoints"
+    validations:
+      required: true

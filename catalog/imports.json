@@ -1,0 +1,35 @@
+﻿{
+    "$schema":  "https://json-schema.org/draft/2020-12/schema",
+    "generator":  "scripts/generate-skills.ps1",
+    "version":  "1.0.0",
+    "skills":  [
+                   {
+                       "name":  "sourdough-starter",
+                       "category":  "home-life",
+                       "description":  "Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.",
+                       "outcomes":  [
+                                        "feeding schedule",
+                                        "troubleshooting table",
+                                        "bake-day timeline"
+                                    ],
+                       "triggers":  [
+                                        "baking sourdough at home"
+                                    ],
+                       "artifact":  "## Starter plan: ratio schedule float-test checkpoints"
+                   },
+                   {
+                       "name":  "bike-commute",
+                       "category":  "home-life",
+                       "description":  "Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work.",
+                       "outcomes":  [
+                                        "route checklist",
+                                        "gear list",
+                                        "maintenance rhythm"
+                                    ],
+                       "triggers":  [
+                                        "starting to cycle to work"
+                                    ],
+                       "artifact":  "## Commute plan: route gear schedule"
+                   }
+               ]
+}
