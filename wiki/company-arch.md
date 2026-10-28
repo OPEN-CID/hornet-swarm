@@ -1,4 +1,4 @@
-﻿# company-arch
+# company-arch
 
 Architecture by company function: frontend, backend, data, ML, security, platform.
 

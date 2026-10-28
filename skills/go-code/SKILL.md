@@ -1,4 +1,4 @@
-﻿---
+---
 name: go-code
 description: Write idiomatic Go with wrapped errors, table tests, and race-clean concurrency. Use for any Go code or review.
 license: MIT

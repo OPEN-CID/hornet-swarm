@@ -1,4 +1,4 @@
-﻿---
+---
 name: chemistry-helper
 description: Balance equations and explain lab concepts safely. Use for chemistry homework and labs.
 license: MIT

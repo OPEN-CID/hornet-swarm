@@ -1,4 +1,4 @@
-﻿---
+---
 name: curriculum-plan
 description: Design a self-study syllabus with milestones. Use when learning a subject solo.
 license: MIT

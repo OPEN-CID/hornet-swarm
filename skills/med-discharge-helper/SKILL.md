@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-discharge-helper
 description: Turn discharge papers into a home care checklist. Use after a hospital discharge.
 license: MIT

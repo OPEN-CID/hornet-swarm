@@ -1,4 +1,4 @@
-﻿---
+---
 name: proposal-parse
 description: Extract pricing, terms, and deliverables from vendor proposals into a comparison sheet. Use when choosing vendors.
 license: MIT

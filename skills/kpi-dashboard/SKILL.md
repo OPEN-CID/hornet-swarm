@@ -1,4 +1,4 @@
-﻿---
+---
 name: kpi-dashboard
 description: Define KPIs and dashboard layouts that drive action. Use for team reporting.
 license: MIT

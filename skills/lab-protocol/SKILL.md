@@ -1,4 +1,4 @@
-﻿---
+---
 name: lab-protocol
 description: Write repeatable step-by-step lab protocols. Use before bench work.
 license: MIT

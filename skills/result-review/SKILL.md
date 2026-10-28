@@ -1,4 +1,4 @@
-﻿---
+---
 name: result-review
 description: Peer-review results and analyses for errors before sharing. Use before publishing or presenting.
 license: MIT

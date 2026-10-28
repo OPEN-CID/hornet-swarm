@@ -1,4 +1,4 @@
-﻿---
+---
 name: sci-term-translate
 description: Translate dense paper jargon and units into plain explanations. Use when a paper is unreadable.
 license: MIT

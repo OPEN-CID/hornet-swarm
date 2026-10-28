@@ -1,4 +1,4 @@
-﻿---
+---
 name: ml-arch
 description: Design ML systems from features to serving to monitoring. Use when shipping models to production.
 license: MIT

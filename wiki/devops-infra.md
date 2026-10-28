@@ -1,4 +1,4 @@
-﻿# devops-infra
+# devops-infra
 
 Ship and run software reliably.
 

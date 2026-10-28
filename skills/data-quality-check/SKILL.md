@@ -1,4 +1,4 @@
-﻿---
+---
 name: data-quality-check
 description: Define freshness, schema, and anomaly checks. Use when data breaks trust.
 license: MIT

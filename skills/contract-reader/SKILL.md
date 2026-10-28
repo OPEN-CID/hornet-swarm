@@ -1,4 +1,4 @@
-﻿---
+---
 name: contract-reader
 description: Summarize contracts into obligations, risks, and questions. Use before signing anything. Not legal advice.
 license: MIT

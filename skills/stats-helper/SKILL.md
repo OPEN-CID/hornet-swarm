@@ -1,4 +1,4 @@
-﻿---
+---
 name: stats-helper
 description: Pick the right statistical test and interpret output. Use when analyzing results.
 license: MIT

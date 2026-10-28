@@ -1,4 +1,4 @@
-﻿# software-build
+# software-build
 
 Design, write, fix, and reshape code.
 

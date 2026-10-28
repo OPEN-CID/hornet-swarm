@@ -1,4 +1,4 @@
-﻿---
+---
 name: business-plan
 description: Draft lean business plans with unit economics. Use when pitching or planning.
 license: MIT

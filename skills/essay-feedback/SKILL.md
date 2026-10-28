@@ -1,4 +1,4 @@
-﻿---
+---
 name: essay-feedback
 description: Critique essays for thesis, structure, and evidence. Use when revising writing.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: woodworking-plan
 description: Plan beginner woodworking builds with cut lists. Use for furniture projects.
 license: MIT

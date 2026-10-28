@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-symptom-triage
 description: Organize symptoms into a clear timeline summary for a clinician visit. Use when preparing for a doctor appointment. Information only, never a diagnosis.
 license: MIT

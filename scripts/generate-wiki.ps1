@@ -5,8 +5,11 @@
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $WikiDir = Join-Path $RepoRoot "wiki"
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
+function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
+function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 New-Item -ItemType Directory -Force -Path $WikiDir | Out-Null
-$reg = Get-Content -LiteralPath (Join-Path $RepoRoot "registry.json") -Raw | ConvertFrom-Json
+$reg = Read-UTF8 (Join-Path $RepoRoot "registry.json") | ConvertFrom-Json
 
 $CatBlurb = @{
   'software-build'   = "Design, write, fix, and reshape code."
@@ -29,6 +32,32 @@ $CatBlurb = @{
   'data-pipeline'    = "Move, check, and present data."
   'creative-media'   = "Write, film, record, and publish."
   'career'           = "Apply, interview, negotiate, grow."
+  'travel'           = "Trips, packing, visas, itineraries, and safety."
+  'cooking'          = "Bake, grill, ferment, brew, and season with confidence."
+  'parenting'        = "Newborns to teens plus elder care. Info only - consult professionals."
+  'relationships'    = "Communicate, repair, befriend, and network."
+  'mind'             = "Habits, focus, memory, calm, and clear thinking."
+  'fitness'          = "Run, lift, stretch, and coach. Info only - pros for injuries."
+  'outdoors'         = "Hike, camp, paddle, and read the wild safely."
+  'housing'          = "Rent, buy, inspect, renovate, and decorate."
+  'vehicles'         = "Buy, inspect, ride, charge, and fix transport."
+  'wealth'           = "Invest, insure, retire, and review. Education only - not advice."
+  'law-life'         = "Tenants, claims, wills, and scam defense. Info only - not advice."
+  'leadership'       = "Manage, give feedback, speak, and facilitate."
+  'knowledge'        = "Notes, inbox, calendar, reports, and research."
+  'everyday-tech'    = "CLI, passwords, backups, wifi, and AI tools."
+  'cloud'            = "Kubernetes, Terraform, AWS, DNS, TLS, and costs."
+  'science-big'      = "Stars, weather, genes, minds, and markets."
+  'play'             = "Chess, poker, game nights, and game design."
+  'craft'            = "Draw, paint, shoot, knit, sew, and make."
+  'music'            = "Guitar, piano, voice, theory, and recording."
+  'writing'          = "Fiction, poetry, scripts, grants, and publishing."
+  'events'           = "Weddings, parties, budgets, and toasts."
+  'civic'            = "Volunteer, fundraise, organize, and vote."
+  'safety'           = "First aid, fire, storms, and scams. Call emergency first."
+  'eco'              = "Recycle, compost, save water, and cut carbon."
+  'pets'             = "Dogs, cats, tanks, birds, hens, and bees."
+  'culture'          = "Roots, media literacy, debate, and museums."
 }
 
 $groups = $reg.skills | Group-Object -Property category | Sort-Object Name
@@ -54,7 +83,7 @@ $index += ""
 $index += "## Family pattern"
 $index += ""
 $index += "Every domain follows Translate, Parse, Do, Review, Playbook. Details: docs/SKILL-FAMILIES.md."
-Set-Content -LiteralPath (Join-Path $WikiDir "README.md") -Value ($index -join "`n") -Encoding UTF8
+Write-UTF8 (Join-Path $WikiDir "README.md") ($index -join "`n")
 
 foreach ($g in $groups) {
   $lines = @()
@@ -69,6 +98,6 @@ foreach ($g in $groups) {
   }
   $lines += ""
   $lines += "Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: skills/<name>/SKILL.md"
-  Set-Content -LiteralPath (Join-Path $WikiDir ($g.Name + ".md")) -Value ($lines -join "`n") -Encoding UTF8
+  Write-UTF8 (Join-Path $WikiDir ($g.Name + ".md")) ($lines -join "`n")
 }
 Write-Output "wiki rebuilt: $($groups.Count) categories, $($reg.skills.Count) skills"

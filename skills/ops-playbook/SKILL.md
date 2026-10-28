@@ -1,4 +1,4 @@
-﻿---
+---
 name: ops-playbook
 description: Operating-cadence best practices for calm teams. Use when the team feels chaotic.
 license: MIT

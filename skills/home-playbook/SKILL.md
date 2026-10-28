@@ -1,4 +1,4 @@
-﻿---
+---
 name: home-playbook
 description: Best-practice home routines for a calm household. Use when setting up a household system.
 license: MIT

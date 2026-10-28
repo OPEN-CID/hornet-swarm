@@ -1,4 +1,4 @@
-﻿---
+---
 name: data-analysis
 description: Plan analyses from question to chart to conclusion. Use for small datasets.
 license: MIT

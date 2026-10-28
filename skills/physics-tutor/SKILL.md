@@ -1,4 +1,4 @@
-﻿---
+---
 name: physics-tutor
 description: Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework.
 license: MIT

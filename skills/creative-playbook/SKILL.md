@@ -1,4 +1,4 @@
-﻿---
+---
 name: creative-playbook
 description: Publishing-cadence best practices for consistent output. Use when content is sporadic.
 license: MIT

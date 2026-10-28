@@ -1,4 +1,4 @@
-﻿# science-lab
+# science-lab
 
 Run trustworthy experiments and read papers well.
 

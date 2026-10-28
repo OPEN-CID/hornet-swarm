@@ -1,4 +1,4 @@
-﻿---
+---
 name: furniture-assemble
 description: Guide flat-pack furniture assembly without leftover screws. Use for IKEA-style builds.
 license: MIT

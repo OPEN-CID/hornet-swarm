@@ -1,4 +1,4 @@
-﻿---
+---
 name: support-reply
 description: Draft empathetic customer support responses. Use for tickets and bad reviews.
 license: MIT

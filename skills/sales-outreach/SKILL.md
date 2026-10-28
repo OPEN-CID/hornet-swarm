@@ -1,4 +1,4 @@
-﻿---
+---
 name: sales-outreach
 description: Write personalized cold emails and follow-ups. Use for prospecting.
 license: MIT

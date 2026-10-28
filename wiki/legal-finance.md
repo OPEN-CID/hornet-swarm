@@ -1,4 +1,4 @@
-﻿# legal-finance
+# legal-finance
 
 Organize money and paperwork. General info - confirm big decisions professionally.
 

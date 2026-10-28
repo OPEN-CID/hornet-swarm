@@ -1,4 +1,4 @@
-﻿---
+---
 name: plan-parse
 description: Read build plans and schematics into cut lists and step order. Use before buying materials.
 license: MIT

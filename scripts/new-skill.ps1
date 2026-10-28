@@ -6,6 +6,7 @@
 #>
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 $name = (Read-Host "skill name (kebab-case)").Trim().ToLower()
 if ($name -cnotmatch '^[a-z0-9]+(-[a-z0-9]+)*$') { throw "bad name: $name" }
 $category = (Read-Host "category key (e.g. home-life)").Trim()
@@ -16,13 +17,13 @@ $art = (Read-Host "output artifact (first line)")
 $entry = [ordered]@{ name=$name; category=$category; description=$desc; outcomes=@($o1,$o2,$o3); triggers=@($trig); artifact=$art }
 $customPath = Join-Path $RepoRoot "catalog/custom.json"
 if (Test-Path -LiteralPath $customPath) {
-  $c = Get-Content -LiteralPath $customPath -Raw | ConvertFrom-Json
+  $c = [System.IO.File]::ReadAllText($customPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json
   $c.skills += $entry
   $out = [ordered]@{ '$schema'=$c.'$schema'; generator="scripts/generate-skills.ps1"; version=$c.version; skills=$c.skills }
 } else {
   $out = [ordered]@{ '$schema'="https://json-schema.org/draft/2020-12/schema"; generator="scripts/generate-skills.ps1"; version="1.0.0"; skills=@($entry) }
 }
-$out | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $customPath -Encoding UTF8
+[System.IO.File]::WriteAllText($customPath, ($out | ConvertTo-Json -Depth 5), $UTF8NoBom)
 & (Join-Path $RepoRoot "scripts/generate-skills.ps1")
 & (Join-Path $RepoRoot "scripts/rebuild-registry.ps1")
 Write-Output "created skills/$name - now run validate: powershell scripts/validate.ps1 -Skill $name"

@@ -1,4 +1,4 @@
-﻿---
+---
 name: podcast-outline
 description: Outline podcast episodes with segments and questions. Use when planning shows.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: typescript-code
 description: Write strict TypeScript with no-explicit-any, discriminated unions, and vitest proof. Use for any TypeScript code or review.
 license: MIT

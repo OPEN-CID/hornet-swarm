@@ -1,4 +1,4 @@
-﻿---
+---
 name: cpp-code
 description: Write modern C++ (17/20) with RAII, smart pointers, and const-correctness. Use for any C++ code or review.
 license: MIT

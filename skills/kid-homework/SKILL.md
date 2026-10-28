@@ -1,4 +1,4 @@
-﻿---
+---
 name: kid-homework
 description: Guide kids to answers with hints, never direct solutions. Use for K-12 homework help.
 license: MIT

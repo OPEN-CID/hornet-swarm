@@ -1,4 +1,4 @@
-﻿---
+---
 name: mental-reset
 description: Guide a short stress-reset routine with journaling prompts. Use when stressed. Not therapy; crisis situations need a professional.
 license: MIT

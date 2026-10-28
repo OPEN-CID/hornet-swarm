@@ -1,4 +1,4 @@
-﻿---
+---
 name: eli5-explainer
 description: Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic.
 license: MIT

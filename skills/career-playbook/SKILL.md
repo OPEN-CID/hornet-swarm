@@ -1,4 +1,4 @@
-﻿---
+---
 name: career-playbook
 description: Career-growth best practices for steady advancement. Use for yearly planning.
 license: MIT

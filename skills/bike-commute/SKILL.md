@@ -1,4 +1,4 @@
-﻿---
+---
 name: bike-commute
 description: Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work.
 license: MIT

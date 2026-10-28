@@ -1,4 +1,4 @@
-﻿---
+---
 name: video-script
 description: Write video scripts with hooks and chapters. Use for video production.
 license: MIT

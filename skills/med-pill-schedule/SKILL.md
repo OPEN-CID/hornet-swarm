@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-pill-schedule
 description: Build a daily medication schedule from prescription labels. Use when managing multiple meds. Never changes doses; confirm with pharmacist.
 license: MIT

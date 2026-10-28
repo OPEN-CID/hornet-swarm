@@ -1,4 +1,4 @@
-﻿---
+---
 name: gardening-plan
 description: Plan seasonal vegetable or flower gardens. Use when starting a garden.
 license: MIT

@@ -27,8 +27,34 @@ Dev-only catalogs cover ~10% of agent work. This repo covers the rest:
 | 18 | Creative & media | `creative-media` | 7 | blog, video, podcast, newsletter, photo, music, brand |
 | 19 | Career | `career` | 6 | resume, cover letter, interviews, LinkedIn, negotiation, reviews |
 | 20 | Languages | `languages` | 20 | python, typescript, javascript, go, rust, java, csharp, cpp, c, ruby, php, swift, kotlin, dart, r, scala, elixir, bash, powershell, lua — each with toolchain, style, idioms, arch patterns, pitfalls |
+| 21 | Travel | `travel` | 10 | trip plans, packing, visas, itineraries, budget, safety, flights, road trips, solo, phrasebooks |
+| 22 | Cooking & food | `cooking` | 12 | baking, knives, spices, meal prep, grilling, fermentation, coffee, tea, cocktails, wine, food safety, pantry |
+| 23 | Parenting & family | `parenting` | 10 | newborns, toddlers, teens, elder care, homeschool, budget, siblings, screens, grandparents, baby-proofing |
+| 24 | Relationships | `relationships` | 8 | communication, repair, dating, friendship, check-ins, apologies, boundaries, networking |
+| 25 | Mind & habits | `mind` | 10 | habits, focus, procrastination, journaling, meditation, detox, gratitude, stoicism, memory, speed reading |
+| 26 | Fitness & sport | `fitness` | 10 | running, strength, yoga, stretching, swimming, cycling, marathon, injury prevention, ergonomics, youth coaching |
+| 27 | Outdoors | `outdoors` | 10 | hiking, camping, fishing, climbing safety, kayaking, survival, navigation, weather, wildlife, camp cooking |
+| 28 | Housing | `housing` | 10 | renting, lease review, buying, mortgages, inspection, renovation, paint, flooring, declutter, interior design |
+| 29 | Vehicles | `vehicles` | 6 | car buying, used-car review, motorcycles, EVs, bike repair, winter driving |
+| 30 | Wealth | `wealth` | 8 | investing basics, retirement, insurance, estate notes, crypto basics, portfolio review, side hustles, tax habits |
+| 31 | Everyday law | `law-life` | 8 | tenants, small claims, wills, copyright, privacy, warranty, scams, freelance contracts |
+| 32 | Leadership | `leadership` | 8 | first-time managing, feedback, 1:1s, public speaking, decks, remote, exits, facilitation |
+| 33 | Knowledge work | `knowledge` | 8 | notes, inbox zero, calendar, reports, data viz, typing, PKM tools, research briefs |
+| 34 | Everyday tech | `everyday-tech` | 12 | linux CLI, regex, password managers, phishing, PC repair, backups, phones, smart home, wifi, AI tools, no-code, hardening |
+| 35 | Cloud & infra | `cloud` | 8 | kubernetes, terraform, AWS, networking, DNS, TLS, monitoring, cost control |
+| 36 | Big science | `science-big` | 8 | stargazing, weather, climate, genetics, psychology, economics, evolution, geology |
+| 37 | Play & games | `play` | 8 | chess, poker, board nights, game tuning, game design, D&D, puzzles, go |
+| 38 | Craft | `craft` | 12 | drawing, watercolor, photography, photo editing, calligraphy, knitting, sewing, pottery, origami, candles, jewelry, scrapbooking |
+| 39 | Music | `music` | 6 | guitar, piano, singing, theory, recording, sheet reading |
+| 40 | Writing | `writing` | 8 | fiction, poetry, screenwriting, grants, tech writing, self-publishing, editing, storytelling |
+| 41 | Events | `events` | 6 | weddings, parties, budgets, holidays, memorials, toasts |
+| 42 | Civic life | `civic` | 6 | volunteering, fundraising, organizing, voting, local government, block safety |
+| 43 | Safety & emergency | `safety` | 8 | first aid, CPR awareness, fire, quakes, floods, storms, self-defense, scams |
+| 44 | Eco living | `eco` | 6 | recycling, compost, waste-less, water, sustainable shopping, carbon cuts |
+| 45 | Pets & animals | `pets` | 6 | dogs, cats, aquariums, birds, chickens, bees |
+| 46 | Culture & thinking | `culture` | 6 | genealogy, media literacy, critical thinking, debate, art history, museums |
 
-(19 category keys + languages = 20 keys. Total: 36 dev + 80 task + 47 family + 2 community + 20 language + 1 repo-structure = **186 skills**.)
+(46 category keys. Total: **404 skills** — 36 hand-written + 368 factory-generated — and growing via `docs/INTAKE.md`.)
 
 ## Naming convention (avoids collisions across the world)
 

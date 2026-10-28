@@ -1,4 +1,4 @@
-﻿---
+---
 name: platform-arch
 description: Design internal platforms, environments, and golden paths. Use when scaling engineering orgs.
 license: MIT

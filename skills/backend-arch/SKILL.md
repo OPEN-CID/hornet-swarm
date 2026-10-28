@@ -1,4 +1,4 @@
-﻿---
+---
 name: backend-arch
 description: Design service boundaries, APIs, and data ownership. Use when splitting monoliths or starting services.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: fitness-plan
 description: Build progressive workout plans around goals and limits. Use when starting or fixing a training routine.
 license: MIT

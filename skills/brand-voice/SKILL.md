@@ -1,4 +1,4 @@
-﻿---
+---
 name: brand-voice
 description: Define a brand voice with examples. Use for consistent company writing.
 license: MIT

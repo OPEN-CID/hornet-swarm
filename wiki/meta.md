@@ -1,4 +1,4 @@
-﻿# meta
+# meta
 
 Skills about skills: create and onboard.
 

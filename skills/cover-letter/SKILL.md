@@ -1,4 +1,4 @@
-﻿---
+---
 name: cover-letter
 description: Write short specific cover letters. Use for each application.
 license: MIT

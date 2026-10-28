@@ -1,4 +1,4 @@
-﻿---
+---
 name: legal-doc-parse
 description: Extract parties, dates, amounts, and obligations from legal documents into a fact sheet. Use when comparing versions or summarizing a file.
 license: MIT

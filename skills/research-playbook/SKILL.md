@@ -1,4 +1,4 @@
-﻿---
+---
 name: research-playbook
 description: Reproducibility best practices for trustworthy research. Use when starting a project.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: data-doc-parse
 description: Profile CSVs and API docs into schema and quality notes. Use before building any pipeline.
 license: MIT

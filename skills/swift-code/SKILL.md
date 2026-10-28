@@ -1,4 +1,4 @@
-﻿---
+---
 name: swift-code
 description: Write modern Swift with optionals discipline, value types, and actor-safe concurrency. Use for any Swift code or review.
 license: MIT

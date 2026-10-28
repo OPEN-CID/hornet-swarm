@@ -1,4 +1,4 @@
-﻿---
+---
 name: exam-readiness-review
 description: Audit exam readiness with a timed mock and gap list. Use one week before any exam.
 license: MIT

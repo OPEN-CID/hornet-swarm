@@ -12,6 +12,9 @@ param([switch]$Force)
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $CatalogDir = Join-Path $RepoRoot "catalog"
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
+function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
+function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 
 $KindWorkflow = @{
   parse = @(
@@ -89,6 +92,15 @@ function Get-Kind([string]$name) {
 $SafetyNote = @{
   'medical-health' = "> Information only: never a diagnosis, dose change, or treatment decision. Confirm anything medical with a qualified clinician or pharmacist."
   'legal-finance'  = "> General information only: not legal, tax, or financial advice. Confirm consequential decisions with a licensed professional."
+  'parenting'      = "> Family information only: for health or developmental concerns, consult your pediatrician or a qualified professional."
+  'fitness'        = "> General fitness information: for injuries, pregnancy, or medical conditions, consult a qualified professional first."
+  'safety'         = "> Emergency information only: call local emergency services first. Get certified training for first aid, CPR, and rescue skills."
+  'wealth'         = "> General educational information only: not financial or investment advice."
+  'law-life'       = "> General information only: not legal advice. Confirm consequential matters with a licensed professional."
+  'outdoors'       = "> Outdoor activities carry real risk: check local conditions, carry essentials, and get qualified instruction for technical skills."
+  'vehicles'       = "> Safety first: protective gear, licensed training, and professional mechanics for anything beyond basic maintenance."
+  'pets'           = "> General care information: for illness or emergencies, consult your veterinarian."
+  'cooking'        = "> Cook to safe temperatures, respect allergies, and when in doubt throw it out."
 }
 
 $Template = @'
@@ -133,7 +145,7 @@ __ARTIFACT__
 
 $entries = @()
 foreach ($f in Get-ChildItem -Path $CatalogDir -Filter *.json) {
-  $rawJson = Get-Content -LiteralPath $f.FullName -Raw
+  $rawJson = Read-UTF8 $f.FullName
   $json = $rawJson | ConvertFrom-Json
   foreach ($s in $json.skills) { $entries += $s }
 }
@@ -159,7 +171,7 @@ foreach ($s in $entries) {
   $body = $body.Replace('__WF__', ($steps -join "`n"))
   $body = $body.Replace('__RULES__', ($KindRules[$kind] -join "`n"))
   $body = $body.Replace('__ARTIFACT__', $s.artifact)
-  Set-Content -LiteralPath $file -Value $body -Encoding UTF8
+  Write-UTF8 $file $body
   $made++
 }
 Write-Output "generated: $made, skipped (hand-written): $skipped"

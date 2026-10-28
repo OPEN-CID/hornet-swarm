@@ -1,4 +1,4 @@
-﻿---
+---
 name: print-3d
 description: Prepare models for 3D printing with slicer settings. Use when printing parts.
 license: MIT

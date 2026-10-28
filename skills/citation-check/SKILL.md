@@ -1,4 +1,4 @@
-﻿---
+---
 name: citation-check
 description: Verify claims against cited sources. Use when fact-checking writing.
 license: MIT

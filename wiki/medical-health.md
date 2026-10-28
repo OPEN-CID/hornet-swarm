@@ -1,4 +1,4 @@
-﻿# medical-health
+# medical-health
 
 Organize health information. Info only - always consult a professional.
 

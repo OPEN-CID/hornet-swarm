@@ -1,4 +1,4 @@
-﻿---
+---
 name: music-practice
 description: Build deliberate music practice routines. Use when learning an instrument.
 license: MIT

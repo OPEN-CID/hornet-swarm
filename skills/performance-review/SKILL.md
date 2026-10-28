@@ -1,4 +1,4 @@
-﻿---
+---
 name: performance-review
 description: Write self-reviews with evidence and growth goals. Use at review season.
 license: MIT

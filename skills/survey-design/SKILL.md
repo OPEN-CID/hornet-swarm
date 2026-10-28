@@ -1,4 +1,4 @@
-﻿---
+---
 name: survey-design
 description: Write unbiased surveys with analysis plans. Use before collecting responses.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: php-code
 description: Write strict PHP 8 with types, static analysis, and Pest proof. Use for any PHP code or review.
 license: MIT

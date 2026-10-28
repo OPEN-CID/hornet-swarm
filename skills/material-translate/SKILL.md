@@ -1,4 +1,4 @@
-﻿---
+---
 name: material-translate
 description: Decode lumber grades, fastener codes, and paint labels into what to buy. Use at the hardware store.
 license: MIT

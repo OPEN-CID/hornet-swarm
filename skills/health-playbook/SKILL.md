@@ -1,4 +1,4 @@
-﻿---
+---
 name: health-playbook
 description: Best-practice playbook for ongoing health routines: meds, activity, sleep, records. Use when building a sustainable health system.
 license: MIT

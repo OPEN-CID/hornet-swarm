@@ -1,4 +1,4 @@
-﻿---
+---
 name: label-reader
 description: Decode food, cleaning, and clothing-care labels into guidance. Use while shopping or sorting laundry.
 license: MIT

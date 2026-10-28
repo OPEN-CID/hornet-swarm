@@ -1,4 +1,4 @@
-﻿---
+---
 name: tax-prep-checklist
 description: Organize documents for tax filing. Use at tax season. General information, confirm with a tax professional.
 license: MIT

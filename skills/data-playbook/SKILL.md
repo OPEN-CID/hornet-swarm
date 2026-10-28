@@ -1,4 +1,4 @@
-﻿---
+---
 name: data-playbook
 description: Data-engineering best practices for trusted pipelines. Use when setting team standards.
 license: MIT

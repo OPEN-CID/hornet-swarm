@@ -1,4 +1,4 @@
-﻿---
+---
 name: security-arch
 description: Design identity, secrets, and network controls. Use when threat-modeling a system.
 license: MIT

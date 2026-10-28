@@ -1,4 +1,4 @@
-﻿---
+---
 name: linkedin-optimize
 description: Rewrite LinkedIn profiles for recruiter search. Use for job hunting.
 license: MIT

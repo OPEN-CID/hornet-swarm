@@ -1,4 +1,4 @@
-﻿---
+---
 name: kotlin-code
 description: Write null-safe Kotlin with coroutines discipline and detekt-clean code. Use for any Kotlin code or review.
 license: MIT

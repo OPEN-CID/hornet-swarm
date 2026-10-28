@@ -1,4 +1,4 @@
-﻿# career
+# career
 
 Apply, interview, negotiate, grow.
 

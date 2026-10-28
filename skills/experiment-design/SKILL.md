@@ -1,4 +1,4 @@
-﻿---
+---
 name: experiment-design
 description: Design controlled experiments with variables and controls. Use when testing any hypothesis.
 license: MIT

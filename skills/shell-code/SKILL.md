@@ -1,4 +1,4 @@
-﻿---
+---
 name: shell-code
 description: Write safe Bash with strict mode, quoting discipline, and shellcheck-clean code. Use for any shell scripting or review.
 license: MIT

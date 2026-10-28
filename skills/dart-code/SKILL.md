@@ -1,4 +1,4 @@
-﻿---
+---
 name: dart-code
 description: Write null-safe Dart and Flutter with analyzer-clean code and widget tests. Use for any Dart or Flutter work.
 license: MIT

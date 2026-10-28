@@ -1,4 +1,4 @@
-﻿---
+---
 name: sop-writer
 description: Turn tribal knowledge into step-by-step SOPs. Use when processes live in heads.
 license: MIT

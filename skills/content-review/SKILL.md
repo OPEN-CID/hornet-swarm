@@ -1,4 +1,4 @@
-﻿---
+---
 name: content-review
 description: Pre-publish review for clarity, claims, rights, and brand fit. Use before anything goes public.
 license: MIT

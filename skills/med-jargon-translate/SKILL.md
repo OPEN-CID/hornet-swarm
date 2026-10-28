@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-jargon-translate
 description: Translate medical jargon into plain language with a glossary. Use when discharge notes, reports, or prescriptions are hard to understand. Information only.
 license: MIT

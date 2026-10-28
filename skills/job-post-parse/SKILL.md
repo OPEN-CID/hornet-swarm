@@ -1,4 +1,4 @@
-﻿---
+---
 name: job-post-parse
 description: Parse job posts into requirements and match matrix. Use before tailoring an application.
 license: MIT

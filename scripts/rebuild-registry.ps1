@@ -4,11 +4,14 @@
 #>
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
+function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
+function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 $items = @()
 foreach ($d in Get-ChildItem -Directory (Join-Path $RepoRoot "skills")) {
   $file = Join-Path $d.FullName "SKILL.md"
   if (-not (Test-Path -LiteralPath $file)) { continue }
-  $raw = Get-Content -LiteralPath $file -Raw
+  $raw = Read-UTF8 $file
   if ($raw -notmatch '(?s)^---\s*\r?\n(.*?)\r?\n---') { Write-Warning "no frontmatter: $($d.Name)"; continue }
   $fm = $Matches[1]
   $n = [regex]::Match($fm, '^\s*name:\s*(.+?)\s*$', 'Multiline')
@@ -32,5 +35,5 @@ $reg = [ordered]@{
   count = $items.Count
   skills = $items
 }
-$reg | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $RepoRoot "registry.json") -Encoding UTF8
+Write-UTF8 (Join-Path $RepoRoot "registry.json") ($reg | ConvertTo-Json -Depth 5)
 Write-Output "registry rebuilt: $($items.Count) skills"

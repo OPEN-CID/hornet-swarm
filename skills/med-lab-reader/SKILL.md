@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-lab-reader
 description: Explain lab results in plain language with questions to ask. Use when reviewing bloodwork or test reports. Information only.
 license: MIT

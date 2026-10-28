@@ -1,4 +1,4 @@
-﻿---
+---
 name: parenting-routine
 description: Design morning and bedtime routines for kids. Use when days feel chaotic.
 license: MIT

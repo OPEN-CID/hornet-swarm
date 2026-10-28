@@ -1,4 +1,4 @@
-﻿---
+---
 name: freelance-rate
 description: Price freelance work from costs and market rates. Use when quoting clients.
 license: MIT

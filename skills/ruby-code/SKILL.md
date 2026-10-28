@@ -1,4 +1,4 @@
-﻿---
+---
 name: ruby-code
 description: Write idiomatic Ruby with RuboCop-clean style and RSpec proof. Use for Ruby or Rails code and reviews.
 license: MIT

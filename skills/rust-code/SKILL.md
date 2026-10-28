@@ -1,4 +1,4 @@
-﻿---
+---
 name: rust-code
 description: Write safe Rust with ownership discipline, Result handling, and clippy-clean code. Use for any Rust code or review.
 license: MIT

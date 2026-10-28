@@ -1,4 +1,4 @@
-﻿---
+---
 name: marketing-copy
 description: Write landing pages and ads that convert. Use for launches and campaigns.
 license: MIT

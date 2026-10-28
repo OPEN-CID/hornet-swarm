@@ -1,4 +1,4 @@
-﻿---
+---
 name: paper-parse
 description: Extract question, method, results, and limits from papers into a structured brief. Use for literature review.
 license: MIT

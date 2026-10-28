@@ -1,4 +1,4 @@
-﻿---
+---
 name: expense-audit
 description: Find wasteful subscriptions and spending leaks. Use for quarterly money cleanup.
 license: MIT

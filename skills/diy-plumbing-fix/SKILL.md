@@ -1,4 +1,4 @@
-﻿---
+---
 name: diy-plumbing-fix
 description: Diagnose and fix common leaks and clogs safely. Use for minor plumbing issues.
 license: MIT

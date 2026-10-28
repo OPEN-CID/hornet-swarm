@@ -35,11 +35,22 @@ science, data, business, architecture — anything.
 ## Language skills (the 6th family in practice)
 
 One skill per programming language (`python-code`, `go-code`, ...) generated
-from `catalog/languages*.json` by `scripts/generate-lang-skills.ps1`. Each
+from `catalog/languages/*.json` by `scripts/generate-lang-skills.ps1`. Each
 contains toolchain commands, style rules, native idioms with a sample,
 architecture patterns with when-to-use, a pitfalls table, and testing notes —
 do + playbook fused. Data per language: description, toolchain, style[5],
 idioms[5], arch[4], pitfalls[4], testing, sample.
+
+## Life domains use the same 5 kinds
+
+All 26 life categories (`travel` … `culture`) follow Translate → Parse →
+Do → Review → Playbook like the dev domains. Examples: `visa-prep` (parse),
+`lease-review` / `used-car-review` / `portfolio-review` (review kind —
+severity findings plus verdict), `pack-playbook`-style routines embedded in
+each playbook skill. Sensitive categories (`safety`, `wealth`, `law-life`,
+`parenting`, `fitness`, `outdoors`, `vehicles`, `pets`, `cooking`) get
+automatic guardrail notes from the generator (see `scripts/generate-skills.ps1`
+`$SafetyNote`) — information only, professionals decide.
 
 ## Kind contracts (enforced by the generator)
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: home-maintenance
 description: Track seasonal home maintenance tasks. Use for yearly house care.
 license: MIT

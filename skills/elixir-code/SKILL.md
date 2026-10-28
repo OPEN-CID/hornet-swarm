@@ -1,4 +1,4 @@
-﻿---
+---
 name: elixir-code
 description: Write concurrent Elixir with OTP discipline, changesets, and ExUnit proof. Use for any Elixir code or review.
 license: MIT

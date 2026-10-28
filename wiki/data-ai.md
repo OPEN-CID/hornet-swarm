@@ -1,4 +1,4 @@
-﻿# data-ai
+# data-ai
 
 Query, clean, prompt, retrieve, evaluate.
 

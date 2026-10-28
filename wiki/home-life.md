@@ -1,4 +1,4 @@
-﻿# home-life
+# home-life
 
 Meals, cleaning, maintenance, moves, pets, safety.
 

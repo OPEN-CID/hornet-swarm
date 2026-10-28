@@ -1,4 +1,4 @@
-﻿---
+---
 name: hiring-interview
 description: Design structured interviews with scorecards. Use when hiring.
 license: MIT

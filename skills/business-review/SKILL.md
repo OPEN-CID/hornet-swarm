@@ -1,4 +1,4 @@
-﻿---
+---
 name: business-review
 description: Monthly business health review of revenue, pipeline, and costs. Use on the first Monday monthly.
 license: MIT

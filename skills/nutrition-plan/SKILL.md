@@ -1,4 +1,4 @@
-﻿---
+---
 name: nutrition-plan
 description: Plan balanced meals around budget and restrictions. Use when meal planning for health goals. General information, not medical advice.
 license: MIT

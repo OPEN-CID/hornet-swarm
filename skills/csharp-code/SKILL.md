@@ -1,4 +1,4 @@
-﻿---
+---
 name: csharp-code
 description: Write modern C# with records, pattern matching, and async discipline. Use for any C# or .NET code and reviews.
 license: MIT

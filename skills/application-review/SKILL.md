@@ -1,4 +1,4 @@
-﻿---
+---
 name: application-review
 description: Pre-submit review of resume and letter against the post. Use before hitting apply.
 license: MIT

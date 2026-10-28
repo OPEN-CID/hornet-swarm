@@ -1,4 +1,4 @@
-﻿---
+---
 name: language-tutor
 description: Practice a language with corrections and drills. Use for daily speaking and writing practice.
 license: MIT

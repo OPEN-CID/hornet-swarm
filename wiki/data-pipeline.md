@@ -1,4 +1,4 @@
-﻿# data-pipeline
+# data-pipeline
 
 Move, check, and present data.
 

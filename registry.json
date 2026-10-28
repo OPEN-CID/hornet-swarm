@@ -1,9 +1,9 @@
-﻿{
+{
     "$schema":  "https://json-schema.org/draft/2020-12/schema",
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  186,
+    "count":  404,
     "skills":  [
                    {
                        "name":  "adr-writer",
@@ -11,6 +11,13 @@
                        "category":  "docs-research",
                        "path":  "skills/adr-writer/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "ai-tools-guide",
+                       "description":  "Pick AI tools with privacy checks and workflow fits. Use for team adoption.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/ai-tools-guide/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "api-design",
@@ -34,10 +41,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "apology-guide",
+                       "description":  "Apologize well with specifics and amends. Use after hurting someone.",
+                       "category":  "relationships",
+                       "path":  "skills/apology-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "application-review",
                        "description":  "Pre-submit review of resume and letter against the post. Use before hitting apply.",
                        "category":  "career",
                        "path":  "skills/application-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "aquarium-start",
+                       "description":  "Cycle aquariums with stocking and water tests. Use for first tanks.",
+                       "category":  "pets",
+                       "path":  "skills/aquarium-start/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -62,6 +83,27 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "art-history",
+                       "description":  "Enjoy art history with movements and museum tactics. Use for visits.",
+                       "category":  "culture",
+                       "path":  "skills/art-history/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "aws-core",
+                       "description":  "Learn core AWS with VPC, IAM, and cost guards. Use for first accounts.",
+                       "category":  "cloud",
+                       "path":  "skills/aws-core/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "baby-proof",
+                       "description":  "Baby-proof rooms with checklists by age. Use before crawling starts.",
+                       "category":  "parenting",
+                       "path":  "skills/baby-proof/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "backend-arch",
                        "description":  "Design service boundaries, APIs, and data ownership. Use when splitting monoliths or starting services.",
                        "category":  "company-arch",
@@ -69,10 +111,45 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "backup-plan",
+                       "description":  "Back up devices with 3-2-1 and restore tests. Use for irreplaceable files.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/backup-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "baking-basics",
+                       "description":  "Bake reliable breads and cakes with weights, temps, and fixes. Use when starting baking.",
+                       "category":  "cooking",
+                       "path":  "skills/baking-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "bee-basics",
+                       "description":  "Start beekeeping with hives and mentor paths. Use with local courses.",
+                       "category":  "pets",
+                       "path":  "skills/bee-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "bike-commute",
                        "description":  "Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work.",
                        "category":  "home-life",
                        "path":  "skills/bike-commute/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "bike-repair",
+                       "description":  "Fix flats, brakes, and gears with a home kit. Use for commuter bikes.",
+                       "category":  "vehicles",
+                       "path":  "skills/bike-repair/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "bird-care",
+                       "description":  "Keep birds with diet, light, and enrichment. Use for new birds.",
+                       "category":  "pets",
+                       "path":  "skills/bird-care/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -87,6 +164,20 @@
                        "description":  "Draft structured blog posts with hooks and SEO basics. Use for content marketing.",
                        "category":  "creative-media",
                        "path":  "skills/blog-writer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "board-night",
+                       "description":  "Host board game nights with teach scripts. Use for groups.",
+                       "category":  "play",
+                       "path":  "skills/board-night/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "boundaries-guide",
+                       "description":  "Set boundaries kindly with scripts for no and limits. Use when overcommitted.",
+                       "category":  "relationships",
+                       "path":  "skills/boundaries-guide/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -111,6 +202,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "budget-travel",
+                       "description":  "Cut trip costs with swaps that keep the experience. Use when the trip must cost less.",
+                       "category":  "travel",
+                       "path":  "skills/budget-travel/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "build-review",
                        "description":  "Pre-cut review of plans for safety, measurements, and missing steps. Use before any irreversible cut.",
                        "category":  "diy-maker",
@@ -132,6 +230,62 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "buy-home",
+                       "description":  "Buy a home with affordability math and offer strategy. Use when house hunting.",
+                       "category":  "housing",
+                       "path":  "skills/buy-home/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "calendar-os",
+                       "description":  "Run your calendar with timeblocks and buffers. Use when days fragment.",
+                       "category":  "knowledge",
+                       "path":  "skills/calendar-os/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "calligraphy-start",
+                       "description":  "Letter with strokes and exemplar sheets. Use for invitations.",
+                       "category":  "craft",
+                       "path":  "skills/calligraphy-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "camp-cook",
+                       "description":  "Cook camp meals with one-pot plans and bear-safe storage. Use for overnights.",
+                       "category":  "outdoors",
+                       "path":  "skills/camp-cook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "camping-guide",
+                       "description":  "Camp comfortably with shelter, sleep, and cook systems. Use for first trips.",
+                       "category":  "outdoors",
+                       "path":  "skills/camping-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "candle-making",
+                       "description":  "Make candles safely with wax temps and wicks. Use for gifts. Safety first.",
+                       "category":  "craft",
+                       "path":  "skills/candle-making/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "carbon-cut",
+                       "description":  "Cut footprints with high-impact moves first. Use for climate action.",
+                       "category":  "eco",
+                       "path":  "skills/carbon-cut/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "car-buy",
+                       "description":  "Buy cars with total-cost math and negotiation scripts. Use before dealerships.",
+                       "category":  "vehicles",
+                       "path":  "skills/car-buy/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "career-playbook",
                        "description":  "Career-growth best practices for steady advancement. Use for yearly planning.",
                        "category":  "career",
@@ -143,6 +297,13 @@
                        "description":  "Track car service with DIY checks and schedules. Use for routine vehicle care.",
                        "category":  "diy-maker",
                        "path":  "skills/car-maintenance/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "cat-care",
+                       "description":  "Care for cats with litter, play, and vet rhythms. Use for new cats.",
+                       "category":  "pets",
+                       "path":  "skills/cat-care/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -167,6 +328,20 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "chess-improve",
+                       "description":  "Improve chess with tactics ladders and game review. Use for club players.",
+                       "category":  "play",
+                       "path":  "skills/chess-improve/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "chicken-keep",
+                       "description":  "Keep backyard hens with coops and local rules. Use for beginners.",
+                       "category":  "pets",
+                       "path":  "skills/chicken-keep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "ci-pipeline",
                        "description":  "Build fast reliable CI with lint, test, and deploy gates. Use when creating or fixing continuous integration workflows.",
                        "category":  "devops-infra",
@@ -185,6 +360,27 @@
                        "description":  "Build room-by-room cleaning routines. Use when the house needs a system.",
                        "category":  "home-life",
                        "path":  "skills/cleaning-schedule/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "climate-basics",
+                       "description":  "Grasp climate with sources and local impacts. Use for literacy.",
+                       "category":  "science-big",
+                       "path":  "skills/climate-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "climb-safety",
+                       "description":  "Learn climbing safety basics and when to hire a guide. Use before touching rock. Instruction required.",
+                       "category":  "outdoors",
+                       "path":  "skills/climb-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "cocktail-basics",
+                       "description":  "Mix classic cocktails with ratios and responsible serving. Use for home entertaining.",
+                       "category":  "cooking",
+                       "path":  "skills/cocktail-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -209,6 +405,34 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "coffee-brew",
+                       "description":  "Brew better coffee with grind, ratio, and method tuning. Use when coffee tastes off.",
+                       "category":  "cooking",
+                       "path":  "skills/coffee-brew/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "communication-basics",
+                       "description":  "Say hard things clearly with I-statements and repair. Use when talks go sideways.",
+                       "category":  "relationships",
+                       "path":  "skills/communication-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "compost-guide",
+                       "description":  "Compost food scraps with browns-greens balance. Use for gardens.",
+                       "category":  "eco",
+                       "path":  "skills/compost-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "conflict-repair",
+                       "description":  "Repair after fights with acknowledgment and change plans. Use after any argument.",
+                       "category":  "relationships",
+                       "path":  "skills/conflict-repair/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "content-review",
                        "description":  "Pre-publish review for clarity, claims, rights, and brand fit. Use before anything goes public.",
                        "category":  "creative-media",
@@ -220,6 +444,20 @@
                        "description":  "Summarize contracts into obligations, risks, and questions. Use before signing anything. Not legal advice.",
                        "category":  "legal-finance",
                        "path":  "skills/contract-reader/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "copyright-basics",
+                       "description":  "Protect creative work with registration and fair-use basics. Use for creators. General info.",
+                       "category":  "law-life",
+                       "path":  "skills/copyright-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "cost-optimize",
+                       "description":  "Cut cloud bills with rightsizing and lifecycle rules. Use for surprise invoices.",
+                       "category":  "cloud",
+                       "path":  "skills/cost-optimize/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -237,10 +475,31 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "cpr-awareness",
+                       "description":  "Understand CPR and AED basics until training. Call emergency first. Get certified.",
+                       "category":  "safety",
+                       "path":  "skills/cpr-awareness/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "creative-playbook",
                        "description":  "Publishing-cadence best practices for consistent output. Use when content is sporadic.",
                        "category":  "creative-media",
                        "path":  "skills/creative-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "critical-think",
+                       "description":  "Think clearly with fallacy spotting and steelmanning. Use for debates.",
+                       "category":  "culture",
+                       "path":  "skills/critical-think/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "crypto-basics",
+                       "description":  "Understand crypto risks and custody before touching it. Use for curiosity first. Educational.",
+                       "category":  "wealth",
+                       "path":  "skills/crypto-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -255,6 +514,13 @@
                        "description":  "Design a self-study syllabus with milestones. Use when learning a subject solo.",
                        "category":  "education",
                        "path":  "skills/curriculum-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "cycling-start",
+                       "description":  "Start cycling with fit, gears, and traffic skills. Use for new riders.",
+                       "category":  "fitness",
+                       "path":  "skills/cycling-start/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -314,11 +580,32 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "data-viz",
+                       "description":  "Chart data honestly with the right chart and labels. Use for presentations.",
+                       "category":  "knowledge",
+                       "path":  "skills/data-viz/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "dating-guide",
+                       "description":  "Date intentionally with values, safety, and early signals. Use when starting to date.",
+                       "category":  "relationships",
+                       "path":  "skills/dating-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "db-migration",
                        "description":  "Write safe reversible database migrations with backfill plans. Use when changing schema, adding indexes, or backfilling data.",
                        "category":  "software-build",
                        "path":  "skills/db-migration/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "debate-basics",
+                       "description":  "Debate with structure and rebuttal. Use for clubs.",
+                       "category":  "culture",
+                       "path":  "skills/debate-basics/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "debugging",
@@ -328,11 +615,32 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "declutter-guide",
+                       "description":  "Declutter room by room with keep rules and donation flow. Use when overwhelmed.",
+                       "category":  "housing",
+                       "path":  "skills/declutter-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "deploy-checklist",
                        "description":  "Ship safely with preflight checks, rollout steps, and rollback. Use before any production deploy or release rollout.",
                        "category":  "devops-infra",
                        "path":  "skills/deploy-checklist/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "difficult-firing",
+                       "description":  "Handle exits legally and humanely with HR. Use with HR guidance only.",
+                       "category":  "leadership",
+                       "path":  "skills/difficult-firing/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "digital-detox",
+                       "description":  "Cut compulsive scrolling with audits and replacement menus. Use when phones dominate.",
+                       "category":  "mind",
+                       "path":  "skills/digital-detox/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "diy-electrical-safety",
@@ -349,11 +657,60 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "dnd-dm",
+                       "description":  "Run D and D sessions with prep and improv tools. Use for new DMs.",
+                       "category":  "play",
+                       "path":  "skills/dnd-dm/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "dns-guide",
+                       "description":  "Manage DNS with records, TTL, and migration plans. Use for launches and moves.",
+                       "category":  "cloud",
+                       "path":  "skills/dns-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "docker-setup",
                        "description":  "Containerize apps with lean Dockerfiles and compose for local dev. Use when adding Docker or fixing image and compose issues.",
                        "category":  "devops-infra",
                        "path":  "skills/docker-setup/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "dog-train",
+                       "description":  "Train dogs with marker basics and loose-leash plans. Use for new dogs.",
+                       "category":  "pets",
+                       "path":  "skills/dog-train/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "drawing-start",
+                       "description":  "Draw with lines, shapes, and 30-day drills. Use for beginners.",
+                       "category":  "craft",
+                       "path":  "skills/drawing-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "econ-basics",
+                       "description":  "Read inflation, rates, and markets for decisions. Use for money literacy.",
+                       "category":  "science-big",
+                       "path":  "skills/econ-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "edit-proofread",
+                       "description":  "Edit drafts with passes for structure and line. Use before publishing.",
+                       "category":  "writing",
+                       "path":  "skills/edit-proofread/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "elder-care",
+                       "description":  "Organize elder care with needs list, services, and family rota. Use when a parent needs support.",
+                       "category":  "parenting",
+                       "path":  "skills/elder-care/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "eli5-explainer",
@@ -367,6 +724,13 @@
                        "description":  "Write concurrent Elixir with OTP discipline, changesets, and ExUnit proof. Use for any Elixir code or review.",
                        "category":  "languages",
                        "path":  "skills/elixir-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "email-zero",
+                       "description":  "Reach inbox zero with triage rules and templates. Use for overflowing inboxes.",
+                       "category":  "knowledge",
+                       "path":  "skills/email-zero/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -391,6 +755,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "estate-note",
+                       "description":  "Organize wills, beneficiaries, and documents. Use for adulting basics. Info only; lawyer for documents.",
+                       "category":  "wealth",
+                       "path":  "skills/estate-note/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "etl-pipeline",
                        "description":  "Design extract-transform-load jobs with idempotency and retries. Use when moving data between systems.",
                        "category":  "data-pipeline",
@@ -402,6 +773,27 @@
                        "description":  "Score AI behavior on fixed cases with rubrics and regression gates. Use when shipping or changing any model or prompt.",
                        "category":  "data-ai",
                        "path":  "skills/eval-harness/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "event-budget",
+                       "description":  "Budget events with line items and contingencies. Use for any event.",
+                       "category":  "events",
+                       "path":  "skills/event-budget/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "ev-guide",
+                       "description":  "Choose and charge EVs with range math and home setup. Use when going electric.",
+                       "category":  "vehicles",
+                       "path":  "skills/ev-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "evolution-basics",
+                       "description":  "Grasp evolution with evidence lines. Use for literacy and homework.",
+                       "category":  "science-big",
+                       "path":  "skills/evolution-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -433,10 +825,38 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "family-budget",
+                       "description":  "Run a family budget with kid costs and savings goals. Use when money is tight.",
+                       "category":  "parenting",
+                       "path":  "skills/family-budget/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "feedback-deliver",
+                       "description":  "Deliver tough feedback with specifics and next steps. Use for performance talks.",
+                       "category":  "leadership",
+                       "path":  "skills/feedback-deliver/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "feedback-translate",
                        "description":  "Decode vague interview or review feedback into concrete actions. Use after rejections or ratings.",
                        "category":  "career",
                        "path":  "skills/feedback-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "fermentation-basics",
+                       "description":  "Ferment kimchi, kraut, and pickles safely with salt ratios. Use when starting ferments.",
+                       "category":  "cooking",
+                       "path":  "skills/fermentation-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "fiction-write",
+                       "description":  "Write fiction with scenes, arcs, and revision passes. Use for novels and stories.",
+                       "category":  "writing",
+                       "path":  "skills/fiction-write/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -447,6 +867,27 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "fire-safety",
+                       "description":  "Prevent and escape fires with plans and drills. Use for homes.",
+                       "category":  "safety",
+                       "path":  "skills/fire-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "first-aid-basics",
+                       "description":  "Respond to common injuries with steps and kit. Call emergency first. Training recommended.",
+                       "category":  "safety",
+                       "path":  "skills/first-aid-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "fishing-basics",
+                       "description":  "Start fishing with knots, rigs, and local rules. Use for beginners.",
+                       "category":  "outdoors",
+                       "path":  "skills/fishing-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "fitness-plan",
                        "description":  "Build progressive workout plans around goals and limits. Use when starting or fixing a training routine.",
                        "category":  "medical-health",
@@ -454,10 +895,59 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "flight-hacks",
+                       "description":  "Find cheaper flexible flights with dates, airports, and alerts. Use when flights feel overpriced.",
+                       "category":  "travel",
+                       "path":  "skills/flight-hacks/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "flood-prep",
+                       "description":  "Prepare for floods with barriers and go-bags. Use in flood zones.",
+                       "category":  "safety",
+                       "path":  "skills/flood-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "flooring-guide",
+                       "description":  "Choose flooring by room with cost and install options. Use for replacements.",
+                       "category":  "housing",
+                       "path":  "skills/flooring-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "focus-deepwork",
+                       "description":  "Design deep-work blocks that survive interruptions. Use when focus is fragmented.",
+                       "category":  "mind",
+                       "path":  "skills/focus-deepwork/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "food-safety",
+                       "description":  "Store, thaw, and cook food safely with temps and times. Use for any home kitchen.",
+                       "category":  "cooking",
+                       "path":  "skills/food-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "freelance-contract",
+                       "description":  "Set client terms with scope, pay, and kill fees. Use before starting work. Templates plus lawyer review.",
+                       "category":  "law-life",
+                       "path":  "skills/freelance-contract/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "freelance-rate",
                        "description":  "Price freelance work from costs and market rates. Use when quoting clients.",
                        "category":  "legal-finance",
                        "path":  "skills/freelance-rate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "friendship-build",
+                       "description":  "Build adult friendships with rituals and follow-ups. Use when feeling disconnected.",
+                       "category":  "relationships",
+                       "path":  "skills/friendship-build/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -482,10 +972,38 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "game-design",
+                       "description":  "Design board or video games with loops and playtests. Use for prototypes.",
+                       "category":  "play",
+                       "path":  "skills/game-design/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "gardening-plan",
                        "description":  "Plan seasonal vegetable or flower gardens. Use when starting a garden.",
                        "category":  "diy-maker",
                        "path":  "skills/gardening-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "genealogy-start",
+                       "description":  "Trace family history with records and interviews. Use for roots research.",
+                       "category":  "culture",
+                       "path":  "skills/genealogy-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "genetics-basics",
+                       "description":  "Understand DNA tests and traits with limits. Use for test results. Info only.",
+                       "category":  "science-big",
+                       "path":  "skills/genetics-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "geology-basics",
+                       "description":  "Read rocks and landscapes on hikes. Use for outdoor curiosity.",
+                       "category":  "science-big",
+                       "path":  "skills/geology-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -510,10 +1028,59 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "go-game",
+                       "description":  "Learn Go with captures and life-and-death basics. Use for beginners.",
+                       "category":  "play",
+                       "path":  "skills/go-game/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "grandparent-guide",
+                       "description":  "Help grandparents bond with routines and boundaries. Use for new grandparents.",
+                       "category":  "parenting",
+                       "path":  "skills/grandparent-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "grant-writing",
+                       "description":  "Write grants with needs, outcomes, and budgets. Use for nonprofits.",
+                       "category":  "writing",
+                       "path":  "skills/grant-writing/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "gratitude-practice",
+                       "description":  "Build a gratitude routine that sticks beyond lists. Use for mood and perspective.",
+                       "category":  "mind",
+                       "path":  "skills/gratitude-practice/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "grilling-guide",
+                       "description":  "Grill with zones, temps, and rest times for meat and veg. Use for barbecue season.",
+                       "category":  "cooking",
+                       "path":  "skills/grilling-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "grocery-list",
                        "description":  "Turn meal plans into organized shopping lists. Use before grocery runs.",
                        "category":  "home-life",
                        "path":  "skills/grocery-list/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "guitar-start",
+                       "description":  "Play guitar with chords and practice loops. Use for beginners.",
+                       "category":  "music",
+                       "path":  "skills/guitar-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "habit-builder",
+                       "description":  "Build lasting habits with tiny starts and environment design. Use for any new habit.",
+                       "category":  "mind",
+                       "path":  "skills/habit-builder/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -524,6 +1091,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "hiking-prep",
+                       "description":  "Plan day hikes with gear, food, and turnaround times. Use before any trail.",
+                       "category":  "outdoors",
+                       "path":  "skills/hiking-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "hiring-interview",
                        "description":  "Design structured interviews with scorecards. Use when hiring.",
                        "category":  "business-ops",
@@ -531,10 +1105,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "holiday-plan",
+                       "description":  "Plan holidays with travel, meals, and gifts. Use for seasons.",
+                       "category":  "events",
+                       "path":  "skills/holiday-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "home-energy-audit",
                        "description":  "Find home energy waste and prioritize fixes. Use to cut utility bills.",
                        "category":  "diy-maker",
                        "path":  "skills/home-energy-audit/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "home-inspect",
+                       "description":  "Inspect a home like a pro with systems checklist. Use before offers.",
+                       "category":  "housing",
+                       "path":  "skills/home-inspect/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -559,6 +1147,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "homeschool-plan",
+                       "description":  "Plan a homeschool week with subjects, resources, and records. Use when starting homeschooling.",
+                       "category":  "parenting",
+                       "path":  "skills/homeschool-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "idea-validate",
                        "description":  "Stress-test startup ideas with customers and numbers. Use before building anything.",
                        "category":  "business-ops",
@@ -566,10 +1161,38 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "injury-prevent",
+                       "description":  "Reduce injury risk with warmups, load rules, and red flags. Use for any training. Info only; see a physio for pain.",
+                       "category":  "fitness",
+                       "path":  "skills/injury-prevent/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "insurance-guide",
+                       "description":  "Buy the right insurance with coverage math. Use for life, health, and home cover. Educational.",
+                       "category":  "wealth",
+                       "path":  "skills/insurance-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "interior-design",
+                       "description":  "Design rooms with layout, light, and budget mood boards. Use for refreshes.",
+                       "category":  "housing",
+                       "path":  "skills/interior-design/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "interview-prep",
                        "description":  "Run mock interviews with STAR feedback. Use before real interviews.",
                        "category":  "career",
                        "path":  "skills/interview-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "invest-start",
+                       "description":  "Start investing with index basics and account order. Use for first investments. Educational, not advice.",
+                       "category":  "wealth",
+                       "path":  "skills/invest-start/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -587,6 +1210,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "itinerary-builder",
+                       "description":  "Turn must-sees into a timed daily itinerary with buffers. Use when the destination is decided.",
+                       "category":  "travel",
+                       "path":  "skills/itinerary-builder/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "java-code",
                        "description":  "Write modern Java with records, sealed types, and java.time. Use for any Java code or review.",
                        "category":  "languages",
@@ -601,6 +1231,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "jewelry-start",
+                       "description":  "Make jewelry with wire and bead basics. Use for first pieces.",
+                       "category":  "craft",
+                       "path":  "skills/jewelry-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "job-post-parse",
                        "description":  "Parse job posts into requirements and match matrix. Use before tailoring an application.",
                        "category":  "career",
@@ -608,10 +1245,45 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "journaling-guide",
+                       "description":  "Journal with prompts that process emotions and decisions. Use for reflection.",
+                       "category":  "mind",
+                       "path":  "skills/journaling-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "k8s-basics",
+                       "description":  "Run workloads on Kubernetes with deployments and probes. Use for first clusters.",
+                       "category":  "cloud",
+                       "path":  "skills/k8s-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "kayak-start",
+                       "description":  "Paddle safely with strokes, rescues, and conditions. Use for flatwater starts.",
+                       "category":  "outdoors",
+                       "path":  "skills/kayak-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "kid-homework",
                        "description":  "Guide kids to answers with hints, never direct solutions. Use for K-12 homework help.",
                        "category":  "education",
                        "path":  "skills/kid-homework/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "knife-skills",
+                       "description":  "Learn safe cuts with grip, motion, and practice drills. Use when cooking feels slow or unsafe.",
+                       "category":  "cooking",
+                       "path":  "skills/knife-skills/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "knitting-start",
+                       "description":  "Knit scarves with cast-on and fix ladders. Use for first projects.",
+                       "category":  "craft",
+                       "path":  "skills/knitting-start/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -657,6 +1329,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "lease-review",
+                       "description":  "Review a lease for fees, exits, and deposit traps. Use before signing. General info.",
+                       "category":  "housing",
+                       "path":  "skills/lease-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "legal-doc-parse",
                        "description":  "Extract parties, dates, amounts, and obligations from legal documents into a fact sheet. Use when comparing versions or summarizing a file.",
                        "category":  "legal-finance",
@@ -678,6 +1357,20 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "linux-cli",
+                       "description":  "Learn essential Linux commands with safe practice. Use for servers and WSL.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/linux-cli/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "local-gov",
+                       "description":  "Navigate councils and permits with contact maps. Use for projects.",
+                       "category":  "civic",
+                       "path":  "skills/local-gov/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "log-triage",
                        "description":  "Triage logs and incidents to scope, cause, and next fix. Use when debugging production alerts or incident reports.",
                        "category":  "devops-infra",
@@ -692,6 +1385,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "manage-first",
+                       "description":  "Manage your first team with 1:1s and clear expectations. Use for new managers.",
+                       "category":  "leadership",
+                       "path":  "skills/manage-first/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "manual-parse",
                        "description":  "Turn appliance manuals into one-page quick-use and troubleshooting cards. Use for any new appliance.",
                        "category":  "home-life",
@@ -699,10 +1399,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "marathon-plan",
+                       "description":  "Train 16 weeks for a marathon with paces and fueling. Use with a base in place.",
+                       "category":  "fitness",
+                       "path":  "skills/marathon-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "marketing-copy",
                        "description":  "Write landing pages and ads that convert. Use for launches and campaigns.",
                        "category":  "business-ops",
                        "path":  "skills/marketing-copy/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "marriage-checkin",
+                       "description":  "Run a weekly couple check-in on money, chores, and affection. Use to stay aligned.",
+                       "category":  "relationships",
+                       "path":  "skills/marriage-checkin/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -727,6 +1441,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "meal-prep",
+                       "description":  "Prep a week of lunches in one session with containers and reheating. Use for busy weeks.",
+                       "category":  "cooking",
+                       "path":  "skills/meal-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "med-care-review",
                        "description":  "Review a home care plan for gaps, interactions, and missing follow-ups. Use monthly or after any medication change. Information only; pharmacist confirms.",
                        "category":  "medical-health",
@@ -738,6 +1459,20 @@
                        "description":  "Turn discharge papers into a home care checklist. Use after a hospital discharge.",
                        "category":  "medical-health",
                        "path":  "skills/med-discharge-helper/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "media-literacy",
+                       "description":  "Read news critically with source checks. Use daily.",
+                       "category":  "culture",
+                       "path":  "skills/media-literacy/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "meditation-guide",
+                       "description":  "Start meditating with 5-minute sessions and posture basics. Use for calm and focus.",
+                       "category":  "mind",
+                       "path":  "skills/meditation-guide/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -776,10 +1511,31 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "meeting-facilitate",
+                       "description":  "Facilitate meetings that end with decisions. Use for workshops.",
+                       "category":  "leadership",
+                       "path":  "skills/meeting-facilitate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "meeting-notes",
                        "description":  "Turn meetings into decisions, owners, and dated actions. Use for any meeting worth remembering.",
                        "category":  "productivity",
                        "path":  "skills/meeting-notes/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "memorial-plan",
+                       "description":  "Plan memorials gently with programs and logistics. Use in difficult times.",
+                       "category":  "events",
+                       "path":  "skills/memorial-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "memory-techniques",
+                       "description":  "Remember names and facts with loci and spaced recall. Use before exams or events.",
+                       "category":  "mind",
+                       "path":  "skills/memory-techniques/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -804,10 +1560,38 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "monitoring-setup",
+                       "description":  "Monitor services with golden signals and alert rules. Use before production.",
+                       "category":  "cloud",
+                       "path":  "skills/monitoring-setup/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "mortgage-basics",
+                       "description":  "Understand mortgages with types, rates, and total cost. Use before talking to lenders. Educational.",
+                       "category":  "housing",
+                       "path":  "skills/mortgage-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "motorcycle-basics",
+                       "description":  "Start motorcycling with licensing, gear, and training. Use for new riders. Training required.",
+                       "category":  "vehicles",
+                       "path":  "skills/motorcycle-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "moving-checklist",
                        "description":  "Plan a move with timeline, boxes, and address changes. Use when relocating.",
                        "category":  "home-life",
                        "path":  "skills/moving-checklist/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "museum-trip",
+                       "description":  "Plan museum trips with highlights and kids games. Use for family days.",
+                       "category":  "culture",
+                       "path":  "skills/museum-trip/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -818,10 +1602,73 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "music-theory",
+                       "description":  "Read keys and chords for playing by ear. Use for players.",
+                       "category":  "music",
+                       "path":  "skills/music-theory/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "navigation-map",
+                       "description":  "Navigate with map, compass, and phone backup. Use when trails are unmarked.",
+                       "category":  "outdoors",
+                       "path":  "skills/navigation-map/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "neighborhood-safety",
+                       "description":  "Build block safety with lighting and watch groups. Use for concerns.",
+                       "category":  "civic",
+                       "path":  "skills/neighborhood-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "networking-basics",
+                       "description":  "Understand IPs, DNS, and TLS for debugging. Use for connectivity issues.",
+                       "category":  "cloud",
+                       "path":  "skills/networking-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "networking-guide",
+                       "description":  "Network genuinely with follow-ups that help others first. Use for career events.",
+                       "category":  "relationships",
+                       "path":  "skills/networking-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "newborn-care",
+                       "description":  "Handle feeding, sleep, and soothing in the first weeks with logs. Use for newborns 0-3 months. Info only; pediatrician decides.",
+                       "category":  "parenting",
+                       "path":  "skills/newborn-care/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "newsletter-writer",
                        "description":  "Draft newsletters people open and finish. Use for weekly publishing.",
                        "category":  "creative-media",
                        "path":  "skills/newsletter-writer/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "nocode-guide",
+                       "description":  "Ship simple apps with no-code and know the limits. Use for MVPs.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/nocode-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "nonprofit-fundraise",
+                       "description":  "Raise funds with stories and donor tiers. Use for small nonprofits.",
+                       "category":  "civic",
+                       "path":  "skills/nonprofit-fundraise/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "note-system",
+                       "description":  "Build a note system you actually retrieve from. Use when notes go to die.",
+                       "category":  "knowledge",
+                       "path":  "skills/note-system/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -839,10 +1686,52 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "one-on-one",
+                       "description":  "Run 1:1s people value with agendas and career talk. Use weekly.",
+                       "category":  "leadership",
+                       "path":  "skills/one-on-one/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "ops-playbook",
                        "description":  "Operating-cadence best practices for calm teams. Use when the team feels chaotic.",
                        "category":  "business-ops",
                        "path":  "skills/ops-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "organize-neighbors",
+                       "description":  "Organize blocks with meetings and quick wins. Use for local issues.",
+                       "category":  "civic",
+                       "path":  "skills/organize-neighbors/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "origami-start",
+                       "description":  "Fold with crease patterns and paper picks. Use for gifts and calm.",
+                       "category":  "craft",
+                       "path":  "skills/origami-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "packing-list",
+                       "description":  "Build a trip-specific packing list by weather, activities, and bag size. Use before any trip.",
+                       "category":  "travel",
+                       "path":  "skills/packing-list/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "paint-guide",
+                       "description":  "Paint rooms with prep, coats, and finish picks. Use for DIY painting.",
+                       "category":  "housing",
+                       "path":  "skills/paint-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pantry-staples",
+                       "description":  "Stock a versatile pantry on a budget with a restock rhythm. Use when setting up a kitchen.",
+                       "category":  "cooking",
+                       "path":  "skills/pantry-staples/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -867,6 +1756,27 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "party-plan",
+                       "description":  "Host parties with themes, food math, and flow. Use for celebrations.",
+                       "category":  "events",
+                       "path":  "skills/party-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "password-manager",
+                       "description":  "Move all logins to a manager with 2FA recovery. Use for account security.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/password-manager/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pc-troubleshoot",
+                       "description":  "Fix slow or broken PCs with a safe checklist. Use before repair shops.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/pc-troubleshoot/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "performance-review",
                        "description":  "Write self-reviews with evidence and growth goals. Use at review season.",
                        "category":  "career",
@@ -888,10 +1798,31 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "phishing-spot",
+                       "description":  "Spot phishing with header and urgency checks. Use for suspicious mail.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/phishing-spot/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "photo-brief",
                        "description":  "Write shot lists and edit briefs for shoots. Use before photo sessions.",
                        "category":  "creative-media",
                        "path":  "skills/photo-brief/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "photo-edit",
+                       "description":  "Edit photos with light, color, and export presets. Use for consistent looks.",
+                       "category":  "craft",
+                       "path":  "skills/photo-edit/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "photography-basics",
+                       "description":  "Shoot manual with exposure triangle and composition. Use for new cameras.",
+                       "category":  "craft",
+                       "path":  "skills/photography-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -902,10 +1833,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "phrasebook-plan",
+                       "description":  "Learn 30 survival phrases with pronunciation for a trip. Use two weeks before travel.",
+                       "category":  "travel",
+                       "path":  "skills/phrasebook-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "physics-tutor",
                        "description":  "Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework.",
                        "category":  "education",
                        "path":  "skills/physics-tutor/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "piano-start",
+                       "description":  "Play piano with scales and hand drills. Use for beginners.",
+                       "category":  "music",
+                       "path":  "skills/piano-start/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -920,6 +1865,13 @@
                        "description":  "Outline investor pitch decks slide by slide. Use before fundraising.",
                        "category":  "business-ops",
                        "path":  "skills/pitch-deck/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pkm-tools",
+                       "description":  "Pick note apps with a migration and backup plan. Use when switching tools.",
+                       "category":  "knowledge",
+                       "path":  "skills/pkm-tools/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -944,6 +1896,41 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "poetry-start",
+                       "description":  "Write poems with images and line breaks. Use for beginners.",
+                       "category":  "writing",
+                       "path":  "skills/poetry-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "poker-basics",
+                       "description":  "Learn poker fundamentals with bankroll rules. Play responsibly. Use for home games.",
+                       "category":  "play",
+                       "path":  "skills/poker-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "portfolio-review",
+                       "description":  "Review investments yearly for fees, drift, and risk. Use annually. Educational.",
+                       "category":  "wealth",
+                       "path":  "skills/portfolio-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "posture-ergonomics",
+                       "description":  "Fix desk setup with chair, screen, and microbreaks. Use for neck and back pain.",
+                       "category":  "fitness",
+                       "path":  "skills/posture-ergonomics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "pottery-start",
+                       "description":  "Start pottery with hand-building and kiln basics. Use for classes.",
+                       "category":  "craft",
+                       "path":  "skills/pottery-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "powershell-code",
                        "description":  "Write pipeline-friendly PowerShell with approved verbs, Pester tests, and analyzer-clean code. Use for any PowerShell code or review.",
                        "category":  "languages",
@@ -958,10 +1945,38 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "presentation-design",
+                       "description":  "Design slides that support, not replace, you. Use for decks.",
+                       "category":  "leadership",
+                       "path":  "skills/presentation-design/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "print-3d",
                        "description":  "Prepare models for 3D printing with slicer settings. Use when printing parts.",
                        "category":  "diy-maker",
                        "path":  "skills/print-3d/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "privacy-harden",
+                       "description":  "Harden accounts and devices with checklists. Use yearly.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/privacy-harden/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "privacy-rights",
+                       "description":  "Exercise data rights with deletion and opt-out scripts. Use for privacy cleanup. General info.",
+                       "category":  "law-life",
+                       "path":  "skills/privacy-rights/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "procrastination-fix",
+                       "description":  "Beat delay with 10-minute starts and friction removal. Use when avoiding tasks.",
+                       "category":  "mind",
+                       "path":  "skills/procrastination-fix/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -979,6 +1994,27 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "psych-basics",
+                       "description":  "Use psychology basics for habits and bias. Use for self-insight. Not therapy.",
+                       "category":  "science-big",
+                       "path":  "skills/psych-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "public-speaking",
+                       "description":  "Speak confidently with structure and rehearsal. Use before talks.",
+                       "category":  "leadership",
+                       "path":  "skills/public-speaking/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "puzzles-train",
+                       "description":  "Train logic with puzzle ladders. Use for fun and interviews.",
+                       "category":  "play",
+                       "path":  "skills/puzzles-train/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "python-code",
                        "description":  "Write idiomatic Python with type hints, ruff-clean style, and pytest proof. Use for any Python code, review, or packaging.",
                        "category":  "languages",
@@ -991,6 +2027,13 @@
                        "category":  "quality-testing",
                        "path":  "skills/qa-checklist/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "quake-prep",
+                       "description":  "Prepare for earthquakes with securing and drills. Use in seismic zones.",
+                       "category":  "safety",
+                       "path":  "skills/quake-prep/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "query-translate",
@@ -1021,11 +2064,53 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "recording-basics",
+                       "description":  "Record at home with mic placement and mixing basics. Use for demos.",
+                       "category":  "music",
+                       "path":  "skills/recording-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "recycling-guide",
+                       "description":  "Recycle right with local rules and sorting. Use for households.",
+                       "category":  "eco",
+                       "path":  "skills/recycling-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "refactoring",
                        "description":  "Restructure code safely in small behavior-preserving steps. Use when cleaning duplication, renaming, or extracting modules.",
                        "category":  "software-build",
                        "path":  "skills/refactoring/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "regex-guide",
+                       "description":  "Write regexes that work with testing habits. Use for text wrangling.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/regex-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "remote-manage",
+                       "description":  "Run remote teams with async defaults and trust. Use for distributed teams.",
+                       "category":  "leadership",
+                       "path":  "skills/remote-manage/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "renovation-budget",
+                       "description":  "Budget renovations with contingencies and contractor bids. Use before remodeling.",
+                       "category":  "housing",
+                       "path":  "skills/renovation-budget/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "rent-guide",
+                       "description":  "Rent smart with budgets, viewing checklists, and lease terms. Use before signing.",
+                       "category":  "housing",
+                       "path":  "skills/rent-guide/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "repo-onboarder",
@@ -1035,10 +2120,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "report-writing",
+                       "description":  "Write reports that get read with BLUF and appendices. Use for work docs.",
+                       "category":  "knowledge",
+                       "path":  "skills/report-writing/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "repo-structure-guide",
                        "description":  "Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository.",
                        "category":  "software-build",
                        "path":  "skills/repo-structure-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "research-brief",
+                       "description":  "Research any topic into a sourced one-pager. Use for decisions.",
+                       "category":  "knowledge",
+                       "path":  "skills/research-brief/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1063,6 +2162,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "retirement-roadmap",
+                       "description":  "Plan retirement with target numbers and catch-ups. Use at any age. Educational.",
+                       "category":  "wealth",
+                       "path":  "skills/retirement-roadmap/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "review-playbook",
                        "description":  "Best practices for running fast, kind, effective code reviews. Use when setting team review culture.",
                        "category":  "quality-testing",
@@ -1070,10 +2176,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "road-trip",
+                       "description":  "Plan a road route with stops, fuel, and overnight breaks. Use for driving holidays.",
+                       "category":  "travel",
+                       "path":  "skills/road-trip/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "ruby-code",
                        "description":  "Write idiomatic Ruby with RuboCop-clean style and RSpec proof. Use for Ruby or Rails code and reviews.",
                        "category":  "languages",
                        "path":  "skills/ruby-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "running-start",
+                       "description":  "Start running injury-free with walk-run plans and shoe basics. Use for couch-to-5K.",
+                       "category":  "fitness",
+                       "path":  "skills/running-start/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1112,10 +2232,45 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "scam-awareness",
+                       "description":  "Stop scams with verification and freeze steps. Use for suspicious contacts.",
+                       "category":  "safety",
+                       "path":  "skills/scam-awareness/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "scam-shield",
+                       "description":  "Stop scams with verification habits and response scripts. Use for suspicious messages.",
+                       "category":  "law-life",
+                       "path":  "skills/scam-shield/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "sci-term-translate",
                        "description":  "Translate dense paper jargon and units into plain explanations. Use when a paper is unreadable.",
                        "category":  "science-lab",
                        "path":  "skills/sci-term-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "scrapbook-start",
+                       "description":  "Preserve memories with layouts and archival safety. Use for albums.",
+                       "category":  "craft",
+                       "path":  "skills/scrapbook-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "screen-time",
+                       "description":  "Set screen rules that stick with alternatives and timers. Use when screens dominate.",
+                       "category":  "parenting",
+                       "path":  "skills/screen-time/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "screenwrite-basics",
+                       "description":  "Format screenplays with beats and dialogue. Use for shorts and features.",
+                       "category":  "writing",
+                       "path":  "skills/screenwrite-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1133,10 +2288,59 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "selfdefense-basics",
+                       "description":  "Stay safer with awareness and de-escalation. Training recommended. Use for confidence.",
+                       "category":  "safety",
+                       "path":  "skills/selfdefense-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "self-publish",
+                       "description":  "Publish books with editing, cover, and launch. Use for indie authors.",
+                       "category":  "writing",
+                       "path":  "skills/self-publish/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sewing-basics",
+                       "description":  "Sew with machine setup and first alterations. Use for repairs and gifts.",
+                       "category":  "craft",
+                       "path":  "skills/sewing-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sheet-read",
+                       "description":  "Read sheet music with rhythm and note drills. Use for learners.",
+                       "category":  "music",
+                       "path":  "skills/sheet-read/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "shell-code",
                        "description":  "Write safe Bash with strict mode, quoting discipline, and shellcheck-clean code. Use for any shell scripting or review.",
                        "category":  "languages",
                        "path":  "skills/shell-code/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sibling-fights",
+                       "description":  "Defuse sibling fights with scripts and repair routines. Use for daily battles.",
+                       "category":  "parenting",
+                       "path":  "skills/sibling-fights/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "side-hustle",
+                       "description":  "Start a side income with skills inventory and first clients. Use for extra income.",
+                       "category":  "wealth",
+                       "path":  "skills/side-hustle/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "singing-basics",
+                       "description":  "Sing in tune with breath and warmups. Use for new singers.",
+                       "category":  "music",
+                       "path":  "skills/singing-basics/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1154,6 +2358,34 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "small-claims",
+                       "description":  "File small claims with evidence packets and procedure. Use for minor disputes. General info.",
+                       "category":  "law-life",
+                       "path":  "skills/small-claims/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "smart-home",
+                       "description":  "Plan smart homes with protocols and privacy. Use before buying gadgets.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/smart-home/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "smartphone-guide",
+                       "description":  "Master your phone with settings, storage, and safety. Use for new devices.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/smartphone-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "solo-travel",
+                       "description":  "Plan a first solo trip with safety nets and social options. Use when traveling alone.",
+                       "category":  "travel",
+                       "path":  "skills/solo-travel/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "sop-writer",
                        "description":  "Turn tribal knowledge into step-by-step SOPs. Use when processes live in heads.",
                        "category":  "business-ops",
@@ -1165,6 +2397,20 @@
                        "description":  "Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.",
                        "category":  "home-life",
                        "path":  "skills/sourdough-starter/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "speed-reading",
+                       "description":  "Read faster with retention checks and skimming strategy. Use for heavy reading loads.",
+                       "category":  "mind",
+                       "path":  "skills/speed-reading/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "spice-guide",
+                       "description":  "Match spices to cuisines with blends and storage. Use when food tastes flat.",
+                       "category":  "cooking",
+                       "path":  "skills/spice-guide/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1182,6 +2428,13 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "ssl-guide",
+                       "description":  "Ship HTTPS with certs and renewal automation. Use for any site.",
+                       "category":  "cloud",
+                       "path":  "skills/ssl-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "stakeholder-translate",
                        "description":  "Explain architecture decisions to non-engineers in business terms. Use before steering or board reviews.",
                        "category":  "company-arch",
@@ -1189,10 +2442,52 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "stargazing-start",
+                       "description":  "See planets and constellations with apps and dark spots. Use for clear nights.",
+                       "category":  "science-big",
+                       "path":  "skills/stargazing-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "stats-helper",
                        "description":  "Pick the right statistical test and interpret output. Use when analyzing results.",
                        "category":  "science-lab",
                        "path":  "skills/stats-helper/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "stoicism-basics",
+                       "description":  "Apply stoic tools to control and perspective. Use for stress and setbacks.",
+                       "category":  "mind",
+                       "path":  "skills/stoicism-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "storm-prep",
+                       "description":  "Ride out storms with supplies and safe rooms. Use for hurricane season.",
+                       "category":  "safety",
+                       "path":  "skills/storm-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "storytelling-talk",
+                       "description":  "Tell stories on stage with arc and delivery. Use for talks.",
+                       "category":  "writing",
+                       "path":  "skills/storytelling-talk/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "strength-basics",
+                       "description":  "Learn the big lifts with form cues and progression. Use when starting barbells.",
+                       "category":  "fitness",
+                       "path":  "skills/strength-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "stretching-guide",
+                       "description":  "Build a daily mobility routine for desk bodies. Use for stiffness.",
+                       "category":  "fitness",
+                       "path":  "skills/stretching-guide/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1217,6 +2512,20 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "survival-basics",
+                       "description":  "Learn shelter, water, fire, and signal priorities. Use for backcountry prep. Training recommended.",
+                       "category":  "outdoors",
+                       "path":  "skills/survival-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "sustainable-shop",
+                       "description":  "Shop sustainably with labels and longevity. Use for purchases.",
+                       "category":  "eco",
+                       "path":  "skills/sustainable-shop/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "swift-code",
                        "description":  "Write modern Swift with optionals discipline, value types, and actor-safe concurrency. Use for any Swift code or review.",
                        "category":  "languages",
@@ -1224,10 +2533,24 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "swimming-basics",
+                       "description":  "Learn freestyle basics with drills and pool etiquette. Use for adult beginners.",
+                       "category":  "fitness",
+                       "path":  "skills/swimming-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "task-planner",
                        "description":  "Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project.",
                        "category":  "productivity",
                        "path":  "skills/task-planner/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "tax-habits",
+                       "description":  "Build year-round tax habits with folders and quarterly checks. Use for freelancers. General info.",
+                       "category":  "wealth",
+                       "path":  "skills/tax-habits/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1245,11 +2568,46 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "tea-guide",
+                       "description":  "Brew teas by type with temps and steep times. Use when starting loose-leaf tea.",
+                       "category":  "cooking",
+                       "path":  "skills/tea-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "tech-research",
                        "description":  "Compare options with evidence and give a justified recommendation. Use when choosing libraries, tools, or approaches.",
                        "category":  "docs-research",
                        "path":  "skills/tech-research/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "tech-writing",
+                       "description":  "Write docs developers use with tasks and examples. Use for product docs.",
+                       "category":  "writing",
+                       "path":  "skills/tech-writing/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "teen-talk",
+                       "description":  "Talk with teens about school, screens, and friends without lectures. Use when conversations shut down.",
+                       "category":  "parenting",
+                       "path":  "skills/teen-talk/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "tenant-rights",
+                       "description":  "Know renter rights with deposit, repair, and eviction basics. Use when landlord issues arise. General info.",
+                       "category":  "law-life",
+                       "path":  "skills/tenant-rights/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "terraform-start",
+                       "description":  "Manage infra as code with state safety. Use for AWS or cloud setup.",
+                       "category":  "cloud",
+                       "path":  "skills/terraform-start/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "test-generator",
@@ -1259,10 +2617,38 @@
                        "version":  "0.1.0"
                    },
                    {
+                       "name":  "toast-speech",
+                       "description":  "Give toasts and speeches with stories. Use for weddings and events.",
+                       "category":  "events",
+                       "path":  "skills/toast-speech/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "toddler-guide",
+                       "description":  "Manage tantrums and routines for ages 1-3 with calm scripts. Use for toddler chaos.",
+                       "category":  "parenting",
+                       "path":  "skills/toddler-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "tone-translate",
                        "description":  "Adapt any text to a target reading level or audience. Use when experts write for beginners and vice versa.",
                        "category":  "creative-media",
                        "path":  "skills/tone-translate/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "travel-safety",
+                       "description":  "Build a safety plan with document backup, scams, health, and contacts. Use before unfamiliar destinations.",
+                       "category":  "travel",
+                       "path":  "skills/travel-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "trip-plan",
+                       "description":  "Plan a complete trip from budget to bookings with day-by-day flow. Use when starting any vacation or work trip.",
+                       "category":  "travel",
+                       "path":  "skills/trip-plan/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1273,11 +2659,32 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "typing-speed",
+                       "description":  "Type faster with home-row drills and posture. Use for daily computer work.",
+                       "category":  "knowledge",
+                       "path":  "skills/typing-speed/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "used-car-review",
+                       "description":  "Inspect used cars with a 100-point check before paying. Use before any used purchase.",
+                       "category":  "vehicles",
+                       "path":  "skills/used-car-review/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "version-bump",
                        "description":  "Propose correct semver bumps from change types and breaking notes. Use when deciding the next version number before release.",
                        "category":  "git-release",
                        "path":  "skills/version-bump/SKILL.md",
                        "version":  "0.1.0"
+                   },
+                   {
+                       "name":  "videogame-optimize",
+                       "description":  "Tune PC and settings for smooth play. Use for stuttering games.",
+                       "category":  "play",
+                       "path":  "skills/videogame-optimize/SKILL.md",
+                       "version":  "1.0.0"
                    },
                    {
                        "name":  "video-script",
@@ -1287,10 +2694,115 @@
                        "version":  "1.0.0"
                    },
                    {
+                       "name":  "visa-prep",
+                       "description":  "Organize visa and entry requirements with documents and timelines. Use for international travel.",
+                       "category":  "travel",
+                       "path":  "skills/visa-prep/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "volunteer-start",
+                       "description":  "Start volunteering with causes and commitments. Use for giving time.",
+                       "category":  "civic",
+                       "path":  "skills/volunteer-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "vote-guide",
+                       "description":  "Vote informed with ballot research routines. Use every election.",
+                       "category":  "civic",
+                       "path":  "skills/vote-guide/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "warranty-claim",
+                       "description":  "Claim warranties with proof packets and escalation ladders. Use for broken products.",
+                       "category":  "law-life",
+                       "path":  "skills/warranty-claim/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "waste-less",
+                       "description":  "Cut household waste with swaps and audits. Use for lighter bins.",
+                       "category":  "eco",
+                       "path":  "skills/waste-less/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "watercolor-start",
+                       "description":  "Paint watercolors with washes and paper picks. Use for first paintings.",
+                       "category":  "craft",
+                       "path":  "skills/watercolor-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "water-save",
+                       "description":  "Save water with fixture and habit fixes. Use for high bills.",
+                       "category":  "eco",
+                       "path":  "skills/water-save/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "weather-basics",
+                       "description":  "Read forecasts and radar for plans. Use for outdoor decisions.",
+                       "category":  "science-big",
+                       "path":  "skills/weather-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "weather-read",
+                       "description":  "Read sky and forecasts for go or no-go calls. Use before outdoor days.",
+                       "category":  "outdoors",
+                       "path":  "skills/weather-read/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
                        "name":  "web-scrape-plan",
                        "description":  "Plan ethical scraping with rate limits and legal checks. Use when gathering public web data.",
                        "category":  "data-pipeline",
                        "path":  "skills/web-scrape-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "wedding-plan",
+                       "description":  "Plan weddings with budgets, vendors, and timelines. Use for engagements.",
+                       "category":  "events",
+                       "path":  "skills/wedding-plan/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "wifi-fix",
+                       "description":  "Fix home wifi with placement, channels, and mesh calls. Use for dead zones.",
+                       "category":  "everyday-tech",
+                       "path":  "skills/wifi-fix/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "wildlife-safety",
+                       "description":  "Handle bears, snakes, and insects with prevention and response. Use in wild country.",
+                       "category":  "outdoors",
+                       "path":  "skills/wildlife-safety/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "will-basics",
+                       "description":  "Understand wills, guardians, and executors before seeing a lawyer. Use for planning. Info only.",
+                       "category":  "law-life",
+                       "path":  "skills/will-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "wine-basics",
+                       "description":  "Choose and serve wine with pairings and storage. Use for dinners and gifts.",
+                       "category":  "cooking",
+                       "path":  "skills/wine-basics/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "winter-driving",
+                       "description":  "Drive winter roads with tires, kits, and skid recovery. Use before snow season.",
+                       "category":  "vehicles",
+                       "path":  "skills/winter-driving/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {
@@ -1305,6 +2817,20 @@
                        "description":  "Workshop safety and tool-care best practices. Use when setting up or leveling up a shop.",
                        "category":  "diy-maker",
                        "path":  "skills/workshop-playbook/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "yoga-start",
+                       "description":  "Begin yoga with poses, breath, and class etiquette. Use for flexibility and calm.",
+                       "category":  "fitness",
+                       "path":  "skills/yoga-start/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "youth-coach",
+                       "description":  "Coach kids sports with fun-first practices and safety. Use for volunteer coaches.",
+                       "category":  "fitness",
+                       "path":  "skills/youth-coach/SKILL.md",
                        "version":  "1.0.0"
                    }
                ]

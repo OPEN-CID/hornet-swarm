@@ -1,4 +1,4 @@
-﻿---
+---
 name: arch-review
 description: Fitness review of an architecture against scale, security, and cost. Use quarterly or before big bets.
 license: MIT

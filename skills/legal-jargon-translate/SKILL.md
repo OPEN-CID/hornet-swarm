@@ -1,4 +1,4 @@
-﻿---
+---
 name: legal-jargon-translate
 description: Translate legal clauses into plain obligations. Use when a contract paragraph makes no sense. Not legal advice.
 license: MIT

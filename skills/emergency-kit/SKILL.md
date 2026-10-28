@@ -1,4 +1,4 @@
-﻿---
+---
 name: emergency-kit
 description: Assemble home emergency supplies and plans. Use for disaster preparedness.
 license: MIT

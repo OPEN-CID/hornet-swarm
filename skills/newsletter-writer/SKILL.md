@@ -1,4 +1,4 @@
-﻿---
+---
 name: newsletter-writer
 description: Draft newsletters people open and finish. Use for weekly publishing.
 license: MIT

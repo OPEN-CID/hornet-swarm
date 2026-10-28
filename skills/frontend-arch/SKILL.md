@@ -1,4 +1,4 @@
-﻿---
+---
 name: frontend-arch
 description: Design frontend architecture with routing, state, and boundaries. Use when scaffolding or scaling a UI codebase.
 license: MIT

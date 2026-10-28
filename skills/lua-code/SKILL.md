@@ -1,4 +1,4 @@
-﻿---
+---
 name: lua-code
 description: Write clean Lua with locals discipline, 1-index awareness, and busted proof. Use for Lua, Neovim plugins, or game scripting.
 license: MIT

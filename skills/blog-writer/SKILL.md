@@ -1,4 +1,4 @@
-﻿---
+---
 name: blog-writer
 description: Draft structured blog posts with hooks and SEO basics. Use for content marketing.
 license: MIT

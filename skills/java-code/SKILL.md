@@ -1,4 +1,4 @@
-﻿---
+---
 name: java-code
 description: Write modern Java with records, sealed types, and java.time. Use for any Java code or review.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: scala-code
 description: Write immutable Scala 3 with ADTs, for-comprehensions, and munit proof. Use for any Scala code or review.
 license: MIT

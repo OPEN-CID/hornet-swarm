@@ -1,4 +1,4 @@
-﻿---
+---
 name: c-code
 description: Write defensive C with -Werror warnings, explicit sizes, and checked errors. Use for any C code or review.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: build-review
 description: Pre-cut review of plans for safety, measurements, and missing steps. Use before any irreversible cut.
 license: MIT

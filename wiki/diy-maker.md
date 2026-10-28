@@ -1,4 +1,4 @@
-﻿# diy-maker
+# diy-maker
 
 Build and fix things safely with real plans.
 

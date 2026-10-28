@@ -1,4 +1,4 @@
-﻿---
+---
 name: python-code
 description: Write idiomatic Python with type hints, ruff-clean style, and pytest proof. Use for any Python code, review, or packaging.
 license: MIT

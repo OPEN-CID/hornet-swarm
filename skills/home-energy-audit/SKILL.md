@@ -1,4 +1,4 @@
-﻿---
+---
 name: home-energy-audit
 description: Find home energy waste and prioritize fixes. Use to cut utility bills.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: data-arch
 description: Design warehouse layouts and data contracts. Use when unifying analytics data.
 license: MIT

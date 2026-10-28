@@ -1,4 +1,4 @@
-﻿---
+---
 name: etl-pipeline
 description: Design extract-transform-load jobs with idempotency and retries. Use when moving data between systems.
 license: MIT

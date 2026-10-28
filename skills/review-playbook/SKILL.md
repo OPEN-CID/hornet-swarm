@@ -1,4 +1,4 @@
-﻿---
+---
 name: review-playbook
 description: Best practices for running fast, kind, effective code reviews. Use when setting team review culture.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: r-code
 description: Write vectorized R with renv reproducibility and testthat proof. Use for any R analysis or package code.
 license: MIT

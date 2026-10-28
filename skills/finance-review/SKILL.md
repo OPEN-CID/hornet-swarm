@@ -1,4 +1,4 @@
-﻿---
+---
 name: finance-review
 description: Run a monthly money review of spending versus budget. Use on the first of each month.
 license: MIT

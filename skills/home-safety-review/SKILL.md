@@ -1,4 +1,4 @@
-﻿---
+---
 name: home-safety-review
 description: Room-by-room home safety audit with priority fixes. Use yearly or with new kids or pets.
 license: MIT

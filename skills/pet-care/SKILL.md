@@ -1,4 +1,4 @@
-﻿---
+---
 name: pet-care
 description: Build feeding, exercise, and vet schedules. Use for new or busy pet owners.
 license: MIT

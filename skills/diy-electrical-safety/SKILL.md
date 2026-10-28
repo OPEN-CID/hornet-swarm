@@ -1,4 +1,4 @@
-﻿---
+---
 name: diy-electrical-safety
 description: Assess home electrical tasks and know when to call an electrician. Use before any wiring work. Safety first.
 license: MIT

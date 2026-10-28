@@ -1,4 +1,4 @@
-﻿---
+---
 name: sourdough-starter
 description: Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.
 license: MIT

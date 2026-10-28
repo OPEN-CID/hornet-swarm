@@ -1,4 +1,4 @@
-﻿---
+---
 name: onboarding-plan
 description: Build 30-60-90 onboarding for new hires. Use for every new role.
 license: MIT

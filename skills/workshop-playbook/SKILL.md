@@ -1,4 +1,4 @@
-﻿---
+---
 name: workshop-playbook
 description: Workshop safety and tool-care best practices. Use when setting up or leveling up a shop.
 license: MIT

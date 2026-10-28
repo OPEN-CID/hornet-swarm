@@ -1,4 +1,4 @@
-﻿---
+---
 name: exam-prep
 description: Build an exam study plan with spaced practice tests. Use before any exam.
 license: MIT

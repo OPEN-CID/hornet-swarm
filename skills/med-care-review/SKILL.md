@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-care-review
 description: Review a home care plan for gaps, interactions, and missing follow-ups. Use monthly or after any medication change. Information only; pharmacist confirms.
 license: MIT

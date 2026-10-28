@@ -1,4 +1,4 @@
-﻿---
+---
 name: code-explain
 description: Translate code into plain-language explanations with flow maps. Use when onboarding or reviewing unfamiliar code.
 license: MIT

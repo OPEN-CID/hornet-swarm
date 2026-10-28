@@ -1,4 +1,4 @@
-﻿---
+---
 name: pitch-deck
 description: Outline investor pitch decks slide by slide. Use before fundraising.
 license: MIT

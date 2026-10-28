@@ -1,4 +1,4 @@
-﻿# business-ops
+# business-ops
 
 Validate, sell, hire, and operate.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: pipeline-review
 description: Review a data pipeline for correctness, cost, and failure modes. Use before productionizing.
 license: MIT

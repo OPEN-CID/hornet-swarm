@@ -1,4 +1,4 @@
-﻿---
+---
 name: learn-playbook
 description: Learning-science best practices for efficient study. Use when study feels inefficient.
 license: MIT

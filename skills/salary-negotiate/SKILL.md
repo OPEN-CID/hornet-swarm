@@ -1,4 +1,4 @@
-﻿---
+---
 name: salary-negotiate
 description: Plan negotiation scripts with ranges and walk-aways. Use with an offer in hand.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: query-translate
 description: Turn business questions into query plans and SQL sketches. Use when stakeholders ask for numbers.
 license: MIT

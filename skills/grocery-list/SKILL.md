@@ -1,4 +1,4 @@
-﻿---
+---
 name: grocery-list
 description: Turn meal plans into organized shopping lists. Use before grocery runs.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: resume-writer
 description: Tailor resumes to job posts with measurable impact. Use when applying for jobs.
 license: MIT

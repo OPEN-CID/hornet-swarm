@@ -1,4 +1,4 @@
-﻿# productivity
+# productivity
 
 Plan work and run better meetings.
 

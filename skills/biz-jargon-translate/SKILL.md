@@ -1,4 +1,4 @@
-﻿---
+---
 name: biz-jargon-translate
 description: Translate investor, legal, and finance jargon for founders. Use when term sheets or metrics confuse.
 license: MIT

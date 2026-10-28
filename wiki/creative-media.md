@@ -1,4 +1,4 @@
-﻿# creative-media
+# creative-media
 
 Write, film, record, and publish.
 

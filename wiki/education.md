@@ -1,4 +1,4 @@
-﻿# education
+# education
 
 Learn anything with tutoring and study systems.
 

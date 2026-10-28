@@ -14,11 +14,12 @@ param(
 
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 $csvPath = Join-Path $RepoRoot $Csv
 $outPath = Join-Path $RepoRoot $Out
 if (-not (Test-Path -LiteralPath $csvPath)) { throw "CSV not found: $csvPath" }
 
-$rows = Import-Csv -LiteralPath $csvPath
+$rows = Import-Csv -LiteralPath $csvPath -Encoding UTF8
 $skills = @()
 foreach ($r in $rows) {
   $nm = $r.name.Trim().ToLower()
@@ -37,7 +38,7 @@ if ($skills.Count -eq 0) { throw "no valid rows in $Csv" }
 
 $existing = @()
 if (Test-Path -LiteralPath $outPath) {
-  $cur = Get-Content -LiteralPath $outPath -Raw | ConvertFrom-Json
+  $cur = [System.IO.File]::ReadAllText($outPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json
   $existing = @($cur.skills)
 }
 $merged = @($existing) + @($skills)
@@ -47,7 +48,7 @@ $doc = [ordered]@{
   version = "1.0.0"
   skills = $merged
 }
-$doc | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $outPath -Encoding UTF8
+[System.IO.File]::WriteAllText($outPath, ($doc | ConvertTo-Json -Depth 5), $UTF8NoBom)
 Write-Output "imported $($skills.Count) rows into $Out"
 & (Join-Path $RepoRoot "scripts/generate-skills.ps1")
 & (Join-Path $RepoRoot "scripts/rebuild-registry.ps1")

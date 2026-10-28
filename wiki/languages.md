@@ -1,4 +1,4 @@
-﻿# languages
+# languages
 
 Idiomatic code in 20 languages: toolchain, style, idioms, arch patterns, pitfalls.
 

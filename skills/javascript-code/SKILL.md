@@ -1,4 +1,4 @@
-﻿---
+---
 name: javascript-code
 description: Write modern JavaScript (ESM, async await) with eslint-clean style. Use for Node or browser JS code and reviews.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: tone-translate
 description: Adapt any text to a target reading level or audience. Use when experts write for beginners and vice versa.
 license: MIT

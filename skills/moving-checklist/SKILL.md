@@ -1,4 +1,4 @@
-﻿---
+---
 name: moving-checklist
 description: Plan a move with timeline, boxes, and address changes. Use when relocating.
 license: MIT

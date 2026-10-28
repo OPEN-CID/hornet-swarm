@@ -1,4 +1,4 @@
-﻿---
+---
 name: money-playbook
 description: Personal-finance best practices for long-term habits. Use when building money systems. General information, not professional advice.
 license: MIT

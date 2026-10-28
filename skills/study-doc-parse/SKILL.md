@@ -1,4 +1,4 @@
-﻿---
+---
 name: study-doc-parse
 description: Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: idea-validate
 description: Stress-test startup ideas with customers and numbers. Use before building anything.
 license: MIT

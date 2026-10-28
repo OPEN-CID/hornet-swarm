@@ -1,4 +1,4 @@
-﻿# docs-research
+# docs-research
 
 Understand systems and explain them well.
 

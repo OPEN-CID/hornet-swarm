@@ -1,4 +1,4 @@
-﻿---
+---
 name: arch-doc-parse
 description: Parse existing architecture docs into a current-state map. Use when inheriting a system.
 license: MIT

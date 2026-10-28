@@ -1,4 +1,4 @@
-﻿---
+---
 name: spreadsheet-model
 description: Build auditable spreadsheet models with checks. Use for financial or ops models.
 license: MIT

@@ -9,6 +9,9 @@
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
 $CatalogDir = Join-Path $RepoRoot "catalog"
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
+function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
+function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 
 $Template = @'
 __FM__
@@ -94,7 +97,7 @@ Notes: <pattern used, follow-ups if any>
 $entries = @()
 $LangDir = Join-Path $CatalogDir "languages"
 foreach ($f in Get-ChildItem -Path $LangDir -Filter *.json) {
-  $s = Get-Content -LiteralPath $f.FullName -Raw | ConvertFrom-Json
+  $s = Read-UTF8 $f.FullName | ConvertFrom-Json
   $entries += $s
 }
 
@@ -130,7 +133,7 @@ foreach ($s in $entries) {
   $body = $body.Replace('__TESTING__', $s.testing)
   $body = $body.Replace('__SAMPLE_TAG__', $s.sample.tag)
   $body = $body.Replace('__SAMPLE_CODE__', $s.sample.code)
-  Set-Content -LiteralPath $file -Value $body -Encoding UTF8
+  Write-UTF8 $file $body
   $made++
 }
 Write-Output "language skills generated: $made"

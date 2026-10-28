@@ -1,4 +1,4 @@
-﻿# git-release
+# git-release
 
 Clean history, reviewable PRs, safe releases.
 

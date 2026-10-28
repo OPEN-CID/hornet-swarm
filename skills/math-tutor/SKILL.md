@@ -1,4 +1,4 @@
-﻿---
+---
 name: math-tutor
 description: Teach math step by step with practice problems. Use when stuck on algebra through calculus.
 license: MIT

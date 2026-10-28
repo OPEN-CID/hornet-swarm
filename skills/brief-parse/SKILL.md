@@ -1,4 +1,4 @@
-﻿---
+---
 name: brief-parse
 description: Turn client briefs into scope and production checklists. Use when starting creative work.
 license: MIT

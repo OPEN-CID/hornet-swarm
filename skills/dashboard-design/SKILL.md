@@ -1,4 +1,4 @@
-﻿---
+---
 name: dashboard-design
 description: Design dashboards that answer decisions. Use for BI and reporting work.
 license: MIT

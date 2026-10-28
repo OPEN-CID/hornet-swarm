@@ -1,4 +1,4 @@
-﻿---
+---
 name: api-spec-parse
 description: Parse OpenAPI specs and docs into client code and test lists. Use when integrating a third-party API.
 license: MIT

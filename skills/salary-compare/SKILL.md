@@ -1,4 +1,4 @@
-﻿---
+---
 name: salary-compare
 description: Compare job offers on total compensation. Use when evaluating competing offers.
 license: MIT

@@ -1,4 +1,4 @@
-﻿# quality-testing
+# quality-testing
 
 Prove it works: tests, reviews, QA, performance, security.
 

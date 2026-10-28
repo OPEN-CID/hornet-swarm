@@ -1,4 +1,4 @@
-﻿---
+---
 name: web-scrape-plan
 description: Plan ethical scraping with rate limits and legal checks. Use when gathering public web data.
 license: MIT

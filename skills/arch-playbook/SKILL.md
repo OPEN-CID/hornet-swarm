@@ -1,4 +1,4 @@
-﻿---
+---
 name: arch-playbook
 description: Architecture best practices for evolvable systems. Use when setting engineering standards.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: car-maintenance
 description: Track car service with DIY checks and schedules. Use for routine vehicle care.
 license: MIT

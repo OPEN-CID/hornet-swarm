@@ -1,4 +1,4 @@
-﻿---
+---
 name: manual-parse
 description: Turn appliance manuals into one-page quick-use and troubleshooting cards. Use for any new appliance.
 license: MIT

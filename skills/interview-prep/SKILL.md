@@ -1,4 +1,4 @@
-﻿---
+---
 name: interview-prep
 description: Run mock interviews with STAR feedback. Use before real interviews.
 license: MIT

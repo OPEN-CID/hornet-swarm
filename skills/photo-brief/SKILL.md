@@ -1,4 +1,4 @@
-﻿---
+---
 name: photo-brief
 description: Write shot lists and edit briefs for shoots. Use before photo sessions.
 license: MIT

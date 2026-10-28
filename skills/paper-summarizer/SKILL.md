@@ -1,4 +1,4 @@
-﻿---
+---
 name: paper-summarizer
 description: Distill papers into findings, methods, and limits. Use for literature review.
 license: MIT

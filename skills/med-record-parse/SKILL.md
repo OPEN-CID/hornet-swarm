@@ -1,4 +1,4 @@
-﻿---
+---
 name: med-record-parse
 description: Extract medications, doses, and appointments from medical documents into a structured list. Use when organizing prescriptions or visit papers. Never alters doses.
 license: MIT

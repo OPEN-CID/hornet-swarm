@@ -1,4 +1,4 @@
-﻿---
+---
 name: cleaning-schedule
 description: Build room-by-room cleaning routines. Use when the house needs a system.
 license: MIT

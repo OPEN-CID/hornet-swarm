@@ -1,4 +1,4 @@
-﻿---
+---
 name: powershell-code
 description: Write pipeline-friendly PowerShell with approved verbs, Pester tests, and analyzer-clean code. Use for any PowerShell code or review.
 license: MIT

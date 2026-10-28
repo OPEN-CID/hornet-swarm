@@ -1,4 +1,4 @@
-﻿---
+---
 name: invoice-maker
 description: Create client-ready invoices with tax and payment terms. Use when billing freelance work.
 license: MIT

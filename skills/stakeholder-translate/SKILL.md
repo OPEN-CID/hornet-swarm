@@ -1,4 +1,4 @@
-﻿---
+---
 name: stakeholder-translate
 description: Explain architecture decisions to non-engineers in business terms. Use before steering or board reviews.
 license: MIT

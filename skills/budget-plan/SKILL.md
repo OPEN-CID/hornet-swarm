@@ -1,4 +1,4 @@
-﻿---
+---
 name: budget-plan
 description: Build a monthly budget from income and spending. Use when money feels chaotic.
 license: MIT

@@ -1,4 +1,4 @@
-﻿---
+---
 name: meal-plan
 description: Plan a week of dinners around budget and diet. Use for weekly cooking.
 license: MIT
