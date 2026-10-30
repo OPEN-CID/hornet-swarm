@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Python
+  triggers: writing or reviewing Python code, setting up Python packaging, tests, or lint
 ---
 
 ## What I do

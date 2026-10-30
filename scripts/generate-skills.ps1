@@ -163,7 +163,8 @@ foreach ($s in $entries) {
   foreach ($w in $KindWorkflow[$kind]) { $i++; $steps += "$i. $w" }
   $safety = $SafetyNote[$s.category]
   if ($null -eq $safety) { $safety = "" } else { $safety = $safety + "`n`n" }
-  $fm = "---`nname: $($s.name)`ndescription: $($s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n---"
+  $trigLine = (($s.triggers | ForEach-Object { "$_" }) -join ", ")
+  $fm = "---`nname: $($s.name)`ndescription: $($s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  triggers: $trigLine`n---"
   $body = $Template.Replace('__FM__', $fm)
   $body = $body.Replace('__OUTS__', (($s.outcomes | ForEach-Object { "- $_" }) -join "`n"))
   $body = $body.Replace('__SAFETY__', $safety)

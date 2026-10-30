@@ -11,12 +11,16 @@ TOOL=""
 TARGET=""
 SKILLS=""
 GLOBAL=0
+ROUTER=0
+ROUTER_PATH=""
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --tool) TOOL="$2"; shift 2;;
     --target) TARGET="$2"; shift 2;;
     --skills) SKILLS="$2"; shift 2;;
     --global) GLOBAL=1; shift;;
+    --router) ROUTER=1; shift;;
+    --router-path) ROUTER_PATH="$2"; ROUTER=1; shift 2;;
     *) echo "unknown arg $1"; exit 1;;
   esac
 done
@@ -56,6 +60,26 @@ if [[ -z "$SKILLS" ]]; then
 else
   IFS=',' read -ra ARR <<< "$SKILLS"
   for s in "${ARR[@]}"; do install_one "$s"; done
+fi
+if [[ "$ROUTER" == 1 ]]; then
+  if [[ -z "$ROUTER_PATH" ]]; then ROUTER_PATH="$(dirname "$TARGET")/SKILLS.md"; fi
+  { echo "# Installed skills router - hornet-swarm"; echo "";
+    echo "> Paste into any agent context (AGENTS.md, CLAUDE.md, GEMINI.md, chat). Full text in each SKILL.md. Regenerate: re-run installer with --router."; echo ""; } > "$ROUTER_PATH"
+  for_each_skill() {
+    local s="$1" f="$TARGET/$s/SKILL.md"
+    [[ -f "$f" ]] || return 0
+    local nm ds
+    nm="$(grep -m1 '^name: ' "$f" | sed 's/^name: //')"
+    ds="$(grep -m1 '^description: ' "$f" | sed 's/^description: //')"
+    echo "- **${nm:-$s}**: ${ds} -> \`$f\`" >> "$ROUTER_PATH"
+  }
+  if [[ -z "$SKILLS" ]]; then
+    for d in "$REPO_ROOT"/skills/*/; do for_each_skill "$(basename "$d")"; done
+  else
+    IFS=',' read -ra ARR <<< "$SKILLS"
+    for s in "${ARR[@]}"; do for_each_skill "$s"; done
+  fi
+  echo "router written: $ROUTER_PATH"
 fi
 if [[ "$TOOL" == "gemini" ]]; then
   echo "NOTE: Gemini CLI has no native SKILL.md discovery. See docs/USAGE.md (Gemini section)."

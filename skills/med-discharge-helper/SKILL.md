@@ -7,6 +7,7 @@ metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
+  triggers: after a hospital discharge, understanding discharge papers
 ---
 
 ## What I do

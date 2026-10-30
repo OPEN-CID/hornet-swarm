@@ -7,6 +7,7 @@ metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
+  triggers: starting client work
 ---
 
 ## What I do

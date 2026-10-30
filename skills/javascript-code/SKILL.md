@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: JavaScript
+  triggers: writing or reviewing JavaScript code, setting up Node builds, lint, or tests
 ---
 
 ## What I do

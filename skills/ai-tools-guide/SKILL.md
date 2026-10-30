@@ -7,6 +7,7 @@ metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
+  triggers: team AI adoption
 ---
 
 ## What I do

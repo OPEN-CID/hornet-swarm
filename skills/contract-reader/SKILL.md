@@ -7,6 +7,7 @@ metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
+  triggers: before signing a contract, reviewing terms of service
 ---
 
 ## What I do

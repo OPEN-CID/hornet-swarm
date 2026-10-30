@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: TypeScript
+  triggers: writing or reviewing TypeScript code, setting up TypeScript builds, lint, or tests
 ---
 
 ## What I do

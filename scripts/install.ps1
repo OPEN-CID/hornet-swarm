@@ -12,11 +12,14 @@ param(
   [string]$Tool = "",
   [string]$Target = "",
   [string]$Scope = "project",
-  [string[]]$Skills = @()
+  [string[]]$Skills = @(),
+  [switch]$Router,
+  [string]$RouterPath = ""
 )
 
 $ErrorActionPreference = "Stop"
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+$UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 
 $ToolTargets = @{
   claude    = ".claude/skills"
@@ -61,6 +64,28 @@ foreach ($s in $Skills) {
   if (-not (Test-Path -LiteralPath (Join-Path $src "SKILL.md"))) { Write-Warning "skip ${s}: no SKILL.md"; continue }
   Copy-Item -Recurse -Force -LiteralPath $src -Destination (Join-Path $Target $s)
   Write-Output "installed $s -> $Target/$s"
+}
+if ($RouterPath -ne "" -or $Router) {
+  $routerFile = if ($RouterPath -ne "") { $RouterPath } else { Join-Path (Split-Path -Parent $Target) "SKILLS.md" }
+  $rlines = @("# Installed skills router - hornet-swarm", "", "> Paste into any agent context (AGENTS.md, CLAUDE.md, GEMINI.md, chat). Full text in each SKILL.md. Regenerate: re-run installer with -Router.", "")
+  foreach ($s in $Skills) {
+    $f = Join-Path $Target "$s/SKILL.md"
+    if (Test-Path -LiteralPath $f) {
+      $raw = [System.IO.File]::ReadAllText($f, [System.Text.Encoding]::UTF8)
+      $mn = [regex]::Match($raw, '(?s)^---\s*\r?\n(.*?)\r?\n---')
+      $nm = $s; $ds = ""
+      if ($mn.Success) {
+        $fm2 = $mn.Groups[1].Value
+        $a = [regex]::Match($fm2, '^\s*name:\s*(.+?)\s*$', 'Multiline')
+        $b = [regex]::Match($fm2, '^\s*description:\s*(.+?)\s*$', 'Multiline')
+        if ($a.Success) { $nm = $a.Groups[1].Value.Trim() }
+        if ($b.Success) { $ds = $b.Groups[1].Value.Trim() }
+      }
+      $rlines += "- **${nm}**: ${ds} -> ``${f}``"
+    }
+  }
+  [System.IO.File]::WriteAllText($routerFile, (($rlines -join "`n") + "`n"), $UTF8NoBom)
+  Write-Output "router written: $routerFile"
 }
 if ($Tool -eq "gemini") {
   Write-Output "NOTE: Gemini CLI has no native SKILL.md discovery. See docs/USAGE.md (Gemini section): point GEMINI.md at the installed skill or paste SKILL.md content on demand."

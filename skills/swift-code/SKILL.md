@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Swift
+  triggers: writing or reviewing Swift code, setting up SPM packages or XCTest
 ---
 
 ## What I do

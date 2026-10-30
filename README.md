@@ -14,7 +14,9 @@ powershell scripts/install.ps1 -Tool cursor
 ```
 
 Full per-tool workflows (install, verify, global, teams, Gemini manual path):
-[`docs/USAGE.md`](docs/USAGE.md).
+[`docs/USAGE.md`](docs/USAGE.md) · visibility design: [`docs/DISCOVERY.md`](docs/DISCOVERY.md) ·
+trigger-first index for any agent: [`SKILLS.md`](SKILLS.md) ·
+MCP server for any MCP-capable tool: [`mcp-server/`](mcp-server/).
 
 ## Wiki (browsable index)
 

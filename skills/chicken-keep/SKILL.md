@@ -7,6 +7,7 @@ metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
+  triggers: backyard hens
 ---
 
 ## What I do

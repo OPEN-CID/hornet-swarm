@@ -7,6 +7,7 @@ metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
+  triggers: helping kids with homework
 ---
 
 ## What I do

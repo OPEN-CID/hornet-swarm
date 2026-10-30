@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Go
+  triggers: writing or reviewing Go code, setting up Go modules, vet, or tests
 ---
 
 ## What I do

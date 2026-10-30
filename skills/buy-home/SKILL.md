@@ -7,6 +7,7 @@ metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
+  triggers: house hunting
 ---
 
 ## What I do

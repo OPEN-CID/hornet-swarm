@@ -7,6 +7,7 @@ metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
+  triggers: choosing insurance
 ---
 
 ## What I do

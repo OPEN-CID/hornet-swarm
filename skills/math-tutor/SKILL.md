@@ -7,6 +7,7 @@ metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
+  triggers: stuck on math homework, preparing for a math test
 ---
 
 ## What I do

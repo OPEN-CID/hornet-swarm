@@ -7,6 +7,7 @@ metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
+  triggers: starting a research project
 ---
 
 ## What I do

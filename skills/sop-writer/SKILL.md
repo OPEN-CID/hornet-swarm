@@ -7,6 +7,7 @@ metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
+  triggers: documenting a repeated process
 ---
 
 ## What I do

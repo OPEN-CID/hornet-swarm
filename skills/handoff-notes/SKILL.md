@@ -7,6 +7,7 @@ metadata:
   category: productivity
   version: 1.0.0
   author: hornet-swarm
+  triggers: on-call rotations, shift changes
 ---
 
 ## What I do

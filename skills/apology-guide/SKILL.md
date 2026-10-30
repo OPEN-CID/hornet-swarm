@@ -7,6 +7,7 @@ metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
+  triggers: after hurting someone
 ---
 
 ## What I do

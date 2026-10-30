@@ -7,6 +7,7 @@ metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
+  triggers: product docs
 ---
 
 ## What I do

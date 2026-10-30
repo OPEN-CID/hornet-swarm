@@ -7,6 +7,7 @@ metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
+  triggers: assembling flat-pack furniture
 ---
 
 ## What I do

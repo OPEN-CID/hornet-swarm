@@ -7,6 +7,7 @@ metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
+  triggers: testing a hypothesis, planning an experiment
 ---
 
 ## What I do

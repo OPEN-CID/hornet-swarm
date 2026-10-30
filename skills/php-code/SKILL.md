@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: PHP
+  triggers: writing or reviewing PHP code, setting up Composer, phpstan, or Pest
 ---
 
 ## What I do

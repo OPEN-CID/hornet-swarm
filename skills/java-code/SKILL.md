@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Java
+  triggers: writing or reviewing Java code, setting up Maven or Gradle builds and tests
 ---
 
 ## What I do

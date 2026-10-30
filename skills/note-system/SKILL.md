@@ -7,6 +7,7 @@ metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
+  triggers: notes going nowhere
 ---
 
 ## What I do

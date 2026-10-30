@@ -7,6 +7,7 @@ metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
+  triggers: fact-checking a draft
 ---
 
 ## What I do

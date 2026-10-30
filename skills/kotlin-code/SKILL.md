@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Kotlin
+  triggers: writing or reviewing Kotlin code, setting up Gradle builds, detekt, or tests
 ---
 
 ## What I do

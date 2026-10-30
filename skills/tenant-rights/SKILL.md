@@ -7,6 +7,7 @@ metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
+  triggers: landlord issues
 ---
 
 ## What I do

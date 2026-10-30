@@ -7,6 +7,7 @@ metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
+  triggers: planning a move
 ---
 
 ## What I do

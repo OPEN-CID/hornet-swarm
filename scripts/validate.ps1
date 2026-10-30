@@ -25,6 +25,8 @@ function Test-Skill($dir) {
   $fName = $mName.Groups[1].Value.Trim()
   $fDesc = $mDesc.Groups[1].Value.Trim()
   if ($fName -cnotmatch '^[a-z0-9]+(-[a-z0-9]+)*$') { Write-Host "FAIL ${name}: bad name '$fName'"; return 1 }
+  if ($fName -match '--') { Write-Host "FAIL ${name}: consecutive hyphens"; return 1 }
+  if ($fName.StartsWith('-') -or $fName.EndsWith('-')) { Write-Host "FAIL ${name}: edge hyphen"; return 1 }
   if ($fName.Length -gt 64) { Write-Host "FAIL ${name}: name >64 chars"; return 1 }
   if ($fName -ne $name -and $name -ne "skill-template") { Write-Host "FAIL ${name}: folder != frontmatter name ($fName)"; return 1 }
   if ($fDesc.Length -lt 1 -or $fDesc.Length -gt 1024) { Write-Host "FAIL ${name}: description length $($fDesc.Length)"; return 1 }
