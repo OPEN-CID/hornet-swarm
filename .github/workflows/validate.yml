@@ -26,3 +26,28 @@ jobs:
             Write-Output "::error::registry.json, wiki/, or catalog/ is stale. Run rebuild-registry.ps1 and generate-wiki.ps1 and commit the result."
             exit 1
           }
+
+  install-smoke:
+    # Proves the consumption path works: install skills the way users do.
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install two skills (PowerShell preset)
+        if: runner.os == 'Windows'
+        shell: powershell
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install.ps1 -Tool universal -Target smoketest/skills -Skills meal-plan,code-review
+          if (-not (Test-Path -LiteralPath "smoketest/skills/meal-plan/SKILL.md")) { exit 1 }
+          if (-not (Test-Path -LiteralPath "smoketest/skills/code-review/SKILL.md")) { exit 1 }
+
+      - name: Install two skills (bash preset)
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          bash scripts/install.sh --tool universal --target smoketest/skills --skills meal-plan,code-review
+          test -f smoketest/skills/meal-plan/SKILL.md
+          test -f smoketest/skills/code-review/SKILL.md

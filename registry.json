@@ -3,7 +3,7 @@
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  404,
+    "count":  405,
     "skills":  [
                    {
                        "name":  "adr-writer",
@@ -1081,6 +1081,13 @@
                        "description":  "Build lasting habits with tiny starts and environment design. Use for any new habit.",
                        "category":  "mind",
                        "path":  "skills/habit-builder/SKILL.md",
+                       "version":  "1.0.0"
+                   },
+                   {
+                       "name":  "handoff-notes",
+                       "description":  "Write shift handoffs with status, risks, and next actions. Use for on-call rotations and shift changes.",
+                       "category":  "productivity",
+                       "path":  "skills/handoff-notes/SKILL.md",
                        "version":  "1.0.0"
                    },
                    {

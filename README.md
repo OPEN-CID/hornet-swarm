@@ -1,6 +1,6 @@
-﻿# Hornet Swarm - Universal Agent Skills
+# Hornet Swarm - Universal Agent Skills
 
-404 lightweight, universal (`SKILL.md`) skills covering every domain where
+405 lightweight, universal (`SKILL.md`) skills covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
 Claude Code, Cursor, Copilot, Gemini, Windsurf.
@@ -8,15 +8,13 @@ Claude Code, Cursor, Copilot, Gemini, Windsurf.
 ## 30-second use
 
 ```powershell
-# browse the wiki: wiki/README.md (46 category pages)
-# use one skill: copy it into a dir your agent scans
-Copy-Item -Recurse skills/meal-plan .agents/skills/
-# also supported: .claude/skills/ , .opencode/skills/
-
-# or install all 404
-powershell scripts/install.ps1 -Target .agents/skills
-bash scripts/install.sh --target .agents/skills
+# pick your tool: claude | opencode | cursor | copilot | codex | gemini
+powershell scripts/install.ps1 -Tool cursor
+# or one skill: powershell scripts/install.ps1 -Tool copilot -Skills first-aid-basics
 ```
+
+Full per-tool workflows (install, verify, global, teams, Gemini manual path):
+[`docs/USAGE.md`](docs/USAGE.md).
 
 ## Wiki (browsable index)
 
@@ -74,4 +72,5 @@ Docs: [`docs/PLAN.md`](docs/PLAN.md) (vision) |
 [`docs/WORLD-TAXONOMY.md`](docs/WORLD-TAXONOMY.md) (all domains) |
 [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md) (the 5 kinds) |
 [`CONTRIBUTING.md`](CONTRIBUTING.md) (contribution rules).
-Machine index: [`registry.json`](registry.json) (404 entries).
+Machine index: [`registry.json`](registry.json) (405 entries).
+
