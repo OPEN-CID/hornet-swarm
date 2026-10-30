@@ -4,6 +4,7 @@ Plan work and run better meetings.
 
 | Skill | Use it when |
 |---|---|
+| `handoff-notes` | Write shift handoffs with status, risks, and next actions. Use for on-call rotations and shift changes. |
 | `issue-breakdown` | Split big issues into small shippable slices with acceptance criteria. Use when an issue is too big to start. |
 | `meeting-notes` | Turn meetings into decisions, owners, and dated actions. Use for any meeting worth remembering. |
 | `task-planner` | Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project. |

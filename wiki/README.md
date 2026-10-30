@@ -8,7 +8,7 @@ Universal agent skills: one folder per skill, every domain covered.
 - Use a skill: copy skills/<name> into .agents/skills/ (or .claude/skills/, .opencode/skills/).
 - Add a skill: 6 lines of JSON in catalog/ plus scripts/generate-skills.ps1 (see docs/SKILL-FACTORY.md).
 
-## Domains (46) - 404 skills
+## Domains (46) - 405 skills
 
 - [business-ops](business-ops.md) (14) - Validate, sell, hire, and operate.
 - [career](career.md) (10) - Apply, interview, negotiate, grow.
@@ -45,7 +45,7 @@ Universal agent skills: one folder per skill, every domain covered.
 - [parenting](parenting.md) (10) - Newborns to teens plus elder care. Info only - consult professionals.
 - [pets](pets.md) (6) - Dogs, cats, tanks, birds, hens, and bees.
 - [play](play.md) (8) - Chess, poker, game nights, and game design.
-- [productivity](productivity.md) (3) - Plan work and run better meetings.
+- [productivity](productivity.md) (4) - Plan work and run better meetings.
 - [quality-testing](quality-testing.md) (7) - Prove it works: tests, reviews, QA, performance, security.
 - [relationships](relationships.md) (8) - Communicate, repair, befriend, and network.
 - [safety](safety.md) (8) - First aid, fire, storms, and scams. Call emergency first.
