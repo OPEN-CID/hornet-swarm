@@ -7,6 +7,7 @@ metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
+  triggers: desk stiffness
 ---
 
 ## What I do

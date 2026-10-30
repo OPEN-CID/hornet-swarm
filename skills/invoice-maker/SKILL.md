@@ -7,6 +7,7 @@ metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
+  triggers: billing freelance or contract work
 ---
 
 ## What I do

@@ -7,6 +7,7 @@ metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
+  triggers: driving holidays
 ---
 
 ## What I do

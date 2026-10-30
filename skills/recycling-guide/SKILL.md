@@ -7,6 +7,7 @@ metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
+  triggers: household recycling
 ---
 
 ## What I do

@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Rust
+  triggers: writing or reviewing Rust code, setting up Cargo workspaces, clippy, or tests
 ---
 
 ## What I do

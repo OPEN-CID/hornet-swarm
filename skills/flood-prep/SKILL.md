@@ -7,6 +7,7 @@ metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
+  triggers: flood zones
 ---
 
 ## What I do

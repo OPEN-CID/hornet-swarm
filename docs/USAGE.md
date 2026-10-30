@@ -82,6 +82,35 @@ extensions — but no skill-directory scanning. Two working options:
 2. **Paste**: open `skills/<name>/SKILL.md`, paste it into chat with your task.
 Both give you the workflow; you just invoke it explicitly.
 
+## Universal visibility: router file + MCP (works for any tool)
+
+**Router file.** [`SKILLS.md`](../SKILLS.md) lists all 405 skills as one
+trigger-first line each (~38KB). Paste it (or one category section) into any
+agent context — `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `.cursor/rules`, system
+prompt, or chat. Generate a router for exactly what you installed:
+
+```powershell
+powershell scripts/install.ps1 -Tool cursor -Skills meal-plan,code-review -Router
+# writes .agents/SKILLS.md; or -RouterPath path/to/SKILLS.md for an exact path
+```
+
+Why this exists: tools cap preloaded skill metadata (Codex: ~8k chars, and it
+shortens descriptions first). With 405 skills, no tool can preload everything —
+install your working set, keep the router for the rest. Details:
+[`docs/DISCOVERY.md`](DISCOVERY.md).
+
+**MCP server.** Zero-dependency stdio server over any skills directory
+(`list_skills`, `search_skills`, `get_skill`):
+
+```bash
+python mcp-server/server.py --dir skills          # this repo
+python mcp-server/server.py --dir .agents/skills  # an installed subset
+```
+
+Connect strings for Claude Code, Cursor, Copilot, Codex, Gemini CLI:
+[`mcp-server/README.md`](../mcp-server/README.md). Any MCP-capable tool —
+including ones released next year — gets all skills with zero changes here.
+
 ## Team distribution (3 patterns)
 
 1. **Commit it** (recommended): copy needed skills into your repo

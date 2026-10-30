@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Dart
+  triggers: writing or reviewing Dart or Flutter code, setting up Flutter analyze or widget tests
 ---
 
 ## What I do

@@ -7,6 +7,7 @@ metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
+  triggers: conscious purchases
 ---
 
 ## What I do

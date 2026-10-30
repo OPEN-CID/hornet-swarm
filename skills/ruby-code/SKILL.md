@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Ruby
+  triggers: writing or reviewing Ruby code, setting up RuboCop or RSpec
 ---
 
 ## What I do

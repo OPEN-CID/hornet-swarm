@@ -7,6 +7,7 @@ metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
+  triggers: leaky tap or clogged drain
 ---
 
 ## What I do

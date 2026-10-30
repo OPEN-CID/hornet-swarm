@@ -7,6 +7,7 @@ metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
+  triggers: home games
 ---
 
 ## What I do

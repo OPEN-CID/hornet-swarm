@@ -7,6 +7,7 @@ metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
+  triggers: preparing for a doctor appointment, organizing symptoms to report
 ---
 
 ## What I do

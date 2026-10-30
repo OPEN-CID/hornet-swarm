@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: C
+  triggers: writing or reviewing C code, setting up C builds with warnings and tests
 ---
 
 ## What I do

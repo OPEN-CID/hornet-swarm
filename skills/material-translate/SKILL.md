@@ -7,6 +7,7 @@ metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
+  triggers: shopping at the hardware store
 ---
 
 ## What I do

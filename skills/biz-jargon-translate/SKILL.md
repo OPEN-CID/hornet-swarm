@@ -7,6 +7,7 @@ metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
+  triggers: confusing term sheets or metrics
 ---
 
 ## What I do

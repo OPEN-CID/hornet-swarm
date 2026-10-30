@@ -7,6 +7,7 @@ metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
+  triggers: answering support tickets
 ---
 
 ## What I do

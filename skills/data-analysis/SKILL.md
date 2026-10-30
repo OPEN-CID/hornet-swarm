@@ -7,6 +7,7 @@ metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
+  triggers: analyzing a small dataset
 ---
 
 ## What I do

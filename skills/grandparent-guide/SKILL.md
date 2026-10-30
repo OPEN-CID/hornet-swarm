@@ -7,6 +7,7 @@ metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
+  triggers: new grandparents
 ---
 
 ## What I do

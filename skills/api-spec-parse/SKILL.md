@@ -7,6 +7,7 @@ metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
+  triggers: integrating a third-party API
 ---
 
 ## What I do

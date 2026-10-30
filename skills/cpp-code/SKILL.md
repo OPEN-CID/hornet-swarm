@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: C++
+  triggers: writing or reviewing C++ code, setting up CMake builds, clang-tidy, or sanitizers
 ---
 
 ## What I do

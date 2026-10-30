@@ -7,6 +7,7 @@ metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
+  triggers: physics homework, exam revision
 ---
 
 ## What I do

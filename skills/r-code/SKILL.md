@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: R
+  triggers: writing or reviewing R code, setting up renv or testthat
 ---
 
 ## What I do

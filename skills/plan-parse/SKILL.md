@@ -7,6 +7,7 @@ metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
+  triggers: before buying build materials
 ---
 
 ## What I do

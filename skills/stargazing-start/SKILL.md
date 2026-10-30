@@ -7,6 +7,7 @@ metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
+  triggers: clear nights
 ---
 
 ## What I do

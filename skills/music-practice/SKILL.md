@@ -7,6 +7,7 @@ metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
+  triggers: learning an instrument
 ---
 
 ## What I do

@@ -7,6 +7,7 @@ metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
+  triggers: permits and projects
 ---
 
 ## What I do

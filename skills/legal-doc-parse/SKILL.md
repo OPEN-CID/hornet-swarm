@@ -7,6 +7,7 @@ metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
+  triggers: summarizing a legal file, comparing contract versions
 ---
 
 ## What I do

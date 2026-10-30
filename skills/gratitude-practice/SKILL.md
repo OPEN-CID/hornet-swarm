@@ -7,6 +7,7 @@ metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
+  triggers: low mood or perspective
 ---
 
 ## What I do

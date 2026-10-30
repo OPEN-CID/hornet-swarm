@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Elixir
+  triggers: writing or reviewing Elixir code, setting up Mix, Credo, or ExUnit
 ---
 
 ## What I do

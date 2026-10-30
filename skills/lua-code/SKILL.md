@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Lua
+  triggers: writing or reviewing Lua code, setting up stylua, luacheck, or busted
 ---
 
 ## What I do

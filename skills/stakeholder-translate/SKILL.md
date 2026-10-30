@@ -7,6 +7,7 @@ metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
+  triggers: presenting architecture to leadership
 ---
 
 ## What I do

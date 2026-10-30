@@ -7,6 +7,7 @@ metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
+  triggers: staying aligned as a couple
 ---
 
 ## What I do

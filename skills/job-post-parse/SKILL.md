@@ -7,6 +7,7 @@ metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
+  triggers: before tailoring an application
 ---
 
 ## What I do

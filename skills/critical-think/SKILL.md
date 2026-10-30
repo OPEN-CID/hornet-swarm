@@ -7,6 +7,7 @@ metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
+  triggers: debates and decisions
 ---
 
 ## What I do

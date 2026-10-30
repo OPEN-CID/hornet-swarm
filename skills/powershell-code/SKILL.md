@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: PowerShell
+  triggers: writing or reviewing PowerShell code, setting up PSScriptAnalyzer or Pester
 ---
 
 ## What I do

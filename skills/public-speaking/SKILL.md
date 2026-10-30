@@ -7,6 +7,7 @@ metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
+  triggers: upcoming talks
 ---
 
 ## What I do

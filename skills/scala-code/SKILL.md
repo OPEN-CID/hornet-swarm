@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Scala
+  triggers: writing or reviewing Scala code, setting up sbt builds, scalafmt, or tests
 ---
 
 ## What I do

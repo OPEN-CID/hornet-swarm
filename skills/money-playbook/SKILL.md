@@ -7,6 +7,7 @@ metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
+  triggers: building long-term money habits
 ---
 
 ## What I do

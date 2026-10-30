@@ -7,6 +7,7 @@ metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
+  triggers: invitation lettering
 ---
 
 ## What I do

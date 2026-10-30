@@ -7,6 +7,7 @@ metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
+  triggers: yearly safety check, new kids or pets
 ---
 
 ## What I do

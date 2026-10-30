@@ -7,6 +7,7 @@ metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
+  triggers: dinners and gifts
 ---
 
 ## What I do

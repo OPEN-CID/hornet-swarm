@@ -7,6 +7,7 @@ metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
+  triggers: data quality incidents
 ---
 
 ## What I do

@@ -7,6 +7,8 @@ metadata:
   category: languages
   version: 1.0.0
   author: hornet-swarm
+  language: Bash
+  triggers: writing or reviewing shell scripts, setting up shellcheck or bats
 ---
 
 ## What I do

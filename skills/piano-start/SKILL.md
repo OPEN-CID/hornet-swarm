@@ -7,6 +7,7 @@ metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
+  triggers: piano beginners
 ---
 
 ## What I do

@@ -7,6 +7,7 @@ metadata:
   category: quality-testing
   version: 1.0.0
   author: hornet-swarm
+  triggers: setting team review culture
 ---
 
 ## What I do

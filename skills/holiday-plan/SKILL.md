@@ -7,6 +7,7 @@ metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
+  triggers: holiday seasons
 ---
 
 ## What I do

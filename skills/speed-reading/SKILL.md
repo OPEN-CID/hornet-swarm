@@ -7,6 +7,7 @@ metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
+  triggers: heavy reading loads
 ---
 
 ## What I do

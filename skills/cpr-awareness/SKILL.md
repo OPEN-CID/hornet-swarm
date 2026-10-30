@@ -7,6 +7,7 @@ metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
+  triggers: cardiac emergencies
 ---
 
 ## What I do

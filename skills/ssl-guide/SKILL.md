@@ -7,6 +7,7 @@ metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
+  triggers: any website
 ---
 
 ## What I do

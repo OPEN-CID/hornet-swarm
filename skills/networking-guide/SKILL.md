@@ -7,6 +7,7 @@ metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
+  triggers: career events
 ---
 
 ## What I do

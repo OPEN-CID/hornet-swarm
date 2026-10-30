@@ -7,6 +7,7 @@ metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
+  triggers: before climbing
 ---
 
 ## What I do
