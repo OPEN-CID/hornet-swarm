@@ -4,10 +4,14 @@ CLI, passwords, backups, wifi, and AI tools.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `ai-image-guide` | skill | Generate images with AI using prompts and iteration. Use for art and assets. |
 | `ai-tools-guide` | skill | Pick AI tools with privacy checks and workflow fits. Use for team adoption. |
 | `backup-plan` | skill | Back up devices with 3-2-1 and restore tests. Use for irreplaceable files. |
+| `canva-design` | skill | Design posts and decks in Canva with brand kits. Use for non-designers. |
 | `linux-cli` | skill | Learn essential Linux commands with safe practice. Use for servers and WSL. |
 | `nocode-guide` | skill | Ship simple apps with no-code and know the limits. Use for MVPs. |
+| `obs-studio` | skill | Record and stream with OBS scenes and clean audio. Use for tutorials and streams. |
+| `passkeys-guide` | skill | Move logins to passkeys with fallback codes. Use for account security. |
 | `password-manager` | skill | Move all logins to a manager with 2FA recovery. Use for account security. |
 | `pc-troubleshoot` | skill | Fix slow or broken PCs with a safe checklist. Use before repair shops. |
 | `phishing-spot` | skill | Spot phishing with header and urgency checks. Use for suspicious mail. |

@@ -4,6 +4,7 @@ Habits, focus, memory, calm, and clear thinking.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `burnout-recover` | skill | Recover from burnout with rest, boundaries, and load repair. Use when depleted. Pros for clinical issues. |
 | `digital-detox` | skill | Cut compulsive scrolling with audits and replacement menus. Use when phones dominate. |
 | `focus-deepwork` | skill | Design deep-work blocks that survive interruptions. Use when focus is fragmented. |
 | `gratitude-practice` | skill | Build a gratitude routine that sticks beyond lists. Use for mood and perspective. |

@@ -4,6 +4,7 @@ Notes, inbox, calendar, reports, and research.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `anki-flashcards` | skill | Retain with Anki flashcards and spaced reviews. Use for exams and languages. |
 | `calendar-os` | skill | Run your calendar with timeblocks and buffers. Use when days fragment. |
 | `data-viz` | skill | Chart data honestly with the right chart and labels. Use for presentations. |
 | `email-zero` | skill | Reach inbox zero with triage rules and templates. Use for overflowing inboxes. |

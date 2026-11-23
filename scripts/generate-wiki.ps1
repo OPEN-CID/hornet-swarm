@@ -61,6 +61,7 @@ $CatBlurb = @{
   'data-platforms'   = "Snowflake, Databricks, BigQuery, dbt, Kafka, Postgres and more. Watch the bill."
   'hardware'         = "GPUs, PC builds, Pi projects, home servers. Safety first."
   'saas-tools'       = "Notion, Figma, Slack, Stripe, Shopify and everyday company tools."
+  'frameworks'       = "React, Next.js, Vue, Django, Rails, FastAPI, Spring, Laravel."
 }
 
 $groups = $reg.skills | Group-Object -Property category | Sort-Object Name

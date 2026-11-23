@@ -10,6 +10,7 @@ Dogs, cats, tanks, birds, hens, and bees.
 | `cat-care` | skill | Care for cats with litter, play, and vet rhythms. Use for new cats. |
 | `chicken-keep` | skill | Keep backyard hens with coops and local rules. Use for beginners. |
 | `dog-train` | skill | Train dogs with marker basics and loose-leash plans. Use for new dogs. |
+| `pet-insurance` | skill | Choose pet insurance with coverage math. Use for new pets. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 

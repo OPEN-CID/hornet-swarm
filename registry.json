@@ -3,7 +3,7 @@
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  458,
+    "count":  533,
     "skills":  [
                    {
                        "name":  "adr-writer",
@@ -14,6 +14,34 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "agent-builder",
+                       "description":  "Build tool-using AI agents with loops and guardrails. Use for agent features.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/agent-builder/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "agent features"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "ai-image-guide",
+                       "description":  "Generate images with AI using prompts and iteration. Use for art and assets.",
+                       "category":  "everyday-tech",
+                       "kind":  "skill",
+                       "path":  "skills/ai-image-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "AI art and assets"
                                     ],
                        "steps":  [
 
@@ -56,6 +84,48 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "AMD GPUs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "analytics-basics",
+                       "description":  "Track analytics with events and key reports. Use for decisions.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/analytics-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "measuring products"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "anki-flashcards",
+                       "description":  "Retain with Anki flashcards and spaced reviews. Use for exams and languages.",
+                       "category":  "knowledge",
+                       "kind":  "skill",
+                       "path":  "skills/anki-flashcards/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "exams and languages"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "ansible-basics",
+                       "description":  "Manage servers with Ansible roles and idempotent runs. Use for fleet config.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/ansible-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "fleet config"
                                     ],
                        "steps":  [
 
@@ -126,6 +196,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "after hurting someone"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "appliance-fix",
+                       "description":  "Diagnose washers, fridges, and ovens with safety checks. Unplug first; pros for sealed systems.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/appliance-fix/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "broken appliances"
                                     ],
                        "steps":  [
 
@@ -216,6 +300,20 @@
                                  ]
                    },
                    {
+                       "name":  "auth-patterns",
+                       "description":  "Add auth with OAuth/OIDC, sessions, and safe token storage. Use for login features.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/auth-patterns/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "login features"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "aws-core",
                        "description":  "Learn core AWS with VPC, IAM, and cost guards. Use for first accounts.",
                        "category":  "cloud",
@@ -252,6 +350,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "before crawling starts"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "baby-sleep",
+                       "description":  "Build baby sleep with routines and gentle methods. Use for tired households. Pediatrician decides health issues.",
+                       "category":  "parenting",
+                       "kind":  "skill",
+                       "path":  "skills/baby-sleep/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "tired households"
                                     ],
                        "steps":  [
 
@@ -441,6 +553,20 @@
                                  ]
                    },
                    {
+                       "name":  "breakup-recover",
+                       "description":  "Recover from breakups with structure and support. Use after a split.",
+                       "category":  "relationships",
+                       "kind":  "skill",
+                       "path":  "skills/breakup-recover/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "after a split"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "brief-parse",
                        "description":  "Turn client briefs into scope and production checklists. Use when starting creative work.",
                        "category":  "creative-media",
@@ -492,6 +618,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "before cutting materials"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "burnout-recover",
+                       "description":  "Recover from burnout with rest, boundaries, and load repair. Use when depleted. Pros for clinical issues.",
+                       "category":  "mind",
+                       "kind":  "skill",
+                       "path":  "skills/burnout-recover/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "feeling depleted"
                                     ],
                        "steps":  [
 
@@ -610,6 +750,34 @@
                                  ]
                    },
                    {
+                       "name":  "canning-preserving",
+                       "description":  "Can harvests safely with tested times and seals. Use for preserving. Safety first.",
+                       "category":  "cooking",
+                       "kind":  "skill",
+                       "path":  "skills/canning-preserving/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "preserving harvests"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "canva-design",
+                       "description":  "Design posts and decks in Canva with brand kits. Use for non-designers.",
+                       "category":  "everyday-tech",
+                       "kind":  "skill",
+                       "path":  "skills/canva-design/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "quick designs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "carbon-cut",
                        "description":  "Cut footprints with high-impact moves first. Use for climate action.",
                        "category":  "eco",
@@ -624,6 +792,20 @@
                                  ]
                    },
                    {
+                       "name":  "car-breakdown",
+                       "description":  "Handle breakdowns with safe stops and call scripts. Use for road trouble.",
+                       "category":  "safety",
+                       "kind":  "skill",
+                       "path":  "skills/car-breakdown/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "road trouble"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "car-buy",
                        "description":  "Buy cars with total-cost math and negotiation scripts. Use before dealerships.",
                        "category":  "vehicles",
@@ -632,6 +814,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "before dealerships"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "car-detail",
+                       "description":  "Detail cars with wash, clay, and wax order. Use for showroom looks.",
+                       "category":  "vehicles",
+                       "kind":  "skill",
+                       "path":  "skills/car-detail/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "showroom looks"
                                     ],
                        "steps":  [
 
@@ -905,6 +1101,20 @@
                                  ]
                    },
                    {
+                       "name":  "college-apps",
+                       "description":  "Apply to colleges with lists, essays, and deadlines. Use for admissions.",
+                       "category":  "parenting",
+                       "kind":  "skill",
+                       "path":  "skills/college-apps/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "college admissions"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "communication-basics",
                        "description":  "Say hard things clearly with I-statements and repair. Use when talks go sideways.",
                        "category":  "relationships",
@@ -1057,6 +1267,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "inconsistent publishing"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "credit-score",
+                       "description":  "Build credit with utilization, history, and disputes. Use for better rates. General info.",
+                       "category":  "legal-finance",
+                       "kind":  "skill",
+                       "path":  "skills/credit-score/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "better rates"
                                     ],
                        "steps":  [
 
@@ -1333,6 +1557,20 @@
                                  ]
                    },
                    {
+                       "name":  "debt-payoff",
+                       "description":  "Kill debt with payoff order and automation. Use when debt lingers. General info.",
+                       "category":  "legal-finance",
+                       "kind":  "skill",
+                       "path":  "skills/debt-payoff/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "lingering debt"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "debugging",
                        "description":  "Diagnose bugs systematically with reproduction, hypothesis, and fix verification. Use when investigating any error, failure, or unexpected behavior.",
                        "category":  "software-build",
@@ -1431,6 +1669,34 @@
                                  ]
                    },
                    {
+                       "name":  "django-patterns",
+                       "description":  "Build Django with apps, ORM, and templates or DRF. Use for Django projects.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/django-patterns/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Django projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "dj-basics",
+                       "description":  "DJ with beatmatching and set flow. Use for parties.",
+                       "category":  "music",
+                       "kind":  "skill",
+                       "path":  "skills/dj-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "DJ parties"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "dnd-dm",
                        "description":  "Run D and D sessions with prep and improv tools. Use for new DMs.",
                        "category":  "play",
@@ -1495,6 +1761,34 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "drawing beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "drums-start",
+                       "description":  "Start drums with grip, rudiments, and timing. Use for beginners.",
+                       "category":  "music",
+                       "kind":  "skill",
+                       "path":  "skills/drums-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "drum beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "duckdb-guide",
+                       "description":  "Analyze local files with DuckDB SQL at speed. Use for CSV and parquet analytics.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/duckdb-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "CSV and parquet analytics"
                                     ],
                        "steps":  [
 
@@ -1574,6 +1868,20 @@
                                  ]
                    },
                    {
+                       "name":  "email-marketing",
+                       "description":  "Run email marketing with sequences and deliverability. Use for lists.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/email-marketing/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "email lists"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "email-zero",
                        "description":  "Reach inbox zero with triage rules and templates. Use for overflowing inboxes.",
                        "category":  "knowledge",
@@ -1582,6 +1890,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "overflowing inbox"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "embroidery-start",
+                       "description":  "Embroider with basic stitches and pattern transfer. Use for first hoops.",
+                       "category":  "craft",
+                       "kind":  "skill",
+                       "path":  "skills/embroidery-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "first hoops"
                                     ],
                        "steps":  [
 
@@ -1794,6 +2116,34 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "tight family money"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "fastapi-service",
+                       "description":  "Build FastAPI services with Pydantic, dependencies, and docs. Use for Python APIs.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/fastapi-service/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Python APIs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "feature-flags",
+                       "description":  "Ship behind feature flags with rollout and kill switches. Use for safe releases.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/feature-flags/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "safe releases"
                                     ],
                        "steps":  [
 
@@ -2211,6 +2561,20 @@
                                  ]
                    },
                    {
+                       "name":  "git-advanced",
+                       "description":  "Use advanced Git: interactive rebase, bisect, worktrees, submodules. Use beyond basic commits.",
+                       "category":  "git-release",
+                       "kind":  "skill",
+                       "path":  "skills/git-advanced/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "beyond basic commits"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "git-branch",
                        "description":  "Manage clean focused branches with safe sync and naming. Use when starting work, switching context, or cleaning up branches.",
                        "category":  "git-release",
@@ -2334,6 +2698,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "nonprofit funding"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "graphql-api",
+                       "description":  "Design GraphQL schemas with pagination and N+1-free resolvers. Use for GraphQL APIs.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/graphql-api/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "GraphQL APIs"
                                     ],
                        "steps":  [
 
@@ -2495,6 +2873,20 @@
                                  ]
                    },
                    {
+                       "name":  "home-gym",
+                       "description":  "Build a home gym with essentials in buy order. Use for home training.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/home-gym/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "home training"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "home-inspect",
                        "description":  "Inspect a home like a pro with systems checklist. Use before offers.",
                        "category":  "housing",
@@ -2626,6 +3018,48 @@
                                  ]
                    },
                    {
+                       "name":  "hsa-fsa",
+                       "description":  "Use HSAs and FSAs with contribution math. Use for benefits season. General info.",
+                       "category":  "wealth",
+                       "kind":  "skill",
+                       "path":  "skills/hsa-fsa/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "benefits season"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "huggingface-use",
+                       "description":  "Use Hugging Face models with pipelines and fine-tuning. Use for NLP and vision.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/huggingface-use/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "NLP and vision tasks"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "hvac-basics",
+                       "description":  "Run HVAC with filters, thermostat settings, and service timing. Use for comfort and bills.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/hvac-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "comfort and energy bills"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "idea-validate",
                        "description":  "Stress-test startup ideas with customers and numbers. Use before building anything.",
                        "category":  "business-ops",
@@ -2634,6 +3068,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "before building a startup idea"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "improv-basics",
+                       "description":  "Practice improv with games and scene basics. Use for fun and stage.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/improv-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "fun and stage"
                                     ],
                        "steps":  [
 
@@ -2900,6 +3348,20 @@
                                  ]
                    },
                    {
+                       "name":  "keyboard-build",
+                       "description":  "Build mechanical keyboards with parts and assembly. Use for custom boards.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/keyboard-build/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "custom boards"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "kid-homework",
                        "description":  "Guide kids to answers with hints, never direct solutions. Use for K-12 homework help.",
                        "category":  "education",
@@ -3001,6 +3463,20 @@
                                  ]
                    },
                    {
+                       "name":  "landlord-basics",
+                       "description":  "Landlord well with screening, leases, and reserves. Use for rentals. Local laws apply.",
+                       "category":  "housing",
+                       "kind":  "skill",
+                       "path":  "skills/landlord-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "renting out property"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "language-tutor",
                        "description":  "Practice a language with corrections and drills. Use for daily speaking and writing practice.",
                        "category":  "education",
@@ -3009,6 +3485,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "daily language practice"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "laravel-patterns",
+                       "description":  "Build Laravel with Eloquent, queues, and Blade or Inertia. Use for PHP apps.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/laravel-patterns/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "PHP apps"
                                     ],
                        "steps":  [
 
@@ -3029,6 +3519,48 @@
                                      "marketing-copy",
                                      "blog-writer",
                                      "content-review"
+                                 ]
+                   },
+                   {
+                       "name":  "lawn-care",
+                       "description":  "Keep lawns with mowing heights, seeding, and watering. Use for yard care.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/lawn-care/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "yard care"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "layoff-plan",
+                       "description":  "Navigate layoffs with runway, benefits, and job search. Use after a layoff.",
+                       "category":  "career",
+                       "kind":  "skill",
+                       "path":  "skills/layoff-plan/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "after a layoff"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "learn-code",
+                       "description":  "Learn programming from zero with small wins. Use for absolute beginners.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/learn-code/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "absolute beginners"
+                                    ],
+                       "steps":  [
+
                                  ]
                    },
                    {
@@ -3117,6 +3649,20 @@
                                  ]
                    },
                    {
+                       "name":  "llc-start",
+                       "description":  "Form an LLC with state steps and operating basics. Use for new businesses. Lawyer for specifics.",
+                       "category":  "law-life",
+                       "kind":  "skill",
+                       "path":  "skills/llc-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new businesses"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "local-gov",
                        "description":  "Navigate councils and permits with contact maps. Use for projects.",
                        "category":  "civic",
@@ -3145,6 +3691,20 @@
                                  ]
                    },
                    {
+                       "name":  "long-distance-love",
+                       "description":  "Run long-distance love with rhythms and visit plans. Use for separated couples.",
+                       "category":  "relationships",
+                       "kind":  "skill",
+                       "path":  "skills/long-distance-love/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "separated couples"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "lua-code",
                        "description":  "Write clean Lua with locals discipline, 1-index awareness, and busted proof. Use for Lua, Neovim plugins, or game scripting.",
                        "category":  "languages",
@@ -3156,6 +3716,20 @@
                                         "setting up stylua",
                                         "luacheck",
                                         "or busted"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "mahjong-basics",
+                       "description":  "Play mahjong with rules and basic strategy. Use for game nights.",
+                       "category":  "play",
+                       "kind":  "skill",
+                       "path":  "skills/mahjong-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "game nights"
                                     ],
                        "steps":  [
 
@@ -3447,6 +4021,20 @@
                                  ]
                    },
                    {
+                       "name":  "memoir-write",
+                       "description":  "Write memoir with scenes, honesty, and structure. Use for life stories.",
+                       "category":  "writing",
+                       "kind":  "skill",
+                       "path":  "skills/memoir-write/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "life stories"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "memorial-plan",
                        "description":  "Plan memorials gently with programs and logistics. Use in difficult times.",
                        "category":  "events",
@@ -3727,6 +4315,34 @@
                                  ]
                    },
                    {
+                       "name":  "nextjs-app",
+                       "description":  "Build Next.js apps with routing, caching, and server actions. Use for Next.js projects.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/nextjs-app/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Next.js projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "nginx-config",
+                       "description":  "Serve sites with Nginx blocks, TLS, and caching. Use for reverse proxies.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/nginx-config/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "reverse proxies"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "nocode-guide",
                        "description":  "Ship simple apps with no-code and know the limits. Use for MVPs.",
                        "category":  "everyday-tech",
@@ -3812,6 +4428,20 @@
                                  ]
                    },
                    {
+                       "name":  "obs-studio",
+                       "description":  "Record and stream with OBS scenes and clean audio. Use for tutorials and streams.",
+                       "category":  "everyday-tech",
+                       "kind":  "skill",
+                       "path":  "skills/obs-studio/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "tutorials and streams"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "oci-basics",
                        "description":  "Learn Oracle Cloud with compartments and free-tier limits. Use for OCI work.",
                        "category":  "cloud",
@@ -3820,6 +4450,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "OCI work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "okr-goals",
+                       "description":  "Set OKRs with outcomes and weekly check-ins. Use for team focus.",
+                       "category":  "productivity",
+                       "kind":  "skill",
+                       "path":  "skills/okr-goals/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "team focus"
                                     ],
                        "steps":  [
 
@@ -4040,6 +4684,20 @@
                                  ]
                    },
                    {
+                       "name":  "passkeys-guide",
+                       "description":  "Move logins to passkeys with fallback codes. Use for account security.",
+                       "category":  "everyday-tech",
+                       "kind":  "skill",
+                       "path":  "skills/passkeys-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "account security"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "password-manager",
                        "description":  "Move all logins to a manager with 2FA recovery. Use for account security.",
                        "category":  "everyday-tech",
@@ -4110,6 +4768,20 @@
                                  ]
                    },
                    {
+                       "name":  "pest-control",
+                       "description":  "Handle pests with sealing, traps, and pro thresholds. Use for infestations.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/pest-control/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "infestations"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "pet-care",
                        "description":  "Build feeding, exercise, and vet schedules. Use for new or busy pet owners.",
                        "category":  "home-life",
@@ -4118,6 +4790,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "new pet or busy schedule"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "pet-insurance",
+                       "description":  "Choose pet insurance with coverage math. Use for new pets.",
+                       "category":  "pets",
+                       "kind":  "skill",
+                       "path":  "skills/pet-insurance/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new pets"
                                     ],
                        "steps":  [
 
@@ -4254,6 +4940,20 @@
                                  ]
                    },
                    {
+                       "name":  "pickleball-start",
+                       "description":  "Start pickleball with rules, dinks, and court manners. Use for beginners.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/pickleball-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "pickleball beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "pipeline-review",
                        "description":  "Review a data pipeline for correctness, cost, and failure modes. Use before productionizing.",
                        "category":  "data-pipeline",
@@ -4343,6 +5043,20 @@
                                  ]
                    },
                    {
+                       "name":  "playwright-e2e",
+                       "description":  "Test web flows with Playwright locators and CI runs. Use for browser testing.",
+                       "category":  "quality-testing",
+                       "kind":  "skill",
+                       "path":  "skills/playwright-e2e/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "browser testing"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "podcast-outline",
                        "description":  "Outline podcast episodes with segments and questions. Use when planning shows.",
                        "category":  "creative-media",
@@ -4399,6 +5113,20 @@
                                  ]
                    },
                    {
+                       "name":  "pool-care",
+                       "description":  "Balance pool chemistry with testing and cleaning rhythm. Use for pool owners.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/pool-care/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "pool owners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "portfolio-review",
                        "description":  "Review investments yearly for fees, drift, and risk. Use annually. Educational.",
                        "category":  "wealth",
@@ -4449,6 +5177,34 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "pottery classes"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "potty-train",
+                       "description":  "Potty train with readiness signs and calm routines. Use for toddlers.",
+                       "category":  "parenting",
+                       "kind":  "skill",
+                       "path":  "skills/potty-train/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "toddler training"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "powerbi-basics",
+                       "description":  "Build Power BI reports with models and DAX basics. Use for business dashboards.",
+                       "category":  "data-pipeline",
+                       "kind":  "skill",
+                       "path":  "skills/powerbi-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "business dashboards"
                                     ],
                        "steps":  [
 
@@ -4512,6 +5268,20 @@
                                  ]
                    },
                    {
+                       "name":  "pricing-strategy",
+                       "description":  "Price products with tiers, anchors, and tests. Use before launches.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/pricing-strategy/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "pricing decisions"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "print-3d",
                        "description":  "Prepare models for 3D printing with slicer settings. Use when printing parts.",
                        "category":  "diy-maker",
@@ -4568,6 +5338,20 @@
                                  ]
                    },
                    {
+                       "name":  "promotion-case",
+                       "description":  "Earn promotions with evidence packets and sponsors. Use before review cycles.",
+                       "category":  "career",
+                       "kind":  "skill",
+                       "path":  "skills/promotion-case/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "review cycles"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "prompt-engineer",
                        "description":  "Design testable prompts with context, examples, and output contracts. Use when building or fixing LLM features.",
                        "category":  "data-ai",
@@ -4590,6 +5374,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "choosing between vendors"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "proxmox-basics",
+                       "description":  "Virtualize home labs with Proxmox VMs and backups. Use for homelabs.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/proxmox-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "homelabs"
                                     ],
                        "steps":  [
 
@@ -4671,6 +5469,20 @@
                                  ]
                    },
                    {
+                       "name":  "pytorch-start",
+                       "description":  "Train PyTorch models with data loaders and eval loops. Use for deep learning.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/pytorch-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "deep learning"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "qa-checklist",
                        "description":  "Run release-ready quality gates across function, UX, and rollout. Use before any release, merge to main, or demo.",
                        "category":  "quality-testing",
@@ -4727,6 +5539,20 @@
                                  ]
                    },
                    {
+                       "name":  "rails-patterns",
+                       "description":  "Build Rails with resources, jobs, and Hotwire. Use for Rails apps.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/rails-patterns/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Rails apps"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "raspberry-pi",
                        "description":  "Run Raspberry Pi projects with OS, GPIO, and headless setup. Use for DIY electronics.",
                        "category":  "hardware",
@@ -4750,6 +5576,20 @@
                        "triggers":  [
                                         "writing or reviewing R code",
                                         "setting up renv or testthat"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "react-patterns",
+                       "description":  "Build React with hooks, colocation, and server components. Use for React apps.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/react-patterns/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "React apps"
                                     ],
                        "steps":  [
 
@@ -5103,6 +5943,20 @@
                                  ]
                    },
                    {
+                       "name":  "sailing-basics",
+                       "description":  "Learn sailing with points of sail and docking basics. Use for new sailors. Instruction required.",
+                       "category":  "outdoors",
+                       "kind":  "skill",
+                       "path":  "skills/sailing-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new sailors"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "salary-compare",
                        "description":  "Compare job offers on total compensation. Use when evaluating competing offers.",
                        "category":  "legal-finance",
@@ -5184,6 +6038,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "suspicious messages"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "scholarship-search",
+                       "description":  "Win scholarships with matches and reusable essays. Use for college funding.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/scholarship-search/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "college funding"
                                     ],
                        "steps":  [
 
@@ -5316,6 +6184,20 @@
                                  ]
                    },
                    {
+                       "name":  "seo-basics",
+                       "description":  "Rank with keyword maps and page fixes. Use for organic growth.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/seo-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "organic growth"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "sewing-basics",
                        "description":  "Sew with machine setup and first alterations. Use for repairs and gifts.",
                        "category":  "craft",
@@ -5435,6 +6317,20 @@
                                  ]
                    },
                    {
+                       "name":  "ski-basics",
+                       "description":  "Learn skiing with lessons, turns, and safety. Use for first seasons. Lessons required.",
+                       "category":  "outdoors",
+                       "kind":  "skill",
+                       "path":  "skills/ski-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "first ski seasons"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "skill-creator",
                        "description":  "Author new spec-compliant SKILL.md skills from scratch. Use when creating, updating, or reviewing any skill in this repo.",
                        "category":  "meta",
@@ -5443,6 +6339,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "sklearn-basics",
+                       "description":  "Build scikit-learn baselines with validation and tuning. Use for tabular ML.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/sklearn-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "tabular ML"
                                     ],
                        "steps":  [
 
@@ -5506,6 +6416,20 @@
                                  ]
                    },
                    {
+                       "name":  "smart-lock",
+                       "description":  "Upgrade to smart locks with fit checks and codes. Use for keyless entry.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/smart-lock/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "keyless entry"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "smartphone-guide",
                        "description":  "Master your phone with settings, storage, and safety. Use for new devices.",
                        "category":  "everyday-tech",
@@ -5528,6 +6452,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "Snowflake data work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "solar-evaluate",
+                       "description":  "Evaluate home solar with usage math and quotes. Use before buying.",
+                       "category":  "eco",
+                       "kind":  "skill",
+                       "path":  "skills/solar-evaluate/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "considering solar"
                                     ],
                        "steps":  [
 
@@ -5612,6 +6550,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "building financial or ops models"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "spring-boot",
+                       "description":  "Build Spring Boot services with layers, profiles, and actuators. Use for Java services.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/spring-boot/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Java services"
                                     ],
                        "steps":  [
 
@@ -5786,6 +6738,20 @@
                                  ]
                    },
                    {
+                       "name":  "style-wardrobe",
+                       "description":  "Build personal style with capsules and fit rules. Use for wardrobe refreshes.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/style-wardrobe/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "wardrobe refreshes"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "support-reply",
                        "description":  "Draft empathetic customer support responses. Use for tickets and bad reviews.",
                        "category":  "business-ops",
@@ -5794,6 +6760,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "answering support tickets"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "surf-start",
+                       "description":  "Start surfing with pop-ups, reading waves, and lineup rules. Use for beginners. Lessons recommended.",
+                       "category":  "outdoors",
+                       "kind":  "skill",
+                       "path":  "skills/surf-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "surf beginners"
                                     ],
                        "steps":  [
 
@@ -5969,6 +6949,20 @@
                                  ]
                    },
                    {
+                       "name":  "teen-driving",
+                       "description":  "Teach teens to drive with practice hours and test prep. Use for new drivers.",
+                       "category":  "parenting",
+                       "kind":  "skill",
+                       "path":  "skills/teen-driving/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new teen drivers"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "teen-talk",
                        "description":  "Talk with teens about school, screens, and friends without lectures. Use when conversations shut down.",
                        "category":  "parenting",
@@ -6081,6 +7075,20 @@
                                  ]
                    },
                    {
+                       "name":  "trademark-basics",
+                       "description":  "Protect names with trademark search and filing basics. Use for brands. Lawyer for filings.",
+                       "category":  "law-life",
+                       "kind":  "skill",
+                       "path":  "skills/trademark-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "brand protection"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "travel-safety",
                        "description":  "Build a safety plan with document backup, scams, health, and contacts. Use before unfamiliar destinations.",
                        "category":  "travel",
@@ -6148,6 +7156,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "used car purchase"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "vector-db",
+                       "description":  "Store embeddings with vector indexes and recall tests. Use for RAG storage.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/vector-db/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "RAG storage"
                                     ],
                        "steps":  [
 
@@ -6246,6 +7268,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "every election"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "vue-patterns",
+                       "description":  "Build Vue with composition API, Pinia, and SFC structure. Use for Vue apps.",
+                       "category":  "frameworks",
+                       "kind":  "skill",
+                       "path":  "skills/vue-patterns/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Vue apps"
                                     ],
                        "steps":  [
 
@@ -6428,6 +7464,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "before snow season"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "wireguard-vpn",
+                       "description":  "Connect sites and devices with WireGuard tunnels. Use for private networks.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/wireguard-vpn/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "private networks"
                                     ],
                        "steps":  [
 
