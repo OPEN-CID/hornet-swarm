@@ -51,8 +51,20 @@ if ($Target -eq "") {
   }
 }
 
+function Find-SkillDir([string]$n) {
+  foreach ($r in @("skills", "workflows")) {
+    $p = Join-Path $RepoRoot "$r/$n"
+    if (Test-Path -LiteralPath (Join-Path $p "SKILL.md")) { return $p }
+  }
+  return $null
+}
+
 if ($Skills.Count -eq 0) {
-  $Skills = Get-ChildItem -Directory (Join-Path $RepoRoot "skills") | Select-Object -ExpandProperty Name
+  $Skills = @()
+  foreach ($r in @("skills", "workflows")) {
+    $rp = Join-Path $RepoRoot $r
+    if (Test-Path -LiteralPath $rp) { $Skills += Get-ChildItem -Directory $rp | Select-Object -ExpandProperty Name }
+  }
 } else {
   # Accept both -Skills a,b and -Skills "a,b" (single comma-separated string).
   $Skills = @($Skills | ForEach-Object { $_ -split '\s*,\s*' } | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" })
@@ -60,8 +72,8 @@ if ($Skills.Count -eq 0) {
 
 New-Item -ItemType Directory -Force -Path $Target | Out-Null
 foreach ($s in $Skills) {
-  $src = Join-Path $RepoRoot "skills/$s"
-  if (-not (Test-Path -LiteralPath (Join-Path $src "SKILL.md"))) { Write-Warning "skip ${s}: no SKILL.md"; continue }
+  $src = Find-SkillDir $s
+  if ($null -eq $src) { Write-Warning "skip ${s}: no SKILL.md in skills/ or workflows/"; continue }
   Copy-Item -Recurse -Force -LiteralPath $src -Destination (Join-Path $Target $s)
   Write-Output "installed $s -> $Target/$s"
 }

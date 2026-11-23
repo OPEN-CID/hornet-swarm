@@ -1,8 +1,8 @@
-# Skills index - hornet-swarm (405 skills)
+# Skills index - hornet-swarm (415 skills)
 
 > Paste this file (or one section) into any agent context (AGENTS.md, CLAUDE.md, GEMINI.md, system prompt, chat) to make every skill visible. Full instructions live in each linked SKILL.md. Generated from registry.json - do not hand-edit.
 
-## business-ops (14)
+## business-ops (15)
 
 - **biz-jargon-translate**: confusing term sheets or metrics -> `skills/biz-jargon-translate/SKILL.md`
 - **business-plan**: pitching or planning a business -> `skills/business-plan/SKILL.md`
@@ -10,6 +10,7 @@
 - **hiring-interview**: hiring for a role -> `skills/hiring-interview/SKILL.md`
 - **idea-validate**: before building a startup idea -> `skills/idea-validate/SKILL.md`
 - **kpi-dashboard**: reporting team performance -> `skills/kpi-dashboard/SKILL.md`
+- **launch-post** [flow]: launching something, announcement post -> `workflows/launch-post/SKILL.md`
 - **marketing-copy**: launching or promoting a product -> `skills/marketing-copy/SKILL.md`
 - **onboarding-plan**: onboarding a new hire -> `skills/onboarding-plan/SKILL.md`
 - **ops-playbook**: chaotic team operations -> `skills/ops-playbook/SKILL.md`
@@ -95,7 +96,7 @@
 - **sewing-basics**: repairs and gifts -> `skills/sewing-basics/SKILL.md`
 - **watercolor-start**: first paintings -> `skills/watercolor-start/SKILL.md`
 
-## creative-media (11)
+## creative-media (12)
 
 - **blog-writer**: writing content marketing -> `skills/blog-writer/SKILL.md`
 - **brand-voice**: making company writing consistent -> `skills/brand-voice/SKILL.md`
@@ -106,6 +107,7 @@
 - **newsletter-writer**: publishing a newsletter -> `skills/newsletter-writer/SKILL.md`
 - **photo-brief**: planning a photo shoot -> `skills/photo-brief/SKILL.md`
 - **podcast-outline**: planning a podcast episode -> `skills/podcast-outline/SKILL.md`
+- **publish-newsletter** [flow]: weekly newsletter, publishing an issue -> `workflows/publish-newsletter/SKILL.md`
 - **tone-translate**: adapting text for an audience -> `skills/tone-translate/SKILL.md`
 - **video-script**: producing a video -> `skills/video-script/SKILL.md`
 
@@ -139,12 +141,13 @@
 - **survey-design**: collecting survey responses -> `skills/survey-design/SKILL.md`
 - **web-scrape-plan**: gathering public web data -> `skills/web-scrape-plan/SKILL.md`
 
-## devops-infra (5)
+## devops-infra (6)
 
 - **ci-pipeline**: Build fast reliable CI with lint, test, and deploy gates. Use when creating or fixing continuous integration workflows. -> `skills/ci-pipeline/SKILL.md`
 - **deploy-checklist**: Ship safely with preflight checks, rollout steps, and rollback. Use before any production deploy or release rollout. -> `skills/deploy-checklist/SKILL.md`
 - **docker-setup**: Containerize apps with lean Dockerfiles and compose for local dev. Use when adding Docker or fixing image and compose issues. -> `skills/docker-setup/SKILL.md`
 - **env-config**: Organize env vars and secrets with schemas and safe rotation. Use when adding config, onboarding devs, or fixing env bugs. -> `skills/env-config/SKILL.md`
+- **incident-response** [flow]: production incident, service alert -> `workflows/incident-response/SKILL.md`
 - **log-triage**: Triage logs and incidents to scope, cause, and next fix. Use when debugging production alerts or incident reports. -> `skills/log-triage/SKILL.md`
 
 ## diy-maker (12)
@@ -162,12 +165,13 @@
 - **woodworking-plan**: planning a woodworking build -> `skills/woodworking-plan/SKILL.md`
 - **workshop-playbook**: setting up a workshop -> `skills/workshop-playbook/SKILL.md`
 
-## docs-research (5)
+## docs-research (6)
 
 - **adr-writer**: Record architecture decisions with context, options, and consequences. Use when choosing frameworks, patterns, or data models. -> `skills/adr-writer/SKILL.md`
 - **api-docs**: Write accurate API references with examples from real code. Use when documenting endpoints, SDKs, or modules. -> `skills/api-docs/SKILL.md`
 - **codebase-explorer**: Map unfamiliar codebases to entry points, flows, and ownership. Use when onboarding, scoping work, or finding where to change. -> `skills/codebase-explorer/SKILL.md`
 - **readme-writer**: Write README files that onboard in five minutes with setup and usage. Use when creating or overhauling any project README. -> `skills/readme-writer/SKILL.md`
+- **research-dossier** [flow]: researching a decision, due diligence -> `workflows/research-dossier/SKILL.md`
 - **tech-research**: Compare options with evidence and give a justified recommendation. Use when choosing libraries, tools, or approaches. -> `skills/tech-research/SKILL.md`
 
 ## eco (6)
@@ -194,12 +198,13 @@
 - **physics-tutor**: physics homework, exam revision -> `skills/physics-tutor/SKILL.md`
 - **study-doc-parse**: reading dense study material -> `skills/study-doc-parse/SKILL.md`
 
-## events (6)
+## events (7)
 
 - **event-budget**: any event -> `skills/event-budget/SKILL.md`
 - **holiday-plan**: holiday seasons -> `skills/holiday-plan/SKILL.md`
 - **memorial-plan**: difficult times -> `skills/memorial-plan/SKILL.md`
 - **party-plan**: celebrations -> `skills/party-plan/SKILL.md`
+- **run-event** [flow]: hosting an event, party planning -> `workflows/run-event/SKILL.md`
 - **toast-speech**: wedding speeches -> `skills/toast-speech/SKILL.md`
 - **wedding-plan**: engagements -> `skills/wedding-plan/SKILL.md`
 
@@ -239,13 +244,14 @@
 - **pr-create**: Open focused reviewable pull requests with context and test proof. Use when the branch is ready for review or merge. -> `skills/pr-create/SKILL.md`
 - **version-bump**: Propose correct semver bumps from change types and breaking notes. Use when deciding the next version number before release. -> `skills/version-bump/SKILL.md`
 
-## home-life (14)
+## home-life (15)
 
 - **bike-commute**: starting to cycle to work -> `skills/bike-commute/SKILL.md`
 - **cleaning-schedule**: house needs a cleaning system -> `skills/cleaning-schedule/SKILL.md`
 - **emergency-kit**: preparing for emergencies -> `skills/emergency-kit/SKILL.md`
 - **grocery-list**: before grocery shopping -> `skills/grocery-list/SKILL.md`
 - **home-maintenance**: yearly house care planning -> `skills/home-maintenance/SKILL.md`
+- **home-move** [flow]: relocating, moving house -> `workflows/home-move/SKILL.md`
 - **home-playbook**: setting up a household system -> `skills/home-playbook/SKILL.md`
 - **home-safety-review**: yearly safety check, new kids or pets -> `skills/home-safety-review/SKILL.md`
 - **label-reader**: shopping or sorting laundry -> `skills/label-reader/SKILL.md`
@@ -427,11 +433,12 @@
 - **puzzles-train**: puzzle practice -> `skills/puzzles-train/SKILL.md`
 - **videogame-optimize**: stuttering games -> `skills/videogame-optimize/SKILL.md`
 
-## productivity (4)
+## productivity (5)
 
 - **handoff-notes**: on-call rotations, shift changes -> `skills/handoff-notes/SKILL.md`
 - **issue-breakdown**: Split big issues into small shippable slices with acceptance criteria. Use when an issue is too big to start. -> `skills/issue-breakdown/SKILL.md`
 - **meeting-notes**: Turn meetings into decisions, owners, and dated actions. Use for any meeting worth remembering. -> `skills/meeting-notes/SKILL.md`
+- **onboard-hire** [flow]: new hire starting, onboarding someone -> `workflows/onboard-hire/SKILL.md`
 - **task-planner**: Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project. -> `skills/task-planner/SKILL.md`
 
 ## quality-testing (7)
@@ -490,24 +497,27 @@
 - **sci-term-translate**: unreadable academic papers -> `skills/sci-term-translate/SKILL.md`
 - **stats-helper**: analyzing experimental results -> `skills/stats-helper/SKILL.md`
 
-## software-build (8)
+## software-build (10)
 
 - **api-design**: Design clean REST or RPC APIs with resources, schemas, and error contracts. Use when creating or changing any API endpoint or data contract. -> `skills/api-design/SKILL.md`
 - **api-spec-parse**: integrating a third-party API -> `skills/api-spec-parse/SKILL.md`
 - **code-explain**: onboarding to unfamiliar code -> `skills/code-explain/SKILL.md`
 - **db-migration**: Write safe reversible database migrations with backfill plans. Use when changing schema, adding indexes, or backfilling data. -> `skills/db-migration/SKILL.md`
 - **debugging**: Diagnose bugs systematically with reproduction, hypothesis, and fix verification. Use when investigating any error, failure, or unexpected behavior. -> `skills/debugging/SKILL.md`
+- **fix-hotfix** [flow]: fixing a bug, production defect -> `workflows/fix-hotfix/SKILL.md`
 - **frontend-component**: Build accessible reusable UI components with props, states, and tests. Use when creating or refactoring any frontend component or page. -> `skills/frontend-component/SKILL.md`
 - **refactoring**: Restructure code safely in small behavior-preserving steps. Use when cleaning duplication, renaming, or extracting modules. -> `skills/refactoring/SKILL.md`
 - **repo-structure-guide**: Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository. -> `skills/repo-structure-guide/SKILL.md`
+- **ship-feature** [flow]: building a feature, shipping code -> `workflows/ship-feature/SKILL.md`
 
-## travel (10)
+## travel (11)
 
 - **budget-travel**: trip must cost less -> `skills/budget-travel/SKILL.md`
 - **flight-hacks**: overpriced flights -> `skills/flight-hacks/SKILL.md`
 - **itinerary-builder**: destination decided -> `skills/itinerary-builder/SKILL.md`
 - **packing-list**: packing for a trip -> `skills/packing-list/SKILL.md`
 - **phrasebook-plan**: two weeks before travel abroad -> `skills/phrasebook-plan/SKILL.md`
+- **plan-trip** [flow]: planning a vacation, trip from scratch -> `workflows/plan-trip/SKILL.md`
 - **road-trip**: driving holidays -> `skills/road-trip/SKILL.md`
 - **solo-travel**: traveling alone -> `skills/solo-travel/SKILL.md`
 - **travel-safety**: unfamiliar destinations -> `skills/travel-safety/SKILL.md`

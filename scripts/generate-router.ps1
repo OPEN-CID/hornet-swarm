@@ -24,7 +24,9 @@ foreach ($g in $groups) {
   foreach ($s in ($g.Group | Sort-Object name)) {
     $trig = $s.description
     if ($s.triggers -and $s.triggers.Count -gt 0) { $trig = ($s.triggers -join ", ") }
-    $lines += "- **$($s.name)**: $trig -> ``$($s.path)``"
+    $tag = ""
+    if ($s.kind -eq "workflow") { $tag = " [flow]" }
+    $lines += "- **$($s.name)**${tag}: $trig -> ``$($s.path)``"
   }
   $lines += ""
 }

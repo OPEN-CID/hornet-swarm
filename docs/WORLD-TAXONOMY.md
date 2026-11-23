@@ -54,7 +54,12 @@ Dev-only catalogs cover ~10% of agent work. This repo covers the rest:
 | 45 | Pets & animals | `pets` | 6 | dogs, cats, aquariums, birds, chickens, bees |
 | 46 | Culture & thinking | `culture` | 6 | genealogy, media literacy, critical thinking, debate, art history, museums |
 
-(46 category keys. Total: **404 skills** — 36 hand-written + 368 factory-generated — and growing via `docs/INTAKE.md`.)
+(46 category keys. Total: **415 entries = 405 skills + 10 workflows** — and growing via `docs/INTAKE.md`.
+
+**Workflows are plays, not a category.** Anything multi-step becomes a workflow
+(`workflows/<name>/SKILL.md`, generated from `catalog/workflows.json`): it loads
+existing skills in order and carries outputs forward. Single job = skill,
+sequence = workflow. See `wiki/workflows.md` for the playbook.)
 
 ## Naming convention (avoids collisions across the world)
 

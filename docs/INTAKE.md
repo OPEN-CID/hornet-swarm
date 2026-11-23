@@ -32,9 +32,11 @@ powershell scripts/validate.ps1
 **4. Interactive.** `powershell scripts/new-skill.ps1` asks 6 questions and
 appends to `catalog/custom.json`, then generates.
 
-**5. Catalog JSON.** Add entries to `catalog/world.json` (core domains),
+**5. Catalog JSON.** Add skill entries to `catalog/world.json` (core domains),
 `catalog/families.json` (translate/parse/review/playbook), or
-`catalog/custom.json` (community). Then run the four scripts from path 1.
+`catalog/custom.json` (community). Add workflow plays to
+`catalog/workflows.json` — rule: single job = skill, multi-step sequence =
+workflow. Then run the generate → registry → wiki → router → validate chain.
 
 **6. Hand-write.** Copy `templates/SKILL.md` to `skills/<name>/SKILL.md`.
 Required for expert-judgment skills; the generator never overwrites
@@ -47,8 +49,8 @@ catalog/
   README.md       # schema + which file to use
   world.json      # core task skills (curated)
   families.json   # translate/parse/review/playbook skills (curated)
-  languages1.json # language skills part 1: python, ts, js, go, rust, java, c#, cpp, c, ruby
-  languages2.json # language skills part 2: php, swift, kotlin, dart, r, scala, elixir, bash, powershell, lua
+  languages/      # one JSON per language skill (toolchain, style, idioms, arch, pitfalls)
+  workflows.json  # workflow plays: steps MUST name existing skills (curated)
   custom.json     # community entries (created by new-skill.ps1)
   imports.json    # created by import-skills.ps1 (git-ignored if noisy)
 templates/
