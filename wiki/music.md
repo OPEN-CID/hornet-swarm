@@ -4,6 +4,8 @@ Guitar, piano, voice, theory, and recording.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `dj-basics` | skill | DJ with beatmatching and set flow. Use for parties. |
+| `drums-start` | skill | Start drums with grip, rudiments, and timing. Use for beginners. |
 | `guitar-start` | skill | Play guitar with chords and practice loops. Use for beginners. |
 | `music-theory` | skill | Read keys and chords for playing by ear. Use for players. |
 | `piano-start` | skill | Play piano with scales and hand drills. Use for beginners. |

@@ -4,6 +4,7 @@ First aid, fire, storms, and scams. Call emergency first.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `car-breakdown` | skill | Handle breakdowns with safe stops and call scripts. Use for road trouble. |
 | `cpr-awareness` | skill | Understand CPR and AED basics until training. Call emergency first. Get certified. |
 | `fire-safety` | skill | Prevent and escape fires with plans and drills. Use for homes. |
 | `first-aid-basics` | skill | Respond to common injuries with steps and kit. Call emergency first. Training recommended. |

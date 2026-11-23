@@ -9,6 +9,7 @@ Rent, buy, inspect, renovate, and decorate.
 | `flooring-guide` | skill | Choose flooring by room with cost and install options. Use for replacements. |
 | `home-inspect` | skill | Inspect a home like a pro with systems checklist. Use before offers. |
 | `interior-design` | skill | Design rooms with layout, light, and budget mood boards. Use for refreshes. |
+| `landlord-basics` | skill | Landlord well with screening, leases, and reserves. Use for rentals. Local laws apply. |
 | `lease-review` | skill | Review a lease for fees, exits, and deposit traps. Use before signing. General info. |
 | `mortgage-basics` | skill | Understand mortgages with types, rates, and total cost. Use before talking to lenders. Educational. |
 | `paint-guide` | skill | Paint rooms with prep, coats, and finish picks. Use for DIY painting. |

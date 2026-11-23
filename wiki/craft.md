@@ -7,6 +7,7 @@ Draw, paint, shoot, knit, sew, and make.
 | `calligraphy-start` | skill | Letter with strokes and exemplar sheets. Use for invitations. |
 | `candle-making` | skill | Make candles safely with wax temps and wicks. Use for gifts. Safety first. |
 | `drawing-start` | skill | Draw with lines, shapes, and 30-day drills. Use for beginners. |
+| `embroidery-start` | skill | Embroider with basic stitches and pattern transfer. Use for first hoops. |
 | `jewelry-start` | skill | Make jewelry with wire and bead basics. Use for first pieces. |
 | `knitting-start` | skill | Knit scarves with cast-on and fix ladders. Use for first projects. |
 | `origami-start` | skill | Fold with crease patterns and paper picks. Use for gifts and calm. |

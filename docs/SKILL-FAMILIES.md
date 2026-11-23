@@ -34,6 +34,7 @@ science, data, business, architecture — anything.
 | data-platforms | query-translate | data-doc-parse | snowflake/bigquery/databricks guides, dbt, airflow | pipeline-review | data-playbook + cost guards |
 | hardware | n/a | manual-parse | nvidia/amd/pc-build/pi/server | build-review | workshop-playbook + power safety |
 | saas-tools | n/a | brief-parse | notion/figma/slack/stripe/shopify setups | business-review | ops-playbook |
+| frameworks | code-explain | api-docs | react/next/vue/django/rails/fastapi/spring/laravel | code-review | idioms + arch embedded per framework |
 
 ## Language skills (the 6th family in practice)
 

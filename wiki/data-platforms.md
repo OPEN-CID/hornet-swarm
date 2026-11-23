@@ -8,12 +8,14 @@ Snowflake, Databricks, BigQuery, dbt, Kafka, Postgres and more. Watch the bill.
 | `bigquery-guide` | skill | Query BigQuery with partitioning, slots, and cost controls. Use for GCP analytics. |
 | `databricks-guide` | skill | Build on Databricks with jobs, Delta Lake, and Unity Catalog. Use for Databricks lakehouses. |
 | `dbt-build` | skill | Model transforms with dbt: staging, marts, tests, docs. Use for SQL pipelines. |
+| `duckdb-guide` | skill | Analyze local files with DuckDB SQL at speed. Use for CSV and parquet analytics. |
 | `kafka-basics` | skill | Stream events with Kafka topics, keys, and consumer groups. Use for event pipelines. |
 | `mongodb-basics` | skill | Model MongoDB documents with indexes and aggregation. Use for document apps. |
 | `mysql-basics` | skill | Run MySQL with schema design, backups, and replication. Use for MySQL apps. |
 | `postgres-tune` | skill | Tune Postgres with indexes, vacuum, and EXPLAIN. Use for slow databases. |
 | `redis-basics` | skill | Cache with Redis using TTLs, eviction, and persistence picks. Use for speed layers. |
 | `snowflake-guide` | skill | Run Snowflake with warehouses, stages, streams/tasks, and cost guards. Use for Snowflake data work. |
+| `vector-db` | skill | Store embeddings with vector indexes and recall tests. Use for RAG storage. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 

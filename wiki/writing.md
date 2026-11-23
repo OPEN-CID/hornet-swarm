@@ -7,6 +7,7 @@ Fiction, poetry, scripts, grants, and publishing.
 | `edit-proofread` | skill | Edit drafts with passes for structure and line. Use before publishing. |
 | `fiction-write` | skill | Write fiction with scenes, arcs, and revision passes. Use for novels and stories. |
 | `grant-writing` | skill | Write grants with needs, outcomes, and budgets. Use for nonprofits. |
+| `memoir-write` | skill | Write memoir with scenes, honesty, and structure. Use for life stories. |
 | `poetry-start` | skill | Write poems with images and line breaks. Use for beginners. |
 | `screenwrite-basics` | skill | Format screenplays with beats and dialogue. Use for shorts and features. |
 | `self-publish` | skill | Publish books with editing, cover, and launch. Use for indie authors. |

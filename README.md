@@ -1,6 +1,6 @@
 # Hornet Swarm - Universal Agent Skills
 
-458 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
+533 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
 Claude Code, Cursor, Copilot, Gemini, Windsurf.
@@ -46,6 +46,7 @@ Start at [`wiki/README.md`](wiki/README.md) - 46 categories:
 | life: tech, cloud, science, play | 36 | `linux-cli`, `k8s-basics`, `stargazing-start`, `chess-improve`, `dnd-dm` |
 | life: craft, music, writing | 26 | `photography-basics`, `guitar-start`, `fiction-write`, `pottery-start` |
 | life: events, civic, safety, eco, pets, culture | 38 | `wedding-plan`, `vote-guide`, `first-aid-basics`, `compost-guide`, `dog-train` |
+| frameworks | 8 | `react-patterns`, `nextjs-app`, `django-patterns`, `fastapi-service` |
 | vendors: data, clouds, hardware, SaaS | 26 | `snowflake-guide`, `azure-basics`, `nvidia-gpu`, `stripe-setup`, `temporal-guide` |
 | vendors: booking, school, social, APIs | 17 | `flight-book`, `practice-test-maker`, `youtube-channel`, `openai-api-guide` |
 
@@ -77,5 +78,5 @@ Docs: [`docs/PLAN.md`](docs/PLAN.md) (vision) |
 [`docs/WORLD-TAXONOMY.md`](docs/WORLD-TAXONOMY.md) (all domains) |
 [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md) (the 5 kinds) |
 [`CONTRIBUTING.md`](CONTRIBUTING.md) (contribution rules).
-Machine index: [`registry.json`](registry.json) (458 entries: 448 skills + 10 workflows).
+Machine index: [`registry.json`](registry.json) (533 entries: 523 skills + 10 workflows).
 

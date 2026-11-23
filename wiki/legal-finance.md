@@ -6,6 +6,8 @@ Organize money and paperwork. General info - confirm big decisions professionall
 |---|---|---|
 | `budget-plan` | skill | Build a monthly budget from income and spending. Use when money feels chaotic. |
 | `contract-reader` | skill | Summarize contracts into obligations, risks, and questions. Use before signing anything. Not legal advice. |
+| `credit-score` | skill | Build credit with utilization, history, and disputes. Use for better rates. General info. |
+| `debt-payoff` | skill | Kill debt with payoff order and automation. Use when debt lingers. General info. |
 | `expense-audit` | skill | Find wasteful subscriptions and spending leaks. Use for quarterly money cleanup. |
 | `finance-review` | skill | Run a monthly money review of spending versus budget. Use on the first of each month. |
 | `freelance-rate` | skill | Price freelance work from costs and market rates. Use when quoting clients. |

@@ -7,6 +7,7 @@ Plan work and run better meetings.
 | `handoff-notes` | skill | Write shift handoffs with status, risks, and next actions. Use for on-call rotations and shift changes. |
 | `issue-breakdown` | skill | Split big issues into small shippable slices with acceptance criteria. Use when an issue is too big to start. |
 | `meeting-notes` | skill | Turn meetings into decisions, owners, and dated actions. Use for any meeting worth remembering. |
+| `okr-goals` | skill | Set OKRs with outcomes and weekly check-ins. Use for team focus. |
 | `onboard-hire` | flow | Onboard a new hire to productive in 30 days. Use for every new team member. |
 | `task-planner` | skill | Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project. |
 
