@@ -41,6 +41,15 @@ architecture patterns with when-to-use, a pitfalls table, and testing notes —
 do + playbook fused. Data per language: description, toolchain, style[5],
 idioms[5], arch[4], pitfalls[4], testing, sample.
 
+## Workflows (plays, not a 6th kind)
+
+A workflow is a skill whose job is a fixed sequence of other skills
+(`ship-feature` = branch → plan → TDD → test → review → PR). Same spec, same
+validation, same discovery — stored under `workflows/`, installed flat next to
+skills, served by the same MCP server. Rule of thumb: **one job = skill,
+ordered jobs with handoffs = workflow**. If a play grows branches, split it;
+if a step is reused alone, it already exists as a skill.
+
 ## Life domains use the same 5 kinds
 
 All 26 life categories (`travel` … `culture`) follow Translate → Parse →

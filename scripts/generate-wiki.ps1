@@ -91,13 +91,34 @@ foreach ($g in $groups) {
   $lines += ""
   $lines += $CatBlurb[$g.Name]
   $lines += ""
-  $lines += "| Skill | Use it when |"
-  $lines += "|---|---|"
+  $lines += "| Skill | Type | Use it when |"
+  $lines += "|---|---|---|"
   foreach ($s in ($g.Group | Sort-Object name)) {
-    $lines += "| ``$($s.name)`` | $($s.description) |"
+    $kind = if ($s.kind -eq "workflow") { "flow" } else { "skill" }
+    $lines += "| ``$($s.name)`` | $kind | $($s.description) |"
   }
   $lines += ""
-  $lines += "Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: skills/<name>/SKILL.md"
-  Write-UTF8 (Join-Path $WikiDir ($g.Name + ".md")) ($lines -join "`n")
+  $lines += "Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: ``skills/<name>/SKILL.md``"
+  $lines += ""
+  $lines += "Workflows (plays) live on the [workflows](workflows.md) page."
+  Write-UTF8 (Join-Path $WikiDir ($g.Name + ".md")) (($lines -join "`n") + "`n")
+}
+
+$flows = @($reg.skills | Where-Object { $_.kind -eq "workflow" } | Sort-Object name)
+if ($flows.Count -gt 0) {
+  $fl = @()
+  $fl += "# Workflows - plays that run skills in order"
+  $fl += ""
+  $fl += "A workflow is a skill whose job is a sequence: load each step fully, carry outputs forward, stop on red gates."
+  $fl += ""
+  foreach ($s in $flows) {
+    $fl += "## ``$($s.name)`` ($($s.category))"
+    $fl += ""
+    $fl += $s.description
+    $fl += ""
+    $fl += "Steps: " + (($s.steps | ForEach-Object { "``$_``" }) -join " -> ")
+    $fl += ""
+  }
+  Write-UTF8 (Join-Path $WikiDir "workflows.md") (($fl -join "`n") + "`n")
 }
 Write-Output "wiki rebuilt: $($groups.Count) categories, $($reg.skills.Count) skills"

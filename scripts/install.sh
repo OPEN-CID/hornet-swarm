@@ -49,14 +49,24 @@ if [[ -z "$TARGET" ]]; then
   else TARGET="$(tool_target "$TOOL")"; fi
 fi
 mkdir -p "$TARGET"
-install_one() {
+find_skill_dir() {
   local s="$1"
-  [[ -f "$REPO_ROOT/skills/$s/SKILL.md" ]] || { echo "skip $s: no SKILL.md"; return; }
-  rm -rf "$TARGET/$s"; cp -r "$REPO_ROOT/skills/$s" "$TARGET/$s"
+  for r in skills workflows; do
+    if [[ -f "$REPO_ROOT/$r/$s/SKILL.md" ]]; then echo "$REPO_ROOT/$r/$s"; return 0; fi
+  done
+  return 1
+}
+install_one() {
+  local s="$1" src
+  src="$(find_skill_dir "$s")" || { echo "skip $s: no SKILL.md"; return; }
+  rm -rf "$TARGET/$s"; cp -r "$src" "$TARGET/$s"
   echo "installed $s -> $TARGET/$s"
 }
 if [[ -z "$SKILLS" ]]; then
-  for d in "$REPO_ROOT"/skills/*/; do install_one "$(basename "$d")"; done
+  for d in "$REPO_ROOT"/skills/*/ "$REPO_ROOT"/workflows/*/; do
+    [[ -d "$d" ]] || continue
+    install_one "$(basename "$d")"
+  done
 else
   IFS=',' read -ra ARR <<< "$SKILLS"
   for s in "${ARR[@]}"; do install_one "$s"; done

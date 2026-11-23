@@ -37,8 +37,35 @@ function Test-Skill($dir) {
   return 0
 }
 
-$dirs = if ($Skill) { @(Join-Path $RepoRoot "skills/$Skill") } else { Get-ChildItem -Directory (Join-Path $RepoRoot "skills") | Select-Object -ExpandProperty FullName }
-foreach ($d in $dirs) { $fail += (Test-Skill $d) }
+$skillDirs = @()
+if ($Skill) {
+  $skillDirs = @((Join-Path $RepoRoot "skills/$Skill"), (Join-Path $RepoRoot "workflows/$Skill")) | Where-Object { Test-Path -LiteralPath $_ }
+  if ($skillDirs.Count -eq 0) { Write-Output "FAIL ${Skill}: not found in skills/ or workflows/"; exit 1 }
+} else {
+  foreach ($root in @("skills", "workflows")) {
+    $rp = Join-Path $RepoRoot $root
+    if (Test-Path -LiteralPath $rp) { $skillDirs += Get-ChildItem -Directory $rp | Select-Object -ExpandProperty FullName }
+  }
+}
+foreach ($d in $skillDirs) { $fail += (Test-Skill $d) }
+
+# uniqueness of frontmatter names across skills/ and workflows/
+if (-not $Skill) {
+  $seen = @{}
+  foreach ($d in $skillDirs) {
+    $f = Join-Path $d "SKILL.md"
+    if (-not (Test-Path -LiteralPath $f)) { continue }
+    $raw = [System.IO.File]::ReadAllText($f, [System.Text.Encoding]::UTF8)
+    if ($raw -match '(?s)^---\s*\r?\n(.*?)\r?\n---') {
+      $mn = [regex]::Match($Matches[1], '^\s*name:\s*(.+?)\s*$', 'Multiline')
+      if ($mn.Success) {
+        $nm = $mn.Groups[1].Value.Trim()
+        if ($seen.ContainsKey($nm)) { Write-Output "FAIL duplicate name: $nm ($($seen[$nm]) and $d)"; $fail += 1 }
+        else { $seen[$nm] = $d }
+      }
+    }
+  }
+}
 
 # registry cross-check
 try {

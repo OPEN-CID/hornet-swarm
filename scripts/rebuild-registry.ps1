@@ -8,7 +8,11 @@ $UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
 function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 $items = @()
-foreach ($d in Get-ChildItem -Directory (Join-Path $RepoRoot "skills")) {
+foreach ($root in @("skills", "workflows")) {
+  $kind = if ($root -eq "workflows") { "workflow" } else { "skill" }
+  $rp = Join-Path $RepoRoot $root
+  if (-not (Test-Path -LiteralPath $rp)) { continue }
+  foreach ($d in Get-ChildItem -Directory $rp) {
   $file = Join-Path $d.FullName "SKILL.md"
   if (-not (Test-Path -LiteralPath $file)) { continue }
   $raw = Read-UTF8 $file
@@ -21,13 +25,19 @@ foreach ($d in Get-ChildItem -Directory (Join-Path $RepoRoot "skills")) {
   $t = [regex]::Match($fm, '^\s*triggers:\s*(.+?)\s*$', 'Multiline')
   $trigs = @()
   if ($t.Success) { $trigs = @($t.Groups[1].Value -split '\s*,\s*' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }) }
+  $st = [regex]::Match($fm, '^\s*steps:\s*(.+?)\s*$', 'Multiline')
+  $steps = @()
+  if ($st.Success) { $steps = @($st.Groups[1].Value -split '\s*,\s*' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }) }
   $items += [ordered]@{
     name = if ($n.Success) { $n.Groups[1].Value.Trim() } else { $d.Name }
     description = if ($ds.Success) { $ds.Groups[1].Value.Trim() } else { "" }
     category = if ($c.Success) { $c.Groups[1].Value.Trim() } else { "uncategorized" }
-    path = "skills/$($d.Name)/SKILL.md"
+    kind = $kind
+    path = "$root/$($d.Name)/SKILL.md"
     version = if ($v.Success) { $v.Groups[1].Value.Trim() } else { "0.1.0" }
     triggers = $trigs
+    steps = $steps
+  }
   }
 }
 $items = $items | Sort-Object { $_['name'] }
