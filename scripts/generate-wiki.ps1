@@ -58,6 +58,9 @@ $CatBlurb = @{
   'eco'              = "Recycle, compost, save water, and cut carbon."
   'pets'             = "Dogs, cats, tanks, birds, hens, and bees."
   'culture'          = "Roots, media literacy, debate, and museums."
+  'data-platforms'   = "Snowflake, Databricks, BigQuery, dbt, Kafka, Postgres and more. Watch the bill."
+  'hardware'         = "GPUs, PC builds, Pi projects, home servers. Safety first."
+  'saas-tools'       = "Notion, Figma, Slack, Stripe, Shopify and everyday company tools."
 }
 
 $groups = $reg.skills | Group-Object -Property category | Sort-Object Name

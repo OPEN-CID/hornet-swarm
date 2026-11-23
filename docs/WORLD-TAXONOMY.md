@@ -53,8 +53,11 @@ Dev-only catalogs cover ~10% of agent work. This repo covers the rest:
 | 44 | Eco living | `eco` | 6 | recycling, compost, waste-less, water, sustainable shopping, carbon cuts |
 | 45 | Pets & animals | `pets` | 6 | dogs, cats, aquariums, birds, chickens, bees |
 | 46 | Culture & thinking | `culture` | 6 | genealogy, media literacy, critical thinking, debate, art history, museums |
+| 47 | Data platforms | `data-platforms` | 10 | Snowflake, Databricks, BigQuery, dbt, Airflow, Kafka, Postgres, MySQL, MongoDB, Redis |
+| 48 | Hardware & chips | `hardware` | 5 | NVIDIA GPUs, AMD GPUs, PC builds, Raspberry Pi, home servers |
+| 49 | SaaS & company tools | `saas-tools` | 8 | Notion, Figma, Slack, Zoom, Stripe, Shopify, Etsy, Google Workspace |
 
-(46 category keys. Total: **415 entries = 405 skills + 10 workflows** — and growing via `docs/INTAKE.md`.
+(49 category keys. Total: **458 entries = 448 skills + 10 workflows** — and growing via `docs/INTAKE.md`.
 
 **Workflows are plays, not a category.** Anything multi-step becomes a workflow
 (`workflows/<name>/SKILL.md`, generated from `catalog/workflows.json`): it loads

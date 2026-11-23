@@ -3,7 +3,7 @@
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  415,
+    "count":  458,
     "skills":  [
                    {
                        "name":  "adr-writer",
@@ -20,6 +20,20 @@
                                  ]
                    },
                    {
+                       "name":  "airflow-basics",
+                       "description":  "Schedule pipelines with Airflow DAGs, retries, and alerts. Use for orchestration.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/airflow-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "pipeline orchestration"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "ai-tools-guide",
                        "description":  "Pick AI tools with privacy checks and workflow fits. Use for team adoption.",
                        "category":  "everyday-tech",
@@ -28,6 +42,34 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "team AI adoption"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "amd-gpu",
+                       "description":  "Set up AMD GPUs with ROCm and compatibility checks. Use for AMD compute or gaming.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/amd-gpu/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "AMD GPUs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "anthropic-api-guide",
+                       "description":  "Use the Anthropic API with keys, models, and prompt cache. Use for Claude features.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/anthropic-api-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Claude features"
                                     ],
                        "steps":  [
 
@@ -188,6 +230,20 @@
                                  ]
                    },
                    {
+                       "name":  "azure-basics",
+                       "description":  "Learn Azure with resource groups, VNets, and cost guards. Use for Microsoft-cloud work.",
+                       "category":  "cloud",
+                       "kind":  "skill",
+                       "path":  "skills/azure-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Azure work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "baby-proof",
                        "description":  "Baby-proof rooms with checklists by age. Use before crawling starts.",
                        "category":  "parenting",
@@ -253,6 +309,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "beekeeping interest"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "bigquery-guide",
+                       "description":  "Query BigQuery with partitioning, slots, and cost controls. Use for GCP analytics.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/bigquery-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "GCP analytics"
                                     ],
                        "steps":  [
 
@@ -751,6 +821,20 @@
                                  ]
                    },
                    {
+                       "name":  "cloudflare-basics",
+                       "description":  "Run sites behind Cloudflare with DNS, cache, and WAF. Use for web protection.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/cloudflare-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "web protection"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "cocktail-basics",
                        "description":  "Mix classic cocktails with ratios and responsible serving. Use for home entertaining.",
                        "category":  "cooking",
@@ -1109,6 +1193,20 @@
                                  ]
                    },
                    {
+                       "name":  "databricks-guide",
+                       "description":  "Build on Databricks with jobs, Delta Lake, and Unity Catalog. Use for Databricks lakehouses.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/databricks-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Databricks lakehouse work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "data-clean",
                        "description":  "Profile and clean messy datasets with auditable rules. Use when data has nulls, duplicates, or inconsistent formats.",
                        "category":  "data-ai",
@@ -1201,6 +1299,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "dbt-build",
+                       "description":  "Model transforms with dbt: staging, marts, tests, docs. Use for SQL pipelines.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/dbt-build/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "SQL transform pipelines"
                                     ],
                        "steps":  [
 
@@ -1546,6 +1658,20 @@
                                  ]
                    },
                    {
+                       "name":  "etsy-shop",
+                       "description":  "Sell handmade goods on Etsy with SEO titles and pricing. Use for craft sellers.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/etsy-shop/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "selling handmade goods"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "eval-harness",
                        "description":  "Score AI behavior on fixed cases with rubrics and regression gates. Use when shipping or changing any model or prompt.",
                        "category":  "data-ai",
@@ -1730,6 +1856,20 @@
                                  ]
                    },
                    {
+                       "name":  "figma-basics",
+                       "description":  "Design in Figma with components, auto-layout, and handoff. Use for UI work.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/figma-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "UI design work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "finance-review",
                        "description":  "Run a monthly money review of spending versus budget. Use on the first of each month.",
                        "category":  "legal-finance",
@@ -1816,6 +1956,20 @@
                                      "test-generator",
                                      "code-review",
                                      "pr-create"
+                                 ]
+                   },
+                   {
+                       "name":  "flight-book",
+                       "description":  "Book flights with fare rules, seats, and change policies. Use when buying tickets.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/flight-book/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "buying flight tickets"
+                                    ],
+                       "steps":  [
+
                                  ]
                    },
                    {
@@ -2001,6 +2155,20 @@
                                  ]
                    },
                    {
+                       "name":  "gcp-basics",
+                       "description":  "Learn GCP with projects, IAM, and budgets. Use for Google-cloud work.",
+                       "category":  "cloud",
+                       "kind":  "skill",
+                       "path":  "skills/gcp-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "GCP work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "genealogy-start",
                        "description":  "Trace family history with records and interviews. Use for roots research.",
                        "category":  "culture",
@@ -2071,6 +2239,34 @@
                                  ]
                    },
                    {
+                       "name":  "github-actions-guide",
+                       "description":  "Build GitHub Actions with caching, matrices, and OIDC. Use for GitHub repos.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/github-actions-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "GitHub repos"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "gitlab-ci",
+                       "description":  "Build GitLab CI pipelines with stages and runners. Use for GitLab repos.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/gitlab-ci/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "GitLab repos"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "go-code",
                        "description":  "Write idiomatic Go with wrapped errors, table tests, and race-clean concurrency. Use for any Go code or review.",
                        "category":  "languages",
@@ -2096,6 +2292,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "Go beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "google-workspace",
+                       "description":  "Run Google Workspace with Drive, Docs, and admin basics. Use for small teams.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/google-workspace/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "small team setup"
                                     ],
                        "steps":  [
 
@@ -2374,6 +2584,48 @@
                                  ]
                    },
                    {
+                       "name":  "home-server",
+                       "description":  "Run a home server or NAS with storage, backups, and remote access. Use for self-hosting.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/home-server/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "self-hosting"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "homework-check",
+                       "description":  "Check completed homework with corrections and explanations. Use after finishing assignments.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/homework-check/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "finished assignments"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "hotel-book",
+                       "description":  "Book hotels with location, cancellation, and loyalty math. Use for stays.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/hotel-book/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "booking stays"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "idea-validate",
                        "description":  "Stress-test startup ideas with customers and numbers. Use before building anything.",
                        "category":  "business-ops",
@@ -2414,6 +2666,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "any training program"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "instagram-grow",
+                       "description":  "Grow Instagram with reels, hooks, and posting rhythm. Use for brands.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/instagram-grow/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "brand growth"
                                     ],
                        "steps":  [
 
@@ -2600,6 +2866,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "first clusters"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "kafka-basics",
+                       "description":  "Stream events with Kafka topics, keys, and consumer groups. Use for event pipelines.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/kafka-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "event streaming"
                                     ],
                        "steps":  [
 
@@ -3237,6 +3517,20 @@
                                  ]
                    },
                    {
+                       "name":  "mongodb-basics",
+                       "description":  "Model MongoDB documents with indexes and aggregation. Use for document apps.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/mongodb-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "MongoDB apps"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "monitoring-setup",
                        "description":  "Monitor services with golden signals and alert rules. Use before production.",
                        "category":  "cloud",
@@ -3329,6 +3623,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "players learning theory"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "mysql-basics",
+                       "description":  "Run MySQL with schema design, backups, and replication. Use for MySQL apps.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/mysql-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "MySQL apps"
                                     ],
                        "steps":  [
 
@@ -3461,6 +3769,20 @@
                                  ]
                    },
                    {
+                       "name":  "notion-setup",
+                       "description":  "Organize Notion with databases, templates, and sharing. Use for team or personal wikis.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/notion-setup/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Notion setups"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "nutrition-plan",
                        "description":  "Plan balanced meals around budget and restrictions. Use when meal planning for health goals. General information, not medical advice.",
                        "category":  "medical-health",
@@ -3470,6 +3792,34 @@
                        "triggers":  [
                                         "meal planning for health goals",
                                         "eating on a budget"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "nvidia-gpu",
+                       "description":  "Set up NVIDIA GPUs with drivers, CUDA, and VRAM sizing. Use for ML or gaming rigs.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/nvidia-gpu/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "ML rigs or gaming GPUs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "oci-basics",
+                       "description":  "Learn Oracle Cloud with compartments and free-tier limits. Use for OCI work.",
+                       "category":  "cloud",
+                       "kind":  "skill",
+                       "path":  "skills/oci-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "OCI work"
                                     ],
                        "steps":  [
 
@@ -3522,6 +3872,20 @@
                                  ]
                    },
                    {
+                       "name":  "openai-api-guide",
+                       "description":  "Use the OpenAI API with keys, models, and cost controls. Use for GPT features.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/openai-api-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "GPT features"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "ops-playbook",
                        "description":  "Operating-cadence best practices for calm teams. Use when the team feels chaotic.",
                        "category":  "business-ops",
@@ -3558,6 +3922,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "gifts and calm"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "package-book",
+                       "description":  "Book flight-plus-hotel packages with price checks. Use for bundled holidays.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/package-book/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "bundled holidays"
                                     ],
                        "steps":  [
 
@@ -3676,6 +4054,20 @@
                                  ]
                    },
                    {
+                       "name":  "pc-build",
+                       "description":  "Build a PC with compatible parts and assembly order. Use for custom desktops. Never open a PSU.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/pc-build/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "custom desktop builds"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "pc-troubleshoot",
                        "description":  "Fix slow or broken PCs with a safe checklist. Use before repair shops.",
                        "category":  "everyday-tech",
@@ -3740,6 +4132,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "suspicious mail"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "phonics-start",
+                       "description":  "Teach reading with sounds, blending, and book ladders. Use for early readers.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/phonics-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "early readers"
                                     ],
                        "steps":  [
 
@@ -3965,6 +4371,20 @@
                                  ]
                    },
                    {
+                       "name":  "points-miles",
+                       "description":  "Use points and miles with transfer partners and sweet spots. Use for award travel.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/points-miles/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "award travel"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "poker-basics",
                        "description":  "Learn poker fundamentals with bankroll rules. Play responsibly. Use for home games.",
                        "category":  "play",
@@ -3987,6 +4407,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "yearly money review"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "postgres-tune",
+                       "description":  "Tune Postgres with indexes, vacuum, and EXPLAIN. Use for slow databases.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/postgres-tune/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "slow Postgres"
                                     ],
                        "steps":  [
 
@@ -4030,6 +4464,20 @@
                        "triggers":  [
                                         "writing or reviewing PowerShell code",
                                         "setting up PSScriptAnalyzer or Pester"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "practice-test-maker",
+                       "description":  "Turn any chapter into a timed mock test with answer key. Use for exam prep.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/practice-test-maker/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "exam prep"
                                     ],
                        "steps":  [
 
@@ -4279,6 +4727,20 @@
                                  ]
                    },
                    {
+                       "name":  "raspberry-pi",
+                       "description":  "Run Raspberry Pi projects with OS, GPIO, and headless setup. Use for DIY electronics.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/raspberry-pi/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Pi projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "r-code",
                        "description":  "Write vectorized R with renv reproducibility and testthat proof. Use for any R analysis or package code.",
                        "category":  "languages",
@@ -4330,6 +4792,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "household recycling"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "redis-basics",
+                       "description":  "Cache with Redis using TTLs, eviction, and persistence picks. Use for speed layers.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/redis-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "caching layers"
                                     ],
                        "steps":  [
 
@@ -4714,6 +5190,20 @@
                                  ]
                    },
                    {
+                       "name":  "science-fair-guide",
+                       "description":  "Run science fair projects with question, method, and board. Use for fairs.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/science-fair-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "science fairs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "sci-term-translate",
                        "description":  "Translate dense paper jargon and units into plain explanations. Use when a paper is unreadable.",
                        "category":  "science-lab",
@@ -4889,6 +5379,20 @@
                                  ]
                    },
                    {
+                       "name":  "shopify-start",
+                       "description":  "Launch a Shopify store with theme, products, and checkout. Use for ecommerce.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/shopify-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "launching stores"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "sibling-fights",
                        "description":  "Defuse sibling fights with scripts and repair routines. Use for daily battles.",
                        "category":  "parenting",
@@ -4939,6 +5443,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "slack-guide",
+                       "description":  "Run Slack with channels, huddles, and notification norms. Use for team chat.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/slack-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "team chat setup"
                                     ],
                        "steps":  [
 
@@ -4996,6 +5514,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "new devices"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "snowflake-guide",
+                       "description":  "Run Snowflake with warehouses, stages, streams/tasks, and cost guards. Use for Snowflake data work.",
+                       "category":  "data-platforms",
+                       "kind":  "skill",
+                       "path":  "skills/snowflake-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Snowflake data work"
                                     ],
                        "steps":  [
 
@@ -5226,6 +5758,20 @@
                                  ]
                    },
                    {
+                       "name":  "stripe-setup",
+                       "description":  "Accept payments with Stripe products, webhooks, and test mode. Use for online billing.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/stripe-setup/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "online billing"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "study-doc-parse",
                        "description":  "Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material.",
                        "category":  "education",
@@ -5437,6 +5983,20 @@
                                  ]
                    },
                    {
+                       "name":  "temporal-guide",
+                       "description":  "Orchestrate durable workflows with Temporal activities and workers. Use for reliable background work.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/temporal-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "durable background work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "tenant-rights",
                        "description":  "Know renter rights with deposit, repair, and eviction basics. Use when landlord issues arise. General info.",
                        "category":  "law-life",
@@ -5588,6 +6148,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "used car purchase"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "vercel-deploy",
+                       "description":  "Ship frontends on Vercel with previews and envs. Use for web apps.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/vercel-deploy/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "web app deploys"
                                     ],
                        "steps":  [
 
@@ -5910,6 +6484,34 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "volunteer coaching"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "youtube-channel",
+                       "description":  "Grow a channel with niches, packaging, and schedules. Use for creators.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/youtube-channel/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "starting a channel"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "zoom-guide",
+                       "description":  "Host Zoom meetings with settings, recordings, and etiquette. Use for remote meetings.",
+                       "category":  "saas-tools",
+                       "kind":  "skill",
+                       "path":  "skills/zoom-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "remote meetings"
                                     ],
                        "steps":  [
 

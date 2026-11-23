@@ -99,8 +99,10 @@ $SafetyNote = @{
   'law-life'       = "> General information only: not legal advice. Confirm consequential matters with a licensed professional."
   'outdoors'       = "> Outdoor activities carry real risk: check local conditions, carry essentials, and get qualified instruction for technical skills."
   'vehicles'       = "> Safety first: protective gear, licensed training, and professional mechanics for anything beyond basic maintenance."
-  'pets'           = "> General care information: for illness or emergencies, consult your veterinarian."
-  'cooking'        = "> Cook to safe temperatures, respect allergies, and when in doubt throw it out."
+  'pets'             = "> General care information: for illness or emergencies, consult your veterinarian."
+  'cooking'          = "> Cook to safe temperatures, respect allergies, and when in doubt throw it out."
+  'data-platforms'   = "> Cloud data platforms bill by usage: set cost controls and test on small data first."
+  'hardware'         = "> Hardware safety: unplug before opening, never open a PSU, get a pro for mains wiring."
 }
 
 $Template = @'
