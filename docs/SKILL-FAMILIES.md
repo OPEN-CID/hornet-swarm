@@ -31,6 +31,9 @@ science, data, business, architecture — anything.
 | career | feedback-translate | job-post-parse | resume-writer, interview-prep | application-review | career-playbook |
 | software-build | code-explain | api-spec-parse | api-design, debugging | code-review | review-playbook |
 | languages | n/a (each `-code` skill embeds plain-language idioms) | api-spec-parse | 20 × `-code` (do + playbook in one) | code-review | style + arch + pitfalls embedded per language |
+| data-platforms | query-translate | data-doc-parse | snowflake/bigquery/databricks guides, dbt, airflow | pipeline-review | data-playbook + cost guards |
+| hardware | n/a | manual-parse | nvidia/amd/pc-build/pi/server | build-review | workshop-playbook + power safety |
+| saas-tools | n/a | brief-parse | notion/figma/slack/stripe/shopify setups | business-review | ops-playbook |
 
 ## Language skills (the 6th family in practice)
 

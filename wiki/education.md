@@ -10,11 +10,15 @@ Learn anything with tutoring and study systems.
 | `essay-feedback` | skill | Critique essays for thesis, structure, and evidence. Use when revising writing. |
 | `exam-prep` | skill | Build an exam study plan with spaced practice tests. Use before any exam. |
 | `exam-readiness-review` | skill | Audit exam readiness with a timed mock and gap list. Use one week before any exam. |
+| `homework-check` | skill | Check completed homework with corrections and explanations. Use after finishing assignments. |
 | `kid-homework` | skill | Guide kids to answers with hints, never direct solutions. Use for K-12 homework help. |
 | `language-tutor` | skill | Practice a language with corrections and drills. Use for daily speaking and writing practice. |
 | `learn-playbook` | skill | Learning-science best practices for efficient study. Use when study feels inefficient. |
 | `math-tutor` | skill | Teach math step by step with practice problems. Use when stuck on algebra through calculus. |
+| `phonics-start` | skill | Teach reading with sounds, blending, and book ladders. Use for early readers. |
 | `physics-tutor` | skill | Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework. |
+| `practice-test-maker` | skill | Turn any chapter into a timed mock test with answer key. Use for exam prep. |
+| `science-fair-guide` | skill | Run science fair projects with question, method, and board. Use for fairs. |
 | `study-doc-parse` | skill | Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`

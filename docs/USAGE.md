@@ -111,6 +111,21 @@ Connect strings for Claude Code, Cursor, Copilot, Codex, Gemini CLI:
 [`mcp-server/README.md`](../mcp-server/README.md). Any MCP-capable tool —
 including ones released next year — gets all skills with zero changes here.
 
+## Vendor and company skills (same flow, zero extra setup)
+
+Vendor skills (`snowflake-guide`, `azure-basics`, `nvidia-gpu`, `stripe-setup`,
+`flight-book`, `practice-test-maker`...) install and verify exactly like any
+other skill — same folders, same `/name` or `$name` invocation, same router
+and MCP paths. Two tips:
+
+1. Install the vendor set you actually use, not all of them:
+   `scripts/install.ps1 -Tool cursor -Skills snowflake-guide,dbt-build,airflow-basics -Router`
+2. Verify with a vendor-specific prompt, e.g. "set up cost guards on this
+   Snowflake worksheet" (tests `snowflake-guide`) or "compare these two fares
+   including change fees" (tests `flight-book`). If the wrong skill loads, say
+   `/snowflake-guide` explicitly — descriptions are trigger-first, but explicit
+   beats clever.
+
 ## Team distribution (3 patterns)
 
 1. **Commit it** (recommended): copy needed skills into your repo
