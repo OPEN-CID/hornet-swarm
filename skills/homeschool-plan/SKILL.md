@@ -1,13 +1,13 @@
 ---
 name: homeschool-plan
-description: Plan a homeschool week with subjects, resources, and records. Use when starting homeschooling.
+description: "Plan a homeschool week with subjects, resources, and records. Use when starting homeschooling."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting homeschooling
+  triggers: "starting homeschooling"
 ---
 
 ## What I do

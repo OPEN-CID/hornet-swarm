@@ -1,13 +1,13 @@
 ---
 name: holiday-plan
-description: Plan holidays with travel, meals, and gifts. Use for seasons.
+description: "Plan holidays with travel, meals, and gifts. Use for seasons."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
-  triggers: holiday seasons
+  triggers: "holiday seasons"
 ---
 
 ## What I do

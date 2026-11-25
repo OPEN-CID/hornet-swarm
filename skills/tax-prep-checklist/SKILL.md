@@ -1,13 +1,13 @@
 ---
 name: tax-prep-checklist
-description: Organize documents for tax filing. Use at tax season. General information, confirm with a tax professional.
+description: "Organize documents for tax filing. Use at tax season. General information, confirm with a tax professional."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing to file taxes
+  triggers: "preparing to file taxes"
 ---
 
 ## What I do

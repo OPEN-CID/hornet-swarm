@@ -1,13 +1,13 @@
 ---
 name: phrasebook-plan
-description: Learn 30 survival phrases with pronunciation for a trip. Use two weeks before travel.
+description: "Learn 30 survival phrases with pronunciation for a trip. Use two weeks before travel."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: two weeks before travel abroad
+  triggers: "two weeks before travel abroad"
 ---
 
 ## What I do

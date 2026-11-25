@@ -1,13 +1,13 @@
 ---
 name: shopify-start
-description: Launch a Shopify store with theme, products, and checkout. Use for ecommerce.
+description: "Launch a Shopify store with theme, products, and checkout. Use for ecommerce."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: launching stores
+  triggers: "launching stores"
 ---
 
 ## What I do

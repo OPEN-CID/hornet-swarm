@@ -1,13 +1,13 @@
 ---
 name: puzzles-train
-description: Train logic with puzzle ladders. Use for fun and interviews.
+description: "Train logic with puzzle ladders. Use for fun and interviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: puzzle practice
+  triggers: "puzzle practice"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: paper-summarizer
-description: Distill papers into findings, methods, and limits. Use for literature review.
+description: "Distill papers into findings, methods, and limits. Use for literature review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: reviewing academic papers
+  triggers: "reviewing academic papers"
 ---
 
 ## What I do

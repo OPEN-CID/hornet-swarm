@@ -1,13 +1,13 @@
 ---
 name: scrapbook-start
-description: Preserve memories with layouts and archival safety. Use for albums.
+description: "Preserve memories with layouts and archival safety. Use for albums."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: memory albums
+  triggers: "memory albums"
 ---
 
 ## What I do

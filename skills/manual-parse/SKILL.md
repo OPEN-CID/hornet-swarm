@@ -1,13 +1,13 @@
 ---
 name: manual-parse
-description: Turn appliance manuals into one-page quick-use and troubleshooting cards. Use for any new appliance.
+description: "Turn appliance manuals into one-page quick-use and troubleshooting cards. Use for any new appliance."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: new appliance setup
+  triggers: "new appliance setup"
 ---
 
 ## What I do

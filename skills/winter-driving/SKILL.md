@@ -1,13 +1,13 @@
 ---
 name: winter-driving
-description: Drive winter roads with tires, kits, and skid recovery. Use before snow season.
+description: "Drive winter roads with tires, kits, and skid recovery. Use before snow season."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: before snow season
+  triggers: "before snow season"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: boundaries-guide
-description: Set boundaries kindly with scripts for no and limits. Use when overcommitted.
+description: "Set boundaries kindly with scripts for no and limits. Use when overcommitted."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: feeling overcommitted
+  triggers: "feeling overcommitted"
 ---
 
 ## What I do

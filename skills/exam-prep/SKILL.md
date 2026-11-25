@@ -1,13 +1,13 @@
 ---
 name: exam-prep
-description: Build an exam study plan with spaced practice tests. Use before any exam.
+description: "Build an exam study plan with spaced practice tests. Use before any exam."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing for an exam
+  triggers: "preparing for an exam"
 ---
 
 ## What I do

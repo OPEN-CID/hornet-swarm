@@ -1,13 +1,13 @@
 ---
 name: learn-code
-description: Learn programming from zero with small wins. Use for absolute beginners.
+description: "Learn programming from zero with small wins. Use for absolute beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: absolute beginners
+  triggers: "absolute beginners"
 ---
 
 ## What I do

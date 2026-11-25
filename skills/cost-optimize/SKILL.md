@@ -1,13 +1,13 @@
 ---
 name: cost-optimize
-description: Cut cloud bills with rightsizing and lifecycle rules. Use for surprise invoices.
+description: "Cut cloud bills with rightsizing and lifecycle rules. Use for surprise invoices."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: surprise cloud bills
+  triggers: "surprise cloud bills"
 ---
 
 ## What I do

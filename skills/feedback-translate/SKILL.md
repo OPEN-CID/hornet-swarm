@@ -1,13 +1,13 @@
 ---
 name: feedback-translate
-description: Decode vague interview or review feedback into concrete actions. Use after rejections or ratings.
+description: "Decode vague interview or review feedback into concrete actions. Use after rejections or ratings."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: after rejections or puzzling reviews
+  triggers: "after rejections or puzzling reviews"
 ---
 
 ## What I do

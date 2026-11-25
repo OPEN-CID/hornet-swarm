@@ -1,13 +1,13 @@
 ---
 name: chrome-extension
-description: Build Chrome extensions with manifest v3 and store publish. Use for browser tools.
+description: "Build Chrome extensions with manifest v3 and store publish. Use for browser tools."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: browser tools
+  triggers: "browser tools"
 ---
 
 ## What I do

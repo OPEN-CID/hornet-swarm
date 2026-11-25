@@ -1,13 +1,13 @@
 ---
 name: marathon-plan
-description: Train 16 weeks for a marathon with paces and fueling. Use with a base in place.
+description: "Train 16 weeks for a marathon with paces and fueling. Use with a base in place."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: marathon with base fitness
+  triggers: "marathon with base fitness"
 ---
 
 ## What I do

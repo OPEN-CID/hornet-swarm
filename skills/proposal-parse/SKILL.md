@@ -1,13 +1,13 @@
 ---
 name: proposal-parse
-description: Extract pricing, terms, and deliverables from vendor proposals into a comparison sheet. Use when choosing vendors.
+description: "Extract pricing, terms, and deliverables from vendor proposals into a comparison sheet. Use when choosing vendors."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: choosing between vendors
+  triggers: "choosing between vendors"
 ---
 
 ## What I do

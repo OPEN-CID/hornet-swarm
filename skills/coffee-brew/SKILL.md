@@ -1,13 +1,13 @@
 ---
 name: coffee-brew
-description: Brew better coffee with grind, ratio, and method tuning. Use when coffee tastes off.
+description: "Brew better coffee with grind, ratio, and method tuning. Use when coffee tastes off."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: off-tasting coffee
+  triggers: "off-tasting coffee"
 ---
 
 ## What I do

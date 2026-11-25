@@ -1,13 +1,13 @@
 ---
 name: difficult-firing
-description: Handle exits legally and humanely with HR. Use with HR guidance only.
+description: "Handle exits legally and humanely with HR. Use with HR guidance only."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: necessary exits
+  triggers: "necessary exits"
 ---
 
 ## What I do

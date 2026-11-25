@@ -1,13 +1,13 @@
 ---
 name: performance-review
-description: Write self-reviews with evidence and growth goals. Use at review season.
+description: "Write self-reviews with evidence and growth goals. Use at review season."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: writing a performance self-review
+  triggers: "writing a performance self-review"
 ---
 
 ## What I do

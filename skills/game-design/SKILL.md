@@ -1,13 +1,13 @@
 ---
 name: game-design
-description: Design board or video games with loops and playtests. Use for prototypes.
+description: "Design board or video games with loops and playtests. Use for prototypes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: game prototypes
+  triggers: "game prototypes"
 ---
 
 ## What I do

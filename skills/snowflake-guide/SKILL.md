@@ -1,13 +1,13 @@
 ---
 name: snowflake-guide
-description: Run Snowflake with warehouses, stages, streams/tasks, and cost guards. Use for Snowflake data work.
+description: "Run Snowflake with warehouses, stages, streams/tasks, and cost guards. Use for Snowflake data work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: Snowflake data work
+  triggers: "Snowflake data work"
 ---
 
 ## What I do

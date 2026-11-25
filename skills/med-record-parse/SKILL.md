@@ -1,13 +1,13 @@
 ---
 name: med-record-parse
-description: Extract medications, doses, and appointments from medical documents into a structured list. Use when organizing prescriptions or visit papers. Never alters doses.
+description: "Extract medications, doses, and appointments from medical documents into a structured list. Use when organizing prescriptions or visit papers. Never alters doses."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: organizing prescriptions or visit papers
+  triggers: "organizing prescriptions or visit papers"
 ---
 
 ## What I do

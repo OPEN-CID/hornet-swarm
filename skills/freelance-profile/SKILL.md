@@ -1,13 +1,13 @@
 ---
 name: freelance-profile
-description: Win freelance work with profiles and proposals. Use for marketplaces.
+description: "Win freelance work with profiles and proposals. Use for marketplaces."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: freelance marketplaces
+  triggers: "freelance marketplaces"
 ---
 
 ## What I do

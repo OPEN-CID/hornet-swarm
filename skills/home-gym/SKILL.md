@@ -1,13 +1,13 @@
 ---
 name: home-gym
-description: Build a home gym with essentials in buy order. Use for home training.
+description: "Build a home gym with essentials in buy order. Use for home training."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: home training
+  triggers: "home training"
 ---
 
 ## What I do

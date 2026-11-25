@@ -1,13 +1,13 @@
 ---
 name: diy-plumbing-fix
-description: Diagnose and fix common leaks and clogs safely. Use for minor plumbing issues.
+description: "Diagnose and fix common leaks and clogs safely. Use for minor plumbing issues."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: leaky tap or clogged drain
+  triggers: "leaky tap or clogged drain"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: chemistry-helper
-description: Balance equations and explain lab concepts safely. Use for chemistry homework and labs.
+description: "Balance equations and explain lab concepts safely. Use for chemistry homework and labs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: chemistry homework or lab prep
+  triggers: "chemistry homework or lab prep"
 ---
 
 ## What I do

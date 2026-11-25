@@ -1,13 +1,13 @@
 ---
 name: huggingface-use
-description: Use Hugging Face models with pipelines and fine-tuning. Use for NLP and vision.
+description: "Use Hugging Face models with pipelines and fine-tuning. Use for NLP and vision."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: NLP and vision tasks
+  triggers: "NLP and vision tasks"
 ---
 
 ## What I do

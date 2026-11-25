@@ -1,13 +1,13 @@
 ---
 name: buy-home
-description: Buy a home with affordability math and offer strategy. Use when house hunting.
+description: "Buy a home with affordability math and offer strategy. Use when house hunting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: house hunting
+  triggers: "house hunting"
 ---
 
 ## What I do

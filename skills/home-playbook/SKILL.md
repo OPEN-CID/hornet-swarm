@@ -1,13 +1,13 @@
 ---
 name: home-playbook
-description: Best-practice home routines for a calm household. Use when setting up a household system.
+description: "Best-practice home routines for a calm household. Use when setting up a household system."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: setting up a household system
+  triggers: "setting up a household system"
 ---
 
 ## What I do

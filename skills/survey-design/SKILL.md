@@ -1,13 +1,13 @@
 ---
 name: survey-design
-description: Write unbiased surveys with analysis plans. Use before collecting responses.
+description: "Write unbiased surveys with analysis plans. Use before collecting responses."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: collecting survey responses
+  triggers: "collecting survey responses"
 ---
 
 ## What I do

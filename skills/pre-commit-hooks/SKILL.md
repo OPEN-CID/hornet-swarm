@@ -1,13 +1,13 @@
 ---
 name: pre-commit-hooks
-description: Run pre-commit hooks for lint and secrets. Use for clean commits.
+description: "Run pre-commit hooks for lint and secrets. Use for clean commits."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: clean commits
+  triggers: "clean commits"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: debate-basics
-description: Debate with structure and rebuttal. Use for clubs.
+description: "Debate with structure and rebuttal. Use for clubs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
-  triggers: debate clubs
+  triggers: "debate clubs"
 ---
 
 ## What I do

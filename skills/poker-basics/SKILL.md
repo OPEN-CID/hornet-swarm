@@ -1,13 +1,13 @@
 ---
 name: poker-basics
-description: Learn poker fundamentals with bankroll rules. Play responsibly. Use for home games.
+description: "Learn poker fundamentals with bankroll rules. Play responsibly. Use for home games."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: home games
+  triggers: "home games"
 ---
 
 ## What I do

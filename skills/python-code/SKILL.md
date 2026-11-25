@@ -1,6 +1,6 @@
 ---
 name: python-code
-description: Write idiomatic Python with type hints, ruff-clean style, and pytest proof. Use for any Python code, review, or packaging.
+description: "Write idiomatic Python with type hints, ruff-clean style, and pytest proof. Use for any Python code, review, or packaging."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Python
-  triggers: writing or reviewing Python code, setting up Python packaging, tests, or lint
+  triggers: "writing or reviewing Python code, setting up Python packaging, tests, or lint"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: procrastination-fix
-description: Beat delay with 10-minute starts and friction removal. Use when avoiding tasks.
+description: "Beat delay with 10-minute starts and friction removal. Use when avoiding tasks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: avoiding tasks
+  triggers: "avoiding tasks"
 ---
 
 ## What I do

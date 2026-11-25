@@ -1,13 +1,13 @@
 ---
 name: public-speaking
-description: Speak confidently with structure and rehearsal. Use before talks.
+description: "Speak confidently with structure and rehearsal. Use before talks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: upcoming talks
+  triggers: "upcoming talks"
 ---
 
 ## What I do

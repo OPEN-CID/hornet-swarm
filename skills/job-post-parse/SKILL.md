@@ -1,13 +1,13 @@
 ---
 name: job-post-parse
-description: Parse job posts into requirements and match matrix. Use before tailoring an application.
+description: "Parse job posts into requirements and match matrix. Use before tailoring an application."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: before tailoring an application
+  triggers: "before tailoring an application"
 ---
 
 ## What I do

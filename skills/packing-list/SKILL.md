@@ -1,13 +1,13 @@
 ---
 name: packing-list
-description: Build a trip-specific packing list by weather, activities, and bag size. Use before any trip.
+description: "Build a trip-specific packing list by weather, activities, and bag size. Use before any trip."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: packing for a trip
+  triggers: "packing for a trip"
 ---
 
 ## What I do

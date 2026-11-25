@@ -1,13 +1,13 @@
 ---
 name: business-plan
-description: Draft lean business plans with unit economics. Use when pitching or planning.
+description: "Draft lean business plans with unit economics. Use when pitching or planning."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: pitching or planning a business
+  triggers: "pitching or planning a business"
 ---
 
 ## What I do

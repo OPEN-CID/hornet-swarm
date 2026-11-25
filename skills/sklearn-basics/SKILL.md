@@ -1,13 +1,13 @@
 ---
 name: sklearn-basics
-description: Build scikit-learn baselines with validation and tuning. Use for tabular ML.
+description: "Build scikit-learn baselines with validation and tuning. Use for tabular ML."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: tabular ML
+  triggers: "tabular ML"
 ---
 
 ## What I do

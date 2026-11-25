@@ -1,13 +1,13 @@
 ---
 name: appliance-fix
-description: Diagnose washers, fridges, and ovens with safety checks. Unplug first; pros for sealed systems.
+description: "Diagnose washers, fridges, and ovens with safety checks. Unplug first; pros for sealed systems."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: broken appliances
+  triggers: "broken appliances"
 ---
 
 ## What I do

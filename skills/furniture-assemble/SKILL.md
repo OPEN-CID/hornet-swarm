@@ -1,13 +1,13 @@
 ---
 name: furniture-assemble
-description: Guide flat-pack furniture assembly without leftover screws. Use for IKEA-style builds.
+description: "Guide flat-pack furniture assembly without leftover screws. Use for IKEA-style builds."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: assembling flat-pack furniture
+  triggers: "assembling flat-pack furniture"
 ---
 
 ## What I do

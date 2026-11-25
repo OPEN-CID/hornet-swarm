@@ -1,13 +1,13 @@
 ---
 name: friendship-build
-description: Build adult friendships with rituals and follow-ups. Use when feeling disconnected.
+description: "Build adult friendships with rituals and follow-ups. Use when feeling disconnected."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: feeling disconnected
+  triggers: "feeling disconnected"
 ---
 
 ## What I do

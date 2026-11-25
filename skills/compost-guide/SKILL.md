@@ -1,13 +1,13 @@
 ---
 name: compost-guide
-description: Compost food scraps with browns-greens balance. Use for gardens.
+description: "Compost food scraps with browns-greens balance. Use for gardens."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: garden composting
+  triggers: "garden composting"
 ---
 
 ## What I do

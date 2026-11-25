@@ -1,13 +1,13 @@
 ---
 name: react-native-app
-description: Build React Native apps with navigation and over-the-air updates. Use for JS mobile apps.
+description: "Build React Native apps with navigation and over-the-air updates. Use for JS mobile apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: JS mobile apps
+  triggers: "JS mobile apps"
 ---
 
 ## What I do

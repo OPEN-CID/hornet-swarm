@@ -1,13 +1,13 @@
 ---
 name: sleep-improve
-description: Audit sleep habits and build an improvement plan. Use for insomnia or fatigue routines.
+description: "Audit sleep habits and build an improvement plan. Use for insomnia or fatigue routines."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: trouble sleeping, daytime fatigue
+  triggers: "trouble sleeping, daytime fatigue"
 ---
 
 ## What I do

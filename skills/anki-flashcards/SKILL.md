@@ -1,13 +1,13 @@
 ---
 name: anki-flashcards
-description: Retain with Anki flashcards and spaced reviews. Use for exams and languages.
+description: "Retain with Anki flashcards and spaced reviews. Use for exams and languages."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: exams and languages
+  triggers: "exams and languages"
 ---
 
 ## What I do

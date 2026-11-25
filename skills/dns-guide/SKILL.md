@@ -1,13 +1,13 @@
 ---
 name: dns-guide
-description: Manage DNS with records, TTL, and migration plans. Use for launches and moves.
+description: "Manage DNS with records, TTL, and migration plans. Use for launches and moves."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: launches and moves
+  triggers: "launches and moves"
 ---
 
 ## What I do

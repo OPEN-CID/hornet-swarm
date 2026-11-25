@@ -1,6 +1,6 @@
 ---
 name: research-dossier
-description: Research any topic into a sourced dossier with recommendation. Use for decisions.
+description: "Research any topic into a sourced dossier with recommendation. Use for decisions."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: researching a decision, due diligence
-  steps: tech-research, paper-summarizer, citation-check, report-writing
+  triggers: "researching a decision, due diligence"
+  steps: "tech-research, paper-summarizer, citation-check, report-writing"
 ---
 
 ## What I do

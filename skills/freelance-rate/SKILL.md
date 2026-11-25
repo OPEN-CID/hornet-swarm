@@ -1,13 +1,13 @@
 ---
 name: freelance-rate
-description: Price freelance work from costs and market rates. Use when quoting clients.
+description: "Price freelance work from costs and market rates. Use when quoting clients."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: quoting a freelance project
+  triggers: "quoting a freelance project"
 ---
 
 ## What I do

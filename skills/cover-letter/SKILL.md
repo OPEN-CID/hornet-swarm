@@ -1,13 +1,13 @@
 ---
 name: cover-letter
-description: Write short specific cover letters. Use for each application.
+description: "Write short specific cover letters. Use for each application."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: submitting a job application
+  triggers: "submitting a job application"
 ---
 
 ## What I do

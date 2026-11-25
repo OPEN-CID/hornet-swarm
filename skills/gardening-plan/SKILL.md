@@ -1,13 +1,13 @@
 ---
 name: gardening-plan
-description: Plan seasonal vegetable or flower gardens. Use when starting a garden.
+description: "Plan seasonal vegetable or flower gardens. Use when starting a garden."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting a garden
+  triggers: "starting a garden"
 ---
 
 ## What I do

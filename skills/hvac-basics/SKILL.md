@@ -1,13 +1,13 @@
 ---
 name: hvac-basics
-description: Run HVAC with filters, thermostat settings, and service timing. Use for comfort and bills.
+description: "Run HVAC with filters, thermostat settings, and service timing. Use for comfort and bills."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: comfort and energy bills
+  triggers: "comfort and energy bills"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: videogame-optimize
-description: Tune PC and settings for smooth play. Use for stuttering games.
+description: "Tune PC and settings for smooth play. Use for stuttering games."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: stuttering games
+  triggers: "stuttering games"
 ---
 
 ## What I do

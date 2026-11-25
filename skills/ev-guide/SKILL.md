@@ -1,13 +1,13 @@
 ---
 name: ev-guide
-description: Choose and charge EVs with range math and home setup. Use when going electric.
+description: "Choose and charge EVs with range math and home setup. Use when going electric."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: going electric
+  triggers: "going electric"
 ---
 
 ## What I do

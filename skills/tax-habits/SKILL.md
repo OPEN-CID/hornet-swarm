@@ -1,13 +1,13 @@
 ---
 name: tax-habits
-description: Build year-round tax habits with folders and quarterly checks. Use for freelancers. General info.
+description: "Build year-round tax habits with folders and quarterly checks. Use for freelancers. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: freelance taxes
+  triggers: "freelance taxes"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: travel-safety
-description: Build a safety plan with document backup, scams, health, and contacts. Use before unfamiliar destinations.
+description: "Build a safety plan with document backup, scams, health, and contacts. Use before unfamiliar destinations."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: unfamiliar destinations
+  triggers: "unfamiliar destinations"
 ---
 
 ## What I do

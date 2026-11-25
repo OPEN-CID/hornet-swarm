@@ -1,13 +1,13 @@
 ---
 name: pipeline-review
-description: Review a data pipeline for correctness, cost, and failure modes. Use before productionizing.
+description: "Review a data pipeline for correctness, cost, and failure modes. Use before productionizing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: before productionizing a pipeline
+  triggers: "before productionizing a pipeline"
 ---
 
 ## What I do

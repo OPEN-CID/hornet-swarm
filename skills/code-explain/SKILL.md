@@ -1,13 +1,13 @@
 ---
 name: code-explain
-description: Translate code into plain-language explanations with flow maps. Use when onboarding or reviewing unfamiliar code.
+description: "Translate code into plain-language explanations with flow maps. Use when onboarding or reviewing unfamiliar code."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: onboarding to unfamiliar code
+  triggers: "onboarding to unfamiliar code"
 ---
 
 ## What I do

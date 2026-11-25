@@ -1,13 +1,13 @@
 ---
 name: meeting-facilitate
-description: Facilitate meetings that end with decisions. Use for workshops.
+description: "Facilitate meetings that end with decisions. Use for workshops."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: workshops
+  triggers: "workshops"
 ---
 
 ## What I do

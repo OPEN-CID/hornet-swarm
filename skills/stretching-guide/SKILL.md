@@ -1,13 +1,13 @@
 ---
 name: stretching-guide
-description: Build a daily mobility routine for desk bodies. Use for stiffness.
+description: "Build a daily mobility routine for desk bodies. Use for stiffness."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: desk stiffness
+  triggers: "desk stiffness"
 ---
 
 ## What I do

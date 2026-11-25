@@ -1,13 +1,13 @@
 ---
 name: plan-parse
-description: Read build plans and schematics into cut lists and step order. Use before buying materials.
+description: "Read build plans and schematics into cut lists and step order. Use before buying materials."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: before buying build materials
+  triggers: "before buying build materials"
 ---
 
 ## What I do

@@ -1,6 +1,6 @@
 ---
 name: shell-code
-description: Write safe Bash with strict mode, quoting discipline, and shellcheck-clean code. Use for any shell scripting or review.
+description: "Write safe Bash with strict mode, quoting discipline, and shellcheck-clean code. Use for any shell scripting or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Bash
-  triggers: writing or reviewing shell scripts, setting up shellcheck or bats
+  triggers: "writing or reviewing shell scripts, setting up shellcheck or bats"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: unreal-basics
-description: Build Unreal games with Blueprints and actors. Use for Unreal projects.
+description: "Build Unreal games with Blueprints and actors. Use for Unreal projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: Unreal projects
+  triggers: "Unreal projects"
 ---
 
 ## What I do

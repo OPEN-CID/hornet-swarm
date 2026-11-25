@@ -1,13 +1,13 @@
 ---
 name: car-maintenance
-description: Track car service with DIY checks and schedules. Use for routine vehicle care.
+description: "Track car service with DIY checks and schedules. Use for routine vehicle care."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: routine vehicle care
+  triggers: "routine vehicle care"
 ---
 
 ## What I do

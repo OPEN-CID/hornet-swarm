@@ -1,13 +1,13 @@
 ---
 name: bigquery-guide
-description: Query BigQuery with partitioning, slots, and cost controls. Use for GCP analytics.
+description: "Query BigQuery with partitioning, slots, and cost controls. Use for GCP analytics."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: GCP analytics
+  triggers: "GCP analytics"
 ---
 
 ## What I do

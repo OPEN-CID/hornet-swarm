@@ -1,13 +1,13 @@
 ---
 name: navigation-map
-description: Navigate with map, compass, and phone backup. Use when trails are unmarked.
+description: "Navigate with map, compass, and phone backup. Use when trails are unmarked."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: unmarked trails
+  triggers: "unmarked trails"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: blog-writer
-description: Draft structured blog posts with hooks and SEO basics. Use for content marketing.
+description: "Draft structured blog posts with hooks and SEO basics. Use for content marketing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: writing content marketing
+  triggers: "writing content marketing"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: poetry-start
-description: Write poems with images and line breaks. Use for beginners.
+description: "Write poems with images and line breaks. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: poetry beginners
+  triggers: "poetry beginners"
 ---
 
 ## What I do

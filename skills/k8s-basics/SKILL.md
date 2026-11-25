@@ -1,13 +1,13 @@
 ---
 name: k8s-basics
-description: Run workloads on Kubernetes with deployments and probes. Use for first clusters.
+description: "Run workloads on Kubernetes with deployments and probes. Use for first clusters."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: first clusters
+  triggers: "first clusters"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: game-publish
-description: Release games on Steam or itch.io with page and pricing. Use for launches.
+description: "Release games on Steam or itch.io with page and pricing. Use for launches."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: game launches
+  triggers: "game launches"
 ---
 
 ## What I do

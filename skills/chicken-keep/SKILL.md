@@ -1,13 +1,13 @@
 ---
 name: chicken-keep
-description: Keep backyard hens with coops and local rules. Use for beginners.
+description: "Keep backyard hens with coops and local rules. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: backyard hens
+  triggers: "backyard hens"
 ---
 
 ## What I do

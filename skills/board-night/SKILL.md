@@ -1,13 +1,13 @@
 ---
 name: board-night
-description: Host board game nights with teach scripts. Use for groups.
+description: "Host board game nights with teach scripts. Use for groups."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: group game nights
+  triggers: "group game nights"
 ---
 
 ## What I do

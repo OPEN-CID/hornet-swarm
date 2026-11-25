@@ -1,13 +1,13 @@
 ---
 name: wine-basics
-description: Choose and serve wine with pairings and storage. Use for dinners and gifts.
+description: "Choose and serve wine with pairings and storage. Use for dinners and gifts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: dinners and gifts
+  triggers: "dinners and gifts"
 ---
 
 ## What I do

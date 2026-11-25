@@ -1,13 +1,13 @@
 ---
 name: raspberry-pi
-description: Run Raspberry Pi projects with OS, GPIO, and headless setup. Use for DIY electronics.
+description: "Run Raspberry Pi projects with OS, GPIO, and headless setup. Use for DIY electronics."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: Pi projects
+  triggers: "Pi projects"
 ---
 
 ## What I do

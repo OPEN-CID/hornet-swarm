@@ -1,13 +1,13 @@
 ---
 name: content-review
-description: Pre-publish review for clarity, claims, rights, and brand fit. Use before anything goes public.
+description: "Pre-publish review for clarity, claims, rights, and brand fit. Use before anything goes public."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: before publishing content
+  triggers: "before publishing content"
 ---
 
 ## What I do

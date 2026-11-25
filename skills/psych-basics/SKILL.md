@@ -1,13 +1,13 @@
 ---
 name: psych-basics
-description: Use psychology basics for habits and bias. Use for self-insight. Not therapy.
+description: "Use psychology basics for habits and bias. Use for self-insight. Not therapy."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: self-insight work
+  triggers: "self-insight work"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: candle-making
-description: Make candles safely with wax temps and wicks. Use for gifts. Safety first.
+description: "Make candles safely with wax temps and wicks. Use for gifts. Safety first."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: candle gifts
+  triggers: "candle gifts"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: sop-writer
-description: Turn tribal knowledge into step-by-step SOPs. Use when processes live in heads.
+description: "Turn tribal knowledge into step-by-step SOPs. Use when processes live in heads."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: documenting a repeated process
+  triggers: "documenting a repeated process"
 ---
 
 ## What I do

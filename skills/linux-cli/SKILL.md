@@ -1,13 +1,13 @@
 ---
 name: linux-cli
-description: Learn essential Linux commands with safe practice. Use for servers and WSL.
+description: "Learn essential Linux commands with safe practice. Use for servers and WSL."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: servers and WSL
+  triggers: "servers and WSL"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: teen-talk
-description: Talk with teens about school, screens, and friends without lectures. Use when conversations shut down.
+description: "Talk with teens about school, screens, and friends without lectures. Use when conversations shut down."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: shut-down conversations
+  triggers: "shut-down conversations"
 ---
 
 ## What I do

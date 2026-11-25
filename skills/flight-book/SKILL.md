@@ -1,13 +1,13 @@
 ---
 name: flight-book
-description: Book flights with fare rules, seats, and change policies. Use when buying tickets.
+description: "Book flights with fare rules, seats, and change policies. Use when buying tickets."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: buying flight tickets
+  triggers: "buying flight tickets"
 ---
 
 ## What I do

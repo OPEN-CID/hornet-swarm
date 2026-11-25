@@ -1,13 +1,13 @@
 ---
 name: openai-api-guide
-description: Use the OpenAI API with keys, models, and cost controls. Use for GPT features.
+description: "Use the OpenAI API with keys, models, and cost controls. Use for GPT features."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: GPT features
+  triggers: "GPT features"
 ---
 
 ## What I do

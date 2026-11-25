@@ -1,13 +1,13 @@
 ---
 name: hiring-interview
-description: Design structured interviews with scorecards. Use when hiring.
+description: "Design structured interviews with scorecards. Use when hiring."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: hiring for a role
+  triggers: "hiring for a role"
 ---
 
 ## What I do

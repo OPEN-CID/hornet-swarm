@@ -1,13 +1,13 @@
 ---
 name: playwright-e2e
-description: Test web flows with Playwright locators and CI runs. Use for browser testing.
+description: "Test web flows with Playwright locators and CI runs. Use for browser testing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: quality-testing
   version: 1.0.0
   author: hornet-swarm
-  triggers: browser testing
+  triggers: "browser testing"
 ---
 
 ## What I do

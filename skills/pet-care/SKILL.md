@@ -1,13 +1,13 @@
 ---
 name: pet-care
-description: Build feeding, exercise, and vet schedules. Use for new or busy pet owners.
+description: "Build feeding, exercise, and vet schedules. Use for new or busy pet owners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: new pet or busy schedule
+  triggers: "new pet or busy schedule"
 ---
 
 ## What I do

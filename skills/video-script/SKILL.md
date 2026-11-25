@@ -1,13 +1,13 @@
 ---
 name: video-script
-description: Write video scripts with hooks and chapters. Use for video production.
+description: "Write video scripts with hooks and chapters. Use for video production."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: producing a video
+  triggers: "producing a video"
 ---
 
 ## What I do

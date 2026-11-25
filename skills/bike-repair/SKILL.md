@@ -1,13 +1,13 @@
 ---
 name: bike-repair
-description: Fix flats, brakes, and gears with a home kit. Use for commuter bikes.
+description: "Fix flats, brakes, and gears with a home kit. Use for commuter bikes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: commuter bike issues
+  triggers: "commuter bike issues"
 ---
 
 ## What I do

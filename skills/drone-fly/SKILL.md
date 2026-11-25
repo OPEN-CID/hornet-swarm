@@ -1,13 +1,13 @@
 ---
 name: drone-fly
-description: Fly camera drones legally with sharp shots. Use for aerial photo and video. Follow local rules.
+description: "Fly camera drones legally with sharp shots. Use for aerial photo and video. Follow local rules."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: aerial photo and video
+  triggers: "aerial photo and video"
 ---
 
 ## What I do

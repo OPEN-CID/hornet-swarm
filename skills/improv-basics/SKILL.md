@@ -1,13 +1,13 @@
 ---
 name: improv-basics
-description: Practice improv with games and scene basics. Use for fun and stage.
+description: "Practice improv with games and scene basics. Use for fun and stage."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: fun and stage
+  triggers: "fun and stage"
 ---
 
 ## What I do

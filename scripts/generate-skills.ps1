@@ -81,6 +81,10 @@ $KindRules = @{
   )
 }
 
+function Yq([string]$v) {
+  # YAML double-quoted scalar: strict parsers reject unquoted ': ' and ' #'.
+  return '"' + (($v -replace '\\', '\\') -replace '"', '\"') + '"'
+}
 function Get-Kind([string]$name) {
   if ($name -match '-parse$') { return 'parse' }
   if ($name -match '-review$') { return 'review' }
@@ -166,7 +170,7 @@ foreach ($s in $entries) {
   $safety = $SafetyNote[$s.category]
   if ($null -eq $safety) { $safety = "" } else { $safety = $safety + "`n`n" }
   $trigLine = (($s.triggers | ForEach-Object { "$_" }) -join ", ")
-  $fm = "---`nname: $($s.name)`ndescription: $($s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  triggers: $trigLine`n---"
+  $fm = "---`nname: $($s.name)`ndescription: $(Yq $s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  triggers: $(Yq $trigLine)`n---"
   $body = $Template.Replace('__FM__', $fm)
   $body = $body.Replace('__OUTS__', (($s.outcomes | ForEach-Object { "- $_" }) -join "`n"))
   $body = $body.Replace('__SAFETY__', $safety)

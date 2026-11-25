@@ -1,13 +1,13 @@
 ---
 name: legal-doc-parse
-description: Extract parties, dates, amounts, and obligations from legal documents into a fact sheet. Use when comparing versions or summarizing a file.
+description: "Extract parties, dates, amounts, and obligations from legal documents into a fact sheet. Use when comparing versions or summarizing a file."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: summarizing a legal file, comparing contract versions
+  triggers: "summarizing a legal file, comparing contract versions"
 ---
 
 ## What I do

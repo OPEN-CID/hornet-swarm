@@ -1,13 +1,13 @@
 ---
 name: data-doc-parse
-description: Profile CSVs and API docs into schema and quality notes. Use before building any pipeline.
+description: "Profile CSVs and API docs into schema and quality notes. Use before building any pipeline."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: before building a pipeline
+  triggers: "before building a pipeline"
 ---
 
 ## What I do

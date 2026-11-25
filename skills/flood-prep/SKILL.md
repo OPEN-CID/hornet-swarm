@@ -1,13 +1,13 @@
 ---
 name: flood-prep
-description: Prepare for floods with barriers and go-bags. Use in flood zones.
+description: "Prepare for floods with barriers and go-bags. Use in flood zones."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: flood zones
+  triggers: "flood zones"
 ---
 
 ## What I do

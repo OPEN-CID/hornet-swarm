@@ -1,13 +1,13 @@
 ---
 name: notion-setup
-description: Organize Notion with databases, templates, and sharing. Use for team or personal wikis.
+description: "Organize Notion with databases, templates, and sharing. Use for team or personal wikis."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: Notion setups
+  triggers: "Notion setups"
 ---
 
 ## What I do

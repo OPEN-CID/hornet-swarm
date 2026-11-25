@@ -1,13 +1,13 @@
 ---
 name: debt-payoff
-description: Kill debt with payoff order and automation. Use when debt lingers. General info.
+description: "Kill debt with payoff order and automation. Use when debt lingers. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: lingering debt
+  triggers: "lingering debt"
 ---
 
 ## What I do

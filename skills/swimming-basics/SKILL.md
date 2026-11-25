@@ -1,13 +1,13 @@
 ---
 name: swimming-basics
-description: Learn freestyle basics with drills and pool etiquette. Use for adult beginners.
+description: "Learn freestyle basics with drills and pool etiquette. Use for adult beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: adult swim beginners
+  triggers: "adult swim beginners"
 ---
 
 ## What I do

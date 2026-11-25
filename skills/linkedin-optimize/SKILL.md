@@ -1,13 +1,13 @@
 ---
 name: linkedin-optimize
-description: Rewrite LinkedIn profiles for recruiter search. Use for job hunting.
+description: "Rewrite LinkedIn profiles for recruiter search. Use for job hunting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: job hunting on LinkedIn
+  triggers: "job hunting on LinkedIn"
 ---
 
 ## What I do

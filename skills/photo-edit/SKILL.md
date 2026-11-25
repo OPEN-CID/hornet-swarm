@@ -1,13 +1,13 @@
 ---
 name: photo-edit
-description: Edit photos with light, color, and export presets. Use for consistent looks.
+description: "Edit photos with light, color, and export presets. Use for consistent looks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: consistent photo looks
+  triggers: "consistent photo looks"
 ---
 
 ## What I do

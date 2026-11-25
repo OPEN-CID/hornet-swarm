@@ -1,13 +1,13 @@
 ---
 name: unity-basics
-description: Build Unity games with scenes, prefabs, and C# scripts. Use for Unity projects.
+description: "Build Unity games with scenes, prefabs, and C# scripts. Use for Unity projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: Unity projects
+  triggers: "Unity projects"
 ---
 
 ## What I do

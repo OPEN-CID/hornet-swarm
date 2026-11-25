@@ -1,13 +1,13 @@
 ---
 name: toast-speech
-description: Give toasts and speeches with stories. Use for weddings and events.
+description: "Give toasts and speeches with stories. Use for weddings and events."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
-  triggers: wedding speeches
+  triggers: "wedding speeches"
 ---
 
 ## What I do

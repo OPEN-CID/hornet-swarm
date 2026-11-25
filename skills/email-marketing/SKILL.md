@@ -1,13 +1,13 @@
 ---
 name: email-marketing
-description: Run email marketing with sequences and deliverability. Use for lists.
+description: "Run email marketing with sequences and deliverability. Use for lists."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: email lists
+  triggers: "email lists"
 ---
 
 ## What I do

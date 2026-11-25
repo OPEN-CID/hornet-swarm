@@ -1,13 +1,13 @@
 ---
 name: brief-parse
-description: Turn client briefs into scope and production checklists. Use when starting creative work.
+description: "Turn client briefs into scope and production checklists. Use when starting creative work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting from a client brief
+  triggers: "starting from a client brief"
 ---
 
 ## What I do

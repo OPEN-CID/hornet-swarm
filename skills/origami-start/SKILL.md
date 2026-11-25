@@ -1,13 +1,13 @@
 ---
 name: origami-start
-description: Fold with crease patterns and paper picks. Use for gifts and calm.
+description: "Fold with crease patterns and paper picks. Use for gifts and calm."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: gifts and calm
+  triggers: "gifts and calm"
 ---
 
 ## What I do

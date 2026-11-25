@@ -1,13 +1,13 @@
 ---
 name: waste-less
-description: Cut household waste with swaps and audits. Use for lighter bins.
+description: "Cut household waste with swaps and audits. Use for lighter bins."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: lighter bins
+  triggers: "lighter bins"
 ---
 
 ## What I do

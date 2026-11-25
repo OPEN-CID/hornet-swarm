@@ -1,13 +1,13 @@
 ---
 name: storm-prep
-description: Ride out storms with supplies and safe rooms. Use for hurricane season.
+description: "Ride out storms with supplies and safe rooms. Use for hurricane season."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: storm season
+  triggers: "storm season"
 ---
 
 ## What I do

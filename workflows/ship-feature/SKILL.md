@@ -1,6 +1,6 @@
 ---
 name: ship-feature
-description: Ship a feature from branch to merged PR with tests and review. Use when building anything shippable.
+description: "Ship a feature from branch to merged PR with tests and review. Use when building anything shippable."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: building a feature, shipping code
-  steps: git-branch, task-planner, tdd-workflow, test-generator, code-review, pr-create
+  triggers: "building a feature, shipping code"
+  steps: "git-branch, task-planner, tdd-workflow, test-generator, code-review, pr-create"
 ---
 
 ## What I do

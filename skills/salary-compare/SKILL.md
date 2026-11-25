@@ -1,13 +1,13 @@
 ---
 name: salary-compare
-description: Compare job offers on total compensation. Use when evaluating competing offers.
+description: "Compare job offers on total compensation. Use when evaluating competing offers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: evaluating job offers
+  triggers: "evaluating job offers"
 ---
 
 ## What I do

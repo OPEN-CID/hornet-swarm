@@ -1,13 +1,13 @@
 ---
 name: stargazing-start
-description: See planets and constellations with apps and dark spots. Use for clear nights.
+description: "See planets and constellations with apps and dark spots. Use for clear nights."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: clear nights
+  triggers: "clear nights"
 ---
 
 ## What I do

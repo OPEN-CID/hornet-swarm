@@ -1,13 +1,13 @@
 ---
 name: seo-basics
-description: Rank with keyword maps and page fixes. Use for organic growth.
+description: "Rank with keyword maps and page fixes. Use for organic growth."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: organic growth
+  triggers: "organic growth"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: lease-review
-description: Review a lease for fees, exits, and deposit traps. Use before signing. General info.
+description: "Review a lease for fees, exits, and deposit traps. Use before signing. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: lease in hand
+  triggers: "lease in hand"
 ---
 
 ## What I do

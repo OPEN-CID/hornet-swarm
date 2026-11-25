@@ -1,13 +1,13 @@
 ---
 name: volunteer-start
-description: Start volunteering with causes and commitments. Use for giving time.
+description: "Start volunteering with causes and commitments. Use for giving time."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
-  triggers: giving time
+  triggers: "giving time"
 ---
 
 ## What I do

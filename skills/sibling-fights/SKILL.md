@@ -1,13 +1,13 @@
 ---
 name: sibling-fights
-description: Defuse sibling fights with scripts and repair routines. Use for daily battles.
+description: "Defuse sibling fights with scripts and repair routines. Use for daily battles."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: daily sibling battles
+  triggers: "daily sibling battles"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: passkeys-guide
-description: Move logins to passkeys with fallback codes. Use for account security.
+description: "Move logins to passkeys with fallback codes. Use for account security."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: account security
+  triggers: "account security"
 ---
 
 ## What I do

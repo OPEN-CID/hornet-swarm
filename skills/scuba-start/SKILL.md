@@ -1,13 +1,13 @@
 ---
 name: scuba-start
-description: Learn scuba with certification path and safety. Use for future divers. Certify with pros.
+description: "Learn scuba with certification path and safety. Use for future divers. Certify with pros."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: future divers
+  triggers: "future divers"
 ---
 
 ## What I do

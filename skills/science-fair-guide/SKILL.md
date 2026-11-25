@@ -1,13 +1,13 @@
 ---
 name: science-fair-guide
-description: Run science fair projects with question, method, and board. Use for fairs.
+description: "Run science fair projects with question, method, and board. Use for fairs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: science fairs
+  triggers: "science fairs"
 ---
 
 ## What I do

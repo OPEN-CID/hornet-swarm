@@ -1,13 +1,13 @@
 ---
 name: dog-train
-description: Train dogs with marker basics and loose-leash plans. Use for new dogs.
+description: "Train dogs with marker basics and loose-leash plans. Use for new dogs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: new dogs
+  triggers: "new dogs"
 ---
 
 ## What I do

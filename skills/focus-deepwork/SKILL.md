@@ -1,13 +1,13 @@
 ---
 name: focus-deepwork
-description: Design deep-work blocks that survive interruptions. Use when focus is fragmented.
+description: "Design deep-work blocks that survive interruptions. Use when focus is fragmented."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: fragmented focus
+  triggers: "fragmented focus"
 ---
 
 ## What I do

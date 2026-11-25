@@ -1,13 +1,13 @@
 ---
 name: money-playbook
-description: Personal-finance best practices for long-term habits. Use when building money systems. General information, not professional advice.
+description: "Personal-finance best practices for long-term habits. Use when building money systems. General information, not professional advice."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: building long-term money habits
+  triggers: "building long-term money habits"
 ---
 
 ## What I do

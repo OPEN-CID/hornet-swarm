@@ -1,13 +1,13 @@
 ---
 name: dating-guide
-description: Date intentionally with values, safety, and early signals. Use when starting to date.
+description: "Date intentionally with values, safety, and early signals. Use when starting to date."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting to date
+  triggers: "starting to date"
 ---
 
 ## What I do

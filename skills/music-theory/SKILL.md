@@ -1,13 +1,13 @@
 ---
 name: music-theory
-description: Read keys and chords for playing by ear. Use for players.
+description: "Read keys and chords for playing by ear. Use for players."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: players learning theory
+  triggers: "players learning theory"
 ---
 
 ## What I do

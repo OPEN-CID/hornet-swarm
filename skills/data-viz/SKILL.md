@@ -1,13 +1,13 @@
 ---
 name: data-viz
-description: Chart data honestly with the right chart and labels. Use for presentations.
+description: "Chart data honestly with the right chart and labels. Use for presentations."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: presenting data
+  triggers: "presenting data"
 ---
 
 ## What I do

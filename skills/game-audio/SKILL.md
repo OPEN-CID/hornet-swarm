@@ -1,13 +1,13 @@
 ---
 name: game-audio
-description: Create game audio with SFX and music loops. Use for game sound.
+description: "Create game audio with SFX and music loops. Use for game sound."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: game sound
+  triggers: "game sound"
 ---
 
 ## What I do

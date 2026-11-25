@@ -1,13 +1,13 @@
 ---
 name: creative-playbook
-description: Publishing-cadence best practices for consistent output. Use when content is sporadic.
+description: "Publishing-cadence best practices for consistent output. Use when content is sporadic."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: inconsistent publishing
+  triggers: "inconsistent publishing"
 ---
 
 ## What I do

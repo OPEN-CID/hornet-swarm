@@ -1,13 +1,13 @@
 ---
 name: label-reader
-description: Decode food, cleaning, and clothing-care labels into guidance. Use while shopping or sorting laundry.
+description: "Decode food, cleaning, and clothing-care labels into guidance. Use while shopping or sorting laundry."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: shopping or sorting laundry
+  triggers: "shopping or sorting laundry"
 ---
 
 ## What I do

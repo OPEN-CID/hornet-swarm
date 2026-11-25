@@ -1,13 +1,13 @@
 ---
 name: excel-pivot
-description: Analyze with Excel pivots, slicers, and charts. Use for quick business answers.
+description: "Analyze with Excel pivots, slicers, and charts. Use for quick business answers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: quick business answers
+  triggers: "quick business answers"
 ---
 
 ## What I do

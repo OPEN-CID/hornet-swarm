@@ -1,13 +1,13 @@
 ---
 name: home-inspect
-description: Inspect a home like a pro with systems checklist. Use before offers.
+description: "Inspect a home like a pro with systems checklist. Use before offers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: before making offers
+  triggers: "before making offers"
 ---
 
 ## What I do

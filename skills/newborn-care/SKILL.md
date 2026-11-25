@@ -1,13 +1,13 @@
 ---
 name: newborn-care
-description: Handle feeding, sleep, and soothing in the first weeks with logs. Use for newborns 0-3 months. Info only; pediatrician decides.
+description: "Handle feeding, sleep, and soothing in the first weeks with logs. Use for newborns 0-3 months. Info only; pediatrician decides."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: newborns 0-3 months
+  triggers: "newborns 0-3 months"
 ---
 
 ## What I do

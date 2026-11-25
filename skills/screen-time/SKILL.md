@@ -1,13 +1,13 @@
 ---
 name: screen-time
-description: Set screen rules that stick with alternatives and timers. Use when screens dominate.
+description: "Set screen rules that stick with alternatives and timers. Use when screens dominate."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: screens dominating
+  triggers: "screens dominating"
 ---
 
 ## What I do

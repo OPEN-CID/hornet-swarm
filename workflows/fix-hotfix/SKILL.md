@@ -1,6 +1,6 @@
 ---
 name: fix-hotfix
-description: Fix bugs with diagnosis, minimal fix, and regression proof. Use for any defect.
+description: "Fix bugs with diagnosis, minimal fix, and regression proof. Use for any defect."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: fixing a bug, production defect
-  steps: debugging, test-generator, code-review, pr-create
+  triggers: "fixing a bug, production defect"
+  steps: "debugging, test-generator, code-review, pr-create"
 ---
 
 ## What I do

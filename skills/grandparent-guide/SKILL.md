@@ -1,13 +1,13 @@
 ---
 name: grandparent-guide
-description: Help grandparents bond with routines and boundaries. Use for new grandparents.
+description: "Help grandparents bond with routines and boundaries. Use for new grandparents."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: new grandparents
+  triggers: "new grandparents"
 ---
 
 ## What I do

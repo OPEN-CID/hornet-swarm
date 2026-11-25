@@ -1,13 +1,13 @@
 ---
 name: exam-readiness-review
-description: Audit exam readiness with a timed mock and gap list. Use one week before any exam.
+description: "Audit exam readiness with a timed mock and gap list. Use one week before any exam."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: one week before an exam
+  triggers: "one week before an exam"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: vote-guide
-description: Vote informed with ballot research routines. Use every election.
+description: "Vote informed with ballot research routines. Use every election."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
-  triggers: every election
+  triggers: "every election"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: aws-core
-description: Learn core AWS with VPC, IAM, and cost guards. Use for first accounts.
+description: "Learn core AWS with VPC, IAM, and cost guards. Use for first accounts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: first AWS accounts
+  triggers: "first AWS accounts"
 ---
 
 ## What I do

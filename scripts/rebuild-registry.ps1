@@ -7,6 +7,13 @@ $RepoRoot = Split-Path -Parent $PSScriptRoot
 $UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
 function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
+function Unquote([string]$v) {
+  $t = $v.Trim()
+  if ($t.Length -ge 2 -and $t.StartsWith('"') -and $t.EndsWith('"')) {
+    $t = $t.Substring(1, $t.Length - 2) -replace '\\"','"' -replace '\\\\','\'
+  }
+  return $t
+}
 $items = @()
 foreach ($root in @("skills", "workflows")) {
   $kind = if ($root -eq "workflows") { "workflow" } else { "skill" }
@@ -24,13 +31,13 @@ foreach ($root in @("skills", "workflows")) {
   $v = [regex]::Match($fm, '^\s*version:\s*(.+?)\s*$', 'Multiline')
   $t = [regex]::Match($fm, '^\s*triggers:\s*(.+?)\s*$', 'Multiline')
   $trigs = @()
-  if ($t.Success) { $trigs = @($t.Groups[1].Value -split '\s*,\s*' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }) }
+  if ($t.Success) { $trigs = @(Unquote $t.Groups[1].Value -split '\s*,\s*' | ForEach-Object { $_.Trim().Trim('"') } | Where-Object { $_ -ne '' }) }
   $st = [regex]::Match($fm, '^\s*steps:\s*(.+?)\s*$', 'Multiline')
   $steps = @()
-  if ($st.Success) { $steps = @($st.Groups[1].Value -split '\s*,\s*' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }) }
+  if ($st.Success) { $steps = @(Unquote $st.Groups[1].Value -split '\s*,\s*' | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }) }
   $items += [ordered]@{
     name = if ($n.Success) { $n.Groups[1].Value.Trim() } else { $d.Name }
-    description = if ($ds.Success) { $ds.Groups[1].Value.Trim() } else { "" }
+    description = if ($ds.Success) { Unquote $ds.Groups[1].Value.Trim() } else { "" }
     category = if ($c.Success) { $c.Groups[1].Value.Trim() } else { "uncategorized" }
     kind = $kind
     path = "$root/$($d.Name)/SKILL.md"

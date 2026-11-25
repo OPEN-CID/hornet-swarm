@@ -1,13 +1,13 @@
 ---
 name: home-server
-description: Run a home server or NAS with storage, backups, and remote access. Use for self-hosting.
+description: "Run a home server or NAS with storage, backups, and remote access. Use for self-hosting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: self-hosting
+  triggers: "self-hosting"
 ---
 
 ## What I do

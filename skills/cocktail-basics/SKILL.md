@@ -1,13 +1,13 @@
 ---
 name: cocktail-basics
-description: Mix classic cocktails with ratios and responsible serving. Use for home entertaining.
+description: "Mix classic cocktails with ratios and responsible serving. Use for home entertaining."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: home entertaining
+  triggers: "home entertaining"
 ---
 
 ## What I do

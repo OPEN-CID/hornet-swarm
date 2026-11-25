@@ -1,13 +1,13 @@
 ---
 name: organize-neighbors
-description: Organize blocks with meetings and quick wins. Use for local issues.
+description: "Organize blocks with meetings and quick wins. Use for local issues."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
-  triggers: local issues
+  triggers: "local issues"
 ---
 
 ## What I do

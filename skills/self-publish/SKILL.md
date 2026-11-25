@@ -1,13 +1,13 @@
 ---
 name: self-publish
-description: Publish books with editing, cover, and launch. Use for indie authors.
+description: "Publish books with editing, cover, and launch. Use for indie authors."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: indie publishing
+  triggers: "indie publishing"
 ---
 
 ## What I do

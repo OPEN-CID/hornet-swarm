@@ -1,13 +1,13 @@
 ---
 name: laravel-patterns
-description: Build Laravel with Eloquent, queues, and Blade or Inertia. Use for PHP apps.
+description: "Build Laravel with Eloquent, queues, and Blade or Inertia. Use for PHP apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: PHP apps
+  triggers: "PHP apps"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: one-on-one
-description: Run 1:1s people value with agendas and career talk. Use weekly.
+description: "Run 1:1s people value with agendas and career talk. Use weekly."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: weekly 1:1s
+  triggers: "weekly 1:1s"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: piano-start
-description: Play piano with scales and hand drills. Use for beginners.
+description: "Play piano with scales and hand drills. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: piano beginners
+  triggers: "piano beginners"
 ---
 
 ## What I do

@@ -1,6 +1,6 @@
 ---
 name: run-event
-description: Run an event from idea to toast. Use for parties and celebrations.
+description: "Run an event from idea to toast. Use for parties and celebrations."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: hosting an event, party planning
-  steps: party-plan, event-budget, toast-speech
+  triggers: "hosting an event, party planning"
+  steps: "party-plan, event-budget, toast-speech"
 ---
 
 ## What I do

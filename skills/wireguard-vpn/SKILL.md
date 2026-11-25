@@ -1,13 +1,13 @@
 ---
 name: wireguard-vpn
-description: Connect sites and devices with WireGuard tunnels. Use for private networks.
+description: "Connect sites and devices with WireGuard tunnels. Use for private networks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: private networks
+  triggers: "private networks"
 ---
 
 ## What I do

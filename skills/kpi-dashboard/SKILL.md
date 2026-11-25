@@ -1,13 +1,13 @@
 ---
 name: kpi-dashboard
-description: Define KPIs and dashboard layouts that drive action. Use for team reporting.
+description: "Define KPIs and dashboard layouts that drive action. Use for team reporting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: reporting team performance
+  triggers: "reporting team performance"
 ---
 
 ## What I do

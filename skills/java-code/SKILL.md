@@ -1,6 +1,6 @@
 ---
 name: java-code
-description: Write modern Java with records, sealed types, and java.time. Use for any Java code or review.
+description: "Write modern Java with records, sealed types, and java.time. Use for any Java code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Java
-  triggers: writing or reviewing Java code, setting up Maven or Gradle builds and tests
+  triggers: "writing or reviewing Java code, setting up Maven or Gradle builds and tests"
 ---
 
 ## What I do

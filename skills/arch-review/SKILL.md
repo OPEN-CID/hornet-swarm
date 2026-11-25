@@ -1,13 +1,13 @@
 ---
 name: arch-review
-description: Fitness review of an architecture against scale, security, and cost. Use quarterly or before big bets.
+description: "Fitness review of an architecture against scale, security, and cost. Use quarterly or before big bets."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: quarterly architecture check
+  triggers: "quarterly architecture check"
 ---
 
 ## What I do

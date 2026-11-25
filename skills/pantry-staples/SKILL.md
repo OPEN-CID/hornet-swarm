@@ -1,13 +1,13 @@
 ---
 name: pantry-staples
-description: Stock a versatile pantry on a budget with a restock rhythm. Use when setting up a kitchen.
+description: "Stock a versatile pantry on a budget with a restock rhythm. Use when setting up a kitchen."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: setting up a kitchen
+  triggers: "setting up a kitchen"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: fire-safety
-description: Prevent and escape fires with plans and drills. Use for homes.
+description: "Prevent and escape fires with plans and drills. Use for homes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: home fire prep
+  triggers: "home fire prep"
 ---
 
 ## What I do

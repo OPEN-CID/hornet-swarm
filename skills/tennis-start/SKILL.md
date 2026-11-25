@@ -1,13 +1,13 @@
 ---
 name: tennis-start
-description: Start tennis with grip, serve, and rally basics. Use for beginners.
+description: "Start tennis with grip, serve, and rally basics. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: tennis beginners
+  triggers: "tennis beginners"
 ---
 
 ## What I do

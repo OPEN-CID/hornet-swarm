@@ -1,13 +1,13 @@
 ---
 name: evolution-basics
-description: Grasp evolution with evidence lines. Use for literacy and homework.
+description: "Grasp evolution with evidence lines. Use for literacy and homework."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: homework and literacy
+  triggers: "homework and literacy"
 ---
 
 ## What I do

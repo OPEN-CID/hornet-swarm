@@ -1,13 +1,13 @@
 ---
 name: smartphone-guide
-description: Master your phone with settings, storage, and safety. Use for new devices.
+description: "Master your phone with settings, storage, and safety. Use for new devices."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: new devices
+  triggers: "new devices"
 ---
 
 ## What I do

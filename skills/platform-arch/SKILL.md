@@ -1,13 +1,13 @@
 ---
 name: platform-arch
-description: Design internal platforms, environments, and golden paths. Use when scaling engineering orgs.
+description: "Design internal platforms, environments, and golden paths. Use when scaling engineering orgs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: scaling an engineering org
+  triggers: "scaling an engineering org"
 ---
 
 ## What I do

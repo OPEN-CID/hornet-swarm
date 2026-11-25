@@ -1,13 +1,13 @@
 ---
 name: interview-prep
-description: Run mock interviews with STAR feedback. Use before real interviews.
+description: "Run mock interviews with STAR feedback. Use before real interviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing for interviews
+  triggers: "preparing for interviews"
 ---
 
 ## What I do

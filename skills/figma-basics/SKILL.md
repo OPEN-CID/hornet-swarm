@@ -1,13 +1,13 @@
 ---
 name: figma-basics
-description: Design in Figma with components, auto-layout, and handoff. Use for UI work.
+description: "Design in Figma with components, auto-layout, and handoff. Use for UI work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: UI design work
+  triggers: "UI design work"
 ---
 
 ## What I do

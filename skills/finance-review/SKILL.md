@@ -1,13 +1,13 @@
 ---
 name: finance-review
-description: Run a monthly money review of spending versus budget. Use on the first of each month.
+description: "Run a monthly money review of spending versus budget. Use on the first of each month."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: monthly money checkup
+  triggers: "monthly money checkup"
 ---
 
 ## What I do

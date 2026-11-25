@@ -1,13 +1,13 @@
 ---
 name: surf-start
-description: Start surfing with pop-ups, reading waves, and lineup rules. Use for beginners. Lessons recommended.
+description: "Start surfing with pop-ups, reading waves, and lineup rules. Use for beginners. Lessons recommended."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: surf beginners
+  triggers: "surf beginners"
 ---
 
 ## What I do

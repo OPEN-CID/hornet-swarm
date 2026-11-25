@@ -1,13 +1,13 @@
 ---
 name: portfolio-review
-description: Review investments yearly for fees, drift, and risk. Use annually. Educational.
+description: "Review investments yearly for fees, drift, and risk. Use annually. Educational."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: yearly money review
+  triggers: "yearly money review"
 ---
 
 ## What I do

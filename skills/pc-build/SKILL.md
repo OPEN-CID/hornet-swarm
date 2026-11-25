@@ -1,13 +1,13 @@
 ---
 name: pc-build
-description: Build a PC with compatible parts and assembly order. Use for custom desktops. Never open a PSU.
+description: "Build a PC with compatible parts and assembly order. Use for custom desktops. Never open a PSU."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: custom desktop builds
+  triggers: "custom desktop builds"
 ---
 
 ## What I do

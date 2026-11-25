@@ -1,13 +1,13 @@
 ---
 name: aquarium-start
-description: Cycle aquariums with stocking and water tests. Use for first tanks.
+description: "Cycle aquariums with stocking and water tests. Use for first tanks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: first tanks
+  triggers: "first tanks"
 ---
 
 ## What I do

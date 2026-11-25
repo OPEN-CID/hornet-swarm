@@ -1,13 +1,13 @@
 ---
 name: quake-prep
-description: Prepare for earthquakes with securing and drills. Use in seismic zones.
+description: "Prepare for earthquakes with securing and drills. Use in seismic zones."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: seismic zones
+  triggers: "seismic zones"
 ---
 
 ## What I do

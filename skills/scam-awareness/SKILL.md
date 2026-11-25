@@ -1,13 +1,13 @@
 ---
 name: scam-awareness
-description: Stop scams with verification and freeze steps. Use for suspicious contacts.
+description: "Stop scams with verification and freeze steps. Use for suspicious contacts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: suspicious contacts
+  triggers: "suspicious contacts"
 ---
 
 ## What I do

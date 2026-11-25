@@ -1,13 +1,13 @@
 ---
 name: cycling-start
-description: Start cycling with fit, gears, and traffic skills. Use for new riders.
+description: "Start cycling with fit, gears, and traffic skills. Use for new riders."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: new riders
+  triggers: "new riders"
 ---
 
 ## What I do

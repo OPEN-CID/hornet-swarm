@@ -1,13 +1,13 @@
 ---
 name: pricing-strategy
-description: Price products with tiers, anchors, and tests. Use before launches.
+description: "Price products with tiers, anchors, and tests. Use before launches."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: pricing decisions
+  triggers: "pricing decisions"
 ---
 
 ## What I do

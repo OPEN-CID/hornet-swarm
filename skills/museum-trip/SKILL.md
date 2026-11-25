@@ -1,13 +1,13 @@
 ---
 name: museum-trip
-description: Plan museum trips with highlights and kids games. Use for family days.
+description: "Plan museum trips with highlights and kids games. Use for family days."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
-  triggers: family museum days
+  triggers: "family museum days"
 ---
 
 ## What I do

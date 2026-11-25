@@ -1,13 +1,13 @@
 ---
 name: load-test
-description: Load test with scenarios, thresholds, and bottlenecks. Use before launches.
+description: "Load test with scenarios, thresholds, and bottlenecks. Use before launches."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: quality-testing
   version: 1.0.0
   author: hornet-swarm
-  triggers: pre-launch testing
+  triggers: "pre-launch testing"
 ---
 
 ## What I do

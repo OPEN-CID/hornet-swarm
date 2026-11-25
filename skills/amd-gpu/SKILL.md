@@ -1,13 +1,13 @@
 ---
 name: amd-gpu
-description: Set up AMD GPUs with ROCm and compatibility checks. Use for AMD compute or gaming.
+description: "Set up AMD GPUs with ROCm and compatibility checks. Use for AMD compute or gaming."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: AMD GPUs
+  triggers: "AMD GPUs"
 ---
 
 ## What I do

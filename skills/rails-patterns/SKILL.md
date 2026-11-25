@@ -1,13 +1,13 @@
 ---
 name: rails-patterns
-description: Build Rails with resources, jobs, and Hotwire. Use for Rails apps.
+description: "Build Rails with resources, jobs, and Hotwire. Use for Rails apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: Rails apps
+  triggers: "Rails apps"
 ---
 
 ## What I do

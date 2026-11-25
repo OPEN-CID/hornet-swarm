@@ -1,13 +1,13 @@
 ---
 name: carbon-cut
-description: Cut footprints with high-impact moves first. Use for climate action.
+description: "Cut footprints with high-impact moves first. Use for climate action."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: climate action
+  triggers: "climate action"
 ---
 
 ## What I do

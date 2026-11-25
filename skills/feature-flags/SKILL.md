@@ -1,13 +1,13 @@
 ---
 name: feature-flags
-description: Ship behind feature flags with rollout and kill switches. Use for safe releases.
+description: "Ship behind feature flags with rollout and kill switches. Use for safe releases."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: safe releases
+  triggers: "safe releases"
 ---
 
 ## What I do

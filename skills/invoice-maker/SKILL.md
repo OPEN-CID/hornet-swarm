@@ -1,13 +1,13 @@
 ---
 name: invoice-maker
-description: Create client-ready invoices with tax and payment terms. Use when billing freelance work.
+description: "Create client-ready invoices with tax and payment terms. Use when billing freelance work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: billing freelance or contract work
+  triggers: "billing freelance or contract work"
 ---
 
 ## What I do

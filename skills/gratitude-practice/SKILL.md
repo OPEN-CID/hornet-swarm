@@ -1,13 +1,13 @@
 ---
 name: gratitude-practice
-description: Build a gratitude routine that sticks beyond lists. Use for mood and perspective.
+description: "Build a gratitude routine that sticks beyond lists. Use for mood and perspective."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: low mood or perspective
+  triggers: "low mood or perspective"
 ---
 
 ## What I do

@@ -40,7 +40,8 @@ workflow. Then run the generate → registry → wiki → router → validate ch
 
 **6. Hand-write.** Copy `templates/SKILL.md` to `skills/<name>/SKILL.md`.
 Required for expert-judgment skills; the generator never overwrites
-hand-written files unless passed `-Force`.
+hand-written files unless passed `-Force`. Double-quote any `description`
+containing `: ` or ` #` (strict parsers skip unquoted ones — CI enforces this).
 
 ## Which file does what (structure)
 

@@ -1,13 +1,13 @@
 ---
 name: nonprofit-fundraise
-description: Raise funds with stories and donor tiers. Use for small nonprofits.
+description: "Raise funds with stories and donor tiers. Use for small nonprofits."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
-  triggers: small nonprofit needs
+  triggers: "small nonprofit needs"
 ---
 
 ## What I do

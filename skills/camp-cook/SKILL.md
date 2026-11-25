@@ -1,13 +1,13 @@
 ---
 name: camp-cook
-description: Cook camp meals with one-pot plans and bear-safe storage. Use for overnights.
+description: "Cook camp meals with one-pot plans and bear-safe storage. Use for overnights."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: overnight trips
+  triggers: "overnight trips"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: apology-guide
-description: Apologize well with specifics and amends. Use after hurting someone.
+description: "Apologize well with specifics and amends. Use after hurting someone."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: after hurting someone
+  triggers: "after hurting someone"
 ---
 
 ## What I do

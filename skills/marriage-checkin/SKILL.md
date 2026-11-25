@@ -1,13 +1,13 @@
 ---
 name: marriage-checkin
-description: Run a weekly couple check-in on money, chores, and affection. Use to stay aligned.
+description: "Run a weekly couple check-in on money, chores, and affection. Use to stay aligned."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: staying aligned as a couple
+  triggers: "staying aligned as a couple"
 ---
 
 ## What I do

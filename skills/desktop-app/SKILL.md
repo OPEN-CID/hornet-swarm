@@ -1,13 +1,13 @@
 ---
 name: desktop-app
-description: Ship desktop apps with Tauri or Electron and auto-update. Use for desktop tools.
+description: "Ship desktop apps with Tauri or Electron and auto-update. Use for desktop tools."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: desktop tools
+  triggers: "desktop tools"
 ---
 
 ## What I do

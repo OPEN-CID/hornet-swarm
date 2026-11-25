@@ -1,13 +1,13 @@
 ---
 name: research-playbook
-description: Reproducibility best practices for trustworthy research. Use when starting a project.
+description: "Reproducibility best practices for trustworthy research. Use when starting a project."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting a research project
+  triggers: "starting a research project"
 ---
 
 ## What I do

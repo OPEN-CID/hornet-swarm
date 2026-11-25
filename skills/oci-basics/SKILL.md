@@ -1,13 +1,13 @@
 ---
 name: oci-basics
-description: Learn Oracle Cloud with compartments and free-tier limits. Use for OCI work.
+description: "Learn Oracle Cloud with compartments and free-tier limits. Use for OCI work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: OCI work
+  triggers: "OCI work"
 ---
 
 ## What I do

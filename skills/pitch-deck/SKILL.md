@@ -1,13 +1,13 @@
 ---
 name: pitch-deck
-description: Outline investor pitch decks slide by slide. Use before fundraising.
+description: "Outline investor pitch decks slide by slide. Use before fundraising."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing to fundraise
+  triggers: "preparing to fundraise"
 ---
 
 ## What I do

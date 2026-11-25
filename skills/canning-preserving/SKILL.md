@@ -1,13 +1,13 @@
 ---
 name: canning-preserving
-description: Can harvests safely with tested times and seals. Use for preserving. Safety first.
+description: "Can harvests safely with tested times and seals. Use for preserving. Safety first."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: preserving harvests
+  triggers: "preserving harvests"
 ---
 
 ## What I do

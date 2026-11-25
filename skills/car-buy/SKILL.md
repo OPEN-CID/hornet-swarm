@@ -1,13 +1,13 @@
 ---
 name: car-buy
-description: Buy cars with total-cost math and negotiation scripts. Use before dealerships.
+description: "Buy cars with total-cost math and negotiation scripts. Use before dealerships."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: before dealerships
+  triggers: "before dealerships"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: nocode-guide
-description: Ship simple apps with no-code and know the limits. Use for MVPs.
+description: "Ship simple apps with no-code and know the limits. Use for MVPs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: MVP ideas
+  triggers: "MVP ideas"
 ---
 
 ## What I do

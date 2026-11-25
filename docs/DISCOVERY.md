@@ -73,6 +73,10 @@ From the Agent Skills spec and Anthropic's engineering notes:
   `description` ≤1024, `license`/`compatibility`/`metadata` only. Unknown fields
   break or confuse scanners, so enrichment lives in `metadata` (string map),
   which the spec reserves for tooling.
+- **Strict-YAML-safe**: lenient tools drop unparseable frontmatter fields, but
+  strict tools (`npx skills` CLI, `skills-ref`) skip the whole skill. Generators
+  emit `description`/`triggers`/`steps` double-quoted; CI runs both a PowerShell
+  heuristic and a strict PyYAML parse (`check_frontmatter.py`).
 - **Bodies stay lean** (<500 lines), references split out, scripts deterministic.
 - **Evaluate in the wild**: if a skill never triggers, its description is wrong,
   not the agent — watch, rename, reword (`skill-fix` issue template).

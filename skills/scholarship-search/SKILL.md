@@ -1,13 +1,13 @@
 ---
 name: scholarship-search
-description: Win scholarships with matches and reusable essays. Use for college funding.
+description: "Win scholarships with matches and reusable essays. Use for college funding."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: college funding
+  triggers: "college funding"
 ---
 
 ## What I do

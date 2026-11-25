@@ -1,13 +1,13 @@
 ---
 name: experiment-design
-description: Design controlled experiments with variables and controls. Use when testing any hypothesis.
+description: "Design controlled experiments with variables and controls. Use when testing any hypothesis."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: testing a hypothesis, planning an experiment
+  triggers: "testing a hypothesis, planning an experiment"
 ---
 
 ## What I do

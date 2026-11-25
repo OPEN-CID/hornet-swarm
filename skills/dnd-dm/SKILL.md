@@ -1,13 +1,13 @@
 ---
 name: dnd-dm
-description: Run D and D sessions with prep and improv tools. Use for new DMs.
+description: "Run D and D sessions with prep and improv tools. Use for new DMs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: new DMs
+  triggers: "new DMs"
 ---
 
 ## What I do

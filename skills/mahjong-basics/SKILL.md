@@ -1,13 +1,13 @@
 ---
 name: mahjong-basics
-description: Play mahjong with rules and basic strategy. Use for game nights.
+description: "Play mahjong with rules and basic strategy. Use for game nights."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: game nights
+  triggers: "game nights"
 ---
 
 ## What I do

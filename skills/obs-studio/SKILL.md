@@ -1,13 +1,13 @@
 ---
 name: obs-studio
-description: Record and stream with OBS scenes and clean audio. Use for tutorials and streams.
+description: "Record and stream with OBS scenes and clean audio. Use for tutorials and streams."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: tutorials and streams
+  triggers: "tutorials and streams"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: flutter-app
-description: Build Flutter apps with widgets, state, and store release. Use for cross-platform apps.
+description: "Build Flutter apps with widgets, state, and store release. Use for cross-platform apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: cross-platform apps
+  triggers: "cross-platform apps"
 ---
 
 ## What I do

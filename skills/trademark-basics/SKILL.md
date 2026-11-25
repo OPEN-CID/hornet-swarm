@@ -1,13 +1,13 @@
 ---
 name: trademark-basics
-description: Protect names with trademark search and filing basics. Use for brands. Lawyer for filings.
+description: "Protect names with trademark search and filing basics. Use for brands. Lawyer for filings."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: brand protection
+  triggers: "brand protection"
 ---
 
 ## What I do

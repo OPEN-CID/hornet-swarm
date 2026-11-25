@@ -1,13 +1,13 @@
 ---
 name: survival-basics
-description: Learn shelter, water, fire, and signal priorities. Use for backcountry prep. Training recommended.
+description: "Learn shelter, water, fire, and signal priorities. Use for backcountry prep. Training recommended."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: backcountry prep
+  triggers: "backcountry prep"
 ---
 
 ## What I do

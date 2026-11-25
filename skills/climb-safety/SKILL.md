@@ -1,13 +1,13 @@
 ---
 name: climb-safety
-description: Learn climbing safety basics and when to hire a guide. Use before touching rock. Instruction required.
+description: "Learn climbing safety basics and when to hire a guide. Use before touching rock. Instruction required."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: before climbing
+  triggers: "before climbing"
 ---
 
 ## What I do

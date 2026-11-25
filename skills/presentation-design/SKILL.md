@@ -1,13 +1,13 @@
 ---
 name: presentation-design
-description: Design slides that support, not replace, you. Use for decks.
+description: "Design slides that support, not replace, you. Use for decks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: building decks
+  triggers: "building decks"
 ---
 
 ## What I do

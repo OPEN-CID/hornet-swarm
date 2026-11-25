@@ -1,13 +1,13 @@
 ---
 name: canva-design
-description: Design posts and decks in Canva with brand kits. Use for non-designers.
+description: "Design posts and decks in Canva with brand kits. Use for non-designers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: quick designs
+  triggers: "quick designs"
 ---
 
 ## What I do

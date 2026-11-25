@@ -1,13 +1,13 @@
 ---
 name: research-brief
-description: Research any topic into a sourced one-pager. Use for decisions.
+description: "Research any topic into a sourced one-pager. Use for decisions."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: decision research
+  triggers: "decision research"
 ---
 
 ## What I do

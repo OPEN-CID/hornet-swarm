@@ -1,13 +1,13 @@
 ---
 name: med-jargon-translate
-description: Translate medical jargon into plain language with a glossary. Use when discharge notes, reports, or prescriptions are hard to understand. Information only.
+description: "Translate medical jargon into plain language with a glossary. Use when discharge notes, reports, or prescriptions are hard to understand. Information only."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: confusing medical paperwork
+  triggers: "confusing medical paperwork"
 ---
 
 ## What I do

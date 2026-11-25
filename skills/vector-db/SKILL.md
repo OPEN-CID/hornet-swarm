@@ -1,13 +1,13 @@
 ---
 name: vector-db
-description: Store embeddings with vector indexes and recall tests. Use for RAG storage.
+description: "Store embeddings with vector indexes and recall tests. Use for RAG storage."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: RAG storage
+  triggers: "RAG storage"
 ---
 
 ## What I do

@@ -30,6 +30,7 @@ function Test-Skill($dir) {
   if ($fName.Length -gt 64) { Write-Host "FAIL ${name}: name >64 chars"; return 1 }
   if ($fName -ne $name -and $name -ne "skill-template") { Write-Host "FAIL ${name}: folder != frontmatter name ($fName)"; return 1 }
   if ($fDesc.Length -lt 1 -or $fDesc.Length -gt 1024) { Write-Host "FAIL ${name}: description length $($fDesc.Length)"; return 1 }
+  if (($fDesc -match ': ' -or $fDesc -match ' #') -and -not ($fDesc.StartsWith('"') -and $fDesc.EndsWith('"'))) { Write-Host "FAIL ${name}: description with ': ' or ' #' must be YAML double-quoted"; return 1 }
   foreach ($h in @("## What I do", "## When to use me", "## Workflow", "## Output format")) {
     if ($raw -notmatch [regex]::Escape($h)) { Write-Host "FAIL ${name}: missing section $h"; return 1 }
   }

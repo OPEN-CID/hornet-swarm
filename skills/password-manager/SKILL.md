@@ -1,13 +1,13 @@
 ---
 name: password-manager
-description: Move all logins to a manager with 2FA recovery. Use for account security.
+description: "Move all logins to a manager with 2FA recovery. Use for account security."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: account security cleanup
+  triggers: "account security cleanup"
 ---
 
 ## What I do

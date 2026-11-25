@@ -1,13 +1,13 @@
 ---
 name: gcp-basics
-description: Learn GCP with projects, IAM, and budgets. Use for Google-cloud work.
+description: "Learn GCP with projects, IAM, and budgets. Use for Google-cloud work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: GCP work
+  triggers: "GCP work"
 ---
 
 ## What I do

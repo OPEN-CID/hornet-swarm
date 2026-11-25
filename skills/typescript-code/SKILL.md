@@ -1,6 +1,6 @@
 ---
 name: typescript-code
-description: Write strict TypeScript with no-explicit-any, discriminated unions, and vitest proof. Use for any TypeScript code or review.
+description: "Write strict TypeScript with no-explicit-any, discriminated unions, and vitest proof. Use for any TypeScript code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: TypeScript
-  triggers: writing or reviewing TypeScript code, setting up TypeScript builds, lint, or tests
+  triggers: "writing or reviewing TypeScript code, setting up TypeScript builds, lint, or tests"
 ---
 
 ## What I do

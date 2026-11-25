@@ -1,13 +1,13 @@
 ---
 name: language-tutor
-description: Practice a language with corrections and drills. Use for daily speaking and writing practice.
+description: "Practice a language with corrections and drills. Use for daily speaking and writing practice."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: daily language practice
+  triggers: "daily language practice"
 ---
 
 ## What I do

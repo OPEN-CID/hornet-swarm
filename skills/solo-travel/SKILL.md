@@ -1,13 +1,13 @@
 ---
 name: solo-travel
-description: Plan a first solo trip with safety nets and social options. Use when traveling alone.
+description: "Plan a first solo trip with safety nets and social options. Use when traveling alone."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: traveling alone
+  triggers: "traveling alone"
 ---
 
 ## What I do

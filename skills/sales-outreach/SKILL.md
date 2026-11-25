@@ -1,13 +1,13 @@
 ---
 name: sales-outreach
-description: Write personalized cold emails and follow-ups. Use for prospecting.
+description: "Write personalized cold emails and follow-ups. Use for prospecting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: prospecting new customers
+  triggers: "prospecting new customers"
 ---
 
 ## What I do

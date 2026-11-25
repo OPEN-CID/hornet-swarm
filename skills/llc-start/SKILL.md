@@ -1,13 +1,13 @@
 ---
 name: llc-start
-description: Form an LLC with state steps and operating basics. Use for new businesses. Lawyer for specifics.
+description: "Form an LLC with state steps and operating basics. Use for new businesses. Lawyer for specifics."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: new businesses
+  triggers: "new businesses"
 ---
 
 ## What I do

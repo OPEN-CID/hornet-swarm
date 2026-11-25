@@ -1,13 +1,13 @@
 ---
 name: phonics-start
-description: Teach reading with sounds, blending, and book ladders. Use for early readers.
+description: "Teach reading with sounds, blending, and book ladders. Use for early readers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: early readers
+  triggers: "early readers"
 ---
 
 ## What I do

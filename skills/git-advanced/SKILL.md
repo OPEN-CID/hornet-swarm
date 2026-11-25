@@ -1,13 +1,13 @@
 ---
 name: git-advanced
-description: Use advanced Git: interactive rebase, bisect, worktrees, submodules. Use beyond basic commits.
+description: "Use advanced Git: interactive rebase, bisect, worktrees, submodules. Use beyond basic commits."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: git-release
   version: 1.0.0
   author: hornet-swarm
-  triggers: beyond basic commits
+  triggers: "beyond basic commits"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: gitlab-ci
-description: Build GitLab CI pipelines with stages and runners. Use for GitLab repos.
+description: "Build GitLab CI pipelines with stages and runners. Use for GitLab repos."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: GitLab repos
+  triggers: "GitLab repos"
 ---
 
 ## What I do

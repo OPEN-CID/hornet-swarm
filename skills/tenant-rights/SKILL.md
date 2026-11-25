@@ -1,13 +1,13 @@
 ---
 name: tenant-rights
-description: Know renter rights with deposit, repair, and eviction basics. Use when landlord issues arise. General info.
+description: "Know renter rights with deposit, repair, and eviction basics. Use when landlord issues arise. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: landlord issues
+  triggers: "landlord issues"
 ---
 
 ## What I do

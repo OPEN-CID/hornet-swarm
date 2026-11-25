@@ -1,13 +1,13 @@
 ---
 name: eli5-explainer
-description: Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic.
+description: "Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting a hard topic
+  triggers: "starting a hard topic"
 ---
 
 ## What I do

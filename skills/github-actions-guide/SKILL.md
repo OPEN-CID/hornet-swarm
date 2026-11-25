@@ -1,13 +1,13 @@
 ---
 name: github-actions-guide
-description: Build GitHub Actions with caching, matrices, and OIDC. Use for GitHub repos.
+description: "Build GitHub Actions with caching, matrices, and OIDC. Use for GitHub repos."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: GitHub repos
+  triggers: "GitHub repos"
 ---
 
 ## What I do

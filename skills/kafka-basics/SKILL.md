@@ -1,13 +1,13 @@
 ---
 name: kafka-basics
-description: Stream events with Kafka topics, keys, and consumer groups. Use for event pipelines.
+description: "Stream events with Kafka topics, keys, and consumer groups. Use for event pipelines."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: event streaming
+  triggers: "event streaming"
 ---
 
 ## What I do

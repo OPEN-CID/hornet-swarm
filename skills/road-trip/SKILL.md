@@ -1,13 +1,13 @@
 ---
 name: road-trip
-description: Plan a road route with stops, fuel, and overnight breaks. Use for driving holidays.
+description: "Plan a road route with stops, fuel, and overnight breaks. Use for driving holidays."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: driving holidays
+  triggers: "driving holidays"
 ---
 
 ## What I do

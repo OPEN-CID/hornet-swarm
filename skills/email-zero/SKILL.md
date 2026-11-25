@@ -1,13 +1,13 @@
 ---
 name: email-zero
-description: Reach inbox zero with triage rules and templates. Use for overflowing inboxes.
+description: "Reach inbox zero with triage rules and templates. Use for overflowing inboxes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: overflowing inbox
+  triggers: "overflowing inbox"
 ---
 
 ## What I do

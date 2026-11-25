@@ -1,13 +1,13 @@
 ---
 name: estate-note
-description: Organize wills, beneficiaries, and documents. Use for adulting basics. Info only; lawyer for documents.
+description: "Organize wills, beneficiaries, and documents. Use for adulting basics. Info only; lawyer for documents."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: organizing estate basics
+  triggers: "organizing estate basics"
 ---
 
 ## What I do

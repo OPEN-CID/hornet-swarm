@@ -1,13 +1,13 @@
 ---
 name: spring-boot
-description: Build Spring Boot services with layers, profiles, and actuators. Use for Java services.
+description: "Build Spring Boot services with layers, profiles, and actuators. Use for Java services."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: Java services
+  triggers: "Java services"
 ---
 
 ## What I do

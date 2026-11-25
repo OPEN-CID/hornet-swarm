@@ -1,13 +1,13 @@
 ---
 name: proxmox-basics
-description: Virtualize home labs with Proxmox VMs and backups. Use for homelabs.
+description: "Virtualize home labs with Proxmox VMs and backups. Use for homelabs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: homelabs
+  triggers: "homelabs"
 ---
 
 ## What I do

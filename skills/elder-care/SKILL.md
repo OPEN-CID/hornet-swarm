@@ -1,13 +1,13 @@
 ---
 name: elder-care
-description: Organize elder care with needs list, services, and family rota. Use when a parent needs support.
+description: "Organize elder care with needs list, services, and family rota. Use when a parent needs support."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: aging parent support
+  triggers: "aging parent support"
 ---
 
 ## What I do

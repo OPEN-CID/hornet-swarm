@@ -1,13 +1,13 @@
 ---
 name: style-wardrobe
-description: Build personal style with capsules and fit rules. Use for wardrobe refreshes.
+description: "Build personal style with capsules and fit rules. Use for wardrobe refreshes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: wardrobe refreshes
+  triggers: "wardrobe refreshes"
 ---
 
 ## What I do

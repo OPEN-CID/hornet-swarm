@@ -1,13 +1,13 @@
 ---
 name: keyboard-build
-description: Build mechanical keyboards with parts and assembly. Use for custom boards.
+description: "Build mechanical keyboards with parts and assembly. Use for custom boards."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: custom boards
+  triggers: "custom boards"
 ---
 
 ## What I do

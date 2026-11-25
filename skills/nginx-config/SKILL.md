@@ -1,13 +1,13 @@
 ---
 name: nginx-config
-description: Serve sites with Nginx blocks, TLS, and caching. Use for reverse proxies.
+description: "Serve sites with Nginx blocks, TLS, and caching. Use for reverse proxies."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: reverse proxies
+  triggers: "reverse proxies"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: tech-writing
-description: Write docs developers use with tasks and examples. Use for product docs.
+description: "Write docs developers use with tasks and examples. Use for product docs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: product docs
+  triggers: "product docs"
 ---
 
 ## What I do

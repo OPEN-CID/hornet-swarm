@@ -1,13 +1,13 @@
 ---
 name: a11y-basics
-description: Make web apps accessible with semantics, focus, and testing. Use for inclusive UI.
+description: "Make web apps accessible with semantics, focus, and testing. Use for inclusive UI."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: inclusive UI
+  triggers: "inclusive UI"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: django-patterns
-description: Build Django with apps, ORM, and templates or DRF. Use for Django projects.
+description: "Build Django with apps, ORM, and templates or DRF. Use for Django projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: Django projects
+  triggers: "Django projects"
 ---
 
 ## What I do

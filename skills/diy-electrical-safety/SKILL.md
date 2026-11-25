@@ -1,13 +1,13 @@
 ---
 name: diy-electrical-safety
-description: Assess home electrical tasks and know when to call an electrician. Use before any wiring work. Safety first.
+description: "Assess home electrical tasks and know when to call an electrician. Use before any wiring work. Safety first."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: before any home wiring work
+  triggers: "before any home wiring work"
 ---
 
 ## What I do

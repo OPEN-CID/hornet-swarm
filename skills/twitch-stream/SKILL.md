@@ -1,13 +1,13 @@
 ---
 name: twitch-stream
-description: Stream on Twitch with setup, overlays, and mods. Use for new streamers.
+description: "Stream on Twitch with setup, overlays, and mods. Use for new streamers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: new streamers
+  triggers: "new streamers"
 ---
 
 ## What I do

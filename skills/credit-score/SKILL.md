@@ -1,13 +1,13 @@
 ---
 name: credit-score
-description: Build credit with utilization, history, and disputes. Use for better rates. General info.
+description: "Build credit with utilization, history, and disputes. Use for better rates. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: better rates
+  triggers: "better rates"
 ---
 
 ## What I do

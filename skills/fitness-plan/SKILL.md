@@ -1,13 +1,13 @@
 ---
 name: fitness-plan
-description: Build progressive workout plans around goals and limits. Use when starting or fixing a training routine.
+description: "Build progressive workout plans around goals and limits. Use when starting or fixing a training routine."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting a training routine, fixing a stalled program
+  triggers: "starting a training routine, fixing a stalled program"
 ---
 
 ## What I do

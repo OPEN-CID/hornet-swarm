@@ -1,13 +1,13 @@
 ---
 name: powerbi-basics
-description: Build Power BI reports with models and DAX basics. Use for business dashboards.
+description: "Build Power BI reports with models and DAX basics. Use for business dashboards."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: business dashboards
+  triggers: "business dashboards"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: remote-manage
-description: Run remote teams with async defaults and trust. Use for distributed teams.
+description: "Run remote teams with async defaults and trust. Use for distributed teams."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: distributed teams
+  triggers: "distributed teams"
 ---
 
 ## What I do

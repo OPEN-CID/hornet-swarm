@@ -1,13 +1,13 @@
 ---
 name: weather-basics
-description: Read forecasts and radar for plans. Use for outdoor decisions.
+description: "Read forecasts and radar for plans. Use for outdoor decisions."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: outdoor decisions
+  triggers: "outdoor decisions"
 ---
 
 ## What I do

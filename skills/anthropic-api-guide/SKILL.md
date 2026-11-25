@@ -1,13 +1,13 @@
 ---
 name: anthropic-api-guide
-description: Use the Anthropic API with keys, models, and prompt cache. Use for Claude features.
+description: "Use the Anthropic API with keys, models, and prompt cache. Use for Claude features."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: Claude features
+  triggers: "Claude features"
 ---
 
 ## What I do

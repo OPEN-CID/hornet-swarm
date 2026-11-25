@@ -1,13 +1,13 @@
 ---
 name: screenwrite-basics
-description: Format screenplays with beats and dialogue. Use for shorts and features.
+description: "Format screenplays with beats and dialogue. Use for shorts and features."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: film writing
+  triggers: "film writing"
 ---
 
 ## What I do

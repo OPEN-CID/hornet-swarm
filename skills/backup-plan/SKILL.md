@@ -1,13 +1,13 @@
 ---
 name: backup-plan
-description: Back up devices with 3-2-1 and restore tests. Use for irreplaceable files.
+description: "Back up devices with 3-2-1 and restore tests. Use for irreplaceable files."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: protecting files
+  triggers: "protecting files"
 ---
 
 ## What I do

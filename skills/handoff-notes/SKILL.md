@@ -1,13 +1,13 @@
 ---
 name: handoff-notes
-description: Write shift handoffs with status, risks, and next actions. Use for on-call rotations and shift changes.
+description: "Write shift handoffs with status, risks, and next actions. Use for on-call rotations and shift changes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: productivity
   version: 1.0.0
   author: hornet-swarm
-  triggers: on-call rotations, shift changes
+  triggers: "on-call rotations, shift changes"
 ---
 
 ## What I do

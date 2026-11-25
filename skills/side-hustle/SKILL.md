@@ -1,13 +1,13 @@
 ---
 name: side-hustle
-description: Start a side income with skills inventory and first clients. Use for extra income.
+description: "Start a side income with skills inventory and first clients. Use for extra income."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: wanting extra income
+  triggers: "wanting extra income"
 ---
 
 ## What I do

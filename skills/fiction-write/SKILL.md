@@ -1,13 +1,13 @@
 ---
 name: fiction-write
-description: Write fiction with scenes, arcs, and revision passes. Use for novels and stories.
+description: "Write fiction with scenes, arcs, and revision passes. Use for novels and stories."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: novels and stories
+  triggers: "novels and stories"
 ---
 
 ## What I do

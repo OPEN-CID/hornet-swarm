@@ -1,13 +1,13 @@
 ---
 name: jet-lag-beat
-description: Beat jet lag with light, sleep, and arrival plans. Use for long flights.
+description: "Beat jet lag with light, sleep, and arrival plans. Use for long flights."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: long flights
+  triggers: "long flights"
 ---
 
 ## What I do

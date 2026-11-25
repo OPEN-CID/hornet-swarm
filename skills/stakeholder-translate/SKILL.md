@@ -1,13 +1,13 @@
 ---
 name: stakeholder-translate
-description: Explain architecture decisions to non-engineers in business terms. Use before steering or board reviews.
+description: "Explain architecture decisions to non-engineers in business terms. Use before steering or board reviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: presenting architecture to leadership
+  triggers: "presenting architecture to leadership"
 ---
 
 ## What I do

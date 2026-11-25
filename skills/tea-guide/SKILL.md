@@ -1,13 +1,13 @@
 ---
 name: tea-guide
-description: Brew teas by type with temps and steep times. Use when starting loose-leaf tea.
+description: "Brew teas by type with temps and steep times. Use when starting loose-leaf tea."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting loose-leaf tea
+  triggers: "starting loose-leaf tea"
 ---
 
 ## What I do

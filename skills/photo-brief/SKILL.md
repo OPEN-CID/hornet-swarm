@@ -1,13 +1,13 @@
 ---
 name: photo-brief
-description: Write shot lists and edit briefs for shoots. Use before photo sessions.
+description: "Write shot lists and edit briefs for shoots. Use before photo sessions."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: planning a photo shoot
+  triggers: "planning a photo shoot"
 ---
 
 ## What I do

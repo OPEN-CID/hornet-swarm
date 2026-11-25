@@ -1,13 +1,13 @@
 ---
 name: pottery-start
-description: Start pottery with hand-building and kiln basics. Use for classes.
+description: "Start pottery with hand-building and kiln basics. Use for classes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: pottery classes
+  triggers: "pottery classes"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: sewing-basics
-description: Sew with machine setup and first alterations. Use for repairs and gifts.
+description: "Sew with machine setup and first alterations. Use for repairs and gifts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: repairs and gifts
+  triggers: "repairs and gifts"
 ---
 
 ## What I do

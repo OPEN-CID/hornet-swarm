@@ -1,13 +1,13 @@
 ---
 name: family-budget
-description: Run a family budget with kid costs and savings goals. Use when money is tight.
+description: "Run a family budget with kid costs and savings goals. Use when money is tight."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: tight family money
+  triggers: "tight family money"
 ---
 
 ## What I do

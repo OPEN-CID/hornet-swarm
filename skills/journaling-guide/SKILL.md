@@ -1,13 +1,13 @@
 ---
 name: journaling-guide
-description: Journal with prompts that process emotions and decisions. Use for reflection.
+description: "Journal with prompts that process emotions and decisions. Use for reflection."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: needing reflection
+  triggers: "needing reflection"
 ---
 
 ## What I do

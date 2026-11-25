@@ -1,13 +1,13 @@
 ---
 name: memorial-plan
-description: Plan memorials gently with programs and logistics. Use in difficult times.
+description: "Plan memorials gently with programs and logistics. Use in difficult times."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
-  triggers: difficult times
+  triggers: "difficult times"
 ---
 
 ## What I do

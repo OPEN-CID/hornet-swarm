@@ -1,13 +1,13 @@
 ---
 name: newsletter-writer
-description: Draft newsletters people open and finish. Use for weekly publishing.
+description: "Draft newsletters people open and finish. Use for weekly publishing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: publishing a newsletter
+  triggers: "publishing a newsletter"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: temporal-guide
-description: Orchestrate durable workflows with Temporal activities and workers. Use for reliable background work.
+description: "Orchestrate durable workflows with Temporal activities and workers. Use for reliable background work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: durable background work
+  triggers: "durable background work"
 ---
 
 ## What I do

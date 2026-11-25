@@ -1,13 +1,13 @@
 ---
 name: homework-check
-description: Check completed homework with corrections and explanations. Use after finishing assignments.
+description: "Check completed homework with corrections and explanations. Use after finishing assignments."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: finished assignments
+  triggers: "finished assignments"
 ---
 
 ## What I do

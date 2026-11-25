@@ -1,13 +1,13 @@
 ---
 name: business-review
-description: Monthly business health review of revenue, pipeline, and costs. Use on the first Monday monthly.
+description: "Monthly business health review of revenue, pipeline, and costs. Use on the first Monday monthly."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: monthly business checkup
+  triggers: "monthly business checkup"
 ---
 
 ## What I do

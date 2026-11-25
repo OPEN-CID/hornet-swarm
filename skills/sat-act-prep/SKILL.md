@@ -1,13 +1,13 @@
 ---
 name: sat-act-prep
-description: Prep for the SAT/ACT with plans and timed practice. Use for college tests.
+description: "Prep for the SAT/ACT with plans and timed practice. Use for college tests."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: college tests
+  triggers: "college tests"
 ---
 
 ## What I do

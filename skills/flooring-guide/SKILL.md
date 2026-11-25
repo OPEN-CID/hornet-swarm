@@ -1,13 +1,13 @@
 ---
 name: flooring-guide
-description: Choose flooring by room with cost and install options. Use for replacements.
+description: "Choose flooring by room with cost and install options. Use for replacements."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: flooring replacement
+  triggers: "flooring replacement"
 ---
 
 ## What I do

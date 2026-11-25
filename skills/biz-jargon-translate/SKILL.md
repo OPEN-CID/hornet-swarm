@@ -1,13 +1,13 @@
 ---
 name: biz-jargon-translate
-description: Translate investor, legal, and finance jargon for founders. Use when term sheets or metrics confuse.
+description: "Translate investor, legal, and finance jargon for founders. Use when term sheets or metrics confuse."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: confusing term sheets or metrics
+  triggers: "confusing term sheets or metrics"
 ---
 
 ## What I do

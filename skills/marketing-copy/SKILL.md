@@ -1,13 +1,13 @@
 ---
 name: marketing-copy
-description: Write landing pages and ads that convert. Use for launches and campaigns.
+description: "Write landing pages and ads that convert. Use for launches and campaigns."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: launching or promoting a product
+  triggers: "launching or promoting a product"
 ---
 
 ## What I do

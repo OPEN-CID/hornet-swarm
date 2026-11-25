@@ -1,6 +1,6 @@
 ---
 name: elixir-code
-description: Write concurrent Elixir with OTP discipline, changesets, and ExUnit proof. Use for any Elixir code or review.
+description: "Write concurrent Elixir with OTP discipline, changesets, and ExUnit proof. Use for any Elixir code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Elixir
-  triggers: writing or reviewing Elixir code, setting up Mix, Credo, or ExUnit
+  triggers: "writing or reviewing Elixir code, setting up Mix, Credo, or ExUnit"
 ---
 
 ## What I do

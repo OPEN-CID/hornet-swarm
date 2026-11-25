@@ -1,13 +1,13 @@
 ---
 name: terraform-start
-description: Manage infra as code with state safety. Use for AWS or cloud setup.
+description: "Manage infra as code with state safety. Use for AWS or cloud setup."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: cloud setup
+  triggers: "cloud setup"
 ---
 
 ## What I do

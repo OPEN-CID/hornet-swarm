@@ -1,13 +1,13 @@
 ---
 name: chess-improve
-description: Improve chess with tactics ladders and game review. Use for club players.
+description: "Improve chess with tactics ladders and game review. Use for club players."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: club improvement
+  triggers: "club improvement"
 ---
 
 ## What I do

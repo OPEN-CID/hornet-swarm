@@ -1,13 +1,13 @@
 ---
 name: analytics-basics
-description: Track analytics with events and key reports. Use for decisions.
+description: "Track analytics with events and key reports. Use for decisions."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: measuring products
+  triggers: "measuring products"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: copyright-basics
-description: Protect creative work with registration and fair-use basics. Use for creators. General info.
+description: "Protect creative work with registration and fair-use basics. Use for creators. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: creators publishing
+  triggers: "creators publishing"
 ---
 
 ## What I do

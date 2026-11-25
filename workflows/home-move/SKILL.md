@@ -1,6 +1,6 @@
 ---
 name: home-move
-description: Move house from boxes to settled with safety audit. Use when relocating.
+description: "Move house from boxes to settled with safety audit. Use when relocating."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: relocating, moving house
-  steps: moving-checklist, declutter-guide, home-safety-review, budget-plan
+  triggers: "relocating, moving house"
+  steps: "moving-checklist, declutter-guide, home-safety-review, budget-plan"
 ---
 
 ## What I do

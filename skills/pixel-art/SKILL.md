@@ -1,13 +1,13 @@
 ---
 name: pixel-art
-description: Make pixel art sprites, tilesets, and animations. Use for 2D games.
+description: "Make pixel art sprites, tilesets, and animations. Use for 2D games."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: 2D game art
+  triggers: "2D game art"
 ---
 
 ## What I do

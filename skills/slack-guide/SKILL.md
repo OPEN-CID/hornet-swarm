@@ -1,13 +1,13 @@
 ---
 name: slack-guide
-description: Run Slack with channels, huddles, and notification norms. Use for team chat.
+description: "Run Slack with channels, huddles, and notification norms. Use for team chat."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: team chat setup
+  triggers: "team chat setup"
 ---
 
 ## What I do

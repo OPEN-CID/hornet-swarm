@@ -1,13 +1,13 @@
 ---
 name: meal-plan
-description: Plan a week of dinners around budget and diet. Use for weekly cooking.
+description: "Plan a week of dinners around budget and diet. Use for weekly cooking."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: weekly cooking, planning family dinners
+  triggers: "weekly cooking, planning family dinners"
 ---
 
 ## What I do

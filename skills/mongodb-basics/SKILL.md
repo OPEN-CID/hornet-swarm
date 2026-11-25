@@ -1,13 +1,13 @@
 ---
 name: mongodb-basics
-description: Model MongoDB documents with indexes and aggregation. Use for document apps.
+description: "Model MongoDB documents with indexes and aggregation. Use for document apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: MongoDB apps
+  triggers: "MongoDB apps"
 ---
 
 ## What I do

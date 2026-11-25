@@ -1,6 +1,6 @@
 ---
 name: repo-structure-guide
-description: Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository.
+description: "Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
