@@ -31,15 +31,27 @@ tool_target() {
     opencode) echo ".opencode/skills";;
     cursor|codex|gemini|universal|"") echo ".agents/skills";;
     copilot) echo ".github/skills";;
-    *) echo "unknown tool $1 (try: claude opencode cursor copilot codex gemini universal)"; exit 1;;
+    windsurf) echo ".windsurf/skills";;
+    junie) echo ".junie/skills";;
+    roo) echo ".roo/skills";;
+    trae) echo ".trae/skills";;
+    kiro) echo ".kiro/skills";;
+    *) echo "unknown tool $1 (try: claude opencode cursor copilot codex gemini windsurf junie roo trae kiro universal)"; exit 1;;
   esac
 }
 tool_global() {
   case "$1" in
     claude) echo "$HOME/.claude/skills";;
     opencode) echo "$HOME/.config/opencode/skills";;
-    cursor|codex|gemini|universal|"") echo "$HOME/.agents/skills";;
+    cursor) echo "$HOME/.cursor/skills";;
     copilot) echo "$HOME/.copilot/skills";;
+    codex|universal|"") echo "$HOME/.agents/skills";;
+    gemini) echo "$HOME/.gemini/skills";;
+    windsurf) echo "$HOME/.codeium/windsurf/skills";;
+    junie) echo "$HOME/.junie/skills";;
+    roo) echo "$HOME/.roo/skills";;
+    trae) echo "$HOME/.trae/skills";;
+    kiro) echo "$HOME/.kiro/skills";;
     *) echo "unknown tool $1"; exit 1;;
   esac
 }
@@ -90,8 +102,5 @@ if [[ "$ROUTER" == 1 ]]; then
     for s in "${ARR[@]}"; do for_each_skill "$s"; done
   fi
   echo "router written: $ROUTER_PATH"
-fi
-if [[ "$TOOL" == "gemini" ]]; then
-  echo "NOTE: Gemini CLI has no native SKILL.md discovery. See docs/USAGE.md (Gemini section)."
 fi
 echo "Done. Verify: open a fresh session in your tool and ask it to list available skills."
