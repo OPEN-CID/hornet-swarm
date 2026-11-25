@@ -1,5 +1,10 @@
 # Hornet Swarm - Universal Agent Skills
 
+[![CI](https://github.com/OPEN-CID/hornet-swarm/actions/workflows/validate.yml/badge.svg)](https://github.com/OPEN-CID/hornet-swarm/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-576-blue)](registry.json)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
 576 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
@@ -14,7 +19,7 @@ powershell scripts/install.ps1 -Tool cursor
 ```
 
 Full per-tool workflows (install, verify, global, teams, 75+ agents):
-[`docs/USAGE.md`](docs/USAGE.md) · visibility design: [`docs/DISCOVERY.md`](docs/DISCOVERY.md) ·
+[`docs/USAGE.md`](docs/USAGE.md) · architecture + flow diagrams: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) · visibility design: [`docs/DISCOVERY.md`](docs/DISCOVERY.md) ·
 trigger-first index for any agent: [`SKILLS.md`](SKILLS.md) ·
 MCP server for any MCP-capable tool: [`mcp-server/`](mcp-server/) ·
 browse + search everything: **https://OPEN-CID.github.io/hornet-swarm/**.
