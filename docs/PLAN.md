@@ -1,5 +1,10 @@
 # Universal Agent Skills — Perfect Plan
 
+> Historical plan (v1: 36 dev skills). The repo has grown to 533 skills +
+> 10 workflows across 50 categories — see `WORLD-TAXONOMY.md` (all domains),
+> `SKILL-FAMILIES.md` (the 5 kinds), `DISCOVERY.md` (visibility design).
+> The structure and principles below still apply.
+
 Single source of truth: **Anthropic Agent Skills spec (`SKILL.md` + YAML frontmatter)**.
 Consumed via copy + lightweight installer into `.agents/skills/`, `.claude/skills/`, `.opencode/skills/`.
 

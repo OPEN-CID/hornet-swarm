@@ -83,6 +83,7 @@ foreach ($g in $groups) {
   if ($null -eq $blurb) { $blurb = "" }
   $index += "- [$($g.Name)]($($g.Name).md) ($($g.Count)) - $blurb"
 }
+$index += "- [workflows](workflows.md) (plays that run skills in order)"
 $index += ""
 $index += "## Family pattern"
 $index += ""
