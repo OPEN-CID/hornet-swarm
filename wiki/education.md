@@ -6,12 +6,15 @@ Learn anything with tutoring and study systems.
 |---|---|---|
 | `ace-exam` | flow | Pass exams with prep, mocks, and readiness proof. Use before test day. |
 | `chemistry-helper` | skill | Balance equations and explain lab concepts safely. Use for chemistry homework and labs. |
+| `college-application` | flow | Apply to college with essays, interviews, and funding. Use for admissions season. |
 | `curriculum-plan` | skill | Design a self-study syllabus with milestones. Use when learning a subject solo. |
 | `eli5-explainer` | skill | Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic. |
 | `essay-feedback` | skill | Critique essays for thesis, structure, and evidence. Use when revising writing. |
 | `exam-prep` | skill | Build an exam study plan with spaced practice tests. Use before any exam. |
 | `exam-readiness-review` | skill | Audit exam readiness with a timed mock and gap list. Use one week before any exam. |
+| `french-start` | skill | Start French with core phrases and daily practice. Use for beginners. |
 | `homework-check` | skill | Check completed homework with corrections and explanations. Use after finishing assignments. |
+| `japanese-start` | skill | Start Japanese with kana, phrases, and daily practice. Use for beginners. |
 | `kid-homework` | skill | Guide kids to answers with hints, never direct solutions. Use for K-12 homework help. |
 | `language-tutor` | skill | Practice a language with corrections and drills. Use for daily speaking and writing practice. |
 | `learn-code` | skill | Learn programming from zero with small wins. Use for absolute beginners. |
@@ -24,6 +27,7 @@ Learn anything with tutoring and study systems.
 | `sat-act-prep` | skill | Prep for the SAT/ACT with plans and timed practice. Use for college tests. |
 | `scholarship-search` | skill | Win scholarships with matches and reusable essays. Use for college funding. |
 | `science-fair-guide` | skill | Run science fair projects with question, method, and board. Use for fairs. |
+| `spanish-start` | skill | Start Spanish with core phrases and daily practice. Use for beginners. |
 | `study-doc-parse` | skill | Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`

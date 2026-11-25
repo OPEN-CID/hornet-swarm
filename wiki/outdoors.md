@@ -8,6 +8,7 @@ Hike, camp, paddle, and read the wild safely.
 | `camping-guide` | skill | Camp comfortably with shelter, sleep, and cook systems. Use for first trips. |
 | `climb-safety` | skill | Learn climbing safety basics and when to hire a guide. Use before touching rock. Instruction required. |
 | `fishing-basics` | skill | Start fishing with knots, rigs, and local rules. Use for beginners. |
+| `foraging-guide` | skill | Forage safely with expert ID rules and local laws. Never eat anything without in-person expert confirmation. Use for wild foods. |
 | `hiking-prep` | skill | Plan day hikes with gear, food, and turnaround times. Use before any trail. |
 | `kayak-start` | skill | Paddle safely with strokes, rescues, and conditions. Use for flatwater starts. |
 | `navigation-map` | skill | Navigate with map, compass, and phone backup. Use when trails are unmarked. |

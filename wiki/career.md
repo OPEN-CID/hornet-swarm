@@ -16,6 +16,7 @@ Apply, interview, negotiate, grow.
 | `layoff-plan` | skill | Navigate layoffs with runway, benefits, and job search. Use after a layoff. |
 | `linkedin-optimize` | skill | Rewrite LinkedIn profiles for recruiter search. Use for job hunting. |
 | `performance-review` | skill | Write self-reviews with evidence and growth goals. Use at review season. |
+| `personal-brand` | skill | Build a personal brand with proof, platform, and cadence. Use for visibility. |
 | `promotion-case` | skill | Earn promotions with evidence packets and sponsors. Use before review cycles. |
 | `resume-writer` | skill | Tailor resumes to job posts with measurable impact. Use when applying for jobs. |
 | `salary-negotiate` | skill | Plan negotiation scripts with ranges and walk-aways. Use with an offer in hand. |

@@ -4,6 +4,7 @@ Weddings, parties, budgets, and toasts.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `baby-shower-plan` | skill | Host baby showers with themes, food, and games. Use for celebrations. |
 | `event-budget` | skill | Budget events with line items and contingencies. Use for any event. |
 | `holiday-plan` | skill | Plan holidays with travel, meals, and gifts. Use for seasons. |
 | `memorial-plan` | skill | Plan memorials gently with programs and logistics. Use in difficult times. |

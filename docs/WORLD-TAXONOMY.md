@@ -59,7 +59,7 @@ Dev-only catalogs cover ~10% of agent work. This repo covers the rest:
 | 50 | Web frameworks | `frameworks` | 8 | React, Next.js, Vue, Django, Rails, FastAPI, Spring Boot, Laravel |
 | 51 | Game development | `gamedev` | 8 | Unity, Unreal, Godot, pixel art, game audio, publishing, Roblox, Minecraft |
 
-(51 category keys. Total: **594 entries = 567 skills + 27 workflows** — and growing via `docs/INTAKE.md`.
+(51 category keys. Total: **643 entries = 613 skills + 30 workflows** — and growing via `docs/INTAKE.md`.
 
 **Workflows are plays, not a category.** Anything multi-step becomes a workflow
 (`workflows/<name>/SKILL.md`, generated from `catalog/workflows*.json`): it loads

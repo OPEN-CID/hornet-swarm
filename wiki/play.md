@@ -7,6 +7,8 @@ Chess, poker, game nights, and game design.
 | `board-night` | skill | Host board game nights with teach scripts. Use for groups. |
 | `chess-improve` | skill | Improve chess with tactics ladders and game review. Use for club players. |
 | `dnd-dm` | skill | Run D and D sessions with prep and improv tools. Use for new DMs. |
+| `esports-start` | skill | Start esports with structured practice and VOD review. Use for competitive play. |
+| `fantasy-sports` | skill | Win fantasy leagues with draft tiers and waiver rhythm. Use for football and basketball seasons. |
 | `game-design` | skill | Design board or video games with loops and playtests. Use for prototypes. |
 | `go-game` | skill | Learn Go with captures and life-and-death basics. Use for beginners. |
 | `mahjong-basics` | skill | Play mahjong with rules and basic strategy. Use for game nights. |

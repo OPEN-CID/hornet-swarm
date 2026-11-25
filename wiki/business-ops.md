@@ -8,7 +8,10 @@ Validate, sell, hire, and operate.
 | `biz-jargon-translate` | skill | Translate investor, legal, and finance jargon for founders. Use when term sheets or metrics confuse. |
 | `business-plan` | skill | Draft lean business plans with unit economics. Use when pitching or planning. |
 | `business-review` | skill | Monthly business health review of revenue, pipeline, and costs. Use on the first Monday monthly. |
+| `consulting-start` | skill | Launch a consulting practice with offers and pipeline. Use for independent experts. |
+| `customer-interviews` | skill | Run customer interviews that reveal real jobs-to-be-done. Use before building. |
 | `email-marketing` | skill | Run email marketing with sequences and deliverability. Use for lists. |
+| `food-business` | skill | Start a food business from home kitchen to market. Check local cottage-food rules. Use for food founders. |
 | `hiring-interview` | skill | Design structured interviews with scorecards. Use when hiring. |
 | `idea-validate` | skill | Stress-test startup ideas with customers and numbers. Use before building anything. |
 | `kpi-dashboard` | skill | Define KPIs and dashboard layouts that drive action. Use for team reporting. |

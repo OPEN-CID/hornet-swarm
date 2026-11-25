@@ -3,7 +3,7 @@
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  594,
+    "count":  643,
     "skills":  [
                    {
                        "name":  "a11y-basics",
@@ -126,6 +126,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "AI clips and ads"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "allergy-manage",
+                       "description":  "Manage allergies with avoidance, meds, and action plans. Use for seasonal and food allergies. Doctors diagnose.",
+                       "category":  "medical-health",
+                       "kind":  "skill",
+                       "path":  "skills/allergy-manage/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "allergies"
                                     ],
                        "steps":  [
 
@@ -412,6 +426,20 @@
                                  ]
                    },
                    {
+                       "name":  "baby-first-year",
+                       "description":  "Navigate the first year month by month with milestones and care. Use for new babies. Pediatrician decides health issues.",
+                       "category":  "parenting",
+                       "kind":  "skill",
+                       "path":  "skills/baby-first-year/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new babies"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "baby-proof",
                        "description":  "Baby-proof rooms with checklists by age. Use before crawling starts.",
                        "category":  "parenting",
@@ -420,6 +448,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "before crawling starts"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "baby-shower-plan",
+                       "description":  "Host baby showers with themes, food, and games. Use for celebrations.",
+                       "category":  "events",
+                       "kind":  "skill",
+                       "path":  "skills/baby-shower-plan/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "baby celebrations"
                                     ],
                        "steps":  [
 
@@ -476,6 +518,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "starting baking"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "bass-guitar",
+                       "description":  "Play bass with groove, timing, and band lock-in. Use for new bassists.",
+                       "category":  "music",
+                       "kind":  "skill",
+                       "path":  "skills/bass-guitar/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new bassists"
                                     ],
                        "steps":  [
 
@@ -630,6 +686,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "group game nights"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "bookbinding-start",
+                       "description":  "Bind books with sewn signatures and hard cases. Use for journals and gifts.",
+                       "category":  "craft",
+                       "kind":  "skill",
+                       "path":  "skills/bookbinding-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "handmade books"
                                     ],
                        "steps":  [
 
@@ -818,6 +888,20 @@
                                  ]
                    },
                    {
+                       "name":  "cake-decorating",
+                       "description":  "Bake and decorate celebration cakes with structure. Use for birthdays and weddings.",
+                       "category":  "cooking",
+                       "kind":  "skill",
+                       "path":  "skills/cake-decorating/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "celebration cakes"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "calendar-os",
                        "description":  "Run your calendar with timeblocks and buffers. Use when days fragment.",
                        "category":  "knowledge",
@@ -854,6 +938,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "overnight trips"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "camper-van",
+                       "description":  "Do camper van trips with rental, routes, and campsites. Use for road adventures.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/camper-van/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "road adventures"
                                     ],
                        "steps":  [
 
@@ -1056,6 +1154,20 @@
                                  ]
                    },
                    {
+                       "name":  "cheese-making",
+                       "description":  "Make fresh and aged cheeses with cultures and patience. Use for dairy projects.",
+                       "category":  "cooking",
+                       "kind":  "skill",
+                       "path":  "skills/cheese-making/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "dairy projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "chemistry-helper",
                        "description":  "Balance equations and explain lab concepts safely. Use for chemistry homework and labs.",
                        "category":  "education",
@@ -1092,6 +1204,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "backyard hens"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "childrens-book",
+                       "description":  "Write picture books with page turns and read-aloud rhythm. Use for kids stories.",
+                       "category":  "writing",
+                       "kind":  "skill",
+                       "path":  "skills/childrens-book/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "kids stories"
                                     ],
                        "steps":  [
 
@@ -1162,6 +1288,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "climate literacy"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "climbing-fitness",
+                       "description":  "Start climbing with footwork, belay, and gym etiquette. Take a belay class first. Use for beginners.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/climbing-fitness/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "climbing beginners"
                                     ],
                        "steps":  [
 
@@ -1266,6 +1406,20 @@
                                  ]
                    },
                    {
+                       "name":  "college-application",
+                       "description":  "Apply to college with essays, interviews, and funding. Use for admissions season.",
+                       "category":  "education",
+                       "kind":  "workflow",
+                       "path":  "workflows/college-application/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "admissions season"
+                                    ],
+                       "steps":  [
+                                     "college-apps, essay-feedback, interview-prep, scholarship-search"
+                                 ]
+                   },
+                   {
                        "name":  "college-apps",
                        "description":  "Apply to colleges with lists, essays, and deadlines. Use for admissions.",
                        "category":  "parenting",
@@ -1344,6 +1498,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "after arguments"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "consulting-start",
+                       "description":  "Launch a consulting practice with offers and pipeline. Use for independent experts.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/consulting-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "independent experts"
                                     ],
                        "steps":  [
 
@@ -1490,6 +1658,20 @@
                                  ]
                    },
                    {
+                       "name":  "cruise-guide",
+                       "description":  "Pick cruises with line, cabin, and port math. Use for cruise holidays.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/cruise-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "cruise holidays"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "crypto-basics",
                        "description":  "Understand crypto risks and custody before touching it. Use for curiosity first. Educational.",
                        "category":  "wealth",
@@ -1532,6 +1714,20 @@
                                  ]
                    },
                    {
+                       "name":  "customer-interviews",
+                       "description":  "Run customer interviews that reveal real jobs-to-be-done. Use before building.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/customer-interviews/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "before building"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "cycling-start",
                        "description":  "Start cycling with fit, gears, and traffic skills. Use for new riders.",
                        "category":  "fitness",
@@ -1540,6 +1736,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "new riders"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "dance-fitness",
+                       "description":  "Start dance fitness with rhythm basics and routines. Use for fun cardio.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/dance-fitness/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "fun cardio"
                                     ],
                        "steps":  [
 
@@ -1770,6 +1980,20 @@
                                  ]
                    },
                    {
+                       "name":  "deck-build",
+                       "description":  "Build decks with footings, framing, and boards. Check local codes first. Use for outdoor builds.",
+                       "category":  "diy-maker",
+                       "kind":  "skill",
+                       "path":  "skills/deck-build/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "outdoor builds"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "declutter-guide",
                        "description":  "Declutter room by room with keep rules and donation flow. Use when overwhelmed.",
                        "category":  "housing",
@@ -1778,6 +2002,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "overwhelming clutter"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "dental-care",
+                       "description":  "Keep teeth with routines and checkups. Use for dental health. Dentists diagnose.",
+                       "category":  "medical-health",
+                       "kind":  "skill",
+                       "path":  "skills/dental-care/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "dental health"
                                     ],
                        "steps":  [
 
@@ -1848,6 +2086,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "compulsive scrolling"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "digital-nomad",
+                       "description":  "Live abroad as a digital nomad with visas, wifi, and budgets. Use for remote work travel.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/digital-nomad/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "remote work travel"
                                     ],
                        "steps":  [
 
@@ -2022,6 +2274,20 @@
                                  ]
                    },
                    {
+                       "name":  "ebook-library",
+                       "description":  "Build an ebook library with Calibre and reader sync. Use for digital readers.",
+                       "category":  "everyday-tech",
+                       "kind":  "skill",
+                       "path":  "skills/ebook-library/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "digital readers"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "econ-basics",
                        "description":  "Read inflation, rates, and markets for decisions. Use for money literacy.",
                        "category":  "science-big",
@@ -2156,6 +2422,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "esports-start",
+                       "description":  "Start esports with structured practice and VOD review. Use for competitive play.",
+                       "category":  "play",
+                       "kind":  "skill",
+                       "path":  "skills/esports-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "competitive gaming"
                                     ],
                        "steps":  [
 
@@ -2352,6 +2632,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "tight family money"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "fantasy-sports",
+                       "description":  "Win fantasy leagues with draft tiers and waiver rhythm. Use for football and basketball seasons.",
+                       "category":  "play",
+                       "kind":  "skill",
+                       "path":  "skills/fantasy-sports/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "fantasy seasons"
                                     ],
                        "steps":  [
 
@@ -2652,6 +2946,20 @@
                                  ]
                    },
                    {
+                       "name":  "food-business",
+                       "description":  "Start a food business from home kitchen to market. Check local cottage-food rules. Use for food founders.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/food-business/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "food founders"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "food-safety",
                        "description":  "Store, thaw, and cook food safely with temps and times. Use for any home kitchen.",
                        "category":  "cooking",
@@ -2660,6 +2968,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "running a home kitchen"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "foraging-guide",
+                       "description":  "Forage safely with expert ID rules and local laws. Never eat anything without in-person expert confirmation. Use for wild foods.",
+                       "category":  "outdoors",
+                       "kind":  "skill",
+                       "path":  "skills/foraging-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "wild foods"
                                     ],
                        "steps":  [
 
@@ -2702,6 +3024,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "quoting a freelance project"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "french-start",
+                       "description":  "Start French with core phrases and daily practice. Use for beginners.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/french-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "learning French"
                                     ],
                        "steps":  [
 
@@ -3226,6 +3562,20 @@
                                  ]
                    },
                    {
+                       "name":  "home-ev-charger",
+                       "description":  "Install home EV charging with load math and quotes. Use licensed electricians for panels. Use for EV owners.",
+                       "category":  "eco",
+                       "kind":  "skill",
+                       "path":  "skills/home-ev-charger/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "EV owners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "home-gym",
                        "description":  "Build a home gym with essentials in buy order. Use for home training.",
                        "category":  "fitness",
@@ -3324,6 +3674,20 @@
                                  ]
                    },
                    {
+                       "name":  "home-security",
+                       "description":  "Secure homes with cameras, alarms, and lighting. Use for peace of mind.",
+                       "category":  "home-life",
+                       "kind":  "skill",
+                       "path":  "skills/home-security/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "home protection"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "home-server",
                        "description":  "Run a home server or NAS with storage, backups, and remote access. Use for self-hosting.",
                        "category":  "hardware",
@@ -3352,6 +3716,20 @@
                                  ]
                    },
                    {
+                       "name":  "horse-care",
+                       "description":  "Keep horses with shelter, feed, and farrier schedules. Use for new owners. Vets decide health issues.",
+                       "category":  "pets",
+                       "kind":  "skill",
+                       "path":  "skills/horse-care/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new horse owners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "hotel-book",
                        "description":  "Book hotels with location, cancellation, and loyalty math. Use for stays.",
                        "category":  "travel",
@@ -3360,6 +3738,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "booking stays"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "house-hacking",
+                       "description":  "House-hack with math, screening, and reserves. Use for first rentals. General info.",
+                       "category":  "wealth",
+                       "kind":  "skill",
+                       "path":  "skills/house-hacking/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "first rentals"
                                     ],
                        "steps":  [
 
@@ -3458,6 +3850,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "any training program"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "in-law-navigate",
+                       "description":  "Navigate in-law dynamics with boundaries and buffers. Use for family friction.",
+                       "category":  "relationships",
+                       "kind":  "skill",
+                       "path":  "skills/in-law-navigate/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "family friction"
                                     ],
                        "steps":  [
 
@@ -3576,6 +3982,20 @@
                                  ]
                    },
                    {
+                       "name":  "japanese-start",
+                       "description":  "Start Japanese with kana, phrases, and daily practice. Use for beginners.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/japanese-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "learning Japanese"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "java-code",
                        "description":  "Write modern Java with records, sealed types, and java.time. Use for any Java code or review.",
                        "category":  "languages",
@@ -3668,6 +4088,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "needing reflection"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "jury-duty",
+                       "description":  "Handle jury duty with prep and logistics. Use when summoned. General info.",
+                       "category":  "civic",
+                       "kind":  "skill",
+                       "path":  "skills/jury-duty/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "jury summons"
                                     ],
                        "steps":  [
 
@@ -4074,6 +4508,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "permits and projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "local-history",
+                       "description":  "Research your town with archives, maps, and walks. Use for local roots.",
+                       "category":  "culture",
+                       "kind":  "skill",
+                       "path":  "skills/local-history/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "local roots"
                                     ],
                        "steps":  [
 
@@ -4584,6 +5032,20 @@
                                  ]
                    },
                    {
+                       "name":  "morning-routine",
+                       "description":  "Design mornings that run themselves with anchors. Use for chaotic starts.",
+                       "category":  "mind",
+                       "kind":  "skill",
+                       "path":  "skills/morning-routine/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "chaotic mornings"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "mortgage-basics",
                        "description":  "Understand mortgages with types, rates, and total cost. Use before talking to lenders. Educational.",
                        "category":  "housing",
@@ -4752,6 +5214,20 @@
                                  ]
                    },
                    {
+                       "name":  "newborn-arrival",
+                       "description":  "Welcome a newborn with ready home, care basics, and fed parents. Use before due dates.",
+                       "category":  "parenting",
+                       "kind":  "workflow",
+                       "path":  "workflows/newborn-arrival/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "expecting a baby"
+                                    ],
+                       "steps":  [
+                                     "baby-proof, newborn-care, meal-prep"
+                                 ]
+                   },
+                   {
                        "name":  "newborn-care",
                        "description":  "Handle feeding, sleep, and soothing in the first weeks with logs. Use for newborns 0-3 months. Info only; pediatrician decides.",
                        "category":  "parenting",
@@ -4914,6 +5390,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "tutorials and streams"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "ocean-basics",
+                       "description":  "Understand oceans with zones, currents, and coasts. Use for curiosity and trips.",
+                       "category":  "science-big",
+                       "kind":  "skill",
+                       "path":  "skills/ocean-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "ocean curiosity"
                                     ],
                        "steps":  [
 
@@ -5236,6 +5726,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "personal-brand",
+                       "description":  "Build a personal brand with proof, platform, and cadence. Use for visibility.",
+                       "category":  "career",
+                       "kind":  "skill",
+                       "path":  "skills/personal-brand/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "professional visibility"
                                     ],
                        "steps":  [
 
@@ -6306,6 +6810,20 @@
                                  ]
                    },
                    {
+                       "name":  "reptile-care",
+                       "description":  "Keep reptiles with proper heat, humidity, and diet. Use for first reptiles.",
+                       "category":  "pets",
+                       "kind":  "skill",
+                       "path":  "skills/reptile-care/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "first reptiles"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "research-brief",
                        "description":  "Research any topic into a sourced one-pager. Use for decisions.",
                        "category":  "knowledge",
@@ -6496,6 +7014,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "writing or reviewing Rust code, setting up Cargo workspaces, clippy, or tests"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "rv-living",
+                       "description":  "Live the RV life with rig choice, parking, and budgets. Use for road living.",
+                       "category":  "vehicles",
+                       "kind":  "skill",
+                       "path":  "skills/rv-living/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "road living"
                                     ],
                        "steps":  [
 
@@ -6779,6 +7311,20 @@
                                     ],
                        "steps":  [
 
+                                 ]
+                   },
+                   {
+                       "name":  "sell-home",
+                       "description":  "Sell a home from declutter to moved out. Use when selling.",
+                       "category":  "housing",
+                       "kind":  "workflow",
+                       "path":  "workflows/sell-home/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "selling a home"
+                                    ],
+                       "steps":  [
+                                     "declutter-guide, renovation-budget, moving-checklist"
                                  ]
                    },
                    {
@@ -7118,6 +7664,20 @@
                                  ]
                    },
                    {
+                       "name":  "spanish-start",
+                       "description":  "Start Spanish with core phrases and daily practice. Use for beginners.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/spanish-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "learning Spanish"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "speed-reading",
                        "description":  "Read faster with retention checks and skimming strategy. Use for heavy reading loads.",
                        "category":  "mind",
@@ -7440,6 +8000,20 @@
                                  ]
                    },
                    {
+                       "name":  "sushi-rolling",
+                       "description":  "Roll sushi with rice, cuts, and safe fish sourcing. Use for sushi nights.",
+                       "category":  "cooking",
+                       "kind":  "skill",
+                       "path":  "skills/sushi-rolling/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "sushi nights"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "sustainable-shop",
                        "description":  "Shop sustainably with labels and longevity. Use for purchases.",
                        "category":  "eco",
@@ -7678,6 +8252,34 @@
                                  ]
                    },
                    {
+                       "name":  "ticket-fight",
+                       "description":  "Handle traffic tickets with options and hearing prep. Use for citations. General info.",
+                       "category":  "law-life",
+                       "kind":  "skill",
+                       "path":  "skills/ticket-fight/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "traffic citations"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "tiling-guide",
+                       "description":  "Tile floors and walls with layout, cuts, and grout. Use for bathroom and kitchen jobs.",
+                       "category":  "diy-maker",
+                       "kind":  "skill",
+                       "path":  "skills/tiling-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "tiling jobs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "toast-speech",
                        "description":  "Give toasts and speeches with stories. Use for weddings and events.",
                        "category":  "events",
@@ -7720,6 +8322,20 @@
                                  ]
                    },
                    {
+                       "name":  "town-hall-speak",
+                       "description":  "Speak at public meetings with timed points. Use for local issues.",
+                       "category":  "civic",
+                       "kind":  "skill",
+                       "path":  "skills/town-hall-speak/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "local issues"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "trademark-basics",
                        "description":  "Protect names with trademark search and filing basics. Use for brands. Lawyer for filings.",
                        "category":  "law-life",
@@ -7734,6 +8350,34 @@
                                  ]
                    },
                    {
+                       "name":  "travel-insurance",
+                       "description":  "Buy travel insurance with medical and cancellation math. Use before big trips. General info.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/travel-insurance/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "big trips"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "travel-photography",
+                       "description":  "Shoot travel photos with light timing and packing. Use for trip photography.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/travel-photography/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "trip photography"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "travel-safety",
                        "description":  "Build a safety plan with document backup, scams, health, and contacts. Use before unfamiliar destinations.",
                        "category":  "travel",
@@ -7742,6 +8386,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "unfamiliar destinations"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "triathlon-start",
+                       "description":  "Train for triathlons with brick workouts and transitions. Use with a base in place.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/triathlon-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "triathlon goals"
                                     ],
                        "steps":  [
 
@@ -7944,6 +8602,20 @@
                                  ]
                    },
                    {
+                       "name":  "violin-start",
+                       "description":  "Start violin with posture, bow hold, and intonation. Use for beginners.",
+                       "category":  "music",
+                       "kind":  "skill",
+                       "path":  "skills/violin-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "violin beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "visa-prep",
                        "description":  "Organize visa and entry requirements with documents and timelines. Use for international travel.",
                        "category":  "travel",
@@ -7952,6 +8624,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "international trip planning"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "vision-care",
+                       "description":  "Protect vision with screen habits and regular exams. Use for eye health.",
+                       "category":  "medical-health",
+                       "kind":  "skill",
+                       "path":  "skills/vision-care/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "eye health"
                                     ],
                        "steps":  [
 

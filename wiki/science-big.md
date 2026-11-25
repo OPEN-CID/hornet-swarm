@@ -9,6 +9,7 @@ Stars, weather, genes, minds, and markets.
 | `evolution-basics` | skill | Grasp evolution with evidence lines. Use for literacy and homework. |
 | `genetics-basics` | skill | Understand DNA tests and traits with limits. Use for test results. Info only. |
 | `geology-basics` | skill | Read rocks and landscapes on hikes. Use for outdoor curiosity. |
+| `ocean-basics` | skill | Understand oceans with zones, currents, and coasts. Use for curiosity and trips. |
 | `psych-basics` | skill | Use psychology basics for habits and bias. Use for self-insight. Not therapy. |
 | `stargazing-start` | skill | See planets and constellations with apps and dark spots. Use for clear nights. |
 | `weather-basics` | skill | Read forecasts and radar for plans. Use for outdoor decisions. |

@@ -26,6 +26,12 @@ Switch careers with skills, proof, and network. Use for pivots.
 
 Steps: `career-playbook, curriculum-plan, resume-writer, networking-guide`
 
+## `college-application` (education)
+
+Apply to college with essays, interviews, and funding. Use for admissions season.
+
+Steps: `college-apps, essay-feedback, interview-prep, scholarship-search`
+
 ## `first-apartment` (housing)
 
 Get a first apartment from hunt to settled. Use for first moves.
@@ -92,6 +98,12 @@ Migrate databases with zero-surprise cutover. Use for moves.
 
 Steps: `db-migration, data-quality-check, deploy-checklist`
 
+## `newborn-arrival` (parenting)
+
+Welcome a newborn with ready home, care basics, and fed parents. Use before due dates.
+
+Steps: `baby-proof, newborn-care, meal-prep`
+
 ## `onboard-hire` (productivity)
 
 Onboard a new hire to productive in 30 days. Use for every new team member.
@@ -127,6 +139,12 @@ Steps: `tech-research, paper-summarizer, citation-check, report-writing`
 Run an event from idea to toast. Use for parties and celebrations.
 
 Steps: `party-plan, event-budget, toast-speech`
+
+## `sell-home` (housing)
+
+Sell a home from declutter to moved out. Use when selling.
+
+Steps: `declutter-guide, renovation-budget, moving-checklist`
 
 ## `ship-feature` (software-build)
 

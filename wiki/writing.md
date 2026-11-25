@@ -4,6 +4,7 @@ Fiction, poetry, scripts, grants, and publishing.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `childrens-book` | skill | Write picture books with page turns and read-aloud rhythm. Use for kids stories. |
 | `edit-proofread` | skill | Edit drafts with passes for structure and line. Use before publishing. |
 | `fiction-write` | skill | Write fiction with scenes, arcs, and revision passes. Use for novels and stories. |
 | `grant-writing` | skill | Write grants with needs, outcomes, and budgets. Use for nonprofits. |
