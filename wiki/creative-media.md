@@ -13,6 +13,7 @@ Write, film, record, and publish.
 | `creative-playbook` | skill | Publishing-cadence best practices for consistent output. Use when content is sporadic. |
 | `improv-basics` | skill | Practice improv with games and scene basics. Use for fun and stage. |
 | `instagram-grow` | skill | Grow Instagram with reels, hooks, and posting rhythm. Use for brands. |
+| `launch-channel` | flow | Launch a channel from niche to published videos. Use for creators. |
 | `logo-design` | skill | Design logos from brief to vector files. Use for brands. |
 | `music-practice` | skill | Build deliberate music practice routines. Use when learning an instrument. |
 | `newsletter-writer` | skill | Draft newsletters people open and finish. Use for weekly publishing. |

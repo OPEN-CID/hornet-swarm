@@ -6,11 +6,13 @@ Apply, interview, negotiate, grow.
 |---|---|---|
 | `application-review` | skill | Pre-submit review of resume and letter against the post. Use before hitting apply. |
 | `career-playbook` | skill | Career-growth best practices for steady advancement. Use for yearly planning. |
+| `career-switch` | flow | Switch careers with skills, proof, and network. Use for pivots. |
 | `cover-letter` | skill | Write short specific cover letters. Use for each application. |
 | `feedback-translate` | skill | Decode vague interview or review feedback into concrete actions. Use after rejections or ratings. |
 | `freelance-profile` | skill | Win freelance work with profiles and proposals. Use for marketplaces. |
 | `interview-prep` | skill | Run mock interviews with STAR feedback. Use before real interviews. |
 | `job-post-parse` | skill | Parse job posts into requirements and match matrix. Use before tailoring an application. |
+| `job-search` | flow | Run a job search from resume to signed offer. Use when hunting for work. |
 | `layoff-plan` | skill | Navigate layoffs with runway, benefits, and job search. Use after a layoff. |
 | `linkedin-optimize` | skill | Rewrite LinkedIn profiles for recruiter search. Use for job hunting. |
 | `performance-review` | skill | Write self-reviews with evidence and growth goals. Use at review season. |

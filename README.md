@@ -5,7 +5,7 @@
 [![Skills](https://img.shields.io/badge/skills-576-blue)](registry.json)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-576 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
+594 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
 Claude Code, Cursor, Copilot, Gemini, Windsurf.
@@ -26,7 +26,7 @@ browse + search everything: **https://OPEN-CID.github.io/hornet-swarm/**.
 
 ## Wiki (browsable index)
 
-Start at [`wiki/README.md`](wiki/README.md) - 51 categories, 566 skills + 10 workflows:
+Start at [`wiki/README.md`](wiki/README.md) - 51 categories, 567 skills + 27 workflows:
 
 | Domain | Skills | Examples |
 |---|---|---|
@@ -85,5 +85,5 @@ Docs: [`docs/PLAN.md`](docs/PLAN.md) (vision) |
 [`docs/WORLD-TAXONOMY.md`](docs/WORLD-TAXONOMY.md) (all domains) |
 [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md) (the 5 kinds) |
 [`CONTRIBUTING.md`](CONTRIBUTING.md) (contribution rules).
-Machine index: [`registry.json`](registry.json) (576 entries: 566 skills + 10 workflows).
+Machine index: [`registry.json`](registry.json) (594 entries: 567 skills + 27 workflows).
 

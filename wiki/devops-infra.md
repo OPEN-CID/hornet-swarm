@@ -17,6 +17,7 @@ Ship and run software reliably.
 | `nginx-config` | skill | Serve sites with Nginx blocks, TLS, and caching. Use for reverse proxies. |
 | `pre-commit-hooks` | skill | Run pre-commit hooks for lint and secrets. Use for clean commits. |
 | `proxmox-basics` | skill | Virtualize home labs with Proxmox VMs and backups. Use for homelabs. |
+| `ship-service` | flow | Ship a service from container to monitored production. Use for launches. |
 | `temporal-guide` | skill | Orchestrate durable workflows with Temporal activities and workers. Use for reliable background work. |
 | `vercel-deploy` | skill | Ship frontends on Vercel with previews and envs. Use for web apps. |
 | `wireguard-vpn` | skill | Connect sites and devices with WireGuard tunnels. Use for private networks. |

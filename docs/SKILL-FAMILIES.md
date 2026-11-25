@@ -92,3 +92,13 @@ automatic guardrail notes from the generator (see `scripts/generate-skills.ps1`
 Hand-write only when the task needs true expertise (core dev skills);
 generate everything else from the catalog. Detail lives in the kind
 template, facts live in your 6 lines.
+
+## Workflows and the composer (beyond the 5 kinds)
+
+A **workflow** is a skill whose job is a fixed sequence of other skills
+(`catalog/workflows*.json` → `workflows/<name>/SKILL.md`). Same spec, same
+validation, discovered and installed like any skill. For goals no stored play
+covers, `compose-play` (meta) teaches the agent the orchestrator pattern:
+search the index, order 3-7 steps, define handoffs and stop conditions, run
+one skill at a time carrying only artifact summaries forward. Stored plays for
+the common; composed plays for the novel — infinite workflows, zero extra files.

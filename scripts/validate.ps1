@@ -16,6 +16,8 @@ function Test-Skill($dir) {
   $file = Join-Path $dir "SKILL.md"
   if (-not (Test-Path -LiteralPath $file)) { Write-Host "FAIL ${name}: missing SKILL.md"; return 1 }
   $raw = Get-Content -LiteralPath $file -Raw
+  $lineCount = ($raw -split "`n").Count
+  if ($lineCount -gt 500) { Write-Host "FAIL ${name}: $lineCount lines exceeds 500-line spec budget - split into references/"; return 1 }
   if ($raw -notmatch '(?s)^---\s*\r?\n(.*?)\r?\n---\s*\r?\n') { Write-Host "FAIL ${name}: missing frontmatter"; return 1 }
   $fm = $Matches[1]
   $mName = [regex]::Match($fm, '^\s*name:\s*(.+?)\s*$', 'Multiline')

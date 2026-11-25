@@ -23,6 +23,7 @@ Validate, sell, hire, and operate.
 | `sales-outreach` | skill | Write personalized cold emails and follow-ups. Use for prospecting. |
 | `seo-basics` | skill | Rank with keyword maps and page fixes. Use for organic growth. |
 | `sop-writer` | skill | Turn tribal knowledge into step-by-step SOPs. Use when processes live in heads. |
+| `start-business` | flow | Launch a business from idea to first paying customer. Use for founders. |
 | `support-reply` | skill | Draft empathetic customer support responses. Use for tickets and bad reviews. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`

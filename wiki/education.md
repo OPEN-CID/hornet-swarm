@@ -4,6 +4,7 @@ Learn anything with tutoring and study systems.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `ace-exam` | flow | Pass exams with prep, mocks, and readiness proof. Use before test day. |
 | `chemistry-helper` | skill | Balance equations and explain lab concepts safely. Use for chemistry homework and labs. |
 | `curriculum-plan` | skill | Design a self-study syllabus with milestones. Use when learning a subject solo. |
 | `eli5-explainer` | skill | Explain any concept simply, then rebuild to full depth in layers. Use when starting a hard topic. |
@@ -15,6 +16,7 @@ Learn anything with tutoring and study systems.
 | `language-tutor` | skill | Practice a language with corrections and drills. Use for daily speaking and writing practice. |
 | `learn-code` | skill | Learn programming from zero with small wins. Use for absolute beginners. |
 | `learn-playbook` | skill | Learning-science best practices for efficient study. Use when study feels inefficient. |
+| `learn-topic` | flow | Master any topic from syllabus to exam pass. Use for serious learning. |
 | `math-tutor` | skill | Teach math step by step with practice problems. Use when stuck on algebra through calculus. |
 | `phonics-start` | skill | Teach reading with sounds, blending, and book ladders. Use for early readers. |
 | `physics-tutor` | skill | Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework. |

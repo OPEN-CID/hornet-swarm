@@ -10,6 +10,7 @@ Weddings, parties, budgets, and toasts.
 | `party-plan` | skill | Host parties with themes, food math, and flow. Use for celebrations. |
 | `run-event` | flow | Run an event from idea to toast. Use for parties and celebrations. |
 | `toast-speech` | skill | Give toasts and speeches with stories. Use for weddings and events. |
+| `wedding-day` | flow | Run a wedding from plan to last dance. Use for engagements. |
 | `wedding-plan` | skill | Plan weddings with budgets, vendors, and timelines. Use for engagements. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`

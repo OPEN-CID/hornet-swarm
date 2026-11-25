@@ -1,8 +1,8 @@
-# Skills index - hornet-swarm (576 skills)
+# Skills index - hornet-swarm (594 skills)
 
 > Paste this file (or one section) into any agent context (AGENTS.md, CLAUDE.md, GEMINI.md, system prompt, chat) to make every skill visible. Full instructions live in each linked SKILL.md. Generated from registry.json - do not hand-edit.
 
-## business-ops (20)
+## business-ops (21)
 
 - **analytics-basics**: measuring products -> `skills/analytics-basics/SKILL.md`
 - **biz-jargon-translate**: confusing term sheets or metrics -> `skills/biz-jargon-translate/SKILL.md`
@@ -23,17 +23,20 @@
 - **sales-outreach**: prospecting new customers -> `skills/sales-outreach/SKILL.md`
 - **seo-basics**: organic growth -> `skills/seo-basics/SKILL.md`
 - **sop-writer**: documenting a repeated process -> `skills/sop-writer/SKILL.md`
+- **start-business** [flow]: founding something, first paying customer -> `workflows/start-business/SKILL.md`
 - **support-reply**: answering support tickets -> `skills/support-reply/SKILL.md`
 
-## career (13)
+## career (15)
 
 - **application-review**: before submitting an application -> `skills/application-review/SKILL.md`
 - **career-playbook**: yearly career planning -> `skills/career-playbook/SKILL.md`
+- **career-switch** [flow]: career pivots, changing fields -> `workflows/career-switch/SKILL.md`
 - **cover-letter**: submitting a job application -> `skills/cover-letter/SKILL.md`
 - **feedback-translate**: after rejections or puzzling reviews -> `skills/feedback-translate/SKILL.md`
 - **freelance-profile**: freelance marketplaces -> `skills/freelance-profile/SKILL.md`
 - **interview-prep**: preparing for interviews -> `skills/interview-prep/SKILL.md`
 - **job-post-parse**: before tailoring an application -> `skills/job-post-parse/SKILL.md`
+- **job-search** [flow]: hunting for work, applying for jobs -> `workflows/job-search/SKILL.md`
 - **layoff-plan**: after a layoff -> `skills/layoff-plan/SKILL.md`
 - **linkedin-optimize**: job hunting on LinkedIn -> `skills/linkedin-optimize/SKILL.md`
 - **performance-review**: writing a performance self-review -> `skills/performance-review/SKILL.md`
@@ -110,7 +113,7 @@
 - **sewing-basics**: repairs and gifts -> `skills/sewing-basics/SKILL.md`
 - **watercolor-start**: first paintings -> `skills/watercolor-start/SKILL.md`
 
-## creative-media (21)
+## creative-media (22)
 
 - **blender-basics**: 3D beginners -> `skills/blender-basics/SKILL.md`
 - **blog-launch**: new bloggers -> `skills/blog-launch/SKILL.md`
@@ -121,6 +124,7 @@
 - **creative-playbook**: inconsistent publishing -> `skills/creative-playbook/SKILL.md`
 - **improv-basics**: fun and stage -> `skills/improv-basics/SKILL.md`
 - **instagram-grow**: brand growth -> `skills/instagram-grow/SKILL.md`
+- **launch-channel** [flow]: starting a channel, creator launches -> `workflows/launch-channel/SKILL.md`
 - **logo-design**: brand logos -> `skills/logo-design/SKILL.md`
 - **music-practice**: learning an instrument -> `skills/music-practice/SKILL.md`
 - **newsletter-writer**: publishing a newsletter -> `skills/newsletter-writer/SKILL.md`
@@ -159,7 +163,7 @@
 - **sklearn-basics**: tabular ML -> `skills/sklearn-basics/SKILL.md`
 - **sql-query**: Write correct parameterized SQL with joins, aggregates, and EXPLAIN checks. Use when querying or changing relational data. -> `skills/sql-query/SKILL.md`
 
-## data-pipeline (12)
+## data-pipeline (13)
 
 - **dashboard-design**: building BI dashboards -> `skills/dashboard-design/SKILL.md`
 - **data-doc-parse**: before building a pipeline -> `skills/data-doc-parse/SKILL.md`
@@ -167,6 +171,7 @@
 - **data-quality-check**: data quality incidents -> `skills/data-quality-check/SKILL.md`
 - **etl-pipeline**: moving data between systems -> `skills/etl-pipeline/SKILL.md`
 - **excel-pivot**: quick business answers -> `skills/excel-pivot/SKILL.md`
+- **migrate-database** [flow]: database moves, migrations -> `workflows/migrate-database/SKILL.md`
 - **pipeline-review**: before productionizing a pipeline -> `skills/pipeline-review/SKILL.md`
 - **powerbi-basics**: business dashboards -> `skills/powerbi-basics/SKILL.md`
 - **query-translate**: stakeholders asking for numbers -> `skills/query-translate/SKILL.md`
@@ -189,7 +194,7 @@
 - **snowflake-guide**: Snowflake data work -> `skills/snowflake-guide/SKILL.md`
 - **vector-db**: RAG storage -> `skills/vector-db/SKILL.md`
 
-## devops-infra (16)
+## devops-infra (17)
 
 - **ansible-basics**: fleet config -> `skills/ansible-basics/SKILL.md`
 - **ci-pipeline**: Build fast reliable CI with lint, test, and deploy gates. Use when creating or fixing continuous integration workflows. -> `skills/ci-pipeline/SKILL.md`
@@ -204,6 +209,7 @@
 - **nginx-config**: reverse proxies -> `skills/nginx-config/SKILL.md`
 - **pre-commit-hooks**: clean commits -> `skills/pre-commit-hooks/SKILL.md`
 - **proxmox-basics**: homelabs -> `skills/proxmox-basics/SKILL.md`
+- **ship-service** [flow]: service launches, going to production -> `workflows/ship-service/SKILL.md`
 - **temporal-guide**: durable background work -> `skills/temporal-guide/SKILL.md`
 - **vercel-deploy**: web app deploys -> `skills/vercel-deploy/SKILL.md`
 - **wireguard-vpn**: private networks -> `skills/wireguard-vpn/SKILL.md`
@@ -243,8 +249,9 @@
 - **waste-less**: lighter bins -> `skills/waste-less/SKILL.md`
 - **water-save**: high water bills -> `skills/water-save/SKILL.md`
 
-## education (19)
+## education (21)
 
+- **ace-exam** [flow]: upcoming exams, test day -> `workflows/ace-exam/SKILL.md`
 - **chemistry-helper**: chemistry homework or lab prep -> `skills/chemistry-helper/SKILL.md`
 - **curriculum-plan**: learning a subject solo -> `skills/curriculum-plan/SKILL.md`
 - **eli5-explainer**: starting a hard topic -> `skills/eli5-explainer/SKILL.md`
@@ -256,6 +263,7 @@
 - **language-tutor**: daily language practice -> `skills/language-tutor/SKILL.md`
 - **learn-code**: absolute beginners -> `skills/learn-code/SKILL.md`
 - **learn-playbook**: study feels inefficient -> `skills/learn-playbook/SKILL.md`
+- **learn-topic** [flow]: serious learning, mastering a topic -> `workflows/learn-topic/SKILL.md`
 - **math-tutor**: stuck on math homework, preparing for a math test -> `skills/math-tutor/SKILL.md`
 - **phonics-start**: early readers -> `skills/phonics-start/SKILL.md`
 - **physics-tutor**: physics homework, exam revision -> `skills/physics-tutor/SKILL.md`
@@ -265,7 +273,7 @@
 - **science-fair-guide**: science fairs -> `skills/science-fair-guide/SKILL.md`
 - **study-doc-parse**: reading dense study material -> `skills/study-doc-parse/SKILL.md`
 
-## events (7)
+## events (8)
 
 - **event-budget**: any event -> `skills/event-budget/SKILL.md`
 - **holiday-plan**: holiday seasons -> `skills/holiday-plan/SKILL.md`
@@ -273,6 +281,7 @@
 - **party-plan**: celebrations -> `skills/party-plan/SKILL.md`
 - **run-event** [flow]: hosting an event, party planning -> `workflows/run-event/SKILL.md`
 - **toast-speech**: wedding speeches -> `skills/toast-speech/SKILL.md`
+- **wedding-day** [flow]: engagements, wedding planning -> `workflows/wedding-day/SKILL.md`
 - **wedding-plan**: engagements -> `skills/wedding-plan/SKILL.md`
 
 ## everyday-tech (17)
@@ -295,9 +304,10 @@
 - **twitch-stream**: new streamers -> `skills/twitch-stream/SKILL.md`
 - **wifi-fix**: wifi dead zones -> `skills/wifi-fix/SKILL.md`
 
-## fitness (14)
+## fitness (15)
 
 - **cycling-start**: new riders -> `skills/cycling-start/SKILL.md`
+- **fitness-start** [flow]: fresh fitness starts, getting in shape -> `workflows/fitness-start/SKILL.md`
 - **golf-basics**: golf beginners -> `skills/golf-basics/SKILL.md`
 - **home-gym**: home training -> `skills/home-gym/SKILL.md`
 - **injury-prevent**: any training program -> `skills/injury-prevent/SKILL.md`
@@ -354,7 +364,7 @@
 - **pc-build**: custom desktop builds -> `skills/pc-build/SKILL.md`
 - **raspberry-pi**: Pi projects -> `skills/raspberry-pi/SKILL.md`
 
-## home-life (21)
+## home-life (22)
 
 - **appliance-fix**: broken appliances -> `skills/appliance-fix/SKILL.md`
 - **bike-commute**: starting to cycle to work -> `skills/bike-commute/SKILL.md`
@@ -377,11 +387,14 @@
 - **pool-care**: pool owners -> `skills/pool-care/SKILL.md`
 - **smart-lock**: keyless entry -> `skills/smart-lock/SKILL.md`
 - **sourdough-starter**: baking sourdough at home -> `skills/sourdough-starter/SKILL.md`
+- **start-garden** [flow]: garden seasons, growing food -> `workflows/start-garden/SKILL.md`
 
-## housing (11)
+## housing (14)
 
+- **buy-and-move** [flow]: house hunting, buying a home -> `workflows/buy-and-move/SKILL.md`
 - **buy-home**: house hunting -> `skills/buy-home/SKILL.md`
 - **declutter-guide**: overwhelming clutter -> `skills/declutter-guide/SKILL.md`
+- **first-apartment** [flow]: first moves, renting alone -> `workflows/first-apartment/SKILL.md`
 - **flooring-guide**: flooring replacement -> `skills/flooring-guide/SKILL.md`
 - **home-inspect**: before making offers -> `skills/home-inspect/SKILL.md`
 - **interior-design**: room refreshes -> `skills/interior-design/SKILL.md`
@@ -389,6 +402,7 @@
 - **lease-review**: lease in hand -> `skills/lease-review/SKILL.md`
 - **mortgage-basics**: before lender talks -> `skills/mortgage-basics/SKILL.md`
 - **paint-guide**: DIY painting -> `skills/paint-guide/SKILL.md`
+- **renovate-room** [flow]: room refreshes, small renovations -> `workflows/renovate-room/SKILL.md`
 - **renovation-budget**: before remodeling -> `skills/renovation-budget/SKILL.md`
 - **rent-guide**: before renting -> `skills/rent-guide/SKILL.md`
 
@@ -468,9 +482,10 @@
 - **salary-compare**: evaluating job offers -> `skills/salary-compare/SKILL.md`
 - **tax-prep-checklist**: preparing to file taxes -> `skills/tax-prep-checklist/SKILL.md`
 
-## medical-health (12)
+## medical-health (13)
 
 - **fitness-plan**: starting a training routine, fixing a stalled program -> `skills/fitness-plan/SKILL.md`
+- **health-checkup** [flow]: annual review, yearly health check -> `workflows/health-checkup/SKILL.md`
 - **health-playbook**: building a sustainable health routine -> `skills/health-playbook/SKILL.md`
 - **med-care-review**: monthly care review, after medication changes -> `skills/med-care-review/SKILL.md`
 - **med-discharge-helper**: after a hospital discharge, understanding discharge papers -> `skills/med-discharge-helper/SKILL.md`
@@ -483,8 +498,9 @@
 - **nutrition-plan**: meal planning for health goals, eating on a budget -> `skills/nutrition-plan/SKILL.md`
 - **sleep-improve**: trouble sleeping, daytime fatigue -> `skills/sleep-improve/SKILL.md`
 
-## meta (2)
+## meta (3)
 
+- **compose-play**: Compose a custom multi-step play from any skills on demand using the orchestrator pattern. Use when no canned workflow fits the goal. -> `skills/compose-play/SKILL.md`
 - **repo-onboarder**: Onboard anyone to a repo with setup, tour, and first task. Use when a new dev or agent joins a codebase. -> `skills/repo-onboarder/SKILL.md`
 - **skill-creator**: Author new spec-compliant SKILL.md skills from scratch. Use when creating, updating, or reviewing any skill in this repo. -> `skills/skill-creator/SKILL.md`
 
@@ -548,7 +564,7 @@
 - **teen-talk**: shut-down conversations -> `skills/teen-talk/SKILL.md`
 - **toddler-guide**: toddler chaos -> `skills/toddler-guide/SKILL.md`
 
-## pets (8)
+## pets (9)
 
 - **aquarium-start**: first tanks -> `skills/aquarium-start/SKILL.md`
 - **bee-basics**: beekeeping interest -> `skills/bee-basics/SKILL.md`
@@ -558,6 +574,7 @@
 - **dog-train**: new dogs -> `skills/dog-train/SKILL.md`
 - **pet-insurance**: new pets -> `skills/pet-insurance/SKILL.md`
 - **reef-tank**: saltwater beginners -> `skills/reef-tank/SKILL.md`
+- **welcome-pet** [flow]: new pets, adopting -> `workflows/welcome-pet/SKILL.md`
 
 ## play (9)
 
@@ -696,9 +713,10 @@
 - **trip-plan**: starting trip planning -> `skills/trip-plan/SKILL.md`
 - **visa-prep**: international trip planning -> `skills/visa-prep/SKILL.md`
 
-## vehicles (7)
+## vehicles (8)
 
 - **bike-repair**: commuter bike issues -> `skills/bike-repair/SKILL.md`
+- **buy-car** [flow]: car shopping, buying a used car -> `workflows/buy-car/SKILL.md`
 - **car-buy**: before dealerships -> `skills/car-buy/SKILL.md`
 - **car-detail**: showroom looks -> `skills/car-detail/SKILL.md`
 - **ev-guide**: going electric -> `skills/ev-guide/SKILL.md`
