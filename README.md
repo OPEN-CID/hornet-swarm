@@ -13,10 +13,11 @@ powershell scripts/install.ps1 -Tool cursor
 # or one skill: powershell scripts/install.ps1 -Tool copilot -Skills first-aid-basics
 ```
 
-Full per-tool workflows (install, verify, global, teams, Gemini manual path):
+Full per-tool workflows (install, verify, global, teams, 75+ agents):
 [`docs/USAGE.md`](docs/USAGE.md) · visibility design: [`docs/DISCOVERY.md`](docs/DISCOVERY.md) ·
 trigger-first index for any agent: [`SKILLS.md`](SKILLS.md) ·
-MCP server for any MCP-capable tool: [`mcp-server/`](mcp-server/).
+MCP server for any MCP-capable tool: [`mcp-server/`](mcp-server/) ·
+browse + search everything: **https://OPEN-CID.github.io/hornet-swarm/**.
 
 ## Wiki (browsable index)
 

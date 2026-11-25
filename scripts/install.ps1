@@ -2,10 +2,13 @@
 .SYNOPSIS
   Install hornet-swarm skills into any agent's skill dir (copy-only, lightweight).
   Pick a tool preset or pass -Target explicitly. -Target always wins.
+  Tools: claude opencode cursor copilot codex gemini windsurf junie roo trae kiro universal.
+  For 75+ more agents, use: npx -y skills add OPEN-CID/hornet-swarm --skill <name> -a <agent>
 .EXAMPLE
   powershell scripts/install.ps1 -Tool cursor
   powershell scripts/install.ps1 -Tool copilot -Skills git-commit,code-review
   powershell scripts/install.ps1 -Tool claude -Scope global
+  powershell scripts/install.ps1 -Tool windsurf -Skills meal-plan -Router
   powershell scripts/install.ps1 -Target my-project/.agents/skills
 #>
 param(
@@ -28,15 +31,25 @@ $ToolTargets = @{
   copilot   = ".github/skills"
   codex     = ".agents/skills"
   gemini    = ".agents/skills"
+  windsurf  = ".windsurf/skills"
+  junie     = ".junie/skills"
+  roo       = ".roo/skills"
+  trae      = ".trae/skills"
+  kiro      = ".kiro/skills"
   universal = ".agents/skills"
 }
 $ToolGlobals = @{
   claude    = (Join-Path $HOME ".claude/skills")
   opencode  = (Join-Path $HOME ".config/opencode/skills")
-  cursor    = (Join-Path $HOME ".agents/skills")
+  cursor    = (Join-Path $HOME ".cursor/skills")
   copilot   = (Join-Path $HOME ".copilot/skills")
   codex     = (Join-Path $HOME ".agents/skills")
-  gemini    = (Join-Path $HOME ".agents/skills")
+  gemini    = (Join-Path $HOME ".gemini/skills")
+  windsurf  = (Join-Path $HOME ".codeium/windsurf/skills")
+  junie     = (Join-Path $HOME ".junie/skills")
+  roo       = (Join-Path $HOME ".roo/skills")
+  trae      = (Join-Path $HOME ".trae/skills")
+  kiro      = (Join-Path $HOME ".kiro/skills")
   universal = (Join-Path $HOME ".agents/skills")
 }
 
@@ -98,8 +111,5 @@ if ($RouterPath -ne "" -or $Router) {
   }
   [System.IO.File]::WriteAllText($routerFile, (($rlines -join "`n") + "`n"), $UTF8NoBom)
   Write-Output "router written: $routerFile"
-}
-if ($Tool -eq "gemini") {
-  Write-Output "NOTE: Gemini CLI has no native SKILL.md discovery. See docs/USAGE.md (Gemini section): point GEMINI.md at the installed skill or paste SKILL.md content on demand."
 }
 Write-Output "Done. Verify: open a fresh session in your tool and ask it to list available skills."

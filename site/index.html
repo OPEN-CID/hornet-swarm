@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hornet Swarm — Universal Agent Skills</title>
+<meta name="description" content="576 universal SKILL.md skills and workflows for every agent and every domain. Copy a folder, paste a router, or query MCP.">
+<style>
+:root { --bg: #0f1216; --card: #171c22; --ink: #e8edf2; --dim: #9aa7b4; --acc: #ffb224; --line: #262d36; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width: 1020px; margin: 0 auto; padding: 0 20px; }
+header.hero { padding: 64px 0 28px; text-align: center; }
+.hero h1 { font-size: 2.4rem; margin: 0 0 8px; }
+.hero h1 span { color: var(--acc); }
+.hero p { color: var(--dim); max-width: 640px; margin: 8px auto; }
+.stats { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 20px 0; }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 18px; text-align: center; }
+.stat b { display: block; font-size: 1.5rem; color: var(--acc); }
+.stat span { color: var(--dim); font-size: .85rem; }
+section { padding: 26px 0; }
+h2 { font-size: 1.3rem; margin: 0 0 12px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 10px 0; }
+pre { background: #0a0d11; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; overflow-x: auto; font-size: .9rem; }
+code { font-family: ui-monospace, Consolas, monospace; }
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.tabs button { background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 7px 14px; cursor: pointer; }
+.tabs button.on { border-color: var(--acc); color: var(--acc); }
+.controls { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
+.controls input, .controls select { background: #0a0d11; color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; font-size: .95rem; }
+.controls input { flex: 1; min-width: 200px; }
+#count { color: var(--dim); font-size: .9rem; margin: 6px 0 2px; }
+.skill { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin: 10px 0; }
+.skill h3 { margin: 0 0 4px; font-size: 1.05rem; font-family: ui-monospace, Consolas, monospace; }
+.skill h3 .tag { font-size: .72rem; border: 1px solid var(--line); border-radius: 6px; padding: 1px 8px; margin-left: 8px; color: var(--dim); font-family: system-ui, sans-serif; }
+.skill h3 .tag.flow { color: var(--acc); border-color: var(--acc); }
+.skill p { margin: 4px 0; color: var(--dim); }
+.skill .trigs { font-size: .85rem; color: #7f8b99; }
+.skill button { margin-top: 8px; background: transparent; color: var(--acc); border: 1px solid var(--acc); border-radius: 8px; padding: 5px 12px; cursor: pointer; font-size: .85rem; }
+table.paths { width: 100%; border-collapse: collapse; font-size: .92rem; }
+table.paths th, table.paths td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+table.paths code { font-size: .85rem; }
+footer { color: var(--dim); text-align: center; padding: 30px 0 50px; font-size: .9rem; }
+footer a { color: var(--acc); }
+a { color: var(--acc); }
+ol.steps li { margin: 8px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <h1>Hornet Swarm <span>/ universal agent skills</span></h1>
+  <p>One folder per skill. Every domain from code to cooking. Works in OpenCode, Claude Code, Cursor, Copilot, Codex, Gemini CLI, Windsurf and 75+ more — verified paths, gated quality, zero dependencies.</p>
+  <div class="stats">
+    <div class="stat"><b id="st-skills">–</b><span>skills + workflows</span></div>
+    <div class="stat"><b id="st-cats">–</b><span>categories</span></div>
+    <div class="stat"><b id="st-tools">75+</b><span>tools supported</span></div>
+    <div class="stat"><b>0</b><span>dependencies</span></div>
+  </div>
+</header>
+
+<section>
+  <h2>Get a skill in 30 seconds</h2>
+  <div class="tabs" id="tabs">
+    <button data-t="npx" class="on">Any agent (npx)</button>
+    <button data-t="ps">Windows</button>
+    <button data-t="sh">macOS / Linux</button>
+    <button data-t="mcp">MCP server</button>
+    <button data-t="router">Router file</button>
+  </div>
+  <pre><code id="cmd">npx -y skills add OPEN-CID/hornet-swarm --skill meal-plan</code></pre>
+  <p style="color:var(--dim)">Then ask your agent something matching the skill — it loads automatically. Or type <code>/meal-plan</code> (Claude/Cursor/Copilot), <code>$meal-plan</code> (Codex). Full per-tool guide: <a href="https://github.com/OPEN-CID/hornet-swarm/blob/main/docs/USAGE.md">docs/USAGE.md</a>.</p>
+</section>
+
+<section>
+  <h2>Browse all skills</h2>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search 576 skills — try 'sourdough', 'kubernetes', 'visa'..." autocomplete="off">
+    <select id="cat"><option value="">All categories</option></select>
+    <select id="kind"><option value="">Skills + flows</option><option value="skill">Skills only</option><option value="workflow">Flows only</option></select>
+  </div>
+  <div id="count"></div>
+  <div id="list"></div>
+</section>
+
+<section>
+  <h2>Where skills live (verified paths)</h2>
+  <div class="card">
+  <table class="paths">
+    <tr><th>Tool</th><th>Project</th><th>Global</th></tr>
+    <tr><td>OpenCode</td><td><code>.opencode/skills/</code></td><td><code>~/.config/opencode/skills/</code></td></tr>
+    <tr><td>Claude Code</td><td><code>.claude/skills/</code></td><td><code>~/.claude/skills/</code></td></tr>
+    <tr><td>Cursor</td><td><code>.agents/skills/</code></td><td><code>~/.cursor/skills/</code></td></tr>
+    <tr><td>Copilot</td><td><code>.github/skills/</code></td><td><code>~/.copilot/skills/</code></td></tr>
+    <tr><td>Codex</td><td><code>.agents/skills/</code></td><td><code>~/.agents/skills/</code></td></tr>
+    <tr><td>Gemini CLI</td><td><code>.agents/skills/</code></td><td><code>~/.gemini/skills/</code></td></tr>
+    <tr><td>Windsurf / Junie / Roo / Trae / Kiro / +70 more</td><td colspan="2"><code>.agents/skills/</code> by default — or <code>npx skills add OPEN-CID/hornet-swarm</code></td></tr>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>Contribute a skill (5 minutes, no code required)</h2>
+  <div class="card">
+  <ol class="steps">
+    <li>Open a <b>Skill proposal</b> issue — 6 fields, done.</li>
+    <li>Or paste <code>templates/PROPOSER-PROMPT.md</code> into any chatbot and submit the JSON.</li>
+    <li>Or edit <code>catalog/*.json</code> directly — the factory, registry, wiki, router and CI handle the rest.</li>
+  </ol>
+  <p>Every skill passes spec validation, strict YAML parsing, install smoke tests (Windows + Linux) and an MCP protocol test before it can merge. <a href="https://github.com/OPEN-CID/hornet-swarm/blob/main/CONTRIBUTING.md">Contributing guide</a></p>
+  </div>
+</section>
+
+<footer>
+  Hornet Swarm · MIT licensed · <a href="https://github.com/OPEN-CID/hornet-swarm">GitHub</a> · <a href="https://github.com/OPEN-CID/hornet-swarm/tree/main/wiki">Wiki</a> · <a href="https://github.com/OPEN-CID/hornet-swarm/blob/main/SKILLS.md">Router</a>
+</footer>
+
+</div>
+<script>
+const CMDS = {
+  npx: "npx -y skills add OPEN-CID/hornet-swarm --skill meal-plan",
+  ps: "powershell scripts/install.ps1 -Tool cursor -Skills meal-plan -Router",
+  sh: "bash scripts/install.sh --tool cursor --skills meal-plan --router",
+  mcp: "python mcp-server/server.py --dir skills   # then search_skills / get_skill",
+  router: "# paste SKILLS.md (or one category) into AGENTS.md, CLAUDE.md, GEMINI.md, chat"
+};
+document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("#tabs button").forEach(x => x.classList.remove("on"));
+  b.classList.add("on");
+  document.getElementById("cmd").textContent = CMDS[b.dataset.t];
+}));
+let ALL = [];
+async function load() {
+  const res = await fetch("skills.json");
+  ALL = await res.json();
+  document.getElementById("st-skills").textContent = ALL.length;
+  document.getElementById("st-cats").textContent = new Set(ALL.map(s => s.c)).size;
+  const cats = [...new Set(ALL.map(s => s.c))].sort();
+  const sel = document.getElementById("cat");
+  cats.forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; sel.appendChild(o); });
+  render();
+}
+function score(s, toks) {
+  let sc = 0;
+  const n = s.n.toLowerCase(), d = s.d.toLowerCase(), t = (s.t || []).join(" ").toLowerCase(), c = s.c.toLowerCase();
+  for (const t0 of toks) {
+    if (n.includes(t0)) sc += 3;
+    if (t.includes(t0)) sc += 2;
+    if (d.includes(t0)) sc += 1;
+    if (c.includes(t0)) sc += 1;
+  }
+  return sc;
+}
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const cat = document.getElementById("cat").value;
+  const kind = document.getElementById("kind").value;
+  let items = ALL.filter(s => (!cat || s.c === cat) && (!kind || s.k === kind));
+  if (q) {
+    const toks = q.split(/\s+/).filter(t => t.length > 0);
+    items = items.map(s => [score(s, toks), s]).filter(x => x[0] > 0).sort((a, b) => b[0] - a[0] || (a[1].n < b[1].n ? -1 : 1)).map(x => x[1]);
+  } else {
+    items = items.slice().sort((a, b) => a.n < b.n ? -1 : 1);
+  }
+  const shown = items.slice(0, 120);
+  document.getElementById("count").textContent = items.length + " matches" + (items.length > 120 ? " (showing 120 — refine your search)" : "");
+  document.getElementById("list").innerHTML = shown.map(s =>
+    `<div class="skill"><h3>${s.n}<span class="tag${s.k === "workflow" ? " flow" : ""}">${s.k === "workflow" ? "flow" : s.c}</span></h3>` +
+    `<p>${s.d}</p>` +
+    (s.t && s.t.length ? `<div class="trigs">triggers: ${s.t.join(", ")}</div>` : "") +
+    `<button data-cmd="npx -y skills add OPEN-CID/hornet-swarm --skill ${s.n}">copy install command</button></div>`
+  ).join("");
+  document.querySelectorAll(".skill button").forEach(b => b.addEventListener("click", () => {
+    navigator.clipboard.writeText(b.dataset.cmd).then(() => { b.textContent = "copied!"; setTimeout(() => b.textContent = "copy install command", 1500); });
+  }));
+}
+document.getElementById("q").addEventListener("input", render);
+document.getElementById("cat").addEventListener("change", render);
+document.getElementById("kind").addEventListener("change", render);
+load();
+</script>
+</body>
+</html>

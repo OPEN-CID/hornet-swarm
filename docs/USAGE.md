@@ -9,13 +9,14 @@ directory your tool scans. No build, no account, no plugin.
 
 | Tool | Install command (run in your project) | Skills live in | Trigger it |
 |---|---|---|---|
+| **Any of 75+ agents (universal)** | `npx -y skills add OPEN-CID/hornet-swarm --skill <name> -a <agent>` ([verified working](https://github.com/vercel-labs/skills); agents list below) | picked per agent | per agent |
 | OpenCode | `powershell scripts/install.ps1 -Tool opencode` | `.opencode/skills/` (also reads `.agents/skills/`, `.claude/skills/`) | automatic, or via `skill` tool |
 | Claude Code | `powershell scripts/install.ps1 -Tool claude` | `.claude/skills/` | automatic, or `/skill-name` |
 | Cursor | `powershell scripts/install.ps1 -Tool cursor` | `.agents/skills/` (alt: `.cursor/skills/`) | automatic, or `/skill-name` |
 | Copilot (VS Code / CLI / app) | `powershell scripts/install.ps1 -Tool copilot` | `.github/skills/` (also reads `.agents/skills/`, `.claude/skills/`) | automatic, or `/skill-name` |
 | Codex (CLI / IDE) | `powershell scripts/install.ps1 -Tool codex` | `.agents/skills/` (VS Code integration also reads `.github/skills/`) | automatic, or `$skill-name` |
-| Gemini CLI | `powershell scripts/install.ps1 -Tool gemini` + manual step below | `.agents/skills/` (as staging only) | manual (no native discovery) |
-| Anything else | `powershell scripts/install.ps1 -Target <dir>` | whatever your tool scans | paste `SKILL.md` on demand |
+| Gemini CLI | `powershell scripts/install.ps1 -Tool gemini` | `.agents/skills/` (global: `~/.gemini/skills/`) | automatic, or `/` menu |
+| Windsurf / Junie / Roo / Trae / Kiro | `powershell scripts/install.ps1 -Tool windsurf` (etc.) | see table below | per agent |
 
 macOS/Linux: replace `powershell scripts/install.ps1` with `bash scripts/install.sh`
 (same flags: `--tool`, `--target`, `--skills`, `--global`).
@@ -26,8 +27,7 @@ macOS/Linux: replace `powershell scripts/install.ps1` with `bash scripts/install
 2. **Auto-load**: ask something matching a description and the agent loads the full
    `SKILL.md` by itself (e.g. "review this diff" loads `code-review`).
 3. **Manual**: type `/meal-plan` (Claude/Cursor/Copilot), `$meal-plan` (Codex) to force it.
-4. **Progressive**: referenced files load only when needed — 400 installed skills
-   cost almost nothing until used.
+4. **Progressive**: referenced files load only when needed - hundreds of installed skills cost almost nothing until used.
 
 ## Per-tool workflows
 
@@ -51,7 +51,7 @@ project skills to the repo instead. Monorepos: nested `.claude/skills/` work too
 ### Cursor
 ```powershell
 powershell scripts/install.ps1 -Tool cursor           # project .agents/skills
-powershell scripts/install.ps1 -Tool cursor -Scope global    # ~/.agents/skills
+powershell scripts/install.ps1 -Tool cursor -Scope global    # ~/.cursor/skills
 ```
 Verify: **Customize → Skills** lists them; `/meal-plan` in Agent chat forces it.
 Cloud Agents only see repo-committed skills (`.cursor/skills/` or
@@ -73,14 +73,32 @@ powershell scripts/install.ps1 -Tool codex -Scope global     # ~/.agents/skills
 Verify: `$meal-plan` or `/skills` menu. Codex scans `.agents/skills` from your
 current directory up to the repo root — skills near the work win.
 
-### Gemini CLI (manual path — no native SKILL.md discovery)
-Gemini CLI (as researched) offers slash commands, `GEMINI.md` context, MCP, and
-extensions — but no skill-directory scanning. Two working options:
-1. **Pointer**: append to your project's `GEMINI.md`:
-   `When the task matches <X>, read .agents/skills/<name>/SKILL.md and follow it.`
-   then install skills there with `-Tool gemini`.
-2. **Paste**: open `skills/<name>/SKILL.md`, paste it into chat with your task.
-Both give you the workflow; you just invoke it explicitly.
+### Gemini CLI
+```powershell
+powershell scripts/install.ps1 -Tool gemini           # project .agents/skills
+powershell scripts/install.ps1 -Tool gemini -Scope global    # ~/.gemini/skills
+```
+Verify: `/` menu lists the skill; ask a matching task to test auto-load.
+
+### 75+ more agents (Windsurf, Junie, Roo, Trae, Kiro, Zed, Aider, Goose...)
+Most agents read `.agents/skills/` in your project by default. Easiest path —
+the open `skills` CLI (verified working against this repo):
+
+```bash
+npx -y skills add OPEN-CID/hornet-swarm --skill meal-plan -a cursor
+npx -y skills find "code review"   # search this repo's skills
+```
+
+Agent flag + project paths (global in parentheses): `windsurf`
+(`.windsurf/skills/`, `~/.codeium/windsurf/skills/`), `junie`
+(`.junie/skills/`), `roo` (`.roo/skills/`), `trae` (`.trae/skills/`),
+`kiro` (`.kiro/skills/`), `zed` / `cline` / `codex` / `amp` / `kilocode` /
+`warp` / `goose` (`.agents/skills/`), `continue` (`.continue/skills/`),
+`opencode` (`.agents/skills/`), `openhands` (`.openhands/skills/`),
+`aider-desk` (`.aider-desk/skills/`). Our installer covers the common ones
+directly: `-Tool windsurf|junie|roo|trae|kiro`; for the rest use
+`-Target <dir>` or the `npx` command above. Full 75-agent table:
+[vercel-labs/skills docs](https://github.com/vercel-labs/skills/blob/main/docs/agents.md).
 
 ## Universal visibility: router file + MCP (works for any tool)
 

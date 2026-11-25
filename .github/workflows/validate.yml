@@ -23,9 +23,10 @@ jobs:
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/rebuild-registry.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-wiki.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-router.ps1
-          git diff --exit-code -- registry.json wiki/ catalog/ SKILLS.md
+          powershell -NoProfile -ExecutionPolicy Bypass -File scripts/export-site.ps1
+          git diff --exit-code -- registry.json wiki/ catalog/ SKILLS.md site/skills.json
           if ($LASTEXITCODE -ne 0) {
-            Write-Output "::error::registry.json, wiki/, catalog/, or SKILLS.md is stale. Run the generators and commit the result."
+            Write-Output "::error::registry.json, wiki/, catalog/, SKILLS.md, or site/skills.json is stale. Run the generators and commit the result."
             exit 1
           }
 
