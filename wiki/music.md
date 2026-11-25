@@ -12,6 +12,7 @@ Guitar, piano, voice, theory, and recording.
 | `recording-basics` | skill | Record at home with mic placement and mixing basics. Use for demos. |
 | `sheet-read` | skill | Read sheet music with rhythm and note drills. Use for learners. |
 | `singing-basics` | skill | Sing in tune with breath and warmups. Use for new singers. |
+| `ukulele-start` | skill | Play ukulele with easy chords and strumming. Use for beginners. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 

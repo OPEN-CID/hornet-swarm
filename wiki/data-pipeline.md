@@ -9,6 +9,7 @@ Move, check, and present data.
 | `data-playbook` | skill | Data-engineering best practices for trusted pipelines. Use when setting team standards. |
 | `data-quality-check` | skill | Define freshness, schema, and anomaly checks. Use when data breaks trust. |
 | `etl-pipeline` | skill | Design extract-transform-load jobs with idempotency and retries. Use when moving data between systems. |
+| `excel-pivot` | skill | Analyze with Excel pivots, slicers, and charts. Use for quick business answers. |
 | `pipeline-review` | skill | Review a data pipeline for correctness, cost, and failure modes. Use before productionizing. |
 | `powerbi-basics` | skill | Build Power BI reports with models and DAX basics. Use for business dashboards. |
 | `query-translate` | skill | Turn business questions into query plans and SQL sketches. Use when stakeholders ask for numbers. |

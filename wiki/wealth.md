@@ -4,6 +4,7 @@ Invest, insure, retire, and review. Education only - not advice.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `college-fund` | skill | Save for college with 529s and gift rules. Use for parents. General info. |
 | `crypto-basics` | skill | Understand crypto risks and custody before touching it. Use for curiosity first. Educational. |
 | `estate-note` | skill | Organize wills, beneficiaries, and documents. Use for adulting basics. Info only; lawyer for documents. |
 | `hsa-fsa` | skill | Use HSAs and FSAs with contribution math. Use for benefits season. General info. |

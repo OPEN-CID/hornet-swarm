@@ -5,6 +5,7 @@ Run, lift, stretch, and coach. Info only - pros for injuries.
 | Skill | Type | Use it when |
 |---|---|---|
 | `cycling-start` | skill | Start cycling with fit, gears, and traffic skills. Use for new riders. |
+| `golf-basics` | skill | Start golf with grip, swing, and etiquette. Use for beginners. |
 | `home-gym` | skill | Build a home gym with essentials in buy order. Use for home training. |
 | `injury-prevent` | skill | Reduce injury risk with warmups, load rules, and red flags. Use for any training. Info only; see a physio for pain. |
 | `marathon-plan` | skill | Train 16 weeks for a marathon with paces and fueling. Use with a base in place. |
@@ -14,6 +15,7 @@ Run, lift, stretch, and coach. Info only - pros for injuries.
 | `strength-basics` | skill | Learn the big lifts with form cues and progression. Use when starting barbells. |
 | `stretching-guide` | skill | Build a daily mobility routine for desk bodies. Use for stiffness. |
 | `swimming-basics` | skill | Learn freestyle basics with drills and pool etiquette. Use for adult beginners. |
+| `tennis-start` | skill | Start tennis with grip, serve, and rally basics. Use for beginners. |
 | `yoga-start` | skill | Begin yoga with poses, breath, and class etiquette. Use for flexibility and calm. |
 | `youth-coach` | skill | Coach kids sports with fun-first practices and safety. Use for volunteer coaches. |
 

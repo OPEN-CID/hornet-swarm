@@ -7,6 +7,7 @@ Tenants, claims, wills, and scam defense. Info only - not advice.
 | `copyright-basics` | skill | Protect creative work with registration and fair-use basics. Use for creators. General info. |
 | `freelance-contract` | skill | Set client terms with scope, pay, and kill fees. Use before starting work. Templates plus lawyer review. |
 | `llc-start` | skill | Form an LLC with state steps and operating basics. Use for new businesses. Lawyer for specifics. |
+| `nda-basics` | skill | Use NDAs with scope, term, and red flags. Use before sharing secrets. Lawyer for edge cases. |
 | `privacy-rights` | skill | Exercise data rights with deletion and opt-out scripts. Use for privacy cleanup. General info. |
 | `scam-shield` | skill | Stop scams with verification habits and response scripts. Use for suspicious messages. |
 | `small-claims` | skill | File small claims with evidence packets and procedure. Use for minor disputes. General info. |

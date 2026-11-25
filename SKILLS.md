@@ -1,8 +1,8 @@
-# Skills index - hornet-swarm (533 skills)
+# Skills index - hornet-swarm (576 skills)
 
 > Paste this file (or one section) into any agent context (AGENTS.md, CLAUDE.md, GEMINI.md, system prompt, chat) to make every skill visible. Full instructions live in each linked SKILL.md. Generated from registry.json - do not hand-edit.
 
-## business-ops (19)
+## business-ops (20)
 
 - **analytics-basics**: measuring products -> `skills/analytics-basics/SKILL.md`
 - **biz-jargon-translate**: confusing term sheets or metrics -> `skills/biz-jargon-translate/SKILL.md`
@@ -14,6 +14,7 @@
 - **kpi-dashboard**: reporting team performance -> `skills/kpi-dashboard/SKILL.md`
 - **launch-post** [flow]: launching something, announcement post -> `workflows/launch-post/SKILL.md`
 - **marketing-copy**: launching or promoting a product -> `skills/marketing-copy/SKILL.md`
+- **nonprofit-start**: starting a nonprofit -> `skills/nonprofit-start/SKILL.md`
 - **onboarding-plan**: onboarding a new hire -> `skills/onboarding-plan/SKILL.md`
 - **ops-playbook**: chaotic team operations -> `skills/ops-playbook/SKILL.md`
 - **pitch-deck**: preparing to fundraise -> `skills/pitch-deck/SKILL.md`
@@ -24,12 +25,13 @@
 - **sop-writer**: documenting a repeated process -> `skills/sop-writer/SKILL.md`
 - **support-reply**: answering support tickets -> `skills/support-reply/SKILL.md`
 
-## career (12)
+## career (13)
 
 - **application-review**: before submitting an application -> `skills/application-review/SKILL.md`
 - **career-playbook**: yearly career planning -> `skills/career-playbook/SKILL.md`
 - **cover-letter**: submitting a job application -> `skills/cover-letter/SKILL.md`
 - **feedback-translate**: after rejections or puzzling reviews -> `skills/feedback-translate/SKILL.md`
+- **freelance-profile**: freelance marketplaces -> `skills/freelance-profile/SKILL.md`
 - **interview-prep**: preparing for interviews -> `skills/interview-prep/SKILL.md`
 - **job-post-parse**: before tailoring an application -> `skills/job-post-parse/SKILL.md`
 - **layoff-plan**: after a layoff -> `skills/layoff-plan/SKILL.md`
@@ -75,9 +77,10 @@
 - **security-arch**: threat-modeling a system -> `skills/security-arch/SKILL.md`
 - **stakeholder-translate**: presenting architecture to leadership -> `skills/stakeholder-translate/SKILL.md`
 
-## cooking (13)
+## cooking (14)
 
 - **baking-basics**: starting baking -> `skills/baking-basics/SKILL.md`
+- **bbq-smoker**: brisket and ribs -> `skills/bbq-smoker/SKILL.md`
 - **canning-preserving**: preserving harvests -> `skills/canning-preserving/SKILL.md`
 - **cocktail-basics**: home entertaining -> `skills/cocktail-basics/SKILL.md`
 - **coffee-brew**: off-tasting coffee -> `skills/coffee-brew/SKILL.md`
@@ -107,8 +110,10 @@
 - **sewing-basics**: repairs and gifts -> `skills/sewing-basics/SKILL.md`
 - **watercolor-start**: first paintings -> `skills/watercolor-start/SKILL.md`
 
-## creative-media (16)
+## creative-media (21)
 
+- **blender-basics**: 3D beginners -> `skills/blender-basics/SKILL.md`
+- **blog-launch**: new bloggers -> `skills/blog-launch/SKILL.md`
 - **blog-writer**: writing content marketing -> `skills/blog-writer/SKILL.md`
 - **brand-voice**: making company writing consistent -> `skills/brand-voice/SKILL.md`
 - **brief-parse**: starting from a client brief -> `skills/brief-parse/SKILL.md`
@@ -116,13 +121,16 @@
 - **creative-playbook**: inconsistent publishing -> `skills/creative-playbook/SKILL.md`
 - **improv-basics**: fun and stage -> `skills/improv-basics/SKILL.md`
 - **instagram-grow**: brand growth -> `skills/instagram-grow/SKILL.md`
+- **logo-design**: brand logos -> `skills/logo-design/SKILL.md`
 - **music-practice**: learning an instrument -> `skills/music-practice/SKILL.md`
 - **newsletter-writer**: publishing a newsletter -> `skills/newsletter-writer/SKILL.md`
 - **photo-brief**: planning a photo shoot -> `skills/photo-brief/SKILL.md`
+- **podcast-launch**: new shows -> `skills/podcast-launch/SKILL.md`
 - **podcast-outline**: planning a podcast episode -> `skills/podcast-outline/SKILL.md`
 - **publish-newsletter** [flow]: weekly newsletter, publishing an issue -> `workflows/publish-newsletter/SKILL.md`
 - **style-wardrobe**: wardrobe refreshes -> `skills/style-wardrobe/SKILL.md`
 - **tone-translate**: adapting text for an audience -> `skills/tone-translate/SKILL.md`
+- **video-edit**: YouTube and reels -> `skills/video-edit/SKILL.md`
 - **video-script**: producing a video -> `skills/video-script/SKILL.md`
 - **youtube-channel**: starting a channel -> `skills/youtube-channel/SKILL.md`
 
@@ -135,9 +143,11 @@
 - **media-literacy**: daily news -> `skills/media-literacy/SKILL.md`
 - **museum-trip**: family museum days -> `skills/museum-trip/SKILL.md`
 
-## data-ai (11)
+## data-ai (13)
 
 - **agent-builder**: agent features -> `skills/agent-builder/SKILL.md`
+- **ai-music-guide**: AI demos and content -> `skills/ai-music-guide/SKILL.md`
+- **ai-video-guide**: AI clips and ads -> `skills/ai-video-guide/SKILL.md`
 - **anthropic-api-guide**: Claude features -> `skills/anthropic-api-guide/SKILL.md`
 - **data-clean**: Profile and clean messy datasets with auditable rules. Use when data has nulls, duplicates, or inconsistent formats. -> `skills/data-clean/SKILL.md`
 - **eval-harness**: Score AI behavior on fixed cases with rubrics and regression gates. Use when shipping or changing any model or prompt. -> `skills/eval-harness/SKILL.md`
@@ -149,13 +159,14 @@
 - **sklearn-basics**: tabular ML -> `skills/sklearn-basics/SKILL.md`
 - **sql-query**: Write correct parameterized SQL with joins, aggregates, and EXPLAIN checks. Use when querying or changing relational data. -> `skills/sql-query/SKILL.md`
 
-## data-pipeline (11)
+## data-pipeline (12)
 
 - **dashboard-design**: building BI dashboards -> `skills/dashboard-design/SKILL.md`
 - **data-doc-parse**: before building a pipeline -> `skills/data-doc-parse/SKILL.md`
 - **data-playbook**: setting data team standards -> `skills/data-playbook/SKILL.md`
 - **data-quality-check**: data quality incidents -> `skills/data-quality-check/SKILL.md`
 - **etl-pipeline**: moving data between systems -> `skills/etl-pipeline/SKILL.md`
+- **excel-pivot**: quick business answers -> `skills/excel-pivot/SKILL.md`
 - **pipeline-review**: before productionizing a pipeline -> `skills/pipeline-review/SKILL.md`
 - **powerbi-basics**: business dashboards -> `skills/powerbi-basics/SKILL.md`
 - **query-translate**: stakeholders asking for numbers -> `skills/query-translate/SKILL.md`
@@ -178,7 +189,7 @@
 - **snowflake-guide**: Snowflake data work -> `skills/snowflake-guide/SKILL.md`
 - **vector-db**: RAG storage -> `skills/vector-db/SKILL.md`
 
-## devops-infra (15)
+## devops-infra (16)
 
 - **ansible-basics**: fleet config -> `skills/ansible-basics/SKILL.md`
 - **ci-pipeline**: Build fast reliable CI with lint, test, and deploy gates. Use when creating or fixing continuous integration workflows. -> `skills/ci-pipeline/SKILL.md`
@@ -191,6 +202,7 @@
 - **incident-response** [flow]: production incident, service alert -> `workflows/incident-response/SKILL.md`
 - **log-triage**: Triage logs and incidents to scope, cause, and next fix. Use when debugging production alerts or incident reports. -> `skills/log-triage/SKILL.md`
 - **nginx-config**: reverse proxies -> `skills/nginx-config/SKILL.md`
+- **pre-commit-hooks**: clean commits -> `skills/pre-commit-hooks/SKILL.md`
 - **proxmox-basics**: homelabs -> `skills/proxmox-basics/SKILL.md`
 - **temporal-guide**: durable background work -> `skills/temporal-guide/SKILL.md`
 - **vercel-deploy**: web app deploys -> `skills/vercel-deploy/SKILL.md`
@@ -211,11 +223,12 @@
 - **woodworking-plan**: planning a woodworking build -> `skills/woodworking-plan/SKILL.md`
 - **workshop-playbook**: setting up a workshop -> `skills/workshop-playbook/SKILL.md`
 
-## docs-research (6)
+## docs-research (7)
 
 - **adr-writer**: Record architecture decisions with context, options, and consequences. Use when choosing frameworks, patterns, or data models. -> `skills/adr-writer/SKILL.md`
 - **api-docs**: Write accurate API references with examples from real code. Use when documenting endpoints, SDKs, or modules. -> `skills/api-docs/SKILL.md`
 - **codebase-explorer**: Map unfamiliar codebases to entry points, flows, and ownership. Use when onboarding, scoping work, or finding where to change. -> `skills/codebase-explorer/SKILL.md`
+- **diagram-as-code**: docs that stay current -> `skills/diagram-as-code/SKILL.md`
 - **readme-writer**: Write README files that onboard in five minutes with setup and usage. Use when creating or overhauling any project README. -> `skills/readme-writer/SKILL.md`
 - **research-dossier** [flow]: researching a decision, due diligence -> `workflows/research-dossier/SKILL.md`
 - **tech-research**: Compare options with evidence and give a justified recommendation. Use when choosing libraries, tools, or approaches. -> `skills/tech-research/SKILL.md`
@@ -230,7 +243,7 @@
 - **waste-less**: lighter bins -> `skills/waste-less/SKILL.md`
 - **water-save**: high water bills -> `skills/water-save/SKILL.md`
 
-## education (18)
+## education (19)
 
 - **chemistry-helper**: chemistry homework or lab prep -> `skills/chemistry-helper/SKILL.md`
 - **curriculum-plan**: learning a subject solo -> `skills/curriculum-plan/SKILL.md`
@@ -247,6 +260,7 @@
 - **phonics-start**: early readers -> `skills/phonics-start/SKILL.md`
 - **physics-tutor**: physics homework, exam revision -> `skills/physics-tutor/SKILL.md`
 - **practice-test-maker**: exam prep -> `skills/practice-test-maker/SKILL.md`
+- **sat-act-prep**: college tests -> `skills/sat-act-prep/SKILL.md`
 - **scholarship-search**: college funding -> `skills/scholarship-search/SKILL.md`
 - **science-fair-guide**: science fairs -> `skills/science-fair-guide/SKILL.md`
 - **study-doc-parse**: reading dense study material -> `skills/study-doc-parse/SKILL.md`
@@ -261,7 +275,7 @@
 - **toast-speech**: wedding speeches -> `skills/toast-speech/SKILL.md`
 - **wedding-plan**: engagements -> `skills/wedding-plan/SKILL.md`
 
-## everyday-tech (16)
+## everyday-tech (17)
 
 - **ai-image-guide**: AI art and assets -> `skills/ai-image-guide/SKILL.md`
 - **ai-tools-guide**: team AI adoption -> `skills/ai-tools-guide/SKILL.md`
@@ -278,11 +292,13 @@
 - **regex-guide**: text wrangling -> `skills/regex-guide/SKILL.md`
 - **smart-home**: before smart gadgets -> `skills/smart-home/SKILL.md`
 - **smartphone-guide**: new devices -> `skills/smartphone-guide/SKILL.md`
+- **twitch-stream**: new streamers -> `skills/twitch-stream/SKILL.md`
 - **wifi-fix**: wifi dead zones -> `skills/wifi-fix/SKILL.md`
 
-## fitness (12)
+## fitness (14)
 
 - **cycling-start**: new riders -> `skills/cycling-start/SKILL.md`
+- **golf-basics**: golf beginners -> `skills/golf-basics/SKILL.md`
 - **home-gym**: home training -> `skills/home-gym/SKILL.md`
 - **injury-prevent**: any training program -> `skills/injury-prevent/SKILL.md`
 - **marathon-plan**: marathon with base fitness -> `skills/marathon-plan/SKILL.md`
@@ -292,6 +308,7 @@
 - **strength-basics**: starting barbell training -> `skills/strength-basics/SKILL.md`
 - **stretching-guide**: desk stiffness -> `skills/stretching-guide/SKILL.md`
 - **swimming-basics**: adult swim beginners -> `skills/swimming-basics/SKILL.md`
+- **tennis-start**: tennis beginners -> `skills/tennis-start/SKILL.md`
 - **yoga-start**: starting yoga -> `skills/yoga-start/SKILL.md`
 - **youth-coach**: volunteer coaching -> `skills/youth-coach/SKILL.md`
 
@@ -306,6 +323,17 @@
 - **spring-boot**: Java services -> `skills/spring-boot/SKILL.md`
 - **vue-patterns**: Vue apps -> `skills/vue-patterns/SKILL.md`
 
+## gamedev (8)
+
+- **game-audio**: game sound -> `skills/game-audio/SKILL.md`
+- **game-publish**: game launches -> `skills/game-publish/SKILL.md`
+- **godot-basics**: indie games -> `skills/godot-basics/SKILL.md`
+- **minecraft-mod**: custom Minecraft -> `skills/minecraft-mod/SKILL.md`
+- **pixel-art**: 2D game art -> `skills/pixel-art/SKILL.md`
+- **roblox-create**: Roblox creators -> `skills/roblox-create/SKILL.md`
+- **unity-basics**: Unity projects -> `skills/unity-basics/SKILL.md`
+- **unreal-basics**: Unreal projects -> `skills/unreal-basics/SKILL.md`
+
 ## git-release (6)
 
 - **changelog-release**: Draft release notes and changelogs from merged PRs and tags. Use when preparing any tagged release or version announcement. -> `skills/changelog-release/SKILL.md`
@@ -315,9 +343,11 @@
 - **pr-create**: Open focused reviewable pull requests with context and test proof. Use when the branch is ready for review or merge. -> `skills/pr-create/SKILL.md`
 - **version-bump**: Propose correct semver bumps from change types and breaking notes. Use when deciding the next version number before release. -> `skills/version-bump/SKILL.md`
 
-## hardware (6)
+## hardware (8)
 
 - **amd-gpu**: AMD GPUs -> `skills/amd-gpu/SKILL.md`
+- **arduino-basics**: electronics beginners -> `skills/arduino-basics/SKILL.md`
+- **drone-fly**: aerial photo and video -> `skills/drone-fly/SKILL.md`
 - **home-server**: self-hosting -> `skills/home-server/SKILL.md`
 - **keyboard-build**: custom boards -> `skills/keyboard-build/SKILL.md`
 - **nvidia-gpu**: ML rigs or gaming GPUs -> `skills/nvidia-gpu/SKILL.md`
@@ -397,11 +427,12 @@
 - **swift-code**: writing or reviewing Swift code, setting up SPM packages or XCTest -> `skills/swift-code/SKILL.md`
 - **typescript-code**: writing or reviewing TypeScript code, setting up TypeScript builds, lint, or tests -> `skills/typescript-code/SKILL.md`
 
-## law-life (10)
+## law-life (11)
 
 - **copyright-basics**: creators publishing -> `skills/copyright-basics/SKILL.md`
 - **freelance-contract**: starting client work -> `skills/freelance-contract/SKILL.md`
 - **llc-start**: new businesses -> `skills/llc-start/SKILL.md`
+- **nda-basics**: sharing secrets -> `skills/nda-basics/SKILL.md`
 - **privacy-rights**: privacy cleanup -> `skills/privacy-rights/SKILL.md`
 - **scam-shield**: suspicious messages -> `skills/scam-shield/SKILL.md`
 - **small-claims**: minor disputes -> `skills/small-claims/SKILL.md`
@@ -471,7 +502,7 @@
 - **speed-reading**: heavy reading loads -> `skills/speed-reading/SKILL.md`
 - **stoicism-basics**: stress and setbacks -> `skills/stoicism-basics/SKILL.md`
 
-## music (8)
+## music (9)
 
 - **dj-basics**: DJ parties -> `skills/dj-basics/SKILL.md`
 - **drums-start**: drum beginners -> `skills/drums-start/SKILL.md`
@@ -481,8 +512,9 @@
 - **recording-basics**: home demos -> `skills/recording-basics/SKILL.md`
 - **sheet-read**: music learners -> `skills/sheet-read/SKILL.md`
 - **singing-basics**: new singers -> `skills/singing-basics/SKILL.md`
+- **ukulele-start**: ukulele beginners -> `skills/ukulele-start/SKILL.md`
 
-## outdoors (13)
+## outdoors (14)
 
 - **camp-cook**: overnight trips -> `skills/camp-cook/SKILL.md`
 - **camping-guide**: first camping trips -> `skills/camping-guide/SKILL.md`
@@ -492,6 +524,7 @@
 - **kayak-start**: flatwater starts -> `skills/kayak-start/SKILL.md`
 - **navigation-map**: unmarked trails -> `skills/navigation-map/SKILL.md`
 - **sailing-basics**: new sailors -> `skills/sailing-basics/SKILL.md`
+- **scuba-start**: future divers -> `skills/scuba-start/SKILL.md`
 - **ski-basics**: first ski seasons -> `skills/ski-basics/SKILL.md`
 - **surf-start**: surf beginners -> `skills/surf-start/SKILL.md`
 - **survival-basics**: backcountry prep -> `skills/survival-basics/SKILL.md`
@@ -515,7 +548,7 @@
 - **teen-talk**: shut-down conversations -> `skills/teen-talk/SKILL.md`
 - **toddler-guide**: toddler chaos -> `skills/toddler-guide/SKILL.md`
 
-## pets (7)
+## pets (8)
 
 - **aquarium-start**: first tanks -> `skills/aquarium-start/SKILL.md`
 - **bee-basics**: beekeeping interest -> `skills/bee-basics/SKILL.md`
@@ -524,6 +557,7 @@
 - **chicken-keep**: backyard hens -> `skills/chicken-keep/SKILL.md`
 - **dog-train**: new dogs -> `skills/dog-train/SKILL.md`
 - **pet-insurance**: new pets -> `skills/pet-insurance/SKILL.md`
+- **reef-tank**: saltwater beginners -> `skills/reef-tank/SKILL.md`
 
 ## play (9)
 
@@ -546,9 +580,10 @@
 - **onboard-hire** [flow]: new hire starting, onboarding someone -> `workflows/onboard-hire/SKILL.md`
 - **task-planner**: Turn vague goals into ordered tasks with owners and done-criteria. Use when starting any multi-step project. -> `skills/task-planner/SKILL.md`
 
-## quality-testing (8)
+## quality-testing (9)
 
 - **code-review**: Perform thorough actionable code reviews with severity-ranked findings. Use when reviewing a diff, PR, or uncommitted changes. -> `skills/code-review/SKILL.md`
+- **load-test**: pre-launch testing -> `skills/load-test/SKILL.md`
 - **perf-profile**: Measure first, then optimize hot paths with before-after proof. Use when facing slowness, timeouts, or high resource usage. -> `skills/perf-profile/SKILL.md`
 - **playwright-e2e**: browser testing -> `skills/playwright-e2e/SKILL.md`
 - **qa-checklist**: Run release-ready quality gates across function, UX, and rollout. Use before any release, merge to main, or demo. -> `skills/qa-checklist/SKILL.md`
@@ -557,7 +592,7 @@
 - **tdd-workflow**: Drive development red-green-refactor in tiny verifiable loops. Use when building features test-first or fixing bugs with regression proof. -> `skills/tdd-workflow/SKILL.md`
 - **test-generator**: Generate focused unit, integration, and e2e tests with clear arrange-act-assert. Use when adding tests for new or uncovered code. -> `skills/test-generator/SKILL.md`
 
-## relationships (10)
+## relationships (11)
 
 - **apology-guide**: after hurting someone -> `skills/apology-guide/SKILL.md`
 - **boundaries-guide**: feeling overcommitted -> `skills/boundaries-guide/SKILL.md`
@@ -569,6 +604,7 @@
 - **long-distance-love**: separated couples -> `skills/long-distance-love/SKILL.md`
 - **marriage-checkin**: staying aligned as a couple -> `skills/marriage-checkin/SKILL.md`
 - **networking-guide**: career events -> `skills/networking-guide/SKILL.md`
+- **roommate-guide**: shared homes -> `skills/roommate-guide/SKILL.md`
 
 ## saas-tools (8)
 
@@ -617,29 +653,38 @@
 - **sci-term-translate**: unreadable academic papers -> `skills/sci-term-translate/SKILL.md`
 - **stats-helper**: analyzing experimental results -> `skills/stats-helper/SKILL.md`
 
-## software-build (13)
+## software-build (21)
 
+- **a11y-basics**: inclusive UI -> `skills/a11y-basics/SKILL.md`
 - **api-design**: Design clean REST or RPC APIs with resources, schemas, and error contracts. Use when creating or changing any API endpoint or data contract. -> `skills/api-design/SKILL.md`
 - **api-spec-parse**: integrating a third-party API -> `skills/api-spec-parse/SKILL.md`
 - **auth-patterns**: login features -> `skills/auth-patterns/SKILL.md`
+- **chrome-extension**: browser tools -> `skills/chrome-extension/SKILL.md`
 - **code-explain**: onboarding to unfamiliar code -> `skills/code-explain/SKILL.md`
 - **db-migration**: Write safe reversible database migrations with backfill plans. Use when changing schema, adding indexes, or backfilling data. -> `skills/db-migration/SKILL.md`
 - **debugging**: Diagnose bugs systematically with reproduction, hypothesis, and fix verification. Use when investigating any error, failure, or unexpected behavior. -> `skills/debugging/SKILL.md`
+- **desktop-app**: desktop tools -> `skills/desktop-app/SKILL.md`
 - **feature-flags**: safe releases -> `skills/feature-flags/SKILL.md`
 - **fix-hotfix** [flow]: fixing a bug, production defect -> `workflows/fix-hotfix/SKILL.md`
+- **flutter-app**: cross-platform apps -> `skills/flutter-app/SKILL.md`
 - **frontend-component**: Build accessible reusable UI components with props, states, and tests. Use when creating or refactoring any frontend component or page. -> `skills/frontend-component/SKILL.md`
 - **graphql-api**: GraphQL APIs -> `skills/graphql-api/SKILL.md`
+- **mobile-app-plan**: mobile app ideas -> `skills/mobile-app-plan/SKILL.md`
+- **react-native-app**: JS mobile apps -> `skills/react-native-app/SKILL.md`
 - **refactoring**: Restructure code safely in small behavior-preserving steps. Use when cleaning duplication, renaming, or extracting modules. -> `skills/refactoring/SKILL.md`
 - **repo-structure-guide**: Design repo layouts that stay navigable at scale: monorepo vs polyrepo, per-language folders, docs and CI placement. Use when scaffolding or reorganizing any repository. -> `skills/repo-structure-guide/SKILL.md`
+- **saas-starter**: product startups -> `skills/saas-starter/SKILL.md`
 - **ship-feature** [flow]: building a feature, shipping code -> `workflows/ship-feature/SKILL.md`
+- **webapp-build**: building a web app -> `skills/webapp-build/SKILL.md`
 
-## travel (15)
+## travel (16)
 
 - **budget-travel**: trip must cost less -> `skills/budget-travel/SKILL.md`
 - **flight-book**: buying flight tickets -> `skills/flight-book/SKILL.md`
 - **flight-hacks**: overpriced flights -> `skills/flight-hacks/SKILL.md`
 - **hotel-book**: booking stays -> `skills/hotel-book/SKILL.md`
 - **itinerary-builder**: destination decided -> `skills/itinerary-builder/SKILL.md`
+- **jet-lag-beat**: long flights -> `skills/jet-lag-beat/SKILL.md`
 - **package-book**: bundled holidays -> `skills/package-book/SKILL.md`
 - **packing-list**: packing for a trip -> `skills/packing-list/SKILL.md`
 - **phrasebook-plan**: two weeks before travel abroad -> `skills/phrasebook-plan/SKILL.md`
@@ -661,8 +706,9 @@
 - **used-car-review**: used car purchase -> `skills/used-car-review/SKILL.md`
 - **winter-driving**: before snow season -> `skills/winter-driving/SKILL.md`
 
-## wealth (9)
+## wealth (10)
 
+- **college-fund**: saving for college -> `skills/college-fund/SKILL.md`
 - **crypto-basics**: crypto curiosity -> `skills/crypto-basics/SKILL.md`
 - **estate-note**: organizing estate basics -> `skills/estate-note/SKILL.md`
 - **hsa-fsa**: benefits season -> `skills/hsa-fsa/SKILL.md`

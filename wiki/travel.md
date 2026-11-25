@@ -9,6 +9,7 @@ Trips, packing, visas, itineraries, and safety.
 | `flight-hacks` | skill | Find cheaper flexible flights with dates, airports, and alerts. Use when flights feel overpriced. |
 | `hotel-book` | skill | Book hotels with location, cancellation, and loyalty math. Use for stays. |
 | `itinerary-builder` | skill | Turn must-sees into a timed daily itinerary with buffers. Use when the destination is decided. |
+| `jet-lag-beat` | skill | Beat jet lag with light, sleep, and arrival plans. Use for long flights. |
 | `package-book` | skill | Book flight-plus-hotel packages with price checks. Use for bundled holidays. |
 | `packing-list` | skill | Build a trip-specific packing list by weather, activities, and bag size. Use before any trip. |
 | `phrasebook-plan` | skill | Learn 30 survival phrases with pronunciation for a trip. Use two weeks before travel. |

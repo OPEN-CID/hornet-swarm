@@ -19,6 +19,7 @@ CLI, passwords, backups, wifi, and AI tools.
 | `regex-guide` | skill | Write regexes that work with testing habits. Use for text wrangling. |
 | `smart-home` | skill | Plan smart homes with protocols and privacy. Use before buying gadgets. |
 | `smartphone-guide` | skill | Master your phone with settings, storage, and safety. Use for new devices. |
+| `twitch-stream` | skill | Stream on Twitch with setup, overlays, and mods. Use for new streamers. |
 | `wifi-fix` | skill | Fix home wifi with placement, channels, and mesh calls. Use for dead zones. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`

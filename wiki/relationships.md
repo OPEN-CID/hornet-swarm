@@ -14,6 +14,7 @@ Communicate, repair, befriend, and network.
 | `long-distance-love` | skill | Run long-distance love with rhythms and visit plans. Use for separated couples. |
 | `marriage-checkin` | skill | Run a weekly couple check-in on money, chores, and affection. Use to stay aligned. |
 | `networking-guide` | skill | Network genuinely with follow-ups that help others first. Use for career events. |
+| `roommate-guide` | skill | Live well with roommates using splits and house rules. Use for shared homes. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 
