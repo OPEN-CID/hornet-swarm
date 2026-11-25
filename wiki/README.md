@@ -60,6 +60,7 @@ Universal agent skills: one folder per skill, every domain covered.
 - [vehicles](vehicles.md) (7) - Buy, inspect, ride, charge, and fix transport.
 - [wealth](wealth.md) (9) - Invest, insure, retire, and review. Education only - not advice.
 - [writing](writing.md) (9) - Fiction, poetry, scripts, grants, and publishing.
+- [workflows](workflows.md) (plays that run skills in order)
 
 ## Family pattern
 

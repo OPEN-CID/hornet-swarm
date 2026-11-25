@@ -19,6 +19,7 @@ jobs:
         run: |
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-skills.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-lang-skills.ps1
+          powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-workflows.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/rebuild-registry.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-wiki.ps1
           powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-router.ps1
@@ -52,3 +53,15 @@ jobs:
           bash scripts/install.sh --tool universal --target smoketest/skills --skills meal-plan,code-review
           test -f smoketest/skills/meal-plan/SKILL.md
           test -f smoketest/skills/code-review/SKILL.md
+
+  mcp-smoke:
+    # Proves the MCP server works: stdio JSON-RPC, 3 tools, ranked search.
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: MCP server smoke test (stdlib only)
+        run: python mcp-server/test_smoke.py || python3 mcp-server/test_smoke.py

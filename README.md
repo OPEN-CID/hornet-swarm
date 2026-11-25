@@ -20,7 +20,7 @@ MCP server for any MCP-capable tool: [`mcp-server/`](mcp-server/).
 
 ## Wiki (browsable index)
 
-Start at [`wiki/README.md`](wiki/README.md) - 46 categories:
+Start at [`wiki/README.md`](wiki/README.md) - 50 categories, 523 skills + 10 workflows:
 
 | Domain | Skills | Examples |
 |---|---|---|
@@ -48,7 +48,7 @@ Start at [`wiki/README.md`](wiki/README.md) - 46 categories:
 | life: events, civic, safety, eco, pets, culture | 38 | `wedding-plan`, `vote-guide`, `first-aid-basics`, `compost-guide`, `dog-train` |
 | frameworks | 8 | `react-patterns`, `nextjs-app`, `django-patterns`, `fastapi-service` |
 | vendors: data, clouds, hardware, SaaS | 26 | `snowflake-guide`, `azure-basics`, `nvidia-gpu`, `stripe-setup`, `temporal-guide` |
-| vendors: booking, school, social, APIs | 17 | `flight-book`, `practice-test-maker`, `youtube-channel`, `openai-api-guide` |
+| vendors: booking, school, social, APIs | 12 | `flight-book`, `practice-test-maker`, `youtube-channel`, `openai-api-guide` |
 
 Every domain follows the same 5 kinds - **Translate -> Parse -> Do ->
 Review -> Playbook** (see [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md)):

@@ -84,8 +84,8 @@ Both give you the workflow; you just invoke it explicitly.
 
 ## Universal visibility: router file + MCP (works for any tool)
 
-**Router file.** [`SKILLS.md`](../SKILLS.md) lists all 405 skills as one
-trigger-first line each (~38KB). Paste it (or one category section) into any
+**Router file.** [`SKILLS.md`](../SKILLS.md) lists all 523 skills (+10 workflows) as one
+trigger-first line each (~40KB). Paste it (or one category section) into any
 agent context — `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `.cursor/rules`, system
 prompt, or chat. Generate a router for exactly what you installed:
 
@@ -95,7 +95,7 @@ powershell scripts/install.ps1 -Tool cursor -Skills meal-plan,code-review -Route
 ```
 
 Why this exists: tools cap preloaded skill metadata (Codex: ~8k chars, and it
-shortens descriptions first). With 405 skills, no tool can preload everything —
+shortens descriptions first). With 523 skills, no tool can preload everything —
 install your working set, keep the router for the rest. Details:
 [`docs/DISCOVERY.md`](DISCOVERY.md).
 
