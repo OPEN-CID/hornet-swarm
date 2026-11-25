@@ -4,6 +4,7 @@ Newborns to teens plus elder care. Info only - consult professionals.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `baby-first-year` | skill | Navigate the first year month by month with milestones and care. Use for new babies. Pediatrician decides health issues. |
 | `baby-proof` | skill | Baby-proof rooms with checklists by age. Use before crawling starts. |
 | `baby-sleep` | skill | Build baby sleep with routines and gentle methods. Use for tired households. Pediatrician decides health issues. |
 | `college-apps` | skill | Apply to colleges with lists, essays, and deadlines. Use for admissions. |
@@ -11,6 +12,7 @@ Newborns to teens plus elder care. Info only - consult professionals.
 | `family-budget` | skill | Run a family budget with kid costs and savings goals. Use when money is tight. |
 | `grandparent-guide` | skill | Help grandparents bond with routines and boundaries. Use for new grandparents. |
 | `homeschool-plan` | skill | Plan a homeschool week with subjects, resources, and records. Use when starting homeschooling. |
+| `newborn-arrival` | flow | Welcome a newborn with ready home, care basics, and fed parents. Use before due dates. |
 | `newborn-care` | skill | Handle feeding, sleep, and soothing in the first weeks with logs. Use for newborns 0-3 months. Info only; pediatrician decides. |
 | `potty-train` | skill | Potty train with readiness signs and calm routines. Use for toddlers. |
 | `screen-time` | skill | Set screen rules that stick with alternatives and timers. Use when screens dominate. |

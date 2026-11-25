@@ -4,6 +4,7 @@ Draw, paint, shoot, knit, sew, and make.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `bookbinding-start` | skill | Bind books with sewn signatures and hard cases. Use for journals and gifts. |
 | `calligraphy-start` | skill | Letter with strokes and exemplar sheets. Use for invitations. |
 | `candle-making` | skill | Make candles safely with wax temps and wicks. Use for gifts. Safety first. |
 | `drawing-start` | skill | Draw with lines, shapes, and 30-day drills. Use for beginners. |

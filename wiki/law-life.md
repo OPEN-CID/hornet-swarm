@@ -12,6 +12,7 @@ Tenants, claims, wills, and scam defense. Info only - not advice.
 | `scam-shield` | skill | Stop scams with verification habits and response scripts. Use for suspicious messages. |
 | `small-claims` | skill | File small claims with evidence packets and procedure. Use for minor disputes. General info. |
 | `tenant-rights` | skill | Know renter rights with deposit, repair, and eviction basics. Use when landlord issues arise. General info. |
+| `ticket-fight` | skill | Handle traffic tickets with options and hearing prep. Use for citations. General info. |
 | `trademark-basics` | skill | Protect names with trademark search and filing basics. Use for brands. Lawyer for filings. |
 | `warranty-claim` | skill | Claim warranties with proof packets and escalation ladders. Use for broken products. |
 | `will-basics` | skill | Understand wills, guardians, and executors before seeing a lawyer. Use for planning. Info only. |

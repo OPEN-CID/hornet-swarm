@@ -85,9 +85,9 @@ From the Agent Skills spec and Anthropic's engineering notes:
 
 | Layer | What loads | Measured cost |
 |---|---|---|
-| Full preload (never do this) | all 594 SKILL.md bodies | ~245K tokens - guarantees context rot |
-| Registry index | name + description x 594 | ~16K tokens - still over 8K tool budgets |
-| Router (`SKILLS.md`) | trigger phrases x 594 | ~13K tokens - paste per-category (~250 tok each) |
+| Full preload (never do this) | all 643 SKILL.md bodies | ~264K tokens - guarantees context rot |
+| Registry index | name + description x 643 | ~17K tokens - still over 8K tool budgets |
+| Router (`SKILLS.md`) | trigger phrases x 643 | ~14K tokens - paste per-category (~250 tok each) |
 | One category section | ~12 skills, triggers only | ~250 tokens |
 | One skill body (avg / p99 / max) | single SKILL.md | ~412 / ~888 / ~928 tokens |
 | One MCP `search_skills` hit list | top-10 matches | ~200 tokens, then full skill on demand |

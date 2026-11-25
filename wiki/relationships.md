@@ -11,6 +11,7 @@ Communicate, repair, befriend, and network.
 | `conflict-repair` | skill | Repair after fights with acknowledgment and change plans. Use after any argument. |
 | `dating-guide` | skill | Date intentionally with values, safety, and early signals. Use when starting to date. |
 | `friendship-build` | skill | Build adult friendships with rituals and follow-ups. Use when feeling disconnected. |
+| `in-law-navigate` | skill | Navigate in-law dynamics with boundaries and buffers. Use for family friction. |
 | `long-distance-love` | skill | Run long-distance love with rhythms and visit plans. Use for separated couples. |
 | `marriage-checkin` | skill | Run a weekly couple check-in on money, chores, and affection. Use to stay aligned. |
 | `networking-guide` | skill | Network genuinely with follow-ups that help others first. Use for career events. |

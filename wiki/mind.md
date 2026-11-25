@@ -12,6 +12,7 @@ Habits, focus, memory, calm, and clear thinking.
 | `journaling-guide` | skill | Journal with prompts that process emotions and decisions. Use for reflection. |
 | `meditation-guide` | skill | Start meditating with 5-minute sessions and posture basics. Use for calm and focus. |
 | `memory-techniques` | skill | Remember names and facts with loci and spaced recall. Use before exams or events. |
+| `morning-routine` | skill | Design mornings that run themselves with anchors. Use for chaotic starts. |
 | `procrastination-fix` | skill | Beat delay with 10-minute starts and friction removal. Use when avoiding tasks. |
 | `speed-reading` | skill | Read faster with retention checks and skimming strategy. Use for heavy reading loads. |
 | `stoicism-basics` | skill | Apply stoic tools to control and perspective. Use for stress and setbacks. |

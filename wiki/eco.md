@@ -6,6 +6,7 @@ Recycle, compost, save water, and cut carbon.
 |---|---|---|
 | `carbon-cut` | skill | Cut footprints with high-impact moves first. Use for climate action. |
 | `compost-guide` | skill | Compost food scraps with browns-greens balance. Use for gardens. |
+| `home-ev-charger` | skill | Install home EV charging with load math and quotes. Use licensed electricians for panels. Use for EV owners. |
 | `recycling-guide` | skill | Recycle right with local rules and sorting. Use for households. |
 | `solar-evaluate` | skill | Evaluate home solar with usage math and quotes. Use before buying. |
 | `sustainable-shop` | skill | Shop sustainably with labels and longevity. Use for purchases. |

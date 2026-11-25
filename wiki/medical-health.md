@@ -4,6 +4,8 @@ Organize health information. Info only - always consult a professional.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `allergy-manage` | skill | Manage allergies with avoidance, meds, and action plans. Use for seasonal and food allergies. Doctors diagnose. |
+| `dental-care` | skill | Keep teeth with routines and checkups. Use for dental health. Dentists diagnose. |
 | `fitness-plan` | skill | Build progressive workout plans around goals and limits. Use when starting or fixing a training routine. |
 | `health-checkup` | flow | Do an annual health review with data and tune-ups. Use once a year. Info only; doctors decide. |
 | `health-playbook` | skill | Best-practice playbook for ongoing health routines: meds, activity, sleep, records. Use when building a sustainable health system. |
@@ -17,6 +19,7 @@ Organize health information. Info only - always consult a professional.
 | `mental-reset` | skill | Guide a short stress-reset routine with journaling prompts. Use when stressed. Not therapy; crisis situations need a professional. |
 | `nutrition-plan` | skill | Plan balanced meals around budget and restrictions. Use when meal planning for health goals. General information, not medical advice. |
 | `sleep-improve` | skill | Audit sleep habits and build an improvement plan. Use for insomnia or fatigue routines. |
+| `vision-care` | skill | Protect vision with screen habits and regular exams. Use for eye health. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 

@@ -1,14 +1,17 @@
-# Skills index - hornet-swarm (594 skills)
+# Skills index - hornet-swarm (643 skills)
 
 > Paste this file (or one section) into any agent context (AGENTS.md, CLAUDE.md, GEMINI.md, system prompt, chat) to make every skill visible. Full instructions live in each linked SKILL.md. Generated from registry.json - do not hand-edit.
 
-## business-ops (21)
+## business-ops (24)
 
 - **analytics-basics**: measuring products -> `skills/analytics-basics/SKILL.md`
 - **biz-jargon-translate**: confusing term sheets or metrics -> `skills/biz-jargon-translate/SKILL.md`
 - **business-plan**: pitching or planning a business -> `skills/business-plan/SKILL.md`
 - **business-review**: monthly business checkup -> `skills/business-review/SKILL.md`
+- **consulting-start**: independent experts -> `skills/consulting-start/SKILL.md`
+- **customer-interviews**: before building -> `skills/customer-interviews/SKILL.md`
 - **email-marketing**: email lists -> `skills/email-marketing/SKILL.md`
+- **food-business**: food founders -> `skills/food-business/SKILL.md`
 - **hiring-interview**: hiring for a role -> `skills/hiring-interview/SKILL.md`
 - **idea-validate**: before building a startup idea -> `skills/idea-validate/SKILL.md`
 - **kpi-dashboard**: reporting team performance -> `skills/kpi-dashboard/SKILL.md`
@@ -26,7 +29,7 @@
 - **start-business** [flow]: founding something, first paying customer -> `workflows/start-business/SKILL.md`
 - **support-reply**: answering support tickets -> `skills/support-reply/SKILL.md`
 
-## career (15)
+## career (16)
 
 - **application-review**: before submitting an application -> `skills/application-review/SKILL.md`
 - **career-playbook**: yearly career planning -> `skills/career-playbook/SKILL.md`
@@ -40,16 +43,19 @@
 - **layoff-plan**: after a layoff -> `skills/layoff-plan/SKILL.md`
 - **linkedin-optimize**: job hunting on LinkedIn -> `skills/linkedin-optimize/SKILL.md`
 - **performance-review**: writing a performance self-review -> `skills/performance-review/SKILL.md`
+- **personal-brand**: professional visibility -> `skills/personal-brand/SKILL.md`
 - **promotion-case**: review cycles -> `skills/promotion-case/SKILL.md`
 - **resume-writer**: applying for jobs -> `skills/resume-writer/SKILL.md`
 - **salary-negotiate**: negotiating a job offer -> `skills/salary-negotiate/SKILL.md`
 
-## civic (6)
+## civic (8)
 
+- **jury-duty**: jury summons -> `skills/jury-duty/SKILL.md`
 - **local-gov**: permits and projects -> `skills/local-gov/SKILL.md`
 - **neighborhood-safety**: safety concerns -> `skills/neighborhood-safety/SKILL.md`
 - **nonprofit-fundraise**: small nonprofit needs -> `skills/nonprofit-fundraise/SKILL.md`
 - **organize-neighbors**: local issues -> `skills/organize-neighbors/SKILL.md`
+- **town-hall-speak**: local issues -> `skills/town-hall-speak/SKILL.md`
 - **volunteer-start**: giving time -> `skills/volunteer-start/SKILL.md`
 - **vote-guide**: every election -> `skills/vote-guide/SKILL.md`
 
@@ -80,11 +86,13 @@
 - **security-arch**: threat-modeling a system -> `skills/security-arch/SKILL.md`
 - **stakeholder-translate**: presenting architecture to leadership -> `skills/stakeholder-translate/SKILL.md`
 
-## cooking (14)
+## cooking (17)
 
 - **baking-basics**: starting baking -> `skills/baking-basics/SKILL.md`
 - **bbq-smoker**: brisket and ribs -> `skills/bbq-smoker/SKILL.md`
+- **cake-decorating**: celebration cakes -> `skills/cake-decorating/SKILL.md`
 - **canning-preserving**: preserving harvests -> `skills/canning-preserving/SKILL.md`
+- **cheese-making**: dairy projects -> `skills/cheese-making/SKILL.md`
 - **cocktail-basics**: home entertaining -> `skills/cocktail-basics/SKILL.md`
 - **coffee-brew**: off-tasting coffee -> `skills/coffee-brew/SKILL.md`
 - **fermentation-basics**: starting ferments -> `skills/fermentation-basics/SKILL.md`
@@ -94,11 +102,13 @@
 - **meal-prep**: busy weeks -> `skills/meal-prep/SKILL.md`
 - **pantry-staples**: setting up a kitchen -> `skills/pantry-staples/SKILL.md`
 - **spice-guide**: flat-tasting food -> `skills/spice-guide/SKILL.md`
+- **sushi-rolling**: sushi nights -> `skills/sushi-rolling/SKILL.md`
 - **tea-guide**: starting loose-leaf tea -> `skills/tea-guide/SKILL.md`
 - **wine-basics**: dinners and gifts -> `skills/wine-basics/SKILL.md`
 
-## craft (13)
+## craft (14)
 
+- **bookbinding-start**: handmade books -> `skills/bookbinding-start/SKILL.md`
 - **calligraphy-start**: invitation lettering -> `skills/calligraphy-start/SKILL.md`
 - **candle-making**: candle gifts -> `skills/candle-making/SKILL.md`
 - **drawing-start**: drawing beginners -> `skills/drawing-start/SKILL.md`
@@ -138,12 +148,13 @@
 - **video-script**: producing a video -> `skills/video-script/SKILL.md`
 - **youtube-channel**: starting a channel -> `skills/youtube-channel/SKILL.md`
 
-## culture (6)
+## culture (7)
 
 - **art-history**: museum visits -> `skills/art-history/SKILL.md`
 - **critical-think**: debates and decisions -> `skills/critical-think/SKILL.md`
 - **debate-basics**: debate clubs -> `skills/debate-basics/SKILL.md`
 - **genealogy-start**: roots research -> `skills/genealogy-start/SKILL.md`
+- **local-history**: local roots -> `skills/local-history/SKILL.md`
 - **media-literacy**: daily news -> `skills/media-literacy/SKILL.md`
 - **museum-trip**: family museum days -> `skills/museum-trip/SKILL.md`
 
@@ -214,10 +225,11 @@
 - **vercel-deploy**: web app deploys -> `skills/vercel-deploy/SKILL.md`
 - **wireguard-vpn**: private networks -> `skills/wireguard-vpn/SKILL.md`
 
-## diy-maker (12)
+## diy-maker (14)
 
 - **build-review**: before cutting materials -> `skills/build-review/SKILL.md`
 - **car-maintenance**: routine vehicle care -> `skills/car-maintenance/SKILL.md`
+- **deck-build**: outdoor builds -> `skills/deck-build/SKILL.md`
 - **diy-electrical-safety**: before any home wiring work -> `skills/diy-electrical-safety/SKILL.md`
 - **diy-plumbing-fix**: leaky tap or clogged drain -> `skills/diy-plumbing-fix/SKILL.md`
 - **furniture-assemble**: assembling flat-pack furniture -> `skills/furniture-assemble/SKILL.md`
@@ -226,6 +238,7 @@
 - **material-translate**: shopping at the hardware store -> `skills/material-translate/SKILL.md`
 - **plan-parse**: before buying build materials -> `skills/plan-parse/SKILL.md`
 - **print-3d**: printing a 3D part -> `skills/print-3d/SKILL.md`
+- **tiling-guide**: tiling jobs -> `skills/tiling-guide/SKILL.md`
 - **woodworking-plan**: planning a woodworking build -> `skills/woodworking-plan/SKILL.md`
 - **workshop-playbook**: setting up a workshop -> `skills/workshop-playbook/SKILL.md`
 
@@ -239,26 +252,30 @@
 - **research-dossier** [flow]: researching a decision, due diligence -> `workflows/research-dossier/SKILL.md`
 - **tech-research**: Compare options with evidence and give a justified recommendation. Use when choosing libraries, tools, or approaches. -> `skills/tech-research/SKILL.md`
 
-## eco (7)
+## eco (8)
 
 - **carbon-cut**: climate action -> `skills/carbon-cut/SKILL.md`
 - **compost-guide**: garden composting -> `skills/compost-guide/SKILL.md`
+- **home-ev-charger**: EV owners -> `skills/home-ev-charger/SKILL.md`
 - **recycling-guide**: household recycling -> `skills/recycling-guide/SKILL.md`
 - **solar-evaluate**: considering solar -> `skills/solar-evaluate/SKILL.md`
 - **sustainable-shop**: conscious purchases -> `skills/sustainable-shop/SKILL.md`
 - **waste-less**: lighter bins -> `skills/waste-less/SKILL.md`
 - **water-save**: high water bills -> `skills/water-save/SKILL.md`
 
-## education (21)
+## education (25)
 
 - **ace-exam** [flow]: upcoming exams, test day -> `workflows/ace-exam/SKILL.md`
 - **chemistry-helper**: chemistry homework or lab prep -> `skills/chemistry-helper/SKILL.md`
+- **college-application** [flow]: admissions season -> `workflows/college-application/SKILL.md`
 - **curriculum-plan**: learning a subject solo -> `skills/curriculum-plan/SKILL.md`
 - **eli5-explainer**: starting a hard topic -> `skills/eli5-explainer/SKILL.md`
 - **essay-feedback**: revising an essay -> `skills/essay-feedback/SKILL.md`
 - **exam-prep**: preparing for an exam -> `skills/exam-prep/SKILL.md`
 - **exam-readiness-review**: one week before an exam -> `skills/exam-readiness-review/SKILL.md`
+- **french-start**: learning French -> `skills/french-start/SKILL.md`
 - **homework-check**: finished assignments -> `skills/homework-check/SKILL.md`
+- **japanese-start**: learning Japanese -> `skills/japanese-start/SKILL.md`
 - **kid-homework**: helping kids with homework -> `skills/kid-homework/SKILL.md`
 - **language-tutor**: daily language practice -> `skills/language-tutor/SKILL.md`
 - **learn-code**: absolute beginners -> `skills/learn-code/SKILL.md`
@@ -271,10 +288,12 @@
 - **sat-act-prep**: college tests -> `skills/sat-act-prep/SKILL.md`
 - **scholarship-search**: college funding -> `skills/scholarship-search/SKILL.md`
 - **science-fair-guide**: science fairs -> `skills/science-fair-guide/SKILL.md`
+- **spanish-start**: learning Spanish -> `skills/spanish-start/SKILL.md`
 - **study-doc-parse**: reading dense study material -> `skills/study-doc-parse/SKILL.md`
 
-## events (8)
+## events (9)
 
+- **baby-shower-plan**: baby celebrations -> `skills/baby-shower-plan/SKILL.md`
 - **event-budget**: any event -> `skills/event-budget/SKILL.md`
 - **holiday-plan**: holiday seasons -> `skills/holiday-plan/SKILL.md`
 - **memorial-plan**: difficult times -> `skills/memorial-plan/SKILL.md`
@@ -284,12 +303,13 @@
 - **wedding-day** [flow]: engagements, wedding planning -> `workflows/wedding-day/SKILL.md`
 - **wedding-plan**: engagements -> `skills/wedding-plan/SKILL.md`
 
-## everyday-tech (17)
+## everyday-tech (18)
 
 - **ai-image-guide**: AI art and assets -> `skills/ai-image-guide/SKILL.md`
 - **ai-tools-guide**: team AI adoption -> `skills/ai-tools-guide/SKILL.md`
 - **backup-plan**: protecting files -> `skills/backup-plan/SKILL.md`
 - **canva-design**: quick designs -> `skills/canva-design/SKILL.md`
+- **ebook-library**: digital readers -> `skills/ebook-library/SKILL.md`
 - **linux-cli**: servers and WSL -> `skills/linux-cli/SKILL.md`
 - **nocode-guide**: MVP ideas -> `skills/nocode-guide/SKILL.md`
 - **obs-studio**: tutorials and streams -> `skills/obs-studio/SKILL.md`
@@ -304,9 +324,11 @@
 - **twitch-stream**: new streamers -> `skills/twitch-stream/SKILL.md`
 - **wifi-fix**: wifi dead zones -> `skills/wifi-fix/SKILL.md`
 
-## fitness (15)
+## fitness (18)
 
+- **climbing-fitness**: climbing beginners -> `skills/climbing-fitness/SKILL.md`
 - **cycling-start**: new riders -> `skills/cycling-start/SKILL.md`
+- **dance-fitness**: fun cardio -> `skills/dance-fitness/SKILL.md`
 - **fitness-start** [flow]: fresh fitness starts, getting in shape -> `workflows/fitness-start/SKILL.md`
 - **golf-basics**: golf beginners -> `skills/golf-basics/SKILL.md`
 - **home-gym**: home training -> `skills/home-gym/SKILL.md`
@@ -319,6 +341,7 @@
 - **stretching-guide**: desk stiffness -> `skills/stretching-guide/SKILL.md`
 - **swimming-basics**: adult swim beginners -> `skills/swimming-basics/SKILL.md`
 - **tennis-start**: tennis beginners -> `skills/tennis-start/SKILL.md`
+- **triathlon-start**: triathlon goals -> `skills/triathlon-start/SKILL.md`
 - **yoga-start**: starting yoga -> `skills/yoga-start/SKILL.md`
 - **youth-coach**: volunteer coaching -> `skills/youth-coach/SKILL.md`
 
@@ -364,7 +387,7 @@
 - **pc-build**: custom desktop builds -> `skills/pc-build/SKILL.md`
 - **raspberry-pi**: Pi projects -> `skills/raspberry-pi/SKILL.md`
 
-## home-life (22)
+## home-life (23)
 
 - **appliance-fix**: broken appliances -> `skills/appliance-fix/SKILL.md`
 - **bike-commute**: starting to cycle to work -> `skills/bike-commute/SKILL.md`
@@ -375,6 +398,7 @@
 - **home-move** [flow]: relocating, moving house -> `workflows/home-move/SKILL.md`
 - **home-playbook**: setting up a household system -> `skills/home-playbook/SKILL.md`
 - **home-safety-review**: yearly safety check, new kids or pets -> `skills/home-safety-review/SKILL.md`
+- **home-security**: home protection -> `skills/home-security/SKILL.md`
 - **hvac-basics**: comfort and energy bills -> `skills/hvac-basics/SKILL.md`
 - **label-reader**: shopping or sorting laundry -> `skills/label-reader/SKILL.md`
 - **lawn-care**: yard care -> `skills/lawn-care/SKILL.md`
@@ -389,7 +413,7 @@
 - **sourdough-starter**: baking sourdough at home -> `skills/sourdough-starter/SKILL.md`
 - **start-garden** [flow]: garden seasons, growing food -> `workflows/start-garden/SKILL.md`
 
-## housing (14)
+## housing (15)
 
 - **buy-and-move** [flow]: house hunting, buying a home -> `workflows/buy-and-move/SKILL.md`
 - **buy-home**: house hunting -> `skills/buy-home/SKILL.md`
@@ -405,6 +429,7 @@
 - **renovate-room** [flow]: room refreshes, small renovations -> `workflows/renovate-room/SKILL.md`
 - **renovation-budget**: before remodeling -> `skills/renovation-budget/SKILL.md`
 - **rent-guide**: before renting -> `skills/rent-guide/SKILL.md`
+- **sell-home** [flow]: selling a home -> `workflows/sell-home/SKILL.md`
 
 ## knowledge (9)
 
@@ -441,7 +466,7 @@
 - **swift-code**: writing or reviewing Swift code, setting up SPM packages or XCTest -> `skills/swift-code/SKILL.md`
 - **typescript-code**: writing or reviewing TypeScript code, setting up TypeScript builds, lint, or tests -> `skills/typescript-code/SKILL.md`
 
-## law-life (11)
+## law-life (12)
 
 - **copyright-basics**: creators publishing -> `skills/copyright-basics/SKILL.md`
 - **freelance-contract**: starting client work -> `skills/freelance-contract/SKILL.md`
@@ -451,6 +476,7 @@
 - **scam-shield**: suspicious messages -> `skills/scam-shield/SKILL.md`
 - **small-claims**: minor disputes -> `skills/small-claims/SKILL.md`
 - **tenant-rights**: landlord issues -> `skills/tenant-rights/SKILL.md`
+- **ticket-fight**: traffic citations -> `skills/ticket-fight/SKILL.md`
 - **trademark-basics**: brand protection -> `skills/trademark-basics/SKILL.md`
 - **warranty-claim**: broken products -> `skills/warranty-claim/SKILL.md`
 - **will-basics**: estate planning -> `skills/will-basics/SKILL.md`
@@ -482,8 +508,10 @@
 - **salary-compare**: evaluating job offers -> `skills/salary-compare/SKILL.md`
 - **tax-prep-checklist**: preparing to file taxes -> `skills/tax-prep-checklist/SKILL.md`
 
-## medical-health (13)
+## medical-health (16)
 
+- **allergy-manage**: allergies -> `skills/allergy-manage/SKILL.md`
+- **dental-care**: dental health -> `skills/dental-care/SKILL.md`
 - **fitness-plan**: starting a training routine, fixing a stalled program -> `skills/fitness-plan/SKILL.md`
 - **health-checkup** [flow]: annual review, yearly health check -> `workflows/health-checkup/SKILL.md`
 - **health-playbook**: building a sustainable health routine -> `skills/health-playbook/SKILL.md`
@@ -497,6 +525,7 @@
 - **mental-reset**: feeling stressed or overwhelmed -> `skills/mental-reset/SKILL.md`
 - **nutrition-plan**: meal planning for health goals, eating on a budget -> `skills/nutrition-plan/SKILL.md`
 - **sleep-improve**: trouble sleeping, daytime fatigue -> `skills/sleep-improve/SKILL.md`
+- **vision-care**: eye health -> `skills/vision-care/SKILL.md`
 
 ## meta (3)
 
@@ -504,7 +533,7 @@
 - **repo-onboarder**: Onboard anyone to a repo with setup, tour, and first task. Use when a new dev or agent joins a codebase. -> `skills/repo-onboarder/SKILL.md`
 - **skill-creator**: Author new spec-compliant SKILL.md skills from scratch. Use when creating, updating, or reviewing any skill in this repo. -> `skills/skill-creator/SKILL.md`
 
-## mind (11)
+## mind (12)
 
 - **burnout-recover**: feeling depleted -> `skills/burnout-recover/SKILL.md`
 - **digital-detox**: compulsive scrolling -> `skills/digital-detox/SKILL.md`
@@ -514,12 +543,14 @@
 - **journaling-guide**: needing reflection -> `skills/journaling-guide/SKILL.md`
 - **meditation-guide**: wanting calm and focus -> `skills/meditation-guide/SKILL.md`
 - **memory-techniques**: exams or networking events -> `skills/memory-techniques/SKILL.md`
+- **morning-routine**: chaotic mornings -> `skills/morning-routine/SKILL.md`
 - **procrastination-fix**: avoiding tasks -> `skills/procrastination-fix/SKILL.md`
 - **speed-reading**: heavy reading loads -> `skills/speed-reading/SKILL.md`
 - **stoicism-basics**: stress and setbacks -> `skills/stoicism-basics/SKILL.md`
 
-## music (9)
+## music (11)
 
+- **bass-guitar**: new bassists -> `skills/bass-guitar/SKILL.md`
 - **dj-basics**: DJ parties -> `skills/dj-basics/SKILL.md`
 - **drums-start**: drum beginners -> `skills/drums-start/SKILL.md`
 - **guitar-start**: guitar beginners -> `skills/guitar-start/SKILL.md`
@@ -529,13 +560,15 @@
 - **sheet-read**: music learners -> `skills/sheet-read/SKILL.md`
 - **singing-basics**: new singers -> `skills/singing-basics/SKILL.md`
 - **ukulele-start**: ukulele beginners -> `skills/ukulele-start/SKILL.md`
+- **violin-start**: violin beginners -> `skills/violin-start/SKILL.md`
 
-## outdoors (14)
+## outdoors (15)
 
 - **camp-cook**: overnight trips -> `skills/camp-cook/SKILL.md`
 - **camping-guide**: first camping trips -> `skills/camping-guide/SKILL.md`
 - **climb-safety**: before climbing -> `skills/climb-safety/SKILL.md`
 - **fishing-basics**: fishing beginners -> `skills/fishing-basics/SKILL.md`
+- **foraging-guide**: wild foods -> `skills/foraging-guide/SKILL.md`
 - **hiking-prep**: before any hike -> `skills/hiking-prep/SKILL.md`
 - **kayak-start**: flatwater starts -> `skills/kayak-start/SKILL.md`
 - **navigation-map**: unmarked trails -> `skills/navigation-map/SKILL.md`
@@ -547,8 +580,9 @@
 - **weather-read**: outdoor trip days -> `skills/weather-read/SKILL.md`
 - **wildlife-safety**: wild country travel -> `skills/wildlife-safety/SKILL.md`
 
-## parenting (14)
+## parenting (16)
 
+- **baby-first-year**: new babies -> `skills/baby-first-year/SKILL.md`
 - **baby-proof**: before crawling starts -> `skills/baby-proof/SKILL.md`
 - **baby-sleep**: tired households -> `skills/baby-sleep/SKILL.md`
 - **college-apps**: college admissions -> `skills/college-apps/SKILL.md`
@@ -556,6 +590,7 @@
 - **family-budget**: tight family money -> `skills/family-budget/SKILL.md`
 - **grandparent-guide**: new grandparents -> `skills/grandparent-guide/SKILL.md`
 - **homeschool-plan**: starting homeschooling -> `skills/homeschool-plan/SKILL.md`
+- **newborn-arrival** [flow]: expecting a baby -> `workflows/newborn-arrival/SKILL.md`
 - **newborn-care**: newborns 0-3 months -> `skills/newborn-care/SKILL.md`
 - **potty-train**: toddler training -> `skills/potty-train/SKILL.md`
 - **screen-time**: screens dominating -> `skills/screen-time/SKILL.md`
@@ -564,7 +599,7 @@
 - **teen-talk**: shut-down conversations -> `skills/teen-talk/SKILL.md`
 - **toddler-guide**: toddler chaos -> `skills/toddler-guide/SKILL.md`
 
-## pets (9)
+## pets (11)
 
 - **aquarium-start**: first tanks -> `skills/aquarium-start/SKILL.md`
 - **bee-basics**: beekeeping interest -> `skills/bee-basics/SKILL.md`
@@ -572,15 +607,19 @@
 - **cat-care**: new cats -> `skills/cat-care/SKILL.md`
 - **chicken-keep**: backyard hens -> `skills/chicken-keep/SKILL.md`
 - **dog-train**: new dogs -> `skills/dog-train/SKILL.md`
+- **horse-care**: new horse owners -> `skills/horse-care/SKILL.md`
 - **pet-insurance**: new pets -> `skills/pet-insurance/SKILL.md`
 - **reef-tank**: saltwater beginners -> `skills/reef-tank/SKILL.md`
+- **reptile-care**: first reptiles -> `skills/reptile-care/SKILL.md`
 - **welcome-pet** [flow]: new pets, adopting -> `workflows/welcome-pet/SKILL.md`
 
-## play (9)
+## play (11)
 
 - **board-night**: group game nights -> `skills/board-night/SKILL.md`
 - **chess-improve**: club improvement -> `skills/chess-improve/SKILL.md`
 - **dnd-dm**: new DMs -> `skills/dnd-dm/SKILL.md`
+- **esports-start**: competitive gaming -> `skills/esports-start/SKILL.md`
+- **fantasy-sports**: fantasy seasons -> `skills/fantasy-sports/SKILL.md`
 - **game-design**: game prototypes -> `skills/game-design/SKILL.md`
 - **go-game**: Go beginners -> `skills/go-game/SKILL.md`
 - **mahjong-basics**: game nights -> `skills/mahjong-basics/SKILL.md`
@@ -609,7 +648,7 @@
 - **tdd-workflow**: Drive development red-green-refactor in tiny verifiable loops. Use when building features test-first or fixing bugs with regression proof. -> `skills/tdd-workflow/SKILL.md`
 - **test-generator**: Generate focused unit, integration, and e2e tests with clear arrange-act-assert. Use when adding tests for new or uncovered code. -> `skills/test-generator/SKILL.md`
 
-## relationships (11)
+## relationships (12)
 
 - **apology-guide**: after hurting someone -> `skills/apology-guide/SKILL.md`
 - **boundaries-guide**: feeling overcommitted -> `skills/boundaries-guide/SKILL.md`
@@ -618,6 +657,7 @@
 - **conflict-repair**: after arguments -> `skills/conflict-repair/SKILL.md`
 - **dating-guide**: starting to date -> `skills/dating-guide/SKILL.md`
 - **friendship-build**: feeling disconnected -> `skills/friendship-build/SKILL.md`
+- **in-law-navigate**: family friction -> `skills/in-law-navigate/SKILL.md`
 - **long-distance-love**: separated couples -> `skills/long-distance-love/SKILL.md`
 - **marriage-checkin**: staying aligned as a couple -> `skills/marriage-checkin/SKILL.md`
 - **networking-guide**: career events -> `skills/networking-guide/SKILL.md`
@@ -646,13 +686,14 @@
 - **selfdefense-basics**: personal safety confidence -> `skills/selfdefense-basics/SKILL.md`
 - **storm-prep**: storm season -> `skills/storm-prep/SKILL.md`
 
-## science-big (8)
+## science-big (9)
 
 - **climate-basics**: climate literacy -> `skills/climate-basics/SKILL.md`
 - **econ-basics**: money literacy -> `skills/econ-basics/SKILL.md`
 - **evolution-basics**: homework and literacy -> `skills/evolution-basics/SKILL.md`
 - **genetics-basics**: DNA test results -> `skills/genetics-basics/SKILL.md`
 - **geology-basics**: hiking curiosity -> `skills/geology-basics/SKILL.md`
+- **ocean-basics**: ocean curiosity -> `skills/ocean-basics/SKILL.md`
 - **psych-basics**: self-insight work -> `skills/psych-basics/SKILL.md`
 - **stargazing-start**: clear nights -> `skills/stargazing-start/SKILL.md`
 - **weather-basics**: outdoor decisions -> `skills/weather-basics/SKILL.md`
@@ -694,9 +735,12 @@
 - **ship-feature** [flow]: building a feature, shipping code -> `workflows/ship-feature/SKILL.md`
 - **webapp-build**: building a web app -> `skills/webapp-build/SKILL.md`
 
-## travel (16)
+## travel (21)
 
 - **budget-travel**: trip must cost less -> `skills/budget-travel/SKILL.md`
+- **camper-van**: road adventures -> `skills/camper-van/SKILL.md`
+- **cruise-guide**: cruise holidays -> `skills/cruise-guide/SKILL.md`
+- **digital-nomad**: remote work travel -> `skills/digital-nomad/SKILL.md`
 - **flight-book**: buying flight tickets -> `skills/flight-book/SKILL.md`
 - **flight-hacks**: overpriced flights -> `skills/flight-hacks/SKILL.md`
 - **hotel-book**: booking stays -> `skills/hotel-book/SKILL.md`
@@ -709,11 +753,13 @@
 - **points-miles**: award travel -> `skills/points-miles/SKILL.md`
 - **road-trip**: driving holidays -> `skills/road-trip/SKILL.md`
 - **solo-travel**: traveling alone -> `skills/solo-travel/SKILL.md`
+- **travel-insurance**: big trips -> `skills/travel-insurance/SKILL.md`
+- **travel-photography**: trip photography -> `skills/travel-photography/SKILL.md`
 - **travel-safety**: unfamiliar destinations -> `skills/travel-safety/SKILL.md`
 - **trip-plan**: starting trip planning -> `skills/trip-plan/SKILL.md`
 - **visa-prep**: international trip planning -> `skills/visa-prep/SKILL.md`
 
-## vehicles (8)
+## vehicles (9)
 
 - **bike-repair**: commuter bike issues -> `skills/bike-repair/SKILL.md`
 - **buy-car** [flow]: car shopping, buying a used car -> `workflows/buy-car/SKILL.md`
@@ -721,14 +767,16 @@
 - **car-detail**: showroom looks -> `skills/car-detail/SKILL.md`
 - **ev-guide**: going electric -> `skills/ev-guide/SKILL.md`
 - **motorcycle-basics**: new riders -> `skills/motorcycle-basics/SKILL.md`
+- **rv-living**: road living -> `skills/rv-living/SKILL.md`
 - **used-car-review**: used car purchase -> `skills/used-car-review/SKILL.md`
 - **winter-driving**: before snow season -> `skills/winter-driving/SKILL.md`
 
-## wealth (10)
+## wealth (11)
 
 - **college-fund**: saving for college -> `skills/college-fund/SKILL.md`
 - **crypto-basics**: crypto curiosity -> `skills/crypto-basics/SKILL.md`
 - **estate-note**: organizing estate basics -> `skills/estate-note/SKILL.md`
+- **house-hacking**: first rentals -> `skills/house-hacking/SKILL.md`
 - **hsa-fsa**: benefits season -> `skills/hsa-fsa/SKILL.md`
 - **insurance-guide**: choosing insurance -> `skills/insurance-guide/SKILL.md`
 - **invest-start**: first investments -> `skills/invest-start/SKILL.md`
@@ -737,8 +785,9 @@
 - **side-hustle**: wanting extra income -> `skills/side-hustle/SKILL.md`
 - **tax-habits**: freelance taxes -> `skills/tax-habits/SKILL.md`
 
-## writing (9)
+## writing (10)
 
+- **childrens-book**: kids stories -> `skills/childrens-book/SKILL.md`
 - **edit-proofread**: before publishing -> `skills/edit-proofread/SKILL.md`
 - **fiction-write**: novels and stories -> `skills/fiction-write/SKILL.md`
 - **grant-writing**: nonprofit funding -> `skills/grant-writing/SKILL.md`

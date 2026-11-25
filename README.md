@@ -2,10 +2,10 @@
 
 [![CI](https://github.com/OPEN-CID/hornet-swarm/actions/workflows/validate.yml/badge.svg)](https://github.com/OPEN-CID/hornet-swarm/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-576-blue)](registry.json)
+[![Skills: 643](https://img.shields.io/badge/skills-643-blue)](registry.json)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
-594 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
+643 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
 Claude Code, Cursor, Copilot, Gemini, Windsurf.
@@ -26,7 +26,7 @@ browse + search everything: **https://OPEN-CID.github.io/hornet-swarm/**.
 
 ## Wiki (browsable index)
 
-Start at [`wiki/README.md`](wiki/README.md) - 51 categories, 567 skills + 27 workflows:
+Start at [`wiki/README.md`](wiki/README.md) - 51 categories, 613 skills + 30 workflows:
 
 | Domain | Skills | Examples |
 |---|---|---|
@@ -85,5 +85,5 @@ Docs: [`docs/PLAN.md`](docs/PLAN.md) (vision) |
 [`docs/WORLD-TAXONOMY.md`](docs/WORLD-TAXONOMY.md) (all domains) |
 [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md) (the 5 kinds) |
 [`CONTRIBUTING.md`](CONTRIBUTING.md) (contribution rules).
-Machine index: [`registry.json`](registry.json) (594 entries: 567 skills + 27 workflows).
+Machine index: [`registry.json`](registry.json) (643 entries: 613 skills + 30 workflows).
 

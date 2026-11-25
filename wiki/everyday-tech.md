@@ -8,6 +8,7 @@ CLI, passwords, backups, wifi, and AI tools.
 | `ai-tools-guide` | skill | Pick AI tools with privacy checks and workflow fits. Use for team adoption. |
 | `backup-plan` | skill | Back up devices with 3-2-1 and restore tests. Use for irreplaceable files. |
 | `canva-design` | skill | Design posts and decks in Canva with brand kits. Use for non-designers. |
+| `ebook-library` | skill | Build an ebook library with Calibre and reader sync. Use for digital readers. |
 | `linux-cli` | skill | Learn essential Linux commands with safe practice. Use for servers and WSL. |
 | `nocode-guide` | skill | Ship simple apps with no-code and know the limits. Use for MVPs. |
 | `obs-studio` | skill | Record and stream with OBS scenes and clean audio. Use for tutorials and streams. |

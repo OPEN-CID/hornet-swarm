@@ -4,7 +4,9 @@ Run, lift, stretch, and coach. Info only - pros for injuries.
 
 | Skill | Type | Use it when |
 |---|---|---|
+| `climbing-fitness` | skill | Start climbing with footwork, belay, and gym etiquette. Take a belay class first. Use for beginners. |
 | `cycling-start` | skill | Start cycling with fit, gears, and traffic skills. Use for new riders. |
+| `dance-fitness` | skill | Start dance fitness with rhythm basics and routines. Use for fun cardio. |
 | `fitness-start` | flow | Get fit with training, food, habits, and sleep. Use for fresh starts. |
 | `golf-basics` | skill | Start golf with grip, swing, and etiquette. Use for beginners. |
 | `home-gym` | skill | Build a home gym with essentials in buy order. Use for home training. |
@@ -17,6 +19,7 @@ Run, lift, stretch, and coach. Info only - pros for injuries.
 | `stretching-guide` | skill | Build a daily mobility routine for desk bodies. Use for stiffness. |
 | `swimming-basics` | skill | Learn freestyle basics with drills and pool etiquette. Use for adult beginners. |
 | `tennis-start` | skill | Start tennis with grip, serve, and rally basics. Use for beginners. |
+| `triathlon-start` | skill | Train for triathlons with brick workouts and transitions. Use with a base in place. |
 | `yoga-start` | skill | Begin yoga with poses, breath, and class etiquette. Use for flexibility and calm. |
 | `youth-coach` | skill | Coach kids sports with fun-first practices and safety. Use for volunteer coaches. |
 

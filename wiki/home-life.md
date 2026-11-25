@@ -13,6 +13,7 @@ Meals, cleaning, maintenance, moves, pets, safety.
 | `home-move` | flow | Move house from boxes to settled with safety audit. Use when relocating. |
 | `home-playbook` | skill | Best-practice home routines for a calm household. Use when setting up a household system. |
 | `home-safety-review` | skill | Room-by-room home safety audit with priority fixes. Use yearly or with new kids or pets. |
+| `home-security` | skill | Secure homes with cameras, alarms, and lighting. Use for peace of mind. |
 | `hvac-basics` | skill | Run HVAC with filters, thermostat settings, and service timing. Use for comfort and bills. |
 | `label-reader` | skill | Decode food, cleaning, and clothing-care labels into guidance. Use while shopping or sorting laundry. |
 | `lawn-care` | skill | Keep lawns with mowing heights, seeding, and watering. Use for yard care. |

@@ -18,6 +18,7 @@ Rent, buy, inspect, renovate, and decorate.
 | `renovate-room` | flow | Renovate one room on budget without chaos. Use for refreshes. |
 | `renovation-budget` | skill | Budget renovations with contingencies and contractor bids. Use before remodeling. |
 | `rent-guide` | skill | Rent smart with budgets, viewing checklists, and lease terms. Use before signing. |
+| `sell-home` | flow | Sell a home from declutter to moved out. Use when selling. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 
