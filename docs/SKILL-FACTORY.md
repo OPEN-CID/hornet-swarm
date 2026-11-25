@@ -29,9 +29,11 @@ note. Category safety notes (medical/legal) are injected automatically.
 powershell scripts/new-skill.ps1        # interactive: 6 prompts → catalog + skill
 powershell scripts/generate-skills.ps1  # regenerate from catalog (skips hand-written unless -Force)
 powershell scripts/generate-lang-skills.ps1  # regenerate 20 language skills from catalog/languages*.json
-powershell scripts/generate-workflows.ps1    # regenerate workflow plays from catalog/workflows.json
-powershell scripts/rebuild-registry.ps1 # registry.json from skills/*/SKILL.md
+powershell scripts/generate-workflows.ps1    # regenerate workflow plays from catalog/workflows*.json (or custom compose-play for one-offs)
+powershell scripts/rebuild-registry.ps1 # registry.json from skills/*/SKILL.md + workflows/*/SKILL.md
 powershell scripts/generate-wiki.ps1    # wiki/ index + per-category pages
+powershell scripts/generate-router.ps1  # SKILL.md trigger-first router
+powershell scripts/export-site.ps1      # site/skills.json for the website
 powershell scripts/validate.ps1         # spec check, must print PASS
 powershell scripts/install.ps1 -Target .agents/skills
 ```

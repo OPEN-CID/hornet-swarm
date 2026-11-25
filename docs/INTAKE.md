@@ -12,9 +12,10 @@
 ## Details
 
 **1. Issue proposal.** Open a *Skill proposal* issue (template has the 6
-fields). Done. A maintainer pastes it into `catalog/custom.json` and runs:
-`generate-skills.ps1` → `rebuild-registry.ps1` → `generate-wiki.ps1` →
-`validate.ps1`.
+fields). Done. A maintainer pastes it into `catalog/custom.json` (or
+`catalog/workflows*.json` for multi-step plays) and runs the full chain:
+`generate-skills` → `generate-workflows` → `rebuild-registry` →
+`generate-wiki` → `generate-router` → `export-site` → `validate.ps1`.
 
 **2. AI proposer prompt.** Open `templates/PROPOSER-PROMPT.md`, fill in your
 idea, paste into any chatbot, and submit the returned JSON as an issue or PR.
@@ -35,8 +36,11 @@ appends to `catalog/custom.json`, then generates.
 **5. Catalog JSON.** Add skill entries to `catalog/world.json` (core domains),
 `catalog/families.json` (translate/parse/review/playbook), or
 `catalog/custom.json` (community). Add workflow plays to
-`catalog/workflows.json` — rule: single job = skill, multi-step sequence =
-workflow. Then run the generate → registry → wiki → router → validate chain.
+`catalog/workflows*.json` - rule: single job = skill, multi-step sequence =
+workflow. For novel one-off goals, teach `compose-play` instead of storing
+a new file. Then run the full chain (same order as CI):
+`generate-skills` - `generate-workflows` - `rebuild-registry` -
+`generate-wiki` - `generate-router` - `export-site` - `validate.ps1`.
 
 **6. Hand-write.** Copy `templates/SKILL.md` to `skills/<name>/SKILL.md`.
 Required for expert-judgment skills; the generator never overwrites
@@ -51,7 +55,7 @@ catalog/
   world.json      # core task skills (curated)
   families.json   # translate/parse/review/playbook skills (curated)
   languages/      # one JSON per language skill (toolchain, style, idioms, arch, pitfalls)
-  workflows.json  # workflow plays: steps MUST name existing skills (curated)
+  workflows.json, workflows-life.json, ... # workflow plays: steps MUST name existing skills (curated)
   custom.json     # community entries (created by new-skill.ps1)
   imports.json    # created by import-skills.ps1 (git-ignored if noisy)
 templates/

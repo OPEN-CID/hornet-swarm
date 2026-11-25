@@ -25,6 +25,7 @@ Meals, cleaning, maintenance, moves, pets, safety.
 | `pool-care` | skill | Balance pool chemistry with testing and cleaning rhythm. Use for pool owners. |
 | `smart-lock` | skill | Upgrade to smart locks with fit checks and codes. Use for keyless entry. |
 | `sourdough-starter` | skill | Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home. |
+| `start-garden` | flow | Grow food from plan to harvest. Use for garden seasons. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 

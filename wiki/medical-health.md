@@ -5,6 +5,7 @@ Organize health information. Info only - always consult a professional.
 | Skill | Type | Use it when |
 |---|---|---|
 | `fitness-plan` | skill | Build progressive workout plans around goals and limits. Use when starting or fixing a training routine. |
+| `health-checkup` | flow | Do an annual health review with data and tune-ups. Use once a year. Info only; doctors decide. |
 | `health-playbook` | skill | Best-practice playbook for ongoing health routines: meds, activity, sleep, records. Use when building a sustainable health system. |
 | `med-care-review` | skill | Review a home care plan for gaps, interactions, and missing follow-ups. Use monthly or after any medication change. Information only; pharmacist confirms. |
 | `med-discharge-helper` | skill | Turn discharge papers into a home care checklist. Use after a hospital discharge. |

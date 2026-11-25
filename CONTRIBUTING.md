@@ -34,11 +34,14 @@ powershell scripts/new-skill.ps1            # interactive
 powershell scripts/import-skills.ps1 -Csv my-skills.csv   # spreadsheet
 # or edit catalog/custom.json by hand
 
-# 2. generate + index + wiki
+# 2. generate + index + wiki + router + site (same order as CI - all of them, every time)
 powershell scripts/generate-skills.ps1      # task + family skills
-powershell scripts/generate-lang-skills.ps1 # language skills (if languages*.json changed)
-powershell scripts/rebuild-registry.ps1
-powershell scripts/generate-wiki.ps1
+powershell scripts/generate-lang-skills.ps1 # language skills
+powershell scripts/generate-workflows.ps1   # workflow plays
+powershell scripts/rebuild-registry.ps1     # registry.json
+powershell scripts/generate-wiki.ps1        # wiki/
+powershell scripts/generate-router.ps1      # SKILLS.md
+powershell scripts/export-site.ps1          # site/skills.json
 
 # 3. validate (must print PASS, no FAIL)
 powershell scripts/validate.ps1

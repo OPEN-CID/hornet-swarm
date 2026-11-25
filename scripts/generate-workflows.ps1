@@ -93,9 +93,13 @@ __ARTIFACT__
 - If the play grows new branches, split it: propose a new workflow, don't bloat this one.
 '@
 
-$wf = Read-UTF8 (Join-Path $CatalogDir "workflows.json") | ConvertFrom-Json
+$entries = @()
+foreach ($f in Get-ChildItem -Path $CatalogDir -Filter workflows*.json) {
+  $wf = Read-UTF8 $f.FullName | ConvertFrom-Json
+  foreach ($s in $wf.workflows) { $entries += $s }
+}
 $made = 0
-foreach ($s in $wf.workflows) {
+foreach ($s in $entries) {
   $dir = Join-Path $RepoRoot ("workflows/" + $s.name)
   $file = Join-Path $dir "SKILL.md"
   New-Item -ItemType Directory -Force -Path $dir | Out-Null

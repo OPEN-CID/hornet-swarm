@@ -81,10 +81,26 @@ From the Agent Skills spec and Anthropic's engineering notes:
 - **Evaluate in the wild**: if a skill never triggers, its description is wrong,
   not the agent — watch, rename, reword (`skill-fix` issue template).
 
-## Budgets to respect
+## Budgets to respect (measured on this repo)
 
-- Don't install all 405 into a live tool. Install the working set; keep the
-  router for the rest. (Our installer defaults to explicit `-Skills` lists for
-  exactly this reason; full install is opt-in.)
-- One concern per skill keeps descriptions matchable; mega-skills match nothing.
-- Review `SKILLS.md` diff on each release — new skills must earn their trigger words.
+| Layer | What loads | Measured cost |
+|---|---|---|
+| Full preload (never do this) | all 594 SKILL.md bodies | ~245K tokens - guarantees context rot |
+| Registry index | name + description x 594 | ~16K tokens - still over 8K tool budgets |
+| Router (`SKILLS.md`) | trigger phrases x 594 | ~13K tokens - paste per-category (~250 tok each) |
+| One category section | ~12 skills, triggers only | ~250 tokens |
+| One skill body (avg / p99 / max) | single SKILL.md | ~412 / ~888 / ~928 tokens |
+| One MCP `search_skills` hit list | top-10 matches | ~200 tokens, then full skill on demand |
+
+Rules from this: install the working set (L0), keep one router section in
+context (L2), search on demand (L3). Research behind it: performance degrades
+with input length even on trivial tasks, distractors hurt non-uniformly
+(Chroma "Context Rot", 18 LLMs, 2025); attention is a finite budget with
+diminishing returns - keep the smallest high-signal token set, load
+just-in-time, let agents explore (Anthropic, "Effective context engineering",
+2025); prefer prescriptive workflows for fixed sequences, dynamic agents only
+where the path can't be predicted (Anthropic, "Building effective agents",
+2024). Enforced here by: the 500-line spec cap in `validate.ps1`,
+`scripts/measure-context.ps1`, and the generator's split-into-`references/` rule.
+
+- Review `SKILLS.md` diff on each release - new skills must earn their trigger words.

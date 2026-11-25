@@ -5,6 +5,7 @@ Run, lift, stretch, and coach. Info only - pros for injuries.
 | Skill | Type | Use it when |
 |---|---|---|
 | `cycling-start` | skill | Start cycling with fit, gears, and traffic skills. Use for new riders. |
+| `fitness-start` | flow | Get fit with training, food, habits, and sleep. Use for fresh starts. |
 | `golf-basics` | skill | Start golf with grip, swing, and etiquette. Use for beginners. |
 | `home-gym` | skill | Build a home gym with essentials in buy order. Use for home training. |
 | `injury-prevent` | skill | Reduce injury risk with warmups, load rules, and red flags. Use for any training. Info only; see a physio for pain. |
