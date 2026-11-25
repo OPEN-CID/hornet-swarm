@@ -5,6 +5,7 @@ Bake, grill, ferment, brew, and season with confidence.
 | Skill | Type | Use it when |
 |---|---|---|
 | `baking-basics` | skill | Bake reliable breads and cakes with weights, temps, and fixes. Use when starting baking. |
+| `bbq-smoker` | skill | Smoke BBQ low and slow with fire control. Use for brisket and ribs. |
 | `canning-preserving` | skill | Can harvests safely with tested times and seals. Use for preserving. Safety first. |
 | `cocktail-basics` | skill | Mix classic cocktails with ratios and responsible serving. Use for home entertaining. |
 | `coffee-brew` | skill | Brew better coffee with grind, ratio, and method tuning. Use when coffee tastes off. |

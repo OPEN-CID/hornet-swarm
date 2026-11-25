@@ -3,8 +3,22 @@
     "name":  "hornet-swarm-registry",
     "version":  "1.0.0",
     "spec":  "anthropic-agent-skills",
-    "count":  533,
+    "count":  576,
     "skills":  [
+                   {
+                       "name":  "a11y-basics",
+                       "description":  "Make web apps accessible with semantics, focus, and testing. Use for inclusive UI.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/a11y-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "inclusive UI"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
                    {
                        "name":  "adr-writer",
                        "description":  "Record architecture decisions with context, options, and consequences. Use when choosing frameworks, patterns, or data models.",
@@ -48,6 +62,20 @@
                                  ]
                    },
                    {
+                       "name":  "ai-music-guide",
+                       "description":  "Make AI music with prompts and arrangement. Use for demos and content.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/ai-music-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "AI demos and content"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "airflow-basics",
                        "description":  "Schedule pipelines with Airflow DAGs, retries, and alerts. Use for orchestration.",
                        "category":  "data-platforms",
@@ -70,6 +98,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "team AI adoption"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "ai-video-guide",
+                       "description":  "Generate AI videos with prompting and consistent edits. Use for clips and ads.",
+                       "category":  "data-ai",
+                       "kind":  "skill",
+                       "path":  "skills/ai-video-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "AI clips and ads"
                                     ],
                        "steps":  [
 
@@ -286,6 +328,20 @@
                                  ]
                    },
                    {
+                       "name":  "arduino-basics",
+                       "description":  "Build Arduino projects with boards, sensors, and sketches. Use for electronics beginners.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/arduino-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "electronics beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "art-history",
                        "description":  "Enjoy art history with movements and museum tactics. Use for visits.",
                        "category":  "culture",
@@ -413,6 +469,20 @@
                                  ]
                    },
                    {
+                       "name":  "bbq-smoker",
+                       "description":  "Smoke BBQ low and slow with fire control. Use for brisket and ribs.",
+                       "category":  "cooking",
+                       "kind":  "skill",
+                       "path":  "skills/bbq-smoker/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "brisket and ribs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "bee-basics",
                        "description":  "Start beekeeping with hives and mentor paths. Use with local courses.",
                        "category":  "pets",
@@ -491,6 +561,34 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "confusing term sheets or metrics"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "blender-basics",
+                       "description":  "Model in Blender with mesh basics and lighting. Use for 3D beginners.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/blender-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "3D beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "blog-launch",
+                       "description":  "Start blogs with platform, SEO basics, and calendars. Use for new bloggers.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/blog-launch/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new bloggers"
                                     ],
                        "steps":  [
 
@@ -947,6 +1045,20 @@
                                  ]
                    },
                    {
+                       "name":  "chrome-extension",
+                       "description":  "Build Chrome extensions with manifest v3 and store publish. Use for browser tools.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/chrome-extension/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "browser tools"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "ci-pipeline",
                        "description":  "Build fast reliable CI with lint, test, and deploy gates. Use when creating or fixing continuous integration workflows.",
                        "category":  "devops-infra",
@@ -1109,6 +1221,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "college admissions"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "college-fund",
+                       "description":  "Save for college with 529s and gift rules. Use for parents. General info.",
+                       "category":  "wealth",
+                       "kind":  "skill",
+                       "path":  "skills/college-fund/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "saving for college"
                                     ],
                        "steps":  [
 
@@ -1613,6 +1739,34 @@
                                  ]
                    },
                    {
+                       "name":  "desktop-app",
+                       "description":  "Ship desktop apps with Tauri or Electron and auto-update. Use for desktop tools.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/desktop-app/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "desktop tools"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "diagram-as-code",
+                       "description":  "Diagram systems as code with Mermaid and C4 basics. Use for docs that stay current.",
+                       "category":  "docs-research",
+                       "kind":  "skill",
+                       "path":  "skills/diagram-as-code/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "docs that stay current"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "difficult-firing",
                        "description":  "Handle exits legally and humanely with HR. Use with HR guidance only.",
                        "category":  "leadership",
@@ -1761,6 +1915,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "drawing beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "drone-fly",
+                       "description":  "Fly camera drones legally with sharp shots. Use for aerial photo and video. Follow local rules.",
+                       "category":  "hardware",
+                       "kind":  "skill",
+                       "path":  "skills/drone-fly/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "aerial photo and video"
                                     ],
                        "steps":  [
 
@@ -2078,6 +2246,20 @@
                                  ]
                    },
                    {
+                       "name":  "excel-pivot",
+                       "description":  "Analyze with Excel pivots, slicers, and charts. Use for quick business answers.",
+                       "category":  "data-pipeline",
+                       "kind":  "skill",
+                       "path":  "skills/excel-pivot/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "quick business answers"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "expense-audit",
                        "description":  "Find wasteful subscriptions and spending leaks. Use for quarterly money cleanup.",
                        "category":  "legal-finance",
@@ -2365,6 +2547,20 @@
                                  ]
                    },
                    {
+                       "name":  "flutter-app",
+                       "description":  "Build Flutter apps with widgets, state, and store release. Use for cross-platform apps.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/flutter-app/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "cross-platform apps"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "focus-deepwork",
                        "description":  "Design deep-work blocks that survive interruptions. Use when focus is fragmented.",
                        "category":  "mind",
@@ -2401,6 +2597,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "starting client work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "freelance-profile",
+                       "description":  "Win freelance work with profiles and proposals. Use for marketplaces.",
+                       "category":  "career",
+                       "kind":  "skill",
+                       "path":  "skills/freelance-profile/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "freelance marketplaces"
                                     ],
                        "steps":  [
 
@@ -2477,6 +2687,20 @@
                                  ]
                    },
                    {
+                       "name":  "game-audio",
+                       "description":  "Create game audio with SFX and music loops. Use for game sound.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/game-audio/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "game sound"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "game-design",
                        "description":  "Design board or video games with loops and playtests. Use for prototypes.",
                        "category":  "play",
@@ -2485,6 +2709,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "game prototypes"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "game-publish",
+                       "description":  "Release games on Steam or itch.io with page and pricing. Use for launches.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/game-publish/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "game launches"
                                     ],
                        "steps":  [
 
@@ -2648,6 +2886,20 @@
                                  ]
                    },
                    {
+                       "name":  "godot-basics",
+                       "description":  "Build Godot games with nodes, GDScript, and export presets. Use for indie games.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/godot-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "indie games"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "go-game",
                        "description":  "Learn Go with captures and life-and-death basics. Use for beginners.",
                        "category":  "play",
@@ -2656,6 +2908,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "Go beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "golf-basics",
+                       "description":  "Start golf with grip, swing, and etiquette. Use for beginners.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/golf-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "golf beginners"
                                     ],
                        "steps":  [
 
@@ -3264,6 +3530,20 @@
                                  ]
                    },
                    {
+                       "name":  "jet-lag-beat",
+                       "description":  "Beat jet lag with light, sleep, and arrival plans. Use for long flights.",
+                       "category":  "travel",
+                       "kind":  "skill",
+                       "path":  "skills/jet-lag-beat/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "long flights"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "jewelry-start",
                        "description":  "Make jewelry with wire and bead basics. Use for first pieces.",
                        "category":  "craft",
@@ -3663,6 +3943,20 @@
                                  ]
                    },
                    {
+                       "name":  "load-test",
+                       "description":  "Load test with scenarios, thresholds, and bottlenecks. Use before launches.",
+                       "category":  "quality-testing",
+                       "kind":  "skill",
+                       "path":  "skills/load-test/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "pre-launch testing"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "local-gov",
                        "description":  "Navigate councils and permits with contact maps. Use for projects.",
                        "category":  "civic",
@@ -3671,6 +3965,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "permits and projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "logo-design",
+                       "description":  "Design logos from brief to vector files. Use for brands.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/logo-design/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "brand logos"
                                     ],
                        "steps":  [
 
@@ -4077,6 +4385,20 @@
                                  ]
                    },
                    {
+                       "name":  "minecraft-mod",
+                       "description":  "Mod Minecraft with Java mods or datapacks. Use for custom servers and maps.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/minecraft-mod/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "custom Minecraft"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "ml-arch",
                        "description":  "Design ML systems from features to serving to monitoring. Use when shipping models to production.",
                        "category":  "company-arch",
@@ -4085,6 +4407,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "shipping a model to production"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "mobile-app-plan",
+                       "description":  "Plan a mobile app with platform choice, screens, and store release. Use for app ideas.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/mobile-app-plan/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "mobile app ideas"
                                     ],
                        "steps":  [
 
@@ -4245,6 +4581,20 @@
                                  ]
                    },
                    {
+                       "name":  "nda-basics",
+                       "description":  "Use NDAs with scope, term, and red flags. Use before sharing secrets. Lawyer for edge cases.",
+                       "category":  "law-life",
+                       "kind":  "skill",
+                       "path":  "skills/nda-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "sharing secrets"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "neighborhood-safety",
                        "description":  "Build block safety with lighting and watch groups. Use for concerns.",
                        "category":  "civic",
@@ -4365,6 +4715,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "small nonprofit needs"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "nonprofit-start",
+                       "description":  "Start a nonprofit with mission, filing, and board basics. Use for causes. Lawyer for filings.",
+                       "category":  "business-ops",
+                       "kind":  "skill",
+                       "path":  "skills/nonprofit-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "starting a nonprofit"
                                     ],
                        "steps":  [
 
@@ -4982,6 +5346,20 @@
                                  ]
                    },
                    {
+                       "name":  "pixel-art",
+                       "description":  "Make pixel art sprites, tilesets, and animations. Use for 2D games.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/pixel-art/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "2D game art"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "pkm-tools",
                        "description":  "Pick note apps with a migration and backup plan. Use when switching tools.",
                        "category":  "knowledge",
@@ -5051,6 +5429,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "browser testing"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "podcast-launch",
+                       "description":  "Launch podcasts with recording, editing, and RSS feeds. Use for new shows.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/podcast-launch/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new shows"
                                     ],
                        "steps":  [
 
@@ -5248,6 +5640,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "pre-commit-hooks",
+                       "description":  "Run pre-commit hooks for lint and secrets. Use for clean commits.",
+                       "category":  "devops-infra",
+                       "kind":  "skill",
+                       "path":  "skills/pre-commit-hooks/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "clean commits"
                                     ],
                        "steps":  [
 
@@ -5582,6 +5988,20 @@
                                  ]
                    },
                    {
+                       "name":  "react-native-app",
+                       "description":  "Build React Native apps with navigation and over-the-air updates. Use for JS mobile apps.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/react-native-app/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "JS mobile apps"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "react-patterns",
                        "description":  "Build React with hooks, colocation, and server components. Use for React apps.",
                        "category":  "frameworks",
@@ -5646,6 +6066,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "caching layers"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "reef-tank",
+                       "description":  "Run reef tanks with cycling, testing, and coral order. Use for saltwater beginners.",
+                       "category":  "pets",
+                       "kind":  "skill",
+                       "path":  "skills/reef-tank/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "saltwater beginners"
                                     ],
                        "steps":  [
 
@@ -5880,6 +6314,34 @@
                                  ]
                    },
                    {
+                       "name":  "roblox-create",
+                       "description":  "Create Roblox games with Studio, Lua, and monetization. Use for Roblox creators.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/roblox-create/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Roblox creators"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "roommate-guide",
+                       "description":  "Live well with roommates using splits and house rules. Use for shared homes.",
+                       "category":  "relationships",
+                       "kind":  "skill",
+                       "path":  "skills/roommate-guide/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "shared homes"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "ruby-code",
                        "description":  "Write idiomatic Ruby with RuboCop-clean style and RSpec proof. Use for Ruby or Rails code and reviews.",
                        "category":  "languages",
@@ -5943,6 +6405,20 @@
                                  ]
                    },
                    {
+                       "name":  "saas-starter",
+                       "description":  "Launch a SaaS with auth, billing, onboarding, and pricing. Use for product startups.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/saas-starter/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "product startups"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "sailing-basics",
                        "description":  "Learn sailing with points of sail and docking basics. Use for new sailors. Instruction required.",
                        "category":  "outdoors",
@@ -5993,6 +6469,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "prospecting new customers"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "sat-act-prep",
+                       "description":  "Prep for the SAT/ACT with plans and timed practice. Use for college tests.",
+                       "category":  "education",
+                       "kind":  "skill",
+                       "path":  "skills/sat-act-prep/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "college tests"
                                     ],
                        "steps":  [
 
@@ -6122,6 +6612,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "film writing"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "scuba-start",
+                       "description":  "Learn scuba with certification path and safety. Use for future divers. Certify with pros.",
+                       "category":  "outdoors",
+                       "kind":  "skill",
+                       "path":  "skills/scuba-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "future divers"
                                     ],
                        "steps":  [
 
@@ -7005,6 +7509,20 @@
                                  ]
                    },
                    {
+                       "name":  "tennis-start",
+                       "description":  "Start tennis with grip, serve, and rally basics. Use for beginners.",
+                       "category":  "fitness",
+                       "kind":  "skill",
+                       "path":  "skills/tennis-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "tennis beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "terraform-start",
                        "description":  "Manage infra as code with state safety. Use for AWS or cloud setup.",
                        "category":  "cloud",
@@ -7117,6 +7635,20 @@
                                  ]
                    },
                    {
+                       "name":  "twitch-stream",
+                       "description":  "Stream on Twitch with setup, overlays, and mods. Use for new streamers.",
+                       "category":  "everyday-tech",
+                       "kind":  "skill",
+                       "path":  "skills/twitch-stream/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "new streamers"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
                        "name":  "typescript-code",
                        "description":  "Write strict TypeScript with no-explicit-any, discriminated unions, and vitest proof. Use for any TypeScript code or review.",
                        "category":  "languages",
@@ -7142,6 +7674,48 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "daily computer work"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "ukulele-start",
+                       "description":  "Play ukulele with easy chords and strumming. Use for beginners.",
+                       "category":  "music",
+                       "kind":  "skill",
+                       "path":  "skills/ukulele-start/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "ukulele beginners"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "unity-basics",
+                       "description":  "Build Unity games with scenes, prefabs, and C# scripts. Use for Unity projects.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/unity-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Unity projects"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "unreal-basics",
+                       "description":  "Build Unreal games with Blueprints and actors. Use for Unreal projects.",
+                       "category":  "gamedev",
+                       "kind":  "skill",
+                       "path":  "skills/unreal-basics/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "Unreal projects"
                                     ],
                        "steps":  [
 
@@ -7198,6 +7772,20 @@
                        "version":  "0.1.0",
                        "triggers":  [
 
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "video-edit",
+                       "description":  "Edit videos with timelines, cuts, and color basics. Use for YouTube and reels.",
+                       "category":  "creative-media",
+                       "kind":  "skill",
+                       "path":  "skills/video-edit/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "YouTube and reels"
                                     ],
                        "steps":  [
 
@@ -7366,6 +7954,20 @@
                        "version":  "1.0.0",
                        "triggers":  [
                                         "outdoor trip days"
+                                    ],
+                       "steps":  [
+
+                                 ]
+                   },
+                   {
+                       "name":  "webapp-build",
+                       "description":  "Plan and build a web app with stack, auth, database, and deploy. Use for new web apps.",
+                       "category":  "software-build",
+                       "kind":  "skill",
+                       "path":  "skills/webapp-build/SKILL.md",
+                       "version":  "1.0.0",
+                       "triggers":  [
+                                        "building a web app"
                                     ],
                        "steps":  [
 

@@ -19,6 +19,7 @@ Learn anything with tutoring and study systems.
 | `phonics-start` | skill | Teach reading with sounds, blending, and book ladders. Use for early readers. |
 | `physics-tutor` | skill | Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework. |
 | `practice-test-maker` | skill | Turn any chapter into a timed mock test with answer key. Use for exam prep. |
+| `sat-act-prep` | skill | Prep for the SAT/ACT with plans and timed practice. Use for college tests. |
 | `scholarship-search` | skill | Win scholarships with matches and reusable essays. Use for college funding. |
 | `science-fair-guide` | skill | Run science fair projects with question, method, and board. Use for fairs. |
 | `study-doc-parse` | skill | Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material. |

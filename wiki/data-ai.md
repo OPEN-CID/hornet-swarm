@@ -5,6 +5,8 @@ Query, clean, prompt, retrieve, evaluate.
 | Skill | Type | Use it when |
 |---|---|---|
 | `agent-builder` | skill | Build tool-using AI agents with loops and guardrails. Use for agent features. |
+| `ai-music-guide` | skill | Make AI music with prompts and arrangement. Use for demos and content. |
+| `ai-video-guide` | skill | Generate AI videos with prompting and consistent edits. Use for clips and ads. |
 | `anthropic-api-guide` | skill | Use the Anthropic API with keys, models, and prompt cache. Use for Claude features. |
 | `data-clean` | skill | Profile and clean messy datasets with auditable rules. Use when data has nulls, duplicates, or inconsistent formats. |
 | `eval-harness` | skill | Score AI behavior on fixed cases with rubrics and regression gates. Use when shipping or changing any model or prompt. |

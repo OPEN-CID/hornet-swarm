@@ -11,6 +11,7 @@ Dogs, cats, tanks, birds, hens, and bees.
 | `chicken-keep` | skill | Keep backyard hens with coops and local rules. Use for beginners. |
 | `dog-train` | skill | Train dogs with marker basics and loose-leash plans. Use for new dogs. |
 | `pet-insurance` | skill | Choose pet insurance with coverage math. Use for new pets. |
+| `reef-tank` | skill | Run reef tanks with cycling, testing, and coral order. Use for saltwater beginners. |
 
 Install: Copy-Item -Recurse skills/<name> .agents/skills/ - full file: `skills/<name>/SKILL.md`
 

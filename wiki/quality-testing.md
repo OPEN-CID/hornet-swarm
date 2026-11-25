@@ -5,6 +5,7 @@ Prove it works: tests, reviews, QA, performance, security.
 | Skill | Type | Use it when |
 |---|---|---|
 | `code-review` | skill | Perform thorough actionable code reviews with severity-ranked findings. Use when reviewing a diff, PR, or uncommitted changes. |
+| `load-test` | skill | Load test with scenarios, thresholds, and bottlenecks. Use before launches. |
 | `perf-profile` | skill | Measure first, then optimize hot paths with before-after proof. Use when facing slowness, timeouts, or high resource usage. |
 | `playwright-e2e` | skill | Test web flows with Playwright locators and CI runs. Use for browser testing. |
 | `qa-checklist` | skill | Run release-ready quality gates across function, UX, and rollout. Use before any release, merge to main, or demo. |

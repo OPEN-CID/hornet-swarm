@@ -14,6 +14,7 @@ Validate, sell, hire, and operate.
 | `kpi-dashboard` | skill | Define KPIs and dashboard layouts that drive action. Use for team reporting. |
 | `launch-post` | flow | Take a launch post from idea to published with review. Use for launches and announcements. |
 | `marketing-copy` | skill | Write landing pages and ads that convert. Use for launches and campaigns. |
+| `nonprofit-start` | skill | Start a nonprofit with mission, filing, and board basics. Use for causes. Lawyer for filings. |
 | `onboarding-plan` | skill | Build 30-60-90 onboarding for new hires. Use for every new role. |
 | `ops-playbook` | skill | Operating-cadence best practices for calm teams. Use when the team feels chaotic. |
 | `pitch-deck` | skill | Outline investor pitch decks slide by slide. Use before fundraising. |

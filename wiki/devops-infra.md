@@ -15,6 +15,7 @@ Ship and run software reliably.
 | `incident-response` | flow | Run incidents from alert to verified fix with follow-ups. Use for production incidents. |
 | `log-triage` | skill | Triage logs and incidents to scope, cause, and next fix. Use when debugging production alerts or incident reports. |
 | `nginx-config` | skill | Serve sites with Nginx blocks, TLS, and caching. Use for reverse proxies. |
+| `pre-commit-hooks` | skill | Run pre-commit hooks for lint and secrets. Use for clean commits. |
 | `proxmox-basics` | skill | Virtualize home labs with Proxmox VMs and backups. Use for homelabs. |
 | `temporal-guide` | skill | Orchestrate durable workflows with Temporal activities and workers. Use for reliable background work. |
 | `vercel-deploy` | skill | Ship frontends on Vercel with previews and envs. Use for web apps. |

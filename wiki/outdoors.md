@@ -12,6 +12,7 @@ Hike, camp, paddle, and read the wild safely.
 | `kayak-start` | skill | Paddle safely with strokes, rescues, and conditions. Use for flatwater starts. |
 | `navigation-map` | skill | Navigate with map, compass, and phone backup. Use when trails are unmarked. |
 | `sailing-basics` | skill | Learn sailing with points of sail and docking basics. Use for new sailors. Instruction required. |
+| `scuba-start` | skill | Learn scuba with certification path and safety. Use for future divers. Certify with pros. |
 | `ski-basics` | skill | Learn skiing with lessons, turns, and safety. Use for first seasons. Lessons required. |
 | `surf-start` | skill | Start surfing with pop-ups, reading waves, and lineup rules. Use for beginners. Lessons recommended. |
 | `survival-basics` | skill | Learn shelter, water, fire, and signal priorities. Use for backcountry prep. Training recommended. |

@@ -1,6 +1,6 @@
 # Hornet Swarm - Universal Agent Skills
 
-533 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
+576 lightweight, universal (`SKILL.md`) skills and workflows covering every domain where
 AI can help: code, data, business, health, home, DIY, study, science,
 creative work, and career. One folder = one skill. Works in OpenCode,
 Claude Code, Cursor, Copilot, Gemini, Windsurf.
@@ -20,7 +20,7 @@ MCP server for any MCP-capable tool: [`mcp-server/`](mcp-server/).
 
 ## Wiki (browsable index)
 
-Start at [`wiki/README.md`](wiki/README.md) - 50 categories, 523 skills + 10 workflows:
+Start at [`wiki/README.md`](wiki/README.md) - 51 categories, 566 skills + 10 workflows:
 
 | Domain | Skills | Examples |
 |---|---|---|
@@ -47,6 +47,7 @@ Start at [`wiki/README.md`](wiki/README.md) - 50 categories, 523 skills + 10 wor
 | life: craft, music, writing | 26 | `photography-basics`, `guitar-start`, `fiction-write`, `pottery-start` |
 | life: events, civic, safety, eco, pets, culture | 38 | `wedding-plan`, `vote-guide`, `first-aid-basics`, `compost-guide`, `dog-train` |
 | frameworks | 8 | `react-patterns`, `nextjs-app`, `django-patterns`, `fastapi-service` |
+| gamedev | 8 | `unity-basics`, `godot-basics`, `pixel-art`, `game-publish` |
 | vendors: data, clouds, hardware, SaaS | 26 | `snowflake-guide`, `azure-basics`, `nvidia-gpu`, `stripe-setup`, `temporal-guide` |
 | vendors: booking, school, social, APIs | 12 | `flight-book`, `practice-test-maker`, `youtube-channel`, `openai-api-guide` |
 
@@ -78,5 +79,5 @@ Docs: [`docs/PLAN.md`](docs/PLAN.md) (vision) |
 [`docs/WORLD-TAXONOMY.md`](docs/WORLD-TAXONOMY.md) (all domains) |
 [`docs/SKILL-FAMILIES.md`](docs/SKILL-FAMILIES.md) (the 5 kinds) |
 [`CONTRIBUTING.md`](CONTRIBUTING.md) (contribution rules).
-Machine index: [`registry.json`](registry.json) (533 entries: 523 skills + 10 workflows).
+Machine index: [`registry.json`](registry.json) (576 entries: 566 skills + 10 workflows).
 
