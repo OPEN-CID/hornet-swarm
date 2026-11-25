@@ -1,13 +1,13 @@
 ---
 name: calendar-os
-description: Run your calendar with timeblocks and buffers. Use when days fragment.
+description: "Run your calendar with timeblocks and buffers. Use when days fragment."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: fragmented days
+  triggers: "fragmented days"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: visa-prep
-description: Organize visa and entry requirements with documents and timelines. Use for international travel.
+description: "Organize visa and entry requirements with documents and timelines. Use for international travel."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: international trip planning
+  triggers: "international trip planning"
 ---
 
 ## What I do

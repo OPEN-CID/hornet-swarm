@@ -1,13 +1,13 @@
 ---
 name: pool-care
-description: Balance pool chemistry with testing and cleaning rhythm. Use for pool owners.
+description: "Balance pool chemistry with testing and cleaning rhythm. Use for pool owners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: pool owners
+  triggers: "pool owners"
 ---
 
 ## What I do

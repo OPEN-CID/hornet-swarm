@@ -1,13 +1,13 @@
 ---
 name: ski-basics
-description: Learn skiing with lessons, turns, and safety. Use for first seasons. Lessons required.
+description: "Learn skiing with lessons, turns, and safety. Use for first seasons. Lessons required."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: first ski seasons
+  triggers: "first ski seasons"
 ---
 
 ## What I do

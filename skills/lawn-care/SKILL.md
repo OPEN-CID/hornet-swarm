@@ -1,13 +1,13 @@
 ---
 name: lawn-care
-description: Keep lawns with mowing heights, seeding, and watering. Use for yard care.
+description: "Keep lawns with mowing heights, seeding, and watering. Use for yard care."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: yard care
+  triggers: "yard care"
 ---
 
 ## What I do

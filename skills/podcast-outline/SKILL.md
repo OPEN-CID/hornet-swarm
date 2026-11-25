@@ -1,13 +1,13 @@
 ---
 name: podcast-outline
-description: Outline podcast episodes with segments and questions. Use when planning shows.
+description: "Outline podcast episodes with segments and questions. Use when planning shows."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: planning a podcast episode
+  triggers: "planning a podcast episode"
 ---
 
 ## What I do

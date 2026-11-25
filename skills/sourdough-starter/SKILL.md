@@ -1,13 +1,13 @@
 ---
 name: sourdough-starter
-description: Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home.
+description: "Maintain a sourdough starter with feeding ratios and troubleshooting. Use when baking sourdough at home."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: baking sourdough at home
+  triggers: "baking sourdough at home"
 ---
 
 ## What I do

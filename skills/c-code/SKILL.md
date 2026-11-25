@@ -1,6 +1,6 @@
 ---
 name: c-code
-description: Write defensive C with -Werror warnings, explicit sizes, and checked errors. Use for any C code or review.
+description: "Write defensive C with -Werror warnings, explicit sizes, and checked errors. Use for any C code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: C
-  triggers: writing or reviewing C code, setting up C builds with warnings and tests
+  triggers: "writing or reviewing C code, setting up C builds with warnings and tests"
 ---
 
 ## What I do

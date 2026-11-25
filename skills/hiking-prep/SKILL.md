@@ -1,13 +1,13 @@
 ---
 name: hiking-prep
-description: Plan day hikes with gear, food, and turnaround times. Use before any trail.
+description: "Plan day hikes with gear, food, and turnaround times. Use before any trail."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: before any hike
+  triggers: "before any hike"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: freelance-contract
-description: Set client terms with scope, pay, and kill fees. Use before starting work. Templates plus lawyer review.
+description: "Set client terms with scope, pay, and kill fees. Use before starting work. Templates plus lawyer review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting client work
+  triggers: "starting client work"
 ---
 
 ## What I do

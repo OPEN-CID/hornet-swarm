@@ -1,13 +1,13 @@
 ---
 name: databricks-guide
-description: Build on Databricks with jobs, Delta Lake, and Unity Catalog. Use for Databricks lakehouses.
+description: "Build on Databricks with jobs, Delta Lake, and Unity Catalog. Use for Databricks lakehouses."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: Databricks lakehouse work
+  triggers: "Databricks lakehouse work"
 ---
 
 ## What I do

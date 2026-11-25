@@ -1,13 +1,13 @@
 ---
 name: med-care-review
-description: Review a home care plan for gaps, interactions, and missing follow-ups. Use monthly or after any medication change. Information only; pharmacist confirms.
+description: "Review a home care plan for gaps, interactions, and missing follow-ups. Use monthly or after any medication change. Information only; pharmacist confirms."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: monthly care review, after medication changes
+  triggers: "monthly care review, after medication changes"
 ---
 
 ## What I do

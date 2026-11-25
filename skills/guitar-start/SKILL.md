@@ -1,13 +1,13 @@
 ---
 name: guitar-start
-description: Play guitar with chords and practice loops. Use for beginners.
+description: "Play guitar with chords and practice loops. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: guitar beginners
+  triggers: "guitar beginners"
 ---
 
 ## What I do

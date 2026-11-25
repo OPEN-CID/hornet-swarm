@@ -1,13 +1,13 @@
 ---
 name: burnout-recover
-description: Recover from burnout with rest, boundaries, and load repair. Use when depleted. Pros for clinical issues.
+description: "Recover from burnout with rest, boundaries, and load repair. Use when depleted. Pros for clinical issues."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: feeling depleted
+  triggers: "feeling depleted"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: fermentation-basics
-description: Ferment kimchi, kraut, and pickles safely with salt ratios. Use when starting ferments.
+description: "Ferment kimchi, kraut, and pickles safely with salt ratios. Use when starting ferments."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting ferments
+  triggers: "starting ferments"
 ---
 
 ## What I do

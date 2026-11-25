@@ -1,13 +1,13 @@
 ---
 name: ukulele-start
-description: Play ukulele with easy chords and strumming. Use for beginners.
+description: "Play ukulele with easy chords and strumming. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: ukulele beginners
+  triggers: "ukulele beginners"
 ---
 
 ## What I do

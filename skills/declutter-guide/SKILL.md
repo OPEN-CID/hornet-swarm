@@ -1,13 +1,13 @@
 ---
 name: declutter-guide
-description: Declutter room by room with keep rules and donation flow. Use when overwhelmed.
+description: "Declutter room by room with keep rules and donation flow. Use when overwhelmed."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: overwhelming clutter
+  triggers: "overwhelming clutter"
 ---
 
 ## What I do

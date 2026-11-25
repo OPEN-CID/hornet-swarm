@@ -1,6 +1,6 @@
 ---
 name: javascript-code
-description: Write modern JavaScript (ESM, async await) with eslint-clean style. Use for Node or browser JS code and reviews.
+description: "Write modern JavaScript (ESM, async await) with eslint-clean style. Use for Node or browser JS code and reviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: JavaScript
-  triggers: writing or reviewing JavaScript code, setting up Node builds, lint, or tests
+  triggers: "writing or reviewing JavaScript code, setting up Node builds, lint, or tests"
 ---
 
 ## What I do

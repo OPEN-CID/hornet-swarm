@@ -1,13 +1,13 @@
 ---
 name: minecraft-mod
-description: Mod Minecraft with Java mods or datapacks. Use for custom servers and maps.
+description: "Mod Minecraft with Java mods or datapacks. Use for custom servers and maps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: custom Minecraft
+  triggers: "custom Minecraft"
 ---
 
 ## What I do

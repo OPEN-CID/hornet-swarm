@@ -1,13 +1,13 @@
 ---
 name: breakup-recover
-description: Recover from breakups with structure and support. Use after a split.
+description: "Recover from breakups with structure and support. Use after a split."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: after a split
+  triggers: "after a split"
 ---
 
 ## What I do

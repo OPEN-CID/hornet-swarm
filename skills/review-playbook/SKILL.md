@@ -1,13 +1,13 @@
 ---
 name: review-playbook
-description: Best practices for running fast, kind, effective code reviews. Use when setting team review culture.
+description: "Best practices for running fast, kind, effective code reviews. Use when setting team review culture."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: quality-testing
   version: 1.0.0
   author: hornet-swarm
-  triggers: setting team review culture
+  triggers: "setting team review culture"
 ---
 
 ## What I do

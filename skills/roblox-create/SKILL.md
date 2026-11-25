@@ -1,13 +1,13 @@
 ---
 name: roblox-create
-description: Create Roblox games with Studio, Lua, and monetization. Use for Roblox creators.
+description: "Create Roblox games with Studio, Lua, and monetization. Use for Roblox creators."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: Roblox creators
+  triggers: "Roblox creators"
 ---
 
 ## What I do

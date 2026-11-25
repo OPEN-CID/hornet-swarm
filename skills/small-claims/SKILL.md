@@ -1,13 +1,13 @@
 ---
 name: small-claims
-description: File small claims with evidence packets and procedure. Use for minor disputes. General info.
+description: "File small claims with evidence packets and procedure. Use for minor disputes. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: minor disputes
+  triggers: "minor disputes"
 ---
 
 ## What I do

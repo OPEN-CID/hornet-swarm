@@ -1,13 +1,13 @@
 ---
 name: budget-travel
-description: Cut trip costs with swaps that keep the experience. Use when the trip must cost less.
+description: "Cut trip costs with swaps that keep the experience. Use when the trip must cost less."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: trip must cost less
+  triggers: "trip must cost less"
 ---
 
 ## What I do

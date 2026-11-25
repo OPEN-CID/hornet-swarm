@@ -1,13 +1,13 @@
 ---
 name: trip-plan
-description: Plan a complete trip from budget to bookings with day-by-day flow. Use when starting any vacation or work trip.
+description: "Plan a complete trip from budget to bookings with day-by-day flow. Use when starting any vacation or work trip."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting trip planning
+  triggers: "starting trip planning"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: drawing-start
-description: Draw with lines, shapes, and 30-day drills. Use for beginners.
+description: "Draw with lines, shapes, and 30-day drills. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: drawing beginners
+  triggers: "drawing beginners"
 ---
 
 ## What I do

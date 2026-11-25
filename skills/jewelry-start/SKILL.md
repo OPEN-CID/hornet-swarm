@@ -1,13 +1,13 @@
 ---
 name: jewelry-start
-description: Make jewelry with wire and bead basics. Use for first pieces.
+description: "Make jewelry with wire and bead basics. Use for first pieces."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: first pieces
+  triggers: "first pieces"
 ---
 
 ## What I do

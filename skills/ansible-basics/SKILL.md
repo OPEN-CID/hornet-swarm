@@ -1,13 +1,13 @@
 ---
 name: ansible-basics
-description: Manage servers with Ansible roles and idempotent runs. Use for fleet config.
+description: "Manage servers with Ansible roles and idempotent runs. Use for fleet config."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: fleet config
+  triggers: "fleet config"
 ---
 
 ## What I do

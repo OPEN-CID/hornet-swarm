@@ -1,13 +1,13 @@
 ---
 name: ai-music-guide
-description: Make AI music with prompts and arrangement. Use for demos and content.
+description: "Make AI music with prompts and arrangement. Use for demos and content."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: AI demos and content
+  triggers: "AI demos and content"
 ---
 
 ## What I do

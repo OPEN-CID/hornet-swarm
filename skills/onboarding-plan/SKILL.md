@@ -1,13 +1,13 @@
 ---
 name: onboarding-plan
-description: Build 30-60-90 onboarding for new hires. Use for every new role.
+description: "Build 30-60-90 onboarding for new hires. Use for every new role."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: onboarding a new hire
+  triggers: "onboarding a new hire"
 ---
 
 ## What I do

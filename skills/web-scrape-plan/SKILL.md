@@ -1,13 +1,13 @@
 ---
 name: web-scrape-plan
-description: Plan ethical scraping with rate limits and legal checks. Use when gathering public web data.
+description: "Plan ethical scraping with rate limits and legal checks. Use when gathering public web data."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: gathering public web data
+  triggers: "gathering public web data"
 ---
 
 ## What I do

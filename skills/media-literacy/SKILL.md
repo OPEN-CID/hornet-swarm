@@ -1,13 +1,13 @@
 ---
 name: media-literacy
-description: Read news critically with source checks. Use daily.
+description: "Read news critically with source checks. Use daily."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
-  triggers: daily news
+  triggers: "daily news"
 ---
 
 ## What I do

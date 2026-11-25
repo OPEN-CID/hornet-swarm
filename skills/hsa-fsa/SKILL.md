@@ -1,13 +1,13 @@
 ---
 name: hsa-fsa
-description: Use HSAs and FSAs with contribution math. Use for benefits season. General info.
+description: "Use HSAs and FSAs with contribution math. Use for benefits season. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: benefits season
+  triggers: "benefits season"
 ---
 
 ## What I do

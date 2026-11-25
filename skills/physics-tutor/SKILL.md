@@ -1,13 +1,13 @@
 ---
 name: physics-tutor
-description: Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework.
+description: "Explain physics with worked examples and unit checks. Use for mechanics and electromagnetism homework."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: physics homework, exam revision
+  triggers: "physics homework, exam revision"
 ---
 
 ## What I do

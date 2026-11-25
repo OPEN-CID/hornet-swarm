@@ -1,13 +1,13 @@
 ---
 name: party-plan
-description: Host parties with themes, food math, and flow. Use for celebrations.
+description: "Host parties with themes, food math, and flow. Use for celebrations."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
-  triggers: celebrations
+  triggers: "celebrations"
 ---
 
 ## What I do

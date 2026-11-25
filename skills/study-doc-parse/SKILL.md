@@ -1,13 +1,13 @@
 ---
 name: study-doc-parse
-description: Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material.
+description: "Turn textbook chapters or PDFs into notes, key terms, and self-test questions. Use when reading dense material."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: reading dense study material
+  triggers: "reading dense study material"
 ---
 
 ## What I do

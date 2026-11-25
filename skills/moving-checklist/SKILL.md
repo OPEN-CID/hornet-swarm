@@ -1,13 +1,13 @@
 ---
 name: moving-checklist
-description: Plan a move with timeline, boxes, and address changes. Use when relocating.
+description: "Plan a move with timeline, boxes, and address changes. Use when relocating."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: planning a move
+  triggers: "planning a move"
 ---
 
 ## What I do

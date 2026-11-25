@@ -1,13 +1,13 @@
 ---
 name: baking-basics
-description: Bake reliable breads and cakes with weights, temps, and fixes. Use when starting baking.
+description: "Bake reliable breads and cakes with weights, temps, and fixes. Use when starting baking."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting baking
+  triggers: "starting baking"
 ---
 
 ## What I do

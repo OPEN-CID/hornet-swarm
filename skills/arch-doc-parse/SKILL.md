@@ -1,13 +1,13 @@
 ---
 name: arch-doc-parse
-description: Parse existing architecture docs into a current-state map. Use when inheriting a system.
+description: "Parse existing architecture docs into a current-state map. Use when inheriting a system."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: inheriting an unfamiliar system
+  triggers: "inheriting an unfamiliar system"
 ---
 
 ## What I do

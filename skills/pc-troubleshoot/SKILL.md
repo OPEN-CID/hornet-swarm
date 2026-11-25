@@ -1,13 +1,13 @@
 ---
 name: pc-troubleshoot
-description: Fix slow or broken PCs with a safe checklist. Use before repair shops.
+description: "Fix slow or broken PCs with a safe checklist. Use before repair shops."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: PC problems
+  triggers: "PC problems"
 ---
 
 ## What I do

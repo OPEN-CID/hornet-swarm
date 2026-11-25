@@ -1,13 +1,13 @@
 ---
 name: baby-sleep
-description: Build baby sleep with routines and gentle methods. Use for tired households. Pediatrician decides health issues.
+description: "Build baby sleep with routines and gentle methods. Use for tired households. Pediatrician decides health issues."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: tired households
+  triggers: "tired households"
 ---
 
 ## What I do

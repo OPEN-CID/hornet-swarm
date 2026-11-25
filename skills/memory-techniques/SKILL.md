@@ -1,13 +1,13 @@
 ---
 name: memory-techniques
-description: Remember names and facts with loci and spaced recall. Use before exams or events.
+description: "Remember names and facts with loci and spaced recall. Use before exams or events."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: exams or networking events
+  triggers: "exams or networking events"
 ---
 
 ## What I do

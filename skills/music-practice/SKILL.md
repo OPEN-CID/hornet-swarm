@@ -1,13 +1,13 @@
 ---
 name: music-practice
-description: Build deliberate music practice routines. Use when learning an instrument.
+description: "Build deliberate music practice routines. Use when learning an instrument."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: learning an instrument
+  triggers: "learning an instrument"
 ---
 
 ## What I do

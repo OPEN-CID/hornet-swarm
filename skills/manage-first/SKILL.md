@@ -1,13 +1,13 @@
 ---
 name: manage-first
-description: Manage your first team with 1:1s and clear expectations. Use for new managers.
+description: "Manage your first team with 1:1s and clear expectations. Use for new managers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: new managers
+  triggers: "new managers"
 ---
 
 ## What I do

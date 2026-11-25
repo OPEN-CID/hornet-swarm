@@ -1,13 +1,13 @@
 ---
 name: motorcycle-basics
-description: Start motorcycling with licensing, gear, and training. Use for new riders. Training required.
+description: "Start motorcycling with licensing, gear, and training. Use for new riders. Training required."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: new riders
+  triggers: "new riders"
 ---
 
 ## What I do

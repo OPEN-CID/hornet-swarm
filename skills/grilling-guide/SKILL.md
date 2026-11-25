@@ -1,13 +1,13 @@
 ---
 name: grilling-guide
-description: Grill with zones, temps, and rest times for meat and veg. Use for barbecue season.
+description: "Grill with zones, temps, and rest times for meat and veg. Use for barbecue season."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: barbecue season
+  triggers: "barbecue season"
 ---
 
 ## What I do

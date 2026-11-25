@@ -1,13 +1,13 @@
 ---
 name: application-review
-description: Pre-submit review of resume and letter against the post. Use before hitting apply.
+description: "Pre-submit review of resume and letter against the post. Use before hitting apply."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: before submitting an application
+  triggers: "before submitting an application"
 ---
 
 ## What I do

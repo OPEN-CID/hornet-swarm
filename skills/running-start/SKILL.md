@@ -1,13 +1,13 @@
 ---
 name: running-start
-description: Start running injury-free with walk-run plans and shoe basics. Use for couch-to-5K.
+description: "Start running injury-free with walk-run plans and shoe basics. Use for couch-to-5K."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting running
+  triggers: "starting running"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: promotion-case
-description: Earn promotions with evidence packets and sponsors. Use before review cycles.
+description: "Earn promotions with evidence packets and sponsors. Use before review cycles."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: review cycles
+  triggers: "review cycles"
 ---
 
 ## What I do

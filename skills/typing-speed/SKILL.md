@@ -1,13 +1,13 @@
 ---
 name: typing-speed
-description: Type faster with home-row drills and posture. Use for daily computer work.
+description: "Type faster with home-row drills and posture. Use for daily computer work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: daily computer work
+  triggers: "daily computer work"
 ---
 
 ## What I do

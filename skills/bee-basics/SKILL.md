@@ -1,13 +1,13 @@
 ---
 name: bee-basics
-description: Start beekeeping with hives and mentor paths. Use with local courses.
+description: "Start beekeeping with hives and mentor paths. Use with local courses."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: beekeeping interest
+  triggers: "beekeeping interest"
 ---
 
 ## What I do

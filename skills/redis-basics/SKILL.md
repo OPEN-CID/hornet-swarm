@@ -1,13 +1,13 @@
 ---
 name: redis-basics
-description: Cache with Redis using TTLs, eviction, and persistence picks. Use for speed layers.
+description: "Cache with Redis using TTLs, eviction, and persistence picks. Use for speed layers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: caching layers
+  triggers: "caching layers"
 ---
 
 ## What I do

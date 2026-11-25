@@ -1,13 +1,13 @@
 ---
 name: insurance-guide
-description: Buy the right insurance with coverage math. Use for life, health, and home cover. Educational.
+description: "Buy the right insurance with coverage math. Use for life, health, and home cover. Educational."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: choosing insurance
+  triggers: "choosing insurance"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: cat-care
-description: Care for cats with litter, play, and vet rhythms. Use for new cats.
+description: "Care for cats with litter, play, and vet rhythms. Use for new cats."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: new cats
+  triggers: "new cats"
 ---
 
 ## What I do

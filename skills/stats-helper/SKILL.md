@@ -1,13 +1,13 @@
 ---
 name: stats-helper
-description: Pick the right statistical test and interpret output. Use when analyzing results.
+description: "Pick the right statistical test and interpret output. Use when analyzing results."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: analyzing experimental results
+  triggers: "analyzing experimental results"
 ---
 
 ## What I do

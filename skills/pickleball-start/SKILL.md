@@ -1,13 +1,13 @@
 ---
 name: pickleball-start
-description: Start pickleball with rules, dinks, and court manners. Use for beginners.
+description: "Start pickleball with rules, dinks, and court manners. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: pickleball beginners
+  triggers: "pickleball beginners"
 ---
 
 ## What I do

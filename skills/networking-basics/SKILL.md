@@ -1,13 +1,13 @@
 ---
 name: networking-basics
-description: Understand IPs, DNS, and TLS for debugging. Use for connectivity issues.
+description: "Understand IPs, DNS, and TLS for debugging. Use for connectivity issues."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: connectivity issues
+  triggers: "connectivity issues"
 ---
 
 ## What I do

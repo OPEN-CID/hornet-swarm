@@ -1,13 +1,13 @@
 ---
 name: crypto-basics
-description: Understand crypto risks and custody before touching it. Use for curiosity first. Educational.
+description: "Understand crypto risks and custody before touching it. Use for curiosity first. Educational."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: crypto curiosity
+  triggers: "crypto curiosity"
 ---
 
 ## What I do

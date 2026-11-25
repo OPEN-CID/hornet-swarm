@@ -1,13 +1,13 @@
 ---
 name: parenting-routine
-description: Design morning and bedtime routines for kids. Use when days feel chaotic.
+description: "Design morning and bedtime routines for kids. Use when days feel chaotic."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: chaotic family mornings or bedtimes
+  triggers: "chaotic family mornings or bedtimes"
 ---
 
 ## What I do

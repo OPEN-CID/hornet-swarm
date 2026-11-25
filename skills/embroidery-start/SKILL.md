@@ -1,13 +1,13 @@
 ---
 name: embroidery-start
-description: Embroider with basic stitches and pattern transfer. Use for first hoops.
+description: "Embroider with basic stitches and pattern transfer. Use for first hoops."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: first hoops
+  triggers: "first hoops"
 ---
 
 ## What I do

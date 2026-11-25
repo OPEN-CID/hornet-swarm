@@ -1,13 +1,13 @@
 ---
 name: pet-insurance
-description: Choose pet insurance with coverage math. Use for new pets.
+description: "Choose pet insurance with coverage math. Use for new pets."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: new pets
+  triggers: "new pets"
 ---
 
 ## What I do

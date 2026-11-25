@@ -1,13 +1,13 @@
 ---
 name: postgres-tune
-description: Tune Postgres with indexes, vacuum, and EXPLAIN. Use for slow databases.
+description: "Tune Postgres with indexes, vacuum, and EXPLAIN. Use for slow databases."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: slow Postgres
+  triggers: "slow Postgres"
 ---
 
 ## What I do

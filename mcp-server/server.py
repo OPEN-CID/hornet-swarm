@@ -20,6 +20,15 @@ import sys
 PROTOCOL_VERSION = "2024-11-05"
 
 
+def unquote(value):
+    """Strip one layer of YAML double quotes (generators quote values
+    containing ': ' so strict parsers accept them)."""
+    t = value.strip()
+    if len(t) >= 2 and t.startswith('"') and t.endswith('"'):
+        t = t[1:-1].replace('\\"', '"').replace('\\\\', '\\')
+    return t
+
+
 def parse_skill(path):
     """Return dict(name, description, category, triggers, body) or None."""
     try:
@@ -34,10 +43,10 @@ def parse_skill(path):
     def field(key):
         mm = re.search(r"(?m)^\s*" + re.escape(key) + r":\s*(.+?)\s*$", fm)
         return mm.group(1).strip() if mm else ""
-    trigs = [t.strip() for t in field("triggers").split(",") if t.strip()]
+    trigs = [t.strip() for t in unquote(field("triggers")).split(",") if t.strip()]
     return {
         "name": field("name") or os.path.basename(os.path.dirname(path)),
-        "description": field("description"),
+        "description": unquote(field("description")),
         "category": field("category"),
         "triggers": trigs,
         "body": body.strip(),

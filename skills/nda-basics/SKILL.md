@@ -1,13 +1,13 @@
 ---
 name: nda-basics
-description: Use NDAs with scope, term, and red flags. Use before sharing secrets. Lawyer for edge cases.
+description: "Use NDAs with scope, term, and red flags. Use before sharing secrets. Lawyer for edge cases."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: sharing secrets
+  triggers: "sharing secrets"
 ---
 
 ## What I do

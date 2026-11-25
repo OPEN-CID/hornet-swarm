@@ -1,13 +1,13 @@
 ---
 name: api-spec-parse
-description: Parse OpenAPI specs and docs into client code and test lists. Use when integrating a third-party API.
+description: "Parse OpenAPI specs and docs into client code and test lists. Use when integrating a third-party API."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: integrating a third-party API
+  triggers: "integrating a third-party API"
 ---
 
 ## What I do

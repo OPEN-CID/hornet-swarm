@@ -1,13 +1,13 @@
 ---
 name: build-review
-description: Pre-cut review of plans for safety, measurements, and missing steps. Use before any irreversible cut.
+description: "Pre-cut review of plans for safety, measurements, and missing steps. Use before any irreversible cut."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: before cutting materials
+  triggers: "before cutting materials"
 ---
 
 ## What I do

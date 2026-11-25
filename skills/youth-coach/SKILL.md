@@ -1,13 +1,13 @@
 ---
 name: youth-coach
-description: Coach kids sports with fun-first practices and safety. Use for volunteer coaches.
+description: "Coach kids sports with fun-first practices and safety. Use for volunteer coaches."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: volunteer coaching
+  triggers: "volunteer coaching"
 ---
 
 ## What I do

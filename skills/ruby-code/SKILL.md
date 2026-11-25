@@ -1,6 +1,6 @@
 ---
 name: ruby-code
-description: Write idiomatic Ruby with RuboCop-clean style and RSpec proof. Use for Ruby or Rails code and reviews.
+description: "Write idiomatic Ruby with RuboCop-clean style and RSpec proof. Use for Ruby or Rails code and reviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Ruby
-  triggers: writing or reviewing Ruby code, setting up RuboCop or RSpec
+  triggers: "writing or reviewing Ruby code, setting up RuboCop or RSpec"
 ---
 
 ## What I do

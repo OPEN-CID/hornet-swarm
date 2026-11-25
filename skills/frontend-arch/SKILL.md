@@ -1,13 +1,13 @@
 ---
 name: frontend-arch
-description: Design frontend architecture with routing, state, and boundaries. Use when scaffolding or scaling a UI codebase.
+description: "Design frontend architecture with routing, state, and boundaries. Use when scaffolding or scaling a UI codebase."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: scaffolding or scaling frontend code
+  triggers: "scaffolding or scaling frontend code"
 ---
 
 ## What I do

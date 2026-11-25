@@ -1,13 +1,13 @@
 ---
 name: nextjs-app
-description: Build Next.js apps with routing, caching, and server actions. Use for Next.js projects.
+description: "Build Next.js apps with routing, caching, and server actions. Use for Next.js projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: Next.js projects
+  triggers: "Next.js projects"
 ---
 
 ## What I do

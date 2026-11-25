@@ -1,13 +1,13 @@
 ---
 name: graphql-api
-description: Design GraphQL schemas with pagination and N+1-free resolvers. Use for GraphQL APIs.
+description: "Design GraphQL schemas with pagination and N+1-free resolvers. Use for GraphQL APIs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: GraphQL APIs
+  triggers: "GraphQL APIs"
 ---
 
 ## What I do

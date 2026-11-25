@@ -1,6 +1,6 @@
 ---
 name: go-code
-description: Write idiomatic Go with wrapped errors, table tests, and race-clean concurrency. Use for any Go code or review.
+description: "Write idiomatic Go with wrapped errors, table tests, and race-clean concurrency. Use for any Go code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Go
-  triggers: writing or reviewing Go code, setting up Go modules, vet, or tests
+  triggers: "writing or reviewing Go code, setting up Go modules, vet, or tests"
 ---
 
 ## What I do

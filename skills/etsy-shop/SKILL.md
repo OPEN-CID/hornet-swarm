@@ -1,13 +1,13 @@
 ---
 name: etsy-shop
-description: Sell handmade goods on Etsy with SEO titles and pricing. Use for craft sellers.
+description: "Sell handmade goods on Etsy with SEO titles and pricing. Use for craft sellers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: selling handmade goods
+  triggers: "selling handmade goods"
 ---
 
 ## What I do

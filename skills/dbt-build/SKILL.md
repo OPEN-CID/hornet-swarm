@@ -1,13 +1,13 @@
 ---
 name: dbt-build
-description: Model transforms with dbt: staging, marts, tests, docs. Use for SQL pipelines.
+description: "Model transforms with dbt: staging, marts, tests, docs. Use for SQL pipelines."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: SQL transform pipelines
+  triggers: "SQL transform pipelines"
 ---
 
 ## What I do

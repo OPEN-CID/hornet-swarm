@@ -1,13 +1,13 @@
 ---
 name: diagram-as-code
-description: Diagram systems as code with Mermaid and C4 basics. Use for docs that stay current.
+description: "Diagram systems as code with Mermaid and C4 basics. Use for docs that stay current."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: docs-research
   version: 1.0.0
   author: hornet-swarm
-  triggers: docs that stay current
+  triggers: "docs that stay current"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: knitting-start
-description: Knit scarves with cast-on and fix ladders. Use for first projects.
+description: "Knit scarves with cast-on and fix ladders. Use for first projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: first knits
+  triggers: "first knits"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: potty-train
-description: Potty train with readiness signs and calm routines. Use for toddlers.
+description: "Potty train with readiness signs and calm routines. Use for toddlers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: toddler training
+  triggers: "toddler training"
 ---
 
 ## What I do

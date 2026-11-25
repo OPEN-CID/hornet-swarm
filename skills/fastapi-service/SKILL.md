@@ -1,13 +1,13 @@
 ---
 name: fastapi-service
-description: Build FastAPI services with Pydantic, dependencies, and docs. Use for Python APIs.
+description: "Build FastAPI services with Pydantic, dependencies, and docs. Use for Python APIs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: Python APIs
+  triggers: "Python APIs"
 ---
 
 ## What I do

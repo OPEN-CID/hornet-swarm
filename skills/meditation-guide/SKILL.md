@@ -1,13 +1,13 @@
 ---
 name: meditation-guide
-description: Start meditating with 5-minute sessions and posture basics. Use for calm and focus.
+description: "Start meditating with 5-minute sessions and posture basics. Use for calm and focus."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: wanting calm and focus
+  triggers: "wanting calm and focus"
 ---
 
 ## What I do

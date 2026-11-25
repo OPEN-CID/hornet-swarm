@@ -1,13 +1,13 @@
 ---
 name: strength-basics
-description: Learn the big lifts with form cues and progression. Use when starting barbells.
+description: "Learn the big lifts with form cues and progression. Use when starting barbells."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting barbell training
+  triggers: "starting barbell training"
 ---
 
 ## What I do

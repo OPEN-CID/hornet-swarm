@@ -1,13 +1,13 @@
 ---
 name: nvidia-gpu
-description: Set up NVIDIA GPUs with drivers, CUDA, and VRAM sizing. Use for ML or gaming rigs.
+description: "Set up NVIDIA GPUs with drivers, CUDA, and VRAM sizing. Use for ML or gaming rigs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: ML rigs or gaming GPUs
+  triggers: "ML rigs or gaming GPUs"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: citation-check
-description: Verify claims against cited sources. Use when fact-checking writing.
+description: "Verify claims against cited sources. Use when fact-checking writing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: fact-checking a draft
+  triggers: "fact-checking a draft"
 ---
 
 ## What I do

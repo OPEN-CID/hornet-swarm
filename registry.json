@@ -433,8 +433,7 @@
                        "path":  "skills/backend-arch/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "splitting a monolith",
-                                        "starting a new service"
+                                        "splitting a monolith, starting a new service"
                                     ],
                        "steps":  [
 
@@ -686,8 +685,7 @@
                        "path":  "skills/budget-plan/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "money feels chaotic",
-                                        "starting to save"
+                                        "money feels chaotic, starting to save"
                                     ],
                        "steps":  [
 
@@ -981,8 +979,7 @@
                        "path":  "skills/c-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing C code",
-                                        "setting up C builds with warnings and tests"
+                                        "writing or reviewing C code, setting up C builds with warnings and tests"
                                     ],
                        "steps":  [
 
@@ -1304,8 +1301,7 @@
                        "path":  "skills/contract-reader/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "before signing a contract",
-                                        "reviewing terms of service"
+                                        "before signing a contract, reviewing terms of service"
                                     ],
                        "steps":  [
 
@@ -1361,10 +1357,7 @@
                        "path":  "skills/cpp-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing C++ code",
-                                        "setting up CMake builds",
-                                        "clang-tidy",
-                                        "or sanitizers"
+                                        "writing or reviewing C++ code, setting up CMake builds, clang-tidy, or sanitizers"
                                     ],
                        "steps":  [
 
@@ -1448,10 +1441,7 @@
                        "path":  "skills/csharp-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing C# code",
-                                        "setting up .NET builds",
-                                        "analyzers",
-                                        "or tests"
+                                        "writing or reviewing C# code, setting up .NET builds, analyzers, or tests"
                                     ],
                        "steps":  [
 
@@ -1493,8 +1483,7 @@
                        "path":  "skills/dart-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Dart or Flutter code",
-                                        "setting up Flutter analyze or widget tests"
+                                        "writing or reviewing Dart or Flutter code, setting up Flutter analyze or widget tests"
                                     ],
                        "steps":  [
 
@@ -2026,10 +2015,7 @@
                        "path":  "skills/elixir-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Elixir code",
-                                        "setting up Mix",
-                                        "Credo",
-                                        "or ExUnit"
+                                        "writing or reviewing Elixir code, setting up Mix, Credo, or ExUnit"
                                     ],
                        "steps":  [
 
@@ -2267,8 +2253,7 @@
                        "path":  "skills/expense-audit/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "quarterly money cleanup",
-                                        "cutting spending"
+                                        "quarterly money cleanup, cutting spending"
                                     ],
                        "steps":  [
 
@@ -2282,8 +2267,7 @@
                        "path":  "skills/experiment-design/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "testing a hypothesis",
-                                        "planning an experiment"
+                                        "testing a hypothesis, planning an experiment"
                                     ],
                        "steps":  [
 
@@ -2465,8 +2449,7 @@
                        "path":  "skills/fitness-plan/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "starting a training routine",
-                                        "fixing a stalled program"
+                                        "starting a training routine, fixing a stalled program"
                                     ],
                        "steps":  [
 
@@ -2480,14 +2463,10 @@
                        "path":  "workflows/fix-hotfix/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "fixing a bug",
-                                        "production defect"
+                                        "fixing a bug, production defect"
                                     ],
                        "steps":  [
-                                     "debugging",
-                                     "test-generator",
-                                     "code-review",
-                                     "pr-create"
+                                     "debugging, test-generator, code-review, pr-create"
                                  ]
                    },
                    {
@@ -2876,10 +2855,7 @@
                        "path":  "skills/go-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Go code",
-                                        "setting up Go modules",
-                                        "vet",
-                                        "or tests"
+                                        "writing or reviewing Go code, setting up Go modules, vet, or tests"
                                     ],
                        "steps":  [
 
@@ -3061,8 +3037,7 @@
                        "path":  "skills/handoff-notes/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "on-call rotations",
-                                        "shift changes"
+                                        "on-call rotations, shift changes"
                                     ],
                        "steps":  [
 
@@ -3188,14 +3163,10 @@
                        "path":  "workflows/home-move/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "relocating",
-                                        "moving house"
+                                        "relocating, moving house"
                                     ],
                        "steps":  [
-                                     "moving-checklist",
-                                     "declutter-guide",
-                                     "home-safety-review",
-                                     "budget-plan"
+                                     "moving-checklist, declutter-guide, home-safety-review, budget-plan"
                                  ]
                    },
                    {
@@ -3220,8 +3191,7 @@
                        "path":  "skills/home-safety-review/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "yearly safety check",
-                                        "new kids or pets"
+                                        "yearly safety check, new kids or pets"
                                     ],
                        "steps":  [
 
@@ -3361,14 +3331,10 @@
                        "path":  "workflows/incident-response/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "production incident",
-                                        "service alert"
+                                        "production incident, service alert"
                                     ],
                        "steps":  [
-                                     "log-triage",
-                                     "debugging",
-                                     "deploy-checklist",
-                                     "meeting-notes"
+                                     "log-triage, debugging, deploy-checklist, meeting-notes"
                                  ]
                    },
                    {
@@ -3505,8 +3471,7 @@
                        "path":  "skills/java-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Java code",
-                                        "setting up Maven or Gradle builds and tests"
+                                        "writing or reviewing Java code, setting up Maven or Gradle builds and tests"
                                     ],
                        "steps":  [
 
@@ -3520,10 +3485,7 @@
                        "path":  "skills/javascript-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing JavaScript code",
-                                        "setting up Node builds",
-                                        "lint",
-                                        "or tests"
+                                        "writing or reviewing JavaScript code, setting up Node builds, lint, or tests"
                                     ],
                        "steps":  [
 
@@ -3691,10 +3653,7 @@
                        "path":  "skills/kotlin-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Kotlin code",
-                                        "setting up Gradle builds",
-                                        "detekt",
-                                        "or tests"
+                                        "writing or reviewing Kotlin code, setting up Gradle builds, detekt, or tests"
                                     ],
                        "steps":  [
 
@@ -3792,13 +3751,10 @@
                        "path":  "workflows/launch-post/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "launching something",
-                                        "announcement post"
+                                        "launching something, announcement post"
                                     ],
                        "steps":  [
-                                     "marketing-copy",
-                                     "blog-writer",
-                                     "content-review"
+                                     "marketing-copy, blog-writer, content-review"
                                  ]
                    },
                    {
@@ -3879,8 +3835,7 @@
                        "path":  "skills/legal-doc-parse/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "summarizing a legal file",
-                                        "comparing contract versions"
+                                        "summarizing a legal file, comparing contract versions"
                                     ],
                        "steps":  [
 
@@ -4020,10 +3975,7 @@
                        "path":  "skills/lua-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Lua code",
-                                        "setting up stylua",
-                                        "luacheck",
-                                        "or busted"
+                                        "writing or reviewing Lua code, setting up stylua, luacheck, or busted"
                                     ],
                        "steps":  [
 
@@ -4135,8 +4087,7 @@
                        "path":  "skills/math-tutor/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "stuck on math homework",
-                                        "preparing for a math test"
+                                        "stuck on math homework, preparing for a math test"
                                     ],
                        "steps":  [
 
@@ -4150,8 +4101,7 @@
                        "path":  "skills/meal-plan/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "weekly cooking",
-                                        "planning family dinners"
+                                        "weekly cooking, planning family dinners"
                                     ],
                        "steps":  [
 
@@ -4179,8 +4129,7 @@
                        "path":  "skills/med-care-review/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "monthly care review",
-                                        "after medication changes"
+                                        "monthly care review, after medication changes"
                                     ],
                        "steps":  [
 
@@ -4194,8 +4143,7 @@
                        "path":  "skills/med-discharge-helper/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "after a hospital discharge",
-                                        "understanding discharge papers"
+                                        "after a hospital discharge, understanding discharge papers"
                                     ],
                        "steps":  [
 
@@ -4293,8 +4241,7 @@
                        "path":  "skills/med-symptom-triage/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "preparing for a doctor appointment",
-                                        "organizing symptoms to report"
+                                        "preparing for a doctor appointment, organizing symptoms to report"
                                     ],
                        "steps":  [
 
@@ -4770,8 +4717,7 @@
                        "path":  "skills/nutrition-plan/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "meal planning for health goals",
-                                        "eating on a budget"
+                                        "meal planning for health goals, eating on a budget"
                                     ],
                        "steps":  [
 
@@ -4841,14 +4787,10 @@
                        "path":  "workflows/onboard-hire/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "new hire starting",
-                                        "onboarding someone"
+                                        "new hire starting, onboarding someone"
                                     ],
                        "steps":  [
-                                     "hiring-interview",
-                                     "onboarding-plan",
-                                     "repo-onboarder",
-                                     "meeting-notes"
+                                     "hiring-interview, onboarding-plan, repo-onboarder, meeting-notes"
                                  ]
                    },
                    {
@@ -5251,10 +5193,7 @@
                        "path":  "skills/php-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing PHP code",
-                                        "setting up Composer",
-                                        "phpstan",
-                                        "or Pest"
+                                        "writing or reviewing PHP code, setting up Composer, phpstan, or Pest"
                                     ],
                        "steps":  [
 
@@ -5282,8 +5221,7 @@
                        "path":  "skills/physics-tutor/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "physics homework",
-                                        "exam revision"
+                                        "physics homework, exam revision"
                                     ],
                        "steps":  [
 
@@ -5395,15 +5333,10 @@
                        "path":  "workflows/plan-trip/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "planning a vacation",
-                                        "trip from scratch"
+                                        "planning a vacation, trip from scratch"
                                     ],
                        "steps":  [
-                                     "trip-plan",
-                                     "itinerary-builder",
-                                     "budget-travel",
-                                     "packing-list",
-                                     "travel-safety"
+                                     "trip-plan, itinerary-builder, budget-travel, packing-list, travel-safety"
                                  ]
                    },
                    {
@@ -5610,8 +5543,7 @@
                        "path":  "skills/powershell-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing PowerShell code",
-                                        "setting up PSScriptAnalyzer or Pester"
+                                        "writing or reviewing PowerShell code, setting up PSScriptAnalyzer or Pester"
                                     ],
                        "steps":  [
 
@@ -5835,12 +5767,10 @@
                        "path":  "workflows/publish-newsletter/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "weekly newsletter",
-                                        "publishing an issue"
+                                        "weekly newsletter, publishing an issue"
                                     ],
                        "steps":  [
-                                     "newsletter-writer",
-                                     "content-review"
+                                     "newsletter-writer, content-review"
                                  ]
                    },
                    {
@@ -5865,10 +5795,7 @@
                        "path":  "skills/python-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Python code",
-                                        "setting up Python packaging",
-                                        "tests",
-                                        "or lint"
+                                        "writing or reviewing Python code, setting up Python packaging, tests, or lint"
                                     ],
                        "steps":  [
 
@@ -5980,8 +5907,7 @@
                        "path":  "skills/r-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing R code",
-                                        "setting up renv or testthat"
+                                        "writing or reviewing R code, setting up renv or testthat"
                                     ],
                        "steps":  [
 
@@ -6219,14 +6145,10 @@
                        "path":  "workflows/research-dossier/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "researching a decision",
-                                        "due diligence"
+                                        "researching a decision, due diligence"
                                     ],
                        "steps":  [
-                                     "tech-research",
-                                     "paper-summarizer",
-                                     "citation-check",
-                                     "report-writing"
+                                     "tech-research, paper-summarizer, citation-check, report-writing"
                                  ]
                    },
                    {
@@ -6349,8 +6271,7 @@
                        "path":  "skills/ruby-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Ruby code",
-                                        "setting up RuboCop or RSpec"
+                                        "writing or reviewing Ruby code, setting up RuboCop or RSpec"
                                     ],
                        "steps":  [
 
@@ -6364,13 +6285,10 @@
                        "path":  "workflows/run-event/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "hosting an event",
-                                        "party planning"
+                                        "hosting an event, party planning"
                                     ],
                        "steps":  [
-                                     "party-plan",
-                                     "event-budget",
-                                     "toast-speech"
+                                     "party-plan, event-budget, toast-speech"
                                  ]
                    },
                    {
@@ -6395,10 +6313,7 @@
                        "path":  "skills/rust-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Rust code",
-                                        "setting up Cargo workspaces",
-                                        "clippy",
-                                        "or tests"
+                                        "writing or reviewing Rust code, setting up Cargo workspaces, clippy, or tests"
                                     ],
                        "steps":  [
 
@@ -6496,10 +6411,7 @@
                        "path":  "skills/scala-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Scala code",
-                                        "setting up sbt builds",
-                                        "scalafmt",
-                                        "or tests"
+                                        "writing or reviewing Scala code, setting up sbt builds, scalafmt, or tests"
                                     ],
                        "steps":  [
 
@@ -6737,8 +6649,7 @@
                        "path":  "skills/shell-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing shell scripts",
-                                        "setting up shellcheck or bats"
+                                        "writing or reviewing shell scripts, setting up shellcheck or bats"
                                     ],
                        "steps":  [
 
@@ -6752,16 +6663,10 @@
                        "path":  "workflows/ship-feature/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "building a feature",
-                                        "shipping code"
+                                        "building a feature, shipping code"
                                     ],
                        "steps":  [
-                                     "git-branch",
-                                     "task-planner",
-                                     "tdd-workflow",
-                                     "test-generator",
-                                     "code-review",
-                                     "pr-create"
+                                     "git-branch, task-planner, tdd-workflow, test-generator, code-review, pr-create"
                                  ]
                    },
                    {
@@ -6884,8 +6789,7 @@
                        "path":  "skills/sleep-improve/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "trouble sleeping",
-                                        "daytime fatigue"
+                                        "trouble sleeping, daytime fatigue"
                                     ],
                        "steps":  [
 
@@ -7333,8 +7237,7 @@
                        "path":  "skills/swift-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing Swift code",
-                                        "setting up SPM packages or XCTest"
+                                        "writing or reviewing Swift code, setting up SPM packages or XCTest"
                                     ],
                        "steps":  [
 
@@ -7656,10 +7559,7 @@
                        "path":  "skills/typescript-code/SKILL.md",
                        "version":  "1.0.0",
                        "triggers":  [
-                                        "writing or reviewing TypeScript code",
-                                        "setting up TypeScript builds",
-                                        "lint",
-                                        "or tests"
+                                        "writing or reviewing TypeScript code, setting up TypeScript builds, lint, or tests"
                                     ],
                        "steps":  [
 

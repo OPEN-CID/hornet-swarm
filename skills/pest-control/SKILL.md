@@ -1,13 +1,13 @@
 ---
 name: pest-control
-description: Handle pests with sealing, traps, and pro thresholds. Use for infestations.
+description: "Handle pests with sealing, traps, and pro thresholds. Use for infestations."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: infestations
+  triggers: "infestations"
 ---
 
 ## What I do

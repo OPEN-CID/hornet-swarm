@@ -1,13 +1,13 @@
 ---
 name: used-car-review
-description: Inspect used cars with a 100-point check before paying. Use before any used purchase.
+description: "Inspect used cars with a 100-point check before paying. Use before any used purchase."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: used car purchase
+  triggers: "used car purchase"
 ---
 
 ## What I do

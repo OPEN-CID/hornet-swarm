@@ -1,13 +1,13 @@
 ---
 name: vue-patterns
-description: Build Vue with composition API, Pinia, and SFC structure. Use for Vue apps.
+description: "Build Vue with composition API, Pinia, and SFC structure. Use for Vue apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: Vue apps
+  triggers: "Vue apps"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: will-basics
-description: Understand wills, guardians, and executors before seeing a lawyer. Use for planning. Info only.
+description: "Understand wills, guardians, and executors before seeing a lawyer. Use for planning. Info only."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: estate planning
+  triggers: "estate planning"
 ---
 
 ## What I do

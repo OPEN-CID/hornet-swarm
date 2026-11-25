@@ -1,13 +1,13 @@
 ---
 name: dashboard-design
-description: Design dashboards that answer decisions. Use for BI and reporting work.
+description: "Design dashboards that answer decisions. Use for BI and reporting work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: building BI dashboards
+  triggers: "building BI dashboards"
 ---
 
 ## What I do

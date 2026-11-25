@@ -1,13 +1,13 @@
 ---
 name: climate-basics
-description: Grasp climate with sources and local impacts. Use for literacy.
+description: "Grasp climate with sources and local impacts. Use for literacy."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: climate literacy
+  triggers: "climate literacy"
 ---
 
 ## What I do

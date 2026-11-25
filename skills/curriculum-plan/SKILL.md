@@ -1,13 +1,13 @@
 ---
 name: curriculum-plan
-description: Design a self-study syllabus with milestones. Use when learning a subject solo.
+description: "Design a self-study syllabus with milestones. Use when learning a subject solo."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: learning a subject solo
+  triggers: "learning a subject solo"
 ---
 
 ## What I do

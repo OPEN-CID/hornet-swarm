@@ -1,13 +1,13 @@
 ---
 name: art-history
-description: Enjoy art history with movements and museum tactics. Use for visits.
+description: "Enjoy art history with movements and museum tactics. Use for visits."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
-  triggers: museum visits
+  triggers: "museum visits"
 ---
 
 ## What I do

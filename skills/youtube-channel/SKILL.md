@@ -1,13 +1,13 @@
 ---
 name: youtube-channel
-description: Grow a channel with niches, packaging, and schedules. Use for creators.
+description: "Grow a channel with niches, packaging, and schedules. Use for creators."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting a channel
+  triggers: "starting a channel"
 ---
 
 ## What I do

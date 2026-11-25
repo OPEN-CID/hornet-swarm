@@ -1,13 +1,13 @@
 ---
 name: pkm-tools
-description: Pick note apps with a migration and backup plan. Use when switching tools.
+description: "Pick note apps with a migration and backup plan. Use when switching tools."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: switching note tools
+  triggers: "switching note tools"
 ---
 
 ## What I do

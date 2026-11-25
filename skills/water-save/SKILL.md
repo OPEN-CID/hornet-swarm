@@ -1,13 +1,13 @@
 ---
 name: water-save
-description: Save water with fixture and habit fixes. Use for high bills.
+description: "Save water with fixture and habit fixes. Use for high bills."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: high water bills
+  triggers: "high water bills"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: print-3d
-description: Prepare models for 3D printing with slicer settings. Use when printing parts.
+description: "Prepare models for 3D printing with slicer settings. Use when printing parts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: printing a 3D part
+  triggers: "printing a 3D part"
 ---
 
 ## What I do

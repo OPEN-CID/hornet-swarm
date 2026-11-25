@@ -1,13 +1,13 @@
 ---
 name: sustainable-shop
-description: Shop sustainably with labels and longevity. Use for purchases.
+description: "Shop sustainably with labels and longevity. Use for purchases."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: conscious purchases
+  triggers: "conscious purchases"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: points-miles
-description: Use points and miles with transfer partners and sweet spots. Use for award travel.
+description: "Use points and miles with transfer partners and sweet spots. Use for award travel."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: award travel
+  triggers: "award travel"
 ---
 
 ## What I do

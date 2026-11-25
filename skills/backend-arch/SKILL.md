@@ -1,13 +1,13 @@
 ---
 name: backend-arch
-description: Design service boundaries, APIs, and data ownership. Use when splitting monoliths or starting services.
+description: "Design service boundaries, APIs, and data ownership. Use when splitting monoliths or starting services."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: splitting a monolith, starting a new service
+  triggers: "splitting a monolith, starting a new service"
 ---
 
 ## What I do

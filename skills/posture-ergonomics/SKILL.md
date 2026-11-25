@@ -1,13 +1,13 @@
 ---
 name: posture-ergonomics
-description: Fix desk setup with chair, screen, and microbreaks. Use for neck and back pain.
+description: "Fix desk setup with chair, screen, and microbreaks. Use for neck and back pain."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: neck and back pain
+  triggers: "neck and back pain"
 ---
 
 ## What I do

@@ -1,6 +1,6 @@
 ---
 name: lua-code
-description: Write clean Lua with locals discipline, 1-index awareness, and busted proof. Use for Lua, Neovim plugins, or game scripting.
+description: "Write clean Lua with locals discipline, 1-index awareness, and busted proof. Use for Lua, Neovim plugins, or game scripting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Lua
-  triggers: writing or reviewing Lua code, setting up stylua, luacheck, or busted
+  triggers: "writing or reviewing Lua code, setting up stylua, luacheck, or busted"
 ---
 
 ## What I do

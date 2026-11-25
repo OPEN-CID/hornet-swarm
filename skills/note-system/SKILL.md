@@ -1,13 +1,13 @@
 ---
 name: note-system
-description: Build a note system you actually retrieve from. Use when notes go to die.
+description: "Build a note system you actually retrieve from. Use when notes go to die."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: notes going nowhere
+  triggers: "notes going nowhere"
 ---
 
 ## What I do

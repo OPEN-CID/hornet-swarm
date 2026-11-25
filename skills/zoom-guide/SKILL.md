@@ -1,13 +1,13 @@
 ---
 name: zoom-guide
-description: Host Zoom meetings with settings, recordings, and etiquette. Use for remote meetings.
+description: "Host Zoom meetings with settings, recordings, and etiquette. Use for remote meetings."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: remote meetings
+  triggers: "remote meetings"
 ---
 
 ## What I do

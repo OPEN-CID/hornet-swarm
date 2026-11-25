@@ -1,13 +1,13 @@
 ---
 name: pytorch-start
-description: Train PyTorch models with data loaders and eval loops. Use for deep learning.
+description: "Train PyTorch models with data loaders and eval loops. Use for deep learning."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: deep learning
+  triggers: "deep learning"
 ---
 
 ## What I do

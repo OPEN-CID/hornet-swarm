@@ -1,13 +1,13 @@
 ---
 name: sci-term-translate
-description: Translate dense paper jargon and units into plain explanations. Use when a paper is unreadable.
+description: "Translate dense paper jargon and units into plain explanations. Use when a paper is unreadable."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: unreadable academic papers
+  triggers: "unreadable academic papers"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: genetics-basics
-description: Understand DNA tests and traits with limits. Use for test results. Info only.
+description: "Understand DNA tests and traits with limits. Use for test results. Info only."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: DNA test results
+  triggers: "DNA test results"
 ---
 
 ## What I do

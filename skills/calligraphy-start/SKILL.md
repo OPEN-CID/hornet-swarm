@@ -1,13 +1,13 @@
 ---
 name: calligraphy-start
-description: Letter with strokes and exemplar sheets. Use for invitations.
+description: "Letter with strokes and exemplar sheets. Use for invitations."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: invitation lettering
+  triggers: "invitation lettering"
 ---
 
 ## What I do

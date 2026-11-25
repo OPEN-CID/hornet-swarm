@@ -1,6 +1,6 @@
 ---
 name: plan-trip
-description: Plan a complete trip from idea to packed bag. Use for any vacation.
+description: "Plan a complete trip from idea to packed bag. Use for any vacation."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: planning a vacation, trip from scratch
-  steps: trip-plan, itinerary-builder, budget-travel, packing-list, travel-safety
+  triggers: "planning a vacation, trip from scratch"
+  steps: "trip-plan, itinerary-builder, budget-travel, packing-list, travel-safety"
 ---
 
 ## What I do

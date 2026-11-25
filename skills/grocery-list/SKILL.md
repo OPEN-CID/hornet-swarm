@@ -1,13 +1,13 @@
 ---
 name: grocery-list
-description: Turn meal plans into organized shopping lists. Use before grocery runs.
+description: "Turn meal plans into organized shopping lists. Use before grocery runs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: before grocery shopping
+  triggers: "before grocery shopping"
 ---
 
 ## What I do

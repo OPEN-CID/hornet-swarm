@@ -1,13 +1,13 @@
 ---
 name: auth-patterns
-description: Add auth with OAuth/OIDC, sessions, and safe token storage. Use for login features.
+description: "Add auth with OAuth/OIDC, sessions, and safe token storage. Use for login features."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: login features
+  triggers: "login features"
 ---
 
 ## What I do

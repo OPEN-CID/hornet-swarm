@@ -1,13 +1,13 @@
 ---
 name: hotel-book
-description: Book hotels with location, cancellation, and loyalty math. Use for stays.
+description: "Book hotels with location, cancellation, and loyalty math. Use for stays."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: booking stays
+  triggers: "booking stays"
 ---
 
 ## What I do

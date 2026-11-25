@@ -1,13 +1,13 @@
 ---
 name: health-playbook
-description: Best-practice playbook for ongoing health routines: meds, activity, sleep, records. Use when building a sustainable health system.
+description: "Best-practice playbook for ongoing health routines: meds, activity, sleep, records. Use when building a sustainable health system."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: building a sustainable health routine
+  triggers: "building a sustainable health routine"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: knife-skills
-description: Learn safe cuts with grip, motion, and practice drills. Use when cooking feels slow or unsafe.
+description: "Learn safe cuts with grip, motion, and practice drills. Use when cooking feels slow or unsafe."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: slow or unsafe prep
+  triggers: "slow or unsafe prep"
 ---
 
 ## What I do

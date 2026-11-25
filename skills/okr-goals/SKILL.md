@@ -1,13 +1,13 @@
 ---
 name: okr-goals
-description: Set OKRs with outcomes and weekly check-ins. Use for team focus.
+description: "Set OKRs with outcomes and weekly check-ins. Use for team focus."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: productivity
   version: 1.0.0
   author: hornet-swarm
-  triggers: team focus
+  triggers: "team focus"
 ---
 
 ## What I do

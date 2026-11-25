@@ -1,13 +1,13 @@
 ---
 name: ssl-guide
-description: Ship HTTPS with certs and renewal automation. Use for any site.
+description: "Ship HTTPS with certs and renewal automation. Use for any site."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: any website
+  triggers: "any website"
 ---
 
 ## What I do

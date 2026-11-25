@@ -1,13 +1,13 @@
 ---
 name: conflict-repair
-description: Repair after fights with acknowledgment and change plans. Use after any argument.
+description: "Repair after fights with acknowledgment and change plans. Use after any argument."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: after arguments
+  triggers: "after arguments"
 ---
 
 ## What I do

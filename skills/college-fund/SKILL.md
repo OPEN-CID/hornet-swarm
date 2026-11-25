@@ -1,13 +1,13 @@
 ---
 name: college-fund
-description: Save for college with 529s and gift rules. Use for parents. General info.
+description: "Save for college with 529s and gift rules. Use for parents. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: saving for college
+  triggers: "saving for college"
 ---
 
 ## What I do

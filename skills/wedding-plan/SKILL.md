@@ -1,13 +1,13 @@
 ---
 name: wedding-plan
-description: Plan weddings with budgets, vendors, and timelines. Use for engagements.
+description: "Plan weddings with budgets, vendors, and timelines. Use for engagements."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
-  triggers: engagements
+  triggers: "engagements"
 ---
 
 ## What I do

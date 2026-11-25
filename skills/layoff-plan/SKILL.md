@@ -1,13 +1,13 @@
 ---
 name: layoff-plan
-description: Navigate layoffs with runway, benefits, and job search. Use after a layoff.
+description: "Navigate layoffs with runway, benefits, and job search. Use after a layoff."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: after a layoff
+  triggers: "after a layoff"
 ---
 
 ## What I do

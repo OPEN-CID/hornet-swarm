@@ -1,13 +1,13 @@
 ---
 name: phishing-spot
-description: Spot phishing with header and urgency checks. Use for suspicious mail.
+description: "Spot phishing with header and urgency checks. Use for suspicious mail."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: suspicious mail
+  triggers: "suspicious mail"
 ---
 
 ## What I do

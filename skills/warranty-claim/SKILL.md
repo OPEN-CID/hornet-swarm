@@ -1,13 +1,13 @@
 ---
 name: warranty-claim
-description: Claim warranties with proof packets and escalation ladders. Use for broken products.
+description: "Claim warranties with proof packets and escalation ladders. Use for broken products."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: broken products
+  triggers: "broken products"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: edit-proofread
-description: Edit drafts with passes for structure and line. Use before publishing.
+description: "Edit drafts with passes for structure and line. Use before publishing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: before publishing
+  triggers: "before publishing"
 ---
 
 ## What I do

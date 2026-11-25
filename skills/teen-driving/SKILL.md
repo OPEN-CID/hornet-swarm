@@ -1,13 +1,13 @@
 ---
 name: teen-driving
-description: Teach teens to drive with practice hours and test prep. Use for new drivers.
+description: "Teach teens to drive with practice hours and test prep. Use for new drivers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: new teen drivers
+  triggers: "new teen drivers"
 ---
 
 ## What I do

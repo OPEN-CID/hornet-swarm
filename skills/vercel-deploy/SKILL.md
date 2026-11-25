@@ -1,13 +1,13 @@
 ---
 name: vercel-deploy
-description: Ship frontends on Vercel with previews and envs. Use for web apps.
+description: "Ship frontends on Vercel with previews and envs. Use for web apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: web app deploys
+  triggers: "web app deploys"
 ---
 
 ## What I do

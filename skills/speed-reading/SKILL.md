@@ -1,13 +1,13 @@
 ---
 name: speed-reading
-description: Read faster with retention checks and skimming strategy. Use for heavy reading loads.
+description: "Read faster with retention checks and skimming strategy. Use for heavy reading loads."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: heavy reading loads
+  triggers: "heavy reading loads"
 ---
 
 ## What I do

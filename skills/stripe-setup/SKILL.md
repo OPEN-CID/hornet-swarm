@@ -1,13 +1,13 @@
 ---
 name: stripe-setup
-description: Accept payments with Stripe products, webhooks, and test mode. Use for online billing.
+description: "Accept payments with Stripe products, webhooks, and test mode. Use for online billing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: online billing
+  triggers: "online billing"
 ---
 
 ## What I do

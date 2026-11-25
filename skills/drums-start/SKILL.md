@@ -1,13 +1,13 @@
 ---
 name: drums-start
-description: Start drums with grip, rudiments, and timing. Use for beginners.
+description: "Start drums with grip, rudiments, and timing. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: drum beginners
+  triggers: "drum beginners"
 ---
 
 ## What I do

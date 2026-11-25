@@ -1,13 +1,13 @@
 ---
 name: photography-basics
-description: Shoot manual with exposure triangle and composition. Use for new cameras.
+description: "Shoot manual with exposure triangle and composition. Use for new cameras."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: new cameras
+  triggers: "new cameras"
 ---
 
 ## What I do

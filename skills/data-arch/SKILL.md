@@ -1,13 +1,13 @@
 ---
 name: data-arch
-description: Design warehouse layouts and data contracts. Use when unifying analytics data.
+description: "Design warehouse layouts and data contracts. Use when unifying analytics data."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: unifying analytics data
+  triggers: "unifying analytics data"
 ---
 
 ## What I do

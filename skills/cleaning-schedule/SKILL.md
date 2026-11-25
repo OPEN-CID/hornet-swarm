@@ -1,13 +1,13 @@
 ---
 name: cleaning-schedule
-description: Build room-by-room cleaning routines. Use when the house needs a system.
+description: "Build room-by-room cleaning routines. Use when the house needs a system."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: house needs a cleaning system
+  triggers: "house needs a cleaning system"
 ---
 
 ## What I do

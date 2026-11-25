@@ -1,13 +1,13 @@
 ---
 name: recycling-guide
-description: Recycle right with local rules and sorting. Use for households.
+description: "Recycle right with local rules and sorting. Use for households."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: household recycling
+  triggers: "household recycling"
 ---
 
 ## What I do

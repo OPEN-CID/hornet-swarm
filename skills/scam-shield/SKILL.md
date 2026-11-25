@@ -1,13 +1,13 @@
 ---
 name: scam-shield
-description: Stop scams with verification habits and response scripts. Use for suspicious messages.
+description: "Stop scams with verification habits and response scripts. Use for suspicious messages."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: suspicious messages
+  triggers: "suspicious messages"
 ---
 
 ## What I do

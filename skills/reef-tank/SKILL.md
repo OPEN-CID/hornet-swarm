@@ -1,13 +1,13 @@
 ---
 name: reef-tank
-description: Run reef tanks with cycling, testing, and coral order. Use for saltwater beginners.
+description: "Run reef tanks with cycling, testing, and coral order. Use for saltwater beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: saltwater beginners
+  triggers: "saltwater beginners"
 ---
 
 ## What I do

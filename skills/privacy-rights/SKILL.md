@@ -1,13 +1,13 @@
 ---
 name: privacy-rights
-description: Exercise data rights with deletion and opt-out scripts. Use for privacy cleanup. General info.
+description: "Exercise data rights with deletion and opt-out scripts. Use for privacy cleanup. General info."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: law-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: privacy cleanup
+  triggers: "privacy cleanup"
 ---
 
 ## What I do

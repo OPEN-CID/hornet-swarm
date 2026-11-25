@@ -1,13 +1,13 @@
 ---
 name: car-breakdown
-description: Handle breakdowns with safe stops and call scripts. Use for road trouble.
+description: "Handle breakdowns with safe stops and call scripts. Use for road trouble."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: road trouble
+  triggers: "road trouble"
 ---
 
 ## What I do

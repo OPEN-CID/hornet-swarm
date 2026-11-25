@@ -1,13 +1,13 @@
 ---
 name: rent-guide
-description: Rent smart with budgets, viewing checklists, and lease terms. Use before signing.
+description: "Rent smart with budgets, viewing checklists, and lease terms. Use before signing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: before renting
+  triggers: "before renting"
 ---
 
 ## What I do

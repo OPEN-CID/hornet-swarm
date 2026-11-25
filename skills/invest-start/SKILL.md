@@ -1,13 +1,13 @@
 ---
 name: invest-start
-description: Start investing with index basics and account order. Use for first investments. Educational, not advice.
+description: "Start investing with index basics and account order. Use for first investments. Educational, not advice."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: first investments
+  triggers: "first investments"
 ---
 
 ## What I do

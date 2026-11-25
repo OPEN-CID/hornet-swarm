@@ -1,13 +1,13 @@
 ---
 name: data-playbook
-description: Data-engineering best practices for trusted pipelines. Use when setting team standards.
+description: "Data-engineering best practices for trusted pipelines. Use when setting team standards."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: setting data team standards
+  triggers: "setting data team standards"
 ---
 
 ## What I do

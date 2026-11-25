@@ -1,13 +1,13 @@
 ---
 name: home-maintenance
-description: Track seasonal home maintenance tasks. Use for yearly house care.
+description: "Track seasonal home maintenance tasks. Use for yearly house care."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: yearly house care planning
+  triggers: "yearly house care planning"
 ---
 
 ## What I do

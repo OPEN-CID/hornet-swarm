@@ -1,13 +1,13 @@
 ---
 name: paint-guide
-description: Paint rooms with prep, coats, and finish picks. Use for DIY painting.
+description: "Paint rooms with prep, coats, and finish picks. Use for DIY painting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: DIY painting
+  triggers: "DIY painting"
 ---
 
 ## What I do

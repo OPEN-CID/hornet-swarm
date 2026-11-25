@@ -1,13 +1,13 @@
 ---
 name: habit-builder
-description: Build lasting habits with tiny starts and environment design. Use for any new habit.
+description: "Build lasting habits with tiny starts and environment design. Use for any new habit."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting new habits
+  triggers: "starting new habits"
 ---
 
 ## What I do

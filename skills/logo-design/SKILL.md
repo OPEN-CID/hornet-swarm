@@ -1,13 +1,13 @@
 ---
 name: logo-design
-description: Design logos from brief to vector files. Use for brands.
+description: "Design logos from brief to vector files. Use for brands."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: brand logos
+  triggers: "brand logos"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: home-safety-review
-description: Room-by-room home safety audit with priority fixes. Use yearly or with new kids or pets.
+description: "Room-by-room home safety audit with priority fixes. Use yearly or with new kids or pets."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: yearly safety check, new kids or pets
+  triggers: "yearly safety check, new kids or pets"
 ---
 
 ## What I do

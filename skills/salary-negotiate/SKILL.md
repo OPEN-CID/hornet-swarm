@@ -1,13 +1,13 @@
 ---
 name: salary-negotiate
-description: Plan negotiation scripts with ranges and walk-aways. Use with an offer in hand.
+description: "Plan negotiation scripts with ranges and walk-aways. Use with an offer in hand."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: negotiating a job offer
+  triggers: "negotiating a job offer"
 ---
 
 ## What I do

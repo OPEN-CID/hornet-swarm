@@ -1,13 +1,13 @@
 ---
 name: neighborhood-safety
-description: Build block safety with lighting and watch groups. Use for concerns.
+description: "Build block safety with lighting and watch groups. Use for concerns."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
-  triggers: safety concerns
+  triggers: "safety concerns"
 ---
 
 ## What I do

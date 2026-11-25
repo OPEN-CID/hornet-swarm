@@ -1,13 +1,13 @@
 ---
 name: arduino-basics
-description: Build Arduino projects with boards, sensors, and sketches. Use for electronics beginners.
+description: "Build Arduino projects with boards, sensors, and sketches. Use for electronics beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: hardware
   version: 1.0.0
   author: hornet-swarm
-  triggers: electronics beginners
+  triggers: "electronics beginners"
 ---
 
 ## What I do

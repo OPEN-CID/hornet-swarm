@@ -1,13 +1,13 @@
 ---
 name: bird-care
-description: Keep birds with diet, light, and enrichment. Use for new birds.
+description: "Keep birds with diet, light, and enrichment. Use for new birds."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: pets
   version: 1.0.0
   author: hornet-swarm
-  triggers: new birds
+  triggers: "new birds"
 ---
 
 ## What I do

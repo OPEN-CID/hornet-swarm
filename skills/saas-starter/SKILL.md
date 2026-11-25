@@ -1,13 +1,13 @@
 ---
 name: saas-starter
-description: Launch a SaaS with auth, billing, onboarding, and pricing. Use for product startups.
+description: "Launch a SaaS with auth, billing, onboarding, and pricing. Use for product startups."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: product startups
+  triggers: "product startups"
 ---
 
 ## What I do

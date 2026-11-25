@@ -1,6 +1,6 @@
 ---
 name: kotlin-code
-description: Write null-safe Kotlin with coroutines discipline and detekt-clean code. Use for any Kotlin code or review.
+description: "Write null-safe Kotlin with coroutines discipline and detekt-clean code. Use for any Kotlin code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Kotlin
-  triggers: writing or reviewing Kotlin code, setting up Gradle builds, detekt, or tests
+  triggers: "writing or reviewing Kotlin code, setting up Gradle builds, detekt, or tests"
 ---
 
 ## What I do

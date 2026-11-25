@@ -1,13 +1,13 @@
 ---
 name: genealogy-start
-description: Trace family history with records and interviews. Use for roots research.
+description: "Trace family history with records and interviews. Use for roots research."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
-  triggers: roots research
+  triggers: "roots research"
 ---
 
 ## What I do

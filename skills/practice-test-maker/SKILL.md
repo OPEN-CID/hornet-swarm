@@ -1,13 +1,13 @@
 ---
 name: practice-test-maker
-description: Turn any chapter into a timed mock test with answer key. Use for exam prep.
+description: "Turn any chapter into a timed mock test with answer key. Use for exam prep."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: exam prep
+  triggers: "exam prep"
 ---
 
 ## What I do

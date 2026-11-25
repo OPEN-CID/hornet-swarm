@@ -1,13 +1,13 @@
 ---
 name: nutrition-plan
-description: Plan balanced meals around budget and restrictions. Use when meal planning for health goals. General information, not medical advice.
+description: "Plan balanced meals around budget and restrictions. Use when meal planning for health goals. General information, not medical advice."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: meal planning for health goals, eating on a budget
+  triggers: "meal planning for health goals, eating on a budget"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: bbq-smoker
-description: Smoke BBQ low and slow with fire control. Use for brisket and ribs.
+description: "Smoke BBQ low and slow with fire control. Use for brisket and ribs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: brisket and ribs
+  triggers: "brisket and ribs"
 ---
 
 ## What I do

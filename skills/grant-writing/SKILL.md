@@ -1,13 +1,13 @@
 ---
 name: grant-writing
-description: Write grants with needs, outcomes, and budgets. Use for nonprofits.
+description: "Write grants with needs, outcomes, and budgets. Use for nonprofits."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: nonprofit funding
+  triggers: "nonprofit funding"
 ---
 
 ## What I do

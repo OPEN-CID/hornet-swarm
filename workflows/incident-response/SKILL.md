@@ -1,6 +1,6 @@
 ---
 name: incident-response
-description: Run incidents from alert to verified fix with follow-ups. Use for production incidents.
+description: "Run incidents from alert to verified fix with follow-ups. Use for production incidents."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: production incident, service alert
-  steps: log-triage, debugging, deploy-checklist, meeting-notes
+  triggers: "production incident, service alert"
+  steps: "log-triage, debugging, deploy-checklist, meeting-notes"
 ---
 
 ## What I do

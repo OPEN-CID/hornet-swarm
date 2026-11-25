@@ -1,13 +1,13 @@
 ---
 name: communication-basics
-description: Say hard things clearly with I-statements and repair. Use when talks go sideways.
+description: "Say hard things clearly with I-statements and repair. Use when talks go sideways."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: talks going sideways
+  triggers: "talks going sideways"
 ---
 
 ## What I do

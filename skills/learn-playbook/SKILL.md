@@ -1,13 +1,13 @@
 ---
 name: learn-playbook
-description: Learning-science best practices for efficient study. Use when study feels inefficient.
+description: "Learning-science best practices for efficient study. Use when study feels inefficient."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: study feels inefficient
+  triggers: "study feels inefficient"
 ---
 
 ## What I do

@@ -1,6 +1,6 @@
 ---
 name: scala-code
-description: Write immutable Scala 3 with ADTs, for-comprehensions, and munit proof. Use for any Scala code or review.
+description: "Write immutable Scala 3 with ADTs, for-comprehensions, and munit proof. Use for any Scala code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Scala
-  triggers: writing or reviewing Scala code, setting up sbt builds, scalafmt, or tests
+  triggers: "writing or reviewing Scala code, setting up sbt builds, scalafmt, or tests"
 ---
 
 ## What I do

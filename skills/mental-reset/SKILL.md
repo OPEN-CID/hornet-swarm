@@ -1,13 +1,13 @@
 ---
 name: mental-reset
-description: Guide a short stress-reset routine with journaling prompts. Use when stressed. Not therapy; crisis situations need a professional.
+description: "Guide a short stress-reset routine with journaling prompts. Use when stressed. Not therapy; crisis situations need a professional."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: feeling stressed or overwhelmed
+  triggers: "feeling stressed or overwhelmed"
 ---
 
 ## What I do

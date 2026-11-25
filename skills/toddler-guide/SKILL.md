@@ -1,13 +1,13 @@
 ---
 name: toddler-guide
-description: Manage tantrums and routines for ages 1-3 with calm scripts. Use for toddler chaos.
+description: "Manage tantrums and routines for ages 1-3 with calm scripts. Use for toddler chaos."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: toddler chaos
+  triggers: "toddler chaos"
 ---
 
 ## What I do

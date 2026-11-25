@@ -1,13 +1,13 @@
 ---
 name: brand-voice
-description: Define a brand voice with examples. Use for consistent company writing.
+description: "Define a brand voice with examples. Use for consistent company writing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: making company writing consistent
+  triggers: "making company writing consistent"
 ---
 
 ## What I do

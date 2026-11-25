@@ -1,13 +1,13 @@
 ---
 name: med-pill-schedule
-description: Build a daily medication schedule from prescription labels. Use when managing multiple meds. Never changes doses; confirm with pharmacist.
+description: "Build a daily medication schedule from prescription labels. Use when managing multiple meds. Never changes doses; confirm with pharmacist."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: managing multiple medications
+  triggers: "managing multiple medications"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: camping-guide
-description: Camp comfortably with shelter, sleep, and cook systems. Use for first trips.
+description: "Camp comfortably with shelter, sleep, and cook systems. Use for first trips."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: first camping trips
+  triggers: "first camping trips"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: singing-basics
-description: Sing in tune with breath and warmups. Use for new singers.
+description: "Sing in tune with breath and warmups. Use for new singers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: new singers
+  triggers: "new singers"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: ai-image-guide
-description: Generate images with AI using prompts and iteration. Use for art and assets.
+description: "Generate images with AI using prompts and iteration. Use for art and assets."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: AI art and assets
+  triggers: "AI art and assets"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: itinerary-builder
-description: Turn must-sees into a timed daily itinerary with buffers. Use when the destination is decided.
+description: "Turn must-sees into a timed daily itinerary with buffers. Use when the destination is decided."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: destination decided
+  triggers: "destination decided"
 ---
 
 ## What I do

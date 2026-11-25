@@ -1,13 +1,13 @@
 ---
 name: tone-translate
-description: Adapt any text to a target reading level or audience. Use when experts write for beginners and vice versa.
+description: "Adapt any text to a target reading level or audience. Use when experts write for beginners and vice versa."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: adapting text for an audience
+  triggers: "adapting text for an audience"
 ---
 
 ## What I do

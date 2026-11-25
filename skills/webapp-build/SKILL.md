@@ -1,13 +1,13 @@
 ---
 name: webapp-build
-description: Plan and build a web app with stack, auth, database, and deploy. Use for new web apps.
+description: "Plan and build a web app with stack, auth, database, and deploy. Use for new web apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: building a web app
+  triggers: "building a web app"
 ---
 
 ## What I do

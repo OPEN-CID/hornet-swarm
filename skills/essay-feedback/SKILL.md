@@ -1,13 +1,13 @@
 ---
 name: essay-feedback
-description: Critique essays for thesis, structure, and evidence. Use when revising writing.
+description: "Critique essays for thesis, structure, and evidence. Use when revising writing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: revising an essay
+  triggers: "revising an essay"
 ---
 
 ## What I do

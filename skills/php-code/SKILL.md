@@ -1,6 +1,6 @@
 ---
 name: php-code
-description: Write strict PHP 8 with types, static analysis, and Pest proof. Use for any PHP code or review.
+description: "Write strict PHP 8 with types, static analysis, and Pest proof. Use for any PHP code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: PHP
-  triggers: writing or reviewing PHP code, setting up Composer, phpstan, or Pest
+  triggers: "writing or reviewing PHP code, setting up Composer, phpstan, or Pest"
 ---
 
 ## What I do

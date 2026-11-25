@@ -1,13 +1,13 @@
 ---
 name: local-gov
-description: Navigate councils and permits with contact maps. Use for projects.
+description: "Navigate councils and permits with contact maps. Use for projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: civic
   version: 1.0.0
   author: hornet-swarm
-  triggers: permits and projects
+  triggers: "permits and projects"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: agent-builder
-description: Build tool-using AI agents with loops and guardrails. Use for agent features.
+description: "Build tool-using AI agents with loops and guardrails. Use for agent features."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: agent features
+  triggers: "agent features"
 ---
 
 ## What I do

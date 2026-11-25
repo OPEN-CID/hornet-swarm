@@ -1,13 +1,13 @@
 ---
 name: report-writing
-description: Write reports that get read with BLUF and appendices. Use for work docs.
+description: "Write reports that get read with BLUF and appendices. Use for work docs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: knowledge
   version: 1.0.0
   author: hornet-swarm
-  triggers: work documents
+  triggers: "work documents"
 ---
 
 ## What I do

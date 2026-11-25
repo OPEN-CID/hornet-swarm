@@ -1,13 +1,13 @@
 ---
 name: arch-playbook
-description: Architecture best practices for evolvable systems. Use when setting engineering standards.
+description: "Architecture best practices for evolvable systems. Use when setting engineering standards."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: setting engineering standards
+  triggers: "setting engineering standards"
 ---
 
 ## What I do

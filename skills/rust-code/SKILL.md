@@ -1,6 +1,6 @@
 ---
 name: rust-code
-description: Write safe Rust with ownership discipline, Result handling, and clippy-clean code. Use for any Rust code or review.
+description: "Write safe Rust with ownership discipline, Result handling, and clippy-clean code. Use for any Rust code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Rust
-  triggers: writing or reviewing Rust code, setting up Cargo workspaces, clippy, or tests
+  triggers: "writing or reviewing Rust code, setting up Cargo workspaces, clippy, or tests"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: privacy-harden
-description: Harden accounts and devices with checklists. Use yearly.
+description: "Harden accounts and devices with checklists. Use yearly."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: yearly security review
+  triggers: "yearly security review"
 ---
 
 ## What I do

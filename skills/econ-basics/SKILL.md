@@ -1,13 +1,13 @@
 ---
 name: econ-basics
-description: Read inflation, rates, and markets for decisions. Use for money literacy.
+description: "Read inflation, rates, and markets for decisions. Use for money literacy."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: money literacy
+  triggers: "money literacy"
 ---
 
 ## What I do

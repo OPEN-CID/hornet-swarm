@@ -1,13 +1,13 @@
 ---
 name: baby-proof
-description: Baby-proof rooms with checklists by age. Use before crawling starts.
+description: "Baby-proof rooms with checklists by age. Use before crawling starts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: before crawling starts
+  triggers: "before crawling starts"
 ---
 
 ## What I do

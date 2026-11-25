@@ -1,13 +1,13 @@
 ---
 name: spice-guide
-description: Match spices to cuisines with blends and storage. Use when food tastes flat.
+description: "Match spices to cuisines with blends and storage. Use when food tastes flat."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: flat-tasting food
+  triggers: "flat-tasting food"
 ---
 
 ## What I do

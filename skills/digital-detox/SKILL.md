@@ -1,13 +1,13 @@
 ---
 name: digital-detox
-description: Cut compulsive scrolling with audits and replacement menus. Use when phones dominate.
+description: "Cut compulsive scrolling with audits and replacement menus. Use when phones dominate."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: compulsive scrolling
+  triggers: "compulsive scrolling"
 ---
 
 ## What I do

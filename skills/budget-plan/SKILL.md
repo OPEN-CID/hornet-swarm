@@ -1,13 +1,13 @@
 ---
 name: budget-plan
-description: Build a monthly budget from income and spending. Use when money feels chaotic.
+description: "Build a monthly budget from income and spending. Use when money feels chaotic."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: money feels chaotic, starting to save
+  triggers: "money feels chaotic, starting to save"
 ---
 
 ## What I do

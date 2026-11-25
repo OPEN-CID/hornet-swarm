@@ -1,13 +1,13 @@
 ---
 name: blog-launch
-description: Start blogs with platform, SEO basics, and calendars. Use for new bloggers.
+description: "Start blogs with platform, SEO basics, and calendars. Use for new bloggers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: new bloggers
+  triggers: "new bloggers"
 ---
 
 ## What I do

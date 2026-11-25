@@ -1,6 +1,6 @@
 ---
 name: csharp-code
-description: Write modern C# with records, pattern matching, and async discipline. Use for any C# or .NET code and reviews.
+description: "Write modern C# with records, pattern matching, and async discipline. Use for any C# or .NET code and reviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: C#
-  triggers: writing or reviewing C# code, setting up .NET builds, analyzers, or tests
+  triggers: "writing or reviewing C# code, setting up .NET builds, analyzers, or tests"
 ---
 
 ## What I do

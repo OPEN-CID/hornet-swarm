@@ -1,6 +1,6 @@
 ---
 name: powershell-code
-description: Write pipeline-friendly PowerShell with approved verbs, Pester tests, and analyzer-clean code. Use for any PowerShell code or review.
+description: "Write pipeline-friendly PowerShell with approved verbs, Pester tests, and analyzer-clean code. Use for any PowerShell code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: PowerShell
-  triggers: writing or reviewing PowerShell code, setting up PSScriptAnalyzer or Pester
+  triggers: "writing or reviewing PowerShell code, setting up PSScriptAnalyzer or Pester"
 ---
 
 ## What I do

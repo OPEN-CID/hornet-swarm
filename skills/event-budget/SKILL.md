@@ -1,13 +1,13 @@
 ---
 name: event-budget
-description: Budget events with line items and contingencies. Use for any event.
+description: "Budget events with line items and contingencies. Use for any event."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: events
   version: 1.0.0
   author: hornet-swarm
-  triggers: any event
+  triggers: "any event"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: ops-playbook
-description: Operating-cadence best practices for calm teams. Use when the team feels chaotic.
+description: "Operating-cadence best practices for calm teams. Use when the team feels chaotic."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: chaotic team operations
+  triggers: "chaotic team operations"
 ---
 
 ## What I do

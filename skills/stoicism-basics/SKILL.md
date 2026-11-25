@@ -1,13 +1,13 @@
 ---
 name: stoicism-basics
-description: Apply stoic tools to control and perspective. Use for stress and setbacks.
+description: "Apply stoic tools to control and perspective. Use for stress and setbacks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: mind
   version: 1.0.0
   author: hornet-swarm
-  triggers: stress and setbacks
+  triggers: "stress and setbacks"
 ---
 
 ## What I do

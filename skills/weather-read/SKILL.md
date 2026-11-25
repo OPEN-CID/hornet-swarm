@@ -1,13 +1,13 @@
 ---
 name: weather-read
-description: Read sky and forecasts for go or no-go calls. Use before outdoor days.
+description: "Read sky and forecasts for go or no-go calls. Use before outdoor days."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: outdoor trip days
+  triggers: "outdoor trip days"
 ---
 
 ## What I do

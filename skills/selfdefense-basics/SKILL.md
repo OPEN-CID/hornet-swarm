@@ -1,13 +1,13 @@
 ---
 name: selfdefense-basics
-description: Stay safer with awareness and de-escalation. Training recommended. Use for confidence.
+description: "Stay safer with awareness and de-escalation. Training recommended. Use for confidence."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: personal safety confidence
+  triggers: "personal safety confidence"
 ---
 
 ## What I do

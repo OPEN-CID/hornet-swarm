@@ -1,13 +1,13 @@
 ---
 name: sheet-read
-description: Read sheet music with rhythm and note drills. Use for learners.
+description: "Read sheet music with rhythm and note drills. Use for learners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: music learners
+  triggers: "music learners"
 ---
 
 ## What I do

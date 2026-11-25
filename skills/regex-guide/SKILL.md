@@ -1,13 +1,13 @@
 ---
 name: regex-guide
-description: Write regexes that work with testing habits. Use for text wrangling.
+description: "Write regexes that work with testing habits. Use for text wrangling."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: text wrangling
+  triggers: "text wrangling"
 ---
 
 ## What I do

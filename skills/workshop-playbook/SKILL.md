@@ -1,13 +1,13 @@
 ---
 name: workshop-playbook
-description: Workshop safety and tool-care best practices. Use when setting up or leveling up a shop.
+description: "Workshop safety and tool-care best practices. Use when setting up or leveling up a shop."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: setting up a workshop
+  triggers: "setting up a workshop"
 ---
 
 ## What I do

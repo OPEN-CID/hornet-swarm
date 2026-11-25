@@ -1,13 +1,13 @@
 ---
 name: golf-basics
-description: Start golf with grip, swing, and etiquette. Use for beginners.
+description: "Start golf with grip, swing, and etiquette. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: golf beginners
+  triggers: "golf beginners"
 ---
 
 ## What I do

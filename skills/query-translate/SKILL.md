@@ -1,13 +1,13 @@
 ---
 name: query-translate
-description: Turn business questions into query plans and SQL sketches. Use when stakeholders ask for numbers.
+description: "Turn business questions into query plans and SQL sketches. Use when stakeholders ask for numbers."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: stakeholders asking for numbers
+  triggers: "stakeholders asking for numbers"
 ---
 
 ## What I do

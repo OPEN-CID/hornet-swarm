@@ -1,13 +1,13 @@
 ---
 name: go-game
-description: Learn Go with captures and life-and-death basics. Use for beginners.
+description: "Learn Go with captures and life-and-death basics. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: play
   version: 1.0.0
   author: hornet-swarm
-  triggers: Go beginners
+  triggers: "Go beginners"
 ---
 
 ## What I do

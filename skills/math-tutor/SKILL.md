@@ -1,13 +1,13 @@
 ---
 name: math-tutor
-description: Teach math step by step with practice problems. Use when stuck on algebra through calculus.
+description: "Teach math step by step with practice problems. Use when stuck on algebra through calculus."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: stuck on math homework, preparing for a math test
+  triggers: "stuck on math homework, preparing for a math test"
 ---
 
 ## What I do

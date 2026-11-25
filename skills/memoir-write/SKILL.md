@@ -1,13 +1,13 @@
 ---
 name: memoir-write
-description: Write memoir with scenes, honesty, and structure. Use for life stories.
+description: "Write memoir with scenes, honesty, and structure. Use for life stories."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: life stories
+  triggers: "life stories"
 ---
 
 ## What I do

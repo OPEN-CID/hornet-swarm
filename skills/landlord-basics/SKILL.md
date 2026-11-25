@@ -1,13 +1,13 @@
 ---
 name: landlord-basics
-description: Landlord well with screening, leases, and reserves. Use for rentals. Local laws apply.
+description: "Landlord well with screening, leases, and reserves. Use for rentals. Local laws apply."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: renting out property
+  triggers: "renting out property"
 ---
 
 ## What I do

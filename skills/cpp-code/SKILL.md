@@ -1,6 +1,6 @@
 ---
 name: cpp-code
-description: Write modern C++ (17/20) with RAII, smart pointers, and const-correctness. Use for any C++ code or review.
+description: "Write modern C++ (17/20) with RAII, smart pointers, and const-correctness. Use for any C++ code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: C++
-  triggers: writing or reviewing C++ code, setting up CMake builds, clang-tidy, or sanitizers
+  triggers: "writing or reviewing C++ code, setting up CMake builds, clang-tidy, or sanitizers"
 ---
 
 ## What I do

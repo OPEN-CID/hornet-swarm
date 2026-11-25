@@ -1,13 +1,13 @@
 ---
 name: watercolor-start
-description: Paint watercolors with washes and paper picks. Use for first paintings.
+description: "Paint watercolors with washes and paper picks. Use for first paintings."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: craft
   version: 1.0.0
   author: hornet-swarm
-  triggers: first paintings
+  triggers: "first paintings"
 ---
 
 ## What I do

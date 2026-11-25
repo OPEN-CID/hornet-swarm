@@ -1,13 +1,13 @@
 ---
 name: bike-commute
-description: Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work.
+description: "Plan a safe bike commute with route gear and maintenance. Use when starting to cycle to work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting to cycle to work
+  triggers: "starting to cycle to work"
 ---
 
 ## What I do

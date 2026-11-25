@@ -1,6 +1,6 @@
 ---
 name: onboard-hire
-description: Onboard a new hire to productive in 30 days. Use for every new team member.
+description: "Onboard a new hire to productive in 30 days. Use for every new team member."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: new hire starting, onboarding someone
-  steps: hiring-interview, onboarding-plan, repo-onboarder, meeting-notes
+  triggers: "new hire starting, onboarding someone"
+  steps: "hiring-interview, onboarding-plan, repo-onboarder, meeting-notes"
 ---
 
 ## What I do

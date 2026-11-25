@@ -1,13 +1,13 @@
 ---
 name: smart-lock
-description: Upgrade to smart locks with fit checks and codes. Use for keyless entry.
+description: "Upgrade to smart locks with fit checks and codes. Use for keyless entry."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: keyless entry
+  triggers: "keyless entry"
 ---
 
 ## What I do

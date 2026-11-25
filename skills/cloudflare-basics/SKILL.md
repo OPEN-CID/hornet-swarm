@@ -1,13 +1,13 @@
 ---
 name: cloudflare-basics
-description: Run sites behind Cloudflare with DNS, cache, and WAF. Use for web protection.
+description: "Run sites behind Cloudflare with DNS, cache, and WAF. Use for web protection."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: devops-infra
   version: 1.0.0
   author: hornet-swarm
-  triggers: web protection
+  triggers: "web protection"
 ---
 
 ## What I do

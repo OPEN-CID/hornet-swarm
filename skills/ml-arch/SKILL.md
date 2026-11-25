@@ -1,13 +1,13 @@
 ---
 name: ml-arch
-description: Design ML systems from features to serving to monitoring. Use when shipping models to production.
+description: "Design ML systems from features to serving to monitoring. Use when shipping models to production."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: shipping a model to production
+  triggers: "shipping a model to production"
 ---
 
 ## What I do

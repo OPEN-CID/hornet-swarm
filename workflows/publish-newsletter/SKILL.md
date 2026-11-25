@@ -1,6 +1,6 @@
 ---
 name: publish-newsletter
-description: Publish a newsletter issue from idea to sent. Use for weekly publishing.
+description: "Publish a newsletter issue from idea to sent. Use for weekly publishing."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: weekly newsletter, publishing an issue
-  steps: newsletter-writer, content-review
+  triggers: "weekly newsletter, publishing an issue"
+  steps: "newsletter-writer, content-review"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: meal-prep
-description: Prep a week of lunches in one session with containers and reheating. Use for busy weeks.
+description: "Prep a week of lunches in one session with containers and reheating. Use for busy weeks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: busy weeks
+  triggers: "busy weeks"
 ---
 
 ## What I do

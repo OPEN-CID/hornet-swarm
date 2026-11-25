@@ -1,13 +1,13 @@
 ---
 name: feedback-deliver
-description: Deliver tough feedback with specifics and next steps. Use for performance talks.
+description: "Deliver tough feedback with specifics and next steps. Use for performance talks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: leadership
   version: 1.0.0
   author: hornet-swarm
-  triggers: performance talks
+  triggers: "performance talks"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: yoga-start
-description: Begin yoga with poses, breath, and class etiquette. Use for flexibility and calm.
+description: "Begin yoga with poses, breath, and class etiquette. Use for flexibility and calm."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting yoga
+  triggers: "starting yoga"
 ---
 
 ## What I do

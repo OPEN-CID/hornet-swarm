@@ -1,13 +1,13 @@
 ---
 name: food-safety
-description: Store, thaw, and cook food safely with temps and times. Use for any home kitchen.
+description: "Store, thaw, and cook food safely with temps and times. Use for any home kitchen."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cooking
   version: 1.0.0
   author: hornet-swarm
-  triggers: running a home kitchen
+  triggers: "running a home kitchen"
 ---
 
 ## What I do

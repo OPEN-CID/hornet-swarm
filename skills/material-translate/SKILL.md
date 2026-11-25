@@ -1,13 +1,13 @@
 ---
 name: material-translate
-description: Decode lumber grades, fastener codes, and paint labels into what to buy. Use at the hardware store.
+description: "Decode lumber grades, fastener codes, and paint labels into what to buy. Use at the hardware store."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: shopping at the hardware store
+  triggers: "shopping at the hardware store"
 ---
 
 ## What I do

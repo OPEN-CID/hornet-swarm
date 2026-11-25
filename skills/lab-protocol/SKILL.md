@@ -1,13 +1,13 @@
 ---
 name: lab-protocol
-description: Write repeatable step-by-step lab protocols. Use before bench work.
+description: "Write repeatable step-by-step lab protocols. Use before bench work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing bench work
+  triggers: "preparing bench work"
 ---
 
 ## What I do

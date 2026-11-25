@@ -1,13 +1,13 @@
 ---
 name: expense-audit
-description: Find wasteful subscriptions and spending leaks. Use for quarterly money cleanup.
+description: "Find wasteful subscriptions and spending leaks. Use for quarterly money cleanup."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: quarterly money cleanup, cutting spending
+  triggers: "quarterly money cleanup, cutting spending"
 ---
 
 ## What I do

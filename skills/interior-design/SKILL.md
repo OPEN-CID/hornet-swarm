@@ -1,13 +1,13 @@
 ---
 name: interior-design
-description: Design rooms with layout, light, and budget mood boards. Use for refreshes.
+description: "Design rooms with layout, light, and budget mood boards. Use for refreshes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: room refreshes
+  triggers: "room refreshes"
 ---
 
 ## What I do

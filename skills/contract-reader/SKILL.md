@@ -1,13 +1,13 @@
 ---
 name: contract-reader
-description: Summarize contracts into obligations, risks, and questions. Use before signing anything. Not legal advice.
+description: "Summarize contracts into obligations, risks, and questions. Use before signing anything. Not legal advice."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: before signing a contract, reviewing terms of service
+  triggers: "before signing a contract, reviewing terms of service"
 ---
 
 ## What I do

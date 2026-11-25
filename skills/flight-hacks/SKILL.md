@@ -1,13 +1,13 @@
 ---
 name: flight-hacks
-description: Find cheaper flexible flights with dates, airports, and alerts. Use when flights feel overpriced.
+description: "Find cheaper flexible flights with dates, airports, and alerts. Use when flights feel overpriced."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: overpriced flights
+  triggers: "overpriced flights"
 ---
 
 ## What I do

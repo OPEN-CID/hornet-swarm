@@ -1,13 +1,13 @@
 ---
 name: mortgage-basics
-description: Understand mortgages with types, rates, and total cost. Use before talking to lenders. Educational.
+description: "Understand mortgages with types, rates, and total cost. Use before talking to lenders. Educational."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: before lender talks
+  triggers: "before lender talks"
 ---
 
 ## What I do

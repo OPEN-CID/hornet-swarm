@@ -1,13 +1,13 @@
 ---
 name: emergency-kit
-description: Assemble home emergency supplies and plans. Use for disaster preparedness.
+description: "Assemble home emergency supplies and plans. Use for disaster preparedness."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: home-life
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing for emergencies
+  triggers: "preparing for emergencies"
 ---
 
 ## What I do

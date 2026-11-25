@@ -1,13 +1,13 @@
 ---
 name: solar-evaluate
-description: Evaluate home solar with usage math and quotes. Use before buying.
+description: "Evaluate home solar with usage math and quotes. Use before buying."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: eco
   version: 1.0.0
   author: hornet-swarm
-  triggers: considering solar
+  triggers: "considering solar"
 ---
 
 ## What I do

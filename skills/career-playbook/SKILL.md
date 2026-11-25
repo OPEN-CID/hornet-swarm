@@ -1,13 +1,13 @@
 ---
 name: career-playbook
-description: Career-growth best practices for steady advancement. Use for yearly planning.
+description: "Career-growth best practices for steady advancement. Use for yearly planning."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: yearly career planning
+  triggers: "yearly career planning"
 ---
 
 ## What I do

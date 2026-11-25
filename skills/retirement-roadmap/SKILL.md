@@ -1,13 +1,13 @@
 ---
 name: retirement-roadmap
-description: Plan retirement with target numbers and catch-ups. Use at any age. Educational.
+description: "Plan retirement with target numbers and catch-ups. Use at any age. Educational."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: wealth
   version: 1.0.0
   author: hornet-swarm
-  triggers: retirement planning
+  triggers: "retirement planning"
 ---
 
 ## What I do

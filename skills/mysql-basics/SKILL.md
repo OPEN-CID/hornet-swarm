@@ -1,13 +1,13 @@
 ---
 name: mysql-basics
-description: Run MySQL with schema design, backups, and replication. Use for MySQL apps.
+description: "Run MySQL with schema design, backups, and replication. Use for MySQL apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: MySQL apps
+  triggers: "MySQL apps"
 ---
 
 ## What I do

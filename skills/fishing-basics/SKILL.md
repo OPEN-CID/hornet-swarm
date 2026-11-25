@@ -1,13 +1,13 @@
 ---
 name: fishing-basics
-description: Start fishing with knots, rigs, and local rules. Use for beginners.
+description: "Start fishing with knots, rigs, and local rules. Use for beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: fishing beginners
+  triggers: "fishing beginners"
 ---
 
 ## What I do

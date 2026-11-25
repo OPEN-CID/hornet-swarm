@@ -1,13 +1,13 @@
 ---
 name: azure-basics
-description: Learn Azure with resource groups, VNets, and cost guards. Use for Microsoft-cloud work.
+description: "Learn Azure with resource groups, VNets, and cost guards. Use for Microsoft-cloud work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: Azure work
+  triggers: "Azure work"
 ---
 
 ## What I do

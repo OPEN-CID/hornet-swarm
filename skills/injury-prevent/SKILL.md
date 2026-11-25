@@ -1,13 +1,13 @@
 ---
 name: injury-prevent
-description: Reduce injury risk with warmups, load rules, and red flags. Use for any training. Info only; see a physio for pain.
+description: "Reduce injury risk with warmups, load rules, and red flags. Use for any training. Info only; see a physio for pain."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: fitness
   version: 1.0.0
   author: hornet-swarm
-  triggers: any training program
+  triggers: "any training program"
 ---
 
 ## What I do

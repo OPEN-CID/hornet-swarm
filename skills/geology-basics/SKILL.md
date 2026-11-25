@@ -1,13 +1,13 @@
 ---
 name: geology-basics
-description: Read rocks and landscapes on hikes. Use for outdoor curiosity.
+description: "Read rocks and landscapes on hikes. Use for outdoor curiosity."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-big
   version: 1.0.0
   author: hornet-swarm
-  triggers: hiking curiosity
+  triggers: "hiking curiosity"
 ---
 
 ## What I do

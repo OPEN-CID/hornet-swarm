@@ -1,13 +1,13 @@
 ---
 name: spreadsheet-model
-description: Build auditable spreadsheet models with checks. Use for financial or ops models.
+description: "Build auditable spreadsheet models with checks. Use for financial or ops models."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: building financial or ops models
+  triggers: "building financial or ops models"
 ---
 
 ## What I do

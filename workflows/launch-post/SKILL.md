@@ -1,6 +1,6 @@
 ---
 name: launch-post
-description: Take a launch post from idea to published with review. Use for launches and announcements.
+description: "Take a launch post from idea to published with review. Use for launches and announcements."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,8 +8,8 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   kind: workflow
-  triggers: launching something, announcement post
-  steps: marketing-copy, blog-writer, content-review
+  triggers: "launching something, announcement post"
+  steps: "marketing-copy, blog-writer, content-review"
 ---
 
 ## What I do

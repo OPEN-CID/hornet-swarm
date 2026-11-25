@@ -1,13 +1,13 @@
 ---
 name: mobile-app-plan
-description: Plan a mobile app with platform choice, screens, and store release. Use for app ideas.
+description: "Plan a mobile app with platform choice, screens, and store release. Use for app ideas."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: software-build
   version: 1.0.0
   author: hornet-swarm
-  triggers: mobile app ideas
+  triggers: "mobile app ideas"
 ---
 
 ## What I do

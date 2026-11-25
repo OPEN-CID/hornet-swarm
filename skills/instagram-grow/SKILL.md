@@ -1,13 +1,13 @@
 ---
 name: instagram-grow
-description: Grow Instagram with reels, hooks, and posting rhythm. Use for brands.
+description: "Grow Instagram with reels, hooks, and posting rhythm. Use for brands."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: brand growth
+  triggers: "brand growth"
 ---
 
 ## What I do

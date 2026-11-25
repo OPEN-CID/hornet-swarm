@@ -13,6 +13,10 @@ $UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
 function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 
+function Yq([string]$v) {
+  return '"' + (($v -replace '\\', '\\') -replace '"', '\"') + '"'
+}
+
 $Template = @'
 __FM__
 
@@ -109,7 +113,7 @@ foreach ($s in $entries) {
   $chain = @()
   foreach ($p in $s.toolchain.PSObject.Properties) { $chain += "| $($p.Name) | ``$($p.Value)`` |" }
   $trigLine = (($s.triggers | ForEach-Object { "$_" }) -join ", ")
-  $fm = "---`nname: $($s.name)`ndescription: $($s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  language: $($s.language)`n  triggers: $trigLine`n---"
+  $fm = "---`nname: $($s.name)`ndescription: $(Yq $s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  language: $($s.language)`n  triggers: $(Yq $trigLine)`n---"
   $body = $Template.Replace('__FM__', $fm)
   $body = $body.Replace('__LANG__', $s.language)
   $body = $body.Replace('__TRIGS__', (($s.triggers | ForEach-Object { "- $_" }) -join "`n"))

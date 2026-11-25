@@ -1,13 +1,13 @@
 ---
 name: idea-validate
-description: Stress-test startup ideas with customers and numbers. Use before building anything.
+description: "Stress-test startup ideas with customers and numbers. Use before building anything."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: before building a startup idea
+  triggers: "before building a startup idea"
 ---
 
 ## What I do

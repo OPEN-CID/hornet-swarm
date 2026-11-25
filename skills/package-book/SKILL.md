@@ -1,13 +1,13 @@
 ---
 name: package-book
-description: Book flight-plus-hotel packages with price checks. Use for bundled holidays.
+description: "Book flight-plus-hotel packages with price checks. Use for bundled holidays."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: travel
   version: 1.0.0
   author: hornet-swarm
-  triggers: bundled holidays
+  triggers: "bundled holidays"
 ---
 
 ## What I do

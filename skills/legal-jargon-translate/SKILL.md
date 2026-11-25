@@ -1,13 +1,13 @@
 ---
 name: legal-jargon-translate
-description: Translate legal clauses into plain obligations. Use when a contract paragraph makes no sense. Not legal advice.
+description: "Translate legal clauses into plain obligations. Use when a contract paragraph makes no sense. Not legal advice."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: legal-finance
   version: 1.0.0
   author: hornet-swarm
-  triggers: unreadable contract paragraphs
+  triggers: "unreadable contract paragraphs"
 ---
 
 ## What I do

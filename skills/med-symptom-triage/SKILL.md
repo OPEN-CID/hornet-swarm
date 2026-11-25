@@ -1,13 +1,13 @@
 ---
 name: med-symptom-triage
-description: Organize symptoms into a clear timeline summary for a clinician visit. Use when preparing for a doctor appointment. Information only, never a diagnosis.
+description: "Organize symptoms into a clear timeline summary for a clinician visit. Use when preparing for a doctor appointment. Information only, never a diagnosis."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: preparing for a doctor appointment, organizing symptoms to report
+  triggers: "preparing for a doctor appointment, organizing symptoms to report"
 ---
 
 ## What I do

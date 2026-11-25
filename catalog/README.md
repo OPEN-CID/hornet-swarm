@@ -34,6 +34,8 @@ Any `*.json` file at this level with a `skills[]` array is picked up by
   also rejects `--` and edge hyphens).
 - `category`: one of the 50 keys in `registry.json` (see `wiki/README.md`).
 - `description`: WHAT + WHEN, max 200 chars recommended (hard limit 1024).
+  Values with `: ` or ` #` MUST be YAML double-quoted (generators do this;
+  hand-written files must too — see `docs/INTAKE.md`).
 - `triggers`: 1-3 user phrases; flows into `metadata`, the registry, the
   `SKILLS.md` router, and MCP search.
 - Kind suffixes steer the generator: `-translate`, `-parse`, `-review`,

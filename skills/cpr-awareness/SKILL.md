@@ -1,13 +1,13 @@
 ---
 name: cpr-awareness
-description: Understand CPR and AED basics until training. Call emergency first. Get certified.
+description: "Understand CPR and AED basics until training. Call emergency first. Get certified."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: cardiac emergencies
+  triggers: "cardiac emergencies"
 ---
 
 ## What I do

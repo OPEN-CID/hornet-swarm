@@ -1,13 +1,13 @@
 ---
 name: google-workspace
-description: Run Google Workspace with Drive, Docs, and admin basics. Use for small teams.
+description: "Run Google Workspace with Drive, Docs, and admin basics. Use for small teams."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: saas-tools
   version: 1.0.0
   author: hornet-swarm
-  triggers: small team setup
+  triggers: "small team setup"
 ---
 
 ## What I do

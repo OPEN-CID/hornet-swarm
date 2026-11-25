@@ -1,13 +1,13 @@
 ---
 name: college-apps
-description: Apply to colleges with lists, essays, and deadlines. Use for admissions.
+description: "Apply to colleges with lists, essays, and deadlines. Use for admissions."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: parenting
   version: 1.0.0
   author: hornet-swarm
-  triggers: college admissions
+  triggers: "college admissions"
 ---
 
 ## What I do

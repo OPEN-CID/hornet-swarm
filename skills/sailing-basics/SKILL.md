@@ -1,13 +1,13 @@
 ---
 name: sailing-basics
-description: Learn sailing with points of sail and docking basics. Use for new sailors. Instruction required.
+description: "Learn sailing with points of sail and docking basics. Use for new sailors. Instruction required."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: new sailors
+  triggers: "new sailors"
 ---
 
 ## What I do

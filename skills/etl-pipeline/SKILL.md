@@ -1,13 +1,13 @@
 ---
 name: etl-pipeline
-description: Design extract-transform-load jobs with idempotency and retries. Use when moving data between systems.
+description: "Design extract-transform-load jobs with idempotency and retries. Use when moving data between systems."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: moving data between systems
+  triggers: "moving data between systems"
 ---
 
 ## What I do

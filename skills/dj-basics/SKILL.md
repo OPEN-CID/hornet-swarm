@@ -1,13 +1,13 @@
 ---
 name: dj-basics
-description: DJ with beatmatching and set flow. Use for parties.
+description: "DJ with beatmatching and set flow. Use for parties."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: music
   version: 1.0.0
   author: hornet-swarm
-  triggers: DJ parties
+  triggers: "DJ parties"
 ---
 
 ## What I do

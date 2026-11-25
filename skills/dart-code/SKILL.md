@@ -1,6 +1,6 @@
 ---
 name: dart-code
-description: Write null-safe Dart and Flutter with analyzer-clean code and widget tests. Use for any Dart or Flutter work.
+description: "Write null-safe Dart and Flutter with analyzer-clean code and widget tests. Use for any Dart or Flutter work."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Dart
-  triggers: writing or reviewing Dart or Flutter code, setting up Flutter analyze or widget tests
+  triggers: "writing or reviewing Dart or Flutter code, setting up Flutter analyze or widget tests"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: ai-video-guide
-description: Generate AI videos with prompting and consistent edits. Use for clips and ads.
+description: "Generate AI videos with prompting and consistent edits. Use for clips and ads."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-ai
   version: 1.0.0
   author: hornet-swarm
-  triggers: AI clips and ads
+  triggers: "AI clips and ads"
 ---
 
 ## What I do

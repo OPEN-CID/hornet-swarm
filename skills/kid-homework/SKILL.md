@@ -1,13 +1,13 @@
 ---
 name: kid-homework
-description: Guide kids to answers with hints, never direct solutions. Use for K-12 homework help.
+description: "Guide kids to answers with hints, never direct solutions. Use for K-12 homework help."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: education
   version: 1.0.0
   author: hornet-swarm
-  triggers: helping kids with homework
+  triggers: "helping kids with homework"
 ---
 
 ## What I do

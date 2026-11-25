@@ -1,13 +1,13 @@
 ---
 name: paper-parse
-description: Extract question, method, results, and limits from papers into a structured brief. Use for literature review.
+description: "Extract question, method, results, and limits from papers into a structured brief. Use for literature review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: reviewing literature
+  triggers: "reviewing literature"
 ---
 
 ## What I do

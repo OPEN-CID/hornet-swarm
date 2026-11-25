@@ -1,13 +1,13 @@
 ---
 name: wildlife-safety
-description: Handle bears, snakes, and insects with prevention and response. Use in wild country.
+description: "Handle bears, snakes, and insects with prevention and response. Use in wild country."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: wild country travel
+  triggers: "wild country travel"
 ---
 
 ## What I do

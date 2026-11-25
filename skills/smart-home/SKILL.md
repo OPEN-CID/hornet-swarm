@@ -1,13 +1,13 @@
 ---
 name: smart-home
-description: Plan smart homes with protocols and privacy. Use before buying gadgets.
+description: "Plan smart homes with protocols and privacy. Use before buying gadgets."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: before smart gadgets
+  triggers: "before smart gadgets"
 ---
 
 ## What I do

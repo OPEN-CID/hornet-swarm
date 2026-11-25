@@ -1,6 +1,6 @@
 ---
 name: swift-code
-description: Write modern Swift with optionals discipline, value types, and actor-safe concurrency. Use for any Swift code or review.
+description: "Write modern Swift with optionals discipline, value types, and actor-safe concurrency. Use for any Swift code or review."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: Swift
-  triggers: writing or reviewing Swift code, setting up SPM packages or XCTest
+  triggers: "writing or reviewing Swift code, setting up SPM packages or XCTest"
 ---
 
 ## What I do

@@ -12,6 +12,16 @@ $UTF8NoBom = New-Object System.Text.UTF8Encoding $false
 function Read-UTF8([string]$p) { return [System.IO.File]::ReadAllText($p, [System.Text.Encoding]::UTF8) }
 function Write-UTF8([string]$p, [string]$c) { [System.IO.File]::WriteAllText($p, $c, $UTF8NoBom) }
 
+function Yq([string]$v) {
+  return '"' + (($v -replace '\\', '\\') -replace '"', '\"') + '"'
+}
+function Unq([string]$v) {
+  $t = $v.Trim()
+  if ($t.Length -ge 2 -and $t.StartsWith('"') -and $t.EndsWith('"')) {
+    $t = $t.Substring(1, $t.Length - 2) -replace '\\"','"' -replace '\\\\','\'
+  }
+  return $t
+}
 function Get-SkillDesc([string]$name) {
   foreach ($d in @("skills", "workflows")) {
     $f = Join-Path $RepoRoot "$d/$name/SKILL.md"
@@ -20,7 +30,7 @@ function Get-SkillDesc([string]$name) {
       $m = [regex]::Match($raw, '(?s)^---\s*\r?\n(.*?)\r?\n---')
       if ($m.Success) {
         $dm = [regex]::Match($m.Groups[1].Value, '^\s*description:\s*(.+?)\s*$', 'Multiline')
-        if ($dm.Success) { return $dm.Groups[1].Value.Trim() }
+        if ($dm.Success) { return Unq $dm.Groups[1].Value.Trim() }
       }
     }
   }
@@ -91,7 +101,7 @@ foreach ($s in $wf.workflows) {
   New-Item -ItemType Directory -Force -Path $dir | Out-Null
   $trigLine = (($s.triggers | ForEach-Object { "$_" }) -join ", ")
   $stepLine = (($s.steps | ForEach-Object { "$_" }) -join ", ")
-  $fm = "---`nname: $($s.name)`ndescription: $($s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  kind: workflow`n  triggers: $trigLine`n  steps: $stepLine`n---"
+  $fm = "---`nname: $($s.name)`ndescription: $(Yq $s.description)`nlicense: MIT`ncompatibility: opencode, claude-code, cursor, copilot, generic`nmetadata:`n  category: $($s.category)`n  version: 1.0.0`n  author: hornet-swarm`n  kind: workflow`n  triggers: $(Yq $trigLine)`n  steps: $(Yq $stepLine)`n---"
   $rows = @()
   $i = 0
   foreach ($st in $s.steps) {

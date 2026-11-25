@@ -1,13 +1,13 @@
 ---
 name: kayak-start
-description: Paddle safely with strokes, rescues, and conditions. Use for flatwater starts.
+description: "Paddle safely with strokes, rescues, and conditions. Use for flatwater starts."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: outdoors
   version: 1.0.0
   author: hornet-swarm
-  triggers: flatwater starts
+  triggers: "flatwater starts"
 ---
 
 ## What I do

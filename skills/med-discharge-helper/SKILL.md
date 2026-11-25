@@ -1,13 +1,13 @@
 ---
 name: med-discharge-helper
-description: Turn discharge papers into a home care checklist. Use after a hospital discharge.
+description: "Turn discharge papers into a home care checklist. Use after a hospital discharge."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: after a hospital discharge, understanding discharge papers
+  triggers: "after a hospital discharge, understanding discharge papers"
 ---
 
 ## What I do

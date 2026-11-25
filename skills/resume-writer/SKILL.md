@@ -1,13 +1,13 @@
 ---
 name: resume-writer
-description: Tailor resumes to job posts with measurable impact. Use when applying for jobs.
+description: "Tailor resumes to job posts with measurable impact. Use when applying for jobs."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: career
   version: 1.0.0
   author: hornet-swarm
-  triggers: applying for jobs
+  triggers: "applying for jobs"
 ---
 
 ## What I do

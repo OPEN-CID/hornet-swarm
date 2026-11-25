@@ -1,13 +1,13 @@
 ---
 name: storytelling-talk
-description: Tell stories on stage with arc and delivery. Use for talks.
+description: "Tell stories on stage with arc and delivery. Use for talks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: writing
   version: 1.0.0
   author: hornet-swarm
-  triggers: storytelling talks
+  triggers: "storytelling talks"
 ---
 
 ## What I do

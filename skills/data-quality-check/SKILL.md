@@ -1,13 +1,13 @@
 ---
 name: data-quality-check
-description: Define freshness, schema, and anomaly checks. Use when data breaks trust.
+description: "Define freshness, schema, and anomaly checks. Use when data breaks trust."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-pipeline
   version: 1.0.0
   author: hornet-swarm
-  triggers: data quality incidents
+  triggers: "data quality incidents"
 ---
 
 ## What I do

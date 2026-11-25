@@ -1,13 +1,13 @@
 ---
 name: podcast-launch
-description: Launch podcasts with recording, editing, and RSS feeds. Use for new shows.
+description: "Launch podcasts with recording, editing, and RSS feeds. Use for new shows."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: new shows
+  triggers: "new shows"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: first-aid-basics
-description: Respond to common injuries with steps and kit. Call emergency first. Training recommended.
+description: "Respond to common injuries with steps and kit. Call emergency first. Training recommended."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: safety
   version: 1.0.0
   author: hornet-swarm
-  triggers: injuries and accidents
+  triggers: "injuries and accidents"
 ---
 
 ## What I do

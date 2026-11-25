@@ -1,13 +1,13 @@
 ---
 name: duckdb-guide
-description: Analyze local files with DuckDB SQL at speed. Use for CSV and parquet analytics.
+description: "Analyze local files with DuckDB SQL at speed. Use for CSV and parquet analytics."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: CSV and parquet analytics
+  triggers: "CSV and parquet analytics"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: result-review
-description: Peer-review results and analyses for errors before sharing. Use before publishing or presenting.
+description: "Peer-review results and analyses for errors before sharing. Use before publishing or presenting."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: science-lab
   version: 1.0.0
   author: hornet-swarm
-  triggers: before publishing or presenting results
+  triggers: "before publishing or presenting results"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: security-arch
-description: Design identity, secrets, and network controls. Use when threat-modeling a system.
+description: "Design identity, secrets, and network controls. Use when threat-modeling a system."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: company-arch
   version: 1.0.0
   author: hornet-swarm
-  triggers: threat-modeling a system
+  triggers: "threat-modeling a system"
 ---
 
 ## What I do

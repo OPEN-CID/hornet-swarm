@@ -1,13 +1,13 @@
 ---
 name: video-edit
-description: Edit videos with timelines, cuts, and color basics. Use for YouTube and reels.
+description: "Edit videos with timelines, cuts, and color basics. Use for YouTube and reels."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: YouTube and reels
+  triggers: "YouTube and reels"
 ---
 
 ## What I do

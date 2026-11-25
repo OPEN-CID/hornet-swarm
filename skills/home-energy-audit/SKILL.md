@@ -1,13 +1,13 @@
 ---
 name: home-energy-audit
-description: Find home energy waste and prioritize fixes. Use to cut utility bills.
+description: "Find home energy waste and prioritize fixes. Use to cut utility bills."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: high utility bills
+  triggers: "high utility bills"
 ---
 
 ## What I do

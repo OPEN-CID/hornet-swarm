@@ -1,13 +1,13 @@
 ---
 name: networking-guide
-description: Network genuinely with follow-ups that help others first. Use for career events.
+description: "Network genuinely with follow-ups that help others first. Use for career events."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: career events
+  triggers: "career events"
 ---
 
 ## What I do

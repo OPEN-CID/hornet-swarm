@@ -1,13 +1,13 @@
 ---
 name: monitoring-setup
-description: Monitor services with golden signals and alert rules. Use before production.
+description: "Monitor services with golden signals and alert rules. Use before production."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: cloud
   version: 1.0.0
   author: hornet-swarm
-  triggers: before production
+  triggers: "before production"
 ---
 
 ## What I do

@@ -1,13 +1,13 @@
 ---
 name: critical-think
-description: Think clearly with fallacy spotting and steelmanning. Use for debates.
+description: "Think clearly with fallacy spotting and steelmanning. Use for debates."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: culture
   version: 1.0.0
   author: hornet-swarm
-  triggers: debates and decisions
+  triggers: "debates and decisions"
 ---
 
 ## What I do

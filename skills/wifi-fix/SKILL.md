@@ -1,13 +1,13 @@
 ---
 name: wifi-fix
-description: Fix home wifi with placement, channels, and mesh calls. Use for dead zones.
+description: "Fix home wifi with placement, channels, and mesh calls. Use for dead zones."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: wifi dead zones
+  triggers: "wifi dead zones"
 ---
 
 ## What I do

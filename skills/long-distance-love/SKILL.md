@@ -1,13 +1,13 @@
 ---
 name: long-distance-love
-description: Run long-distance love with rhythms and visit plans. Use for separated couples.
+description: "Run long-distance love with rhythms and visit plans. Use for separated couples."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: separated couples
+  triggers: "separated couples"
 ---
 
 ## What I do

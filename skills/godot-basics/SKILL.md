@@ -1,13 +1,13 @@
 ---
 name: godot-basics
-description: Build Godot games with nodes, GDScript, and export presets. Use for indie games.
+description: "Build Godot games with nodes, GDScript, and export presets. Use for indie games."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: gamedev
   version: 1.0.0
   author: hornet-swarm
-  triggers: indie games
+  triggers: "indie games"
 ---
 
 ## What I do

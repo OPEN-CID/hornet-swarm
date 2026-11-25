@@ -1,13 +1,13 @@
 ---
 name: car-detail
-description: Detail cars with wash, clay, and wax order. Use for showroom looks.
+description: "Detail cars with wash, clay, and wax order. Use for showroom looks."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: vehicles
   version: 1.0.0
   author: hornet-swarm
-  triggers: showroom looks
+  triggers: "showroom looks"
 ---
 
 ## What I do

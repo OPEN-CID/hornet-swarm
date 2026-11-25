@@ -1,13 +1,13 @@
 ---
 name: airflow-basics
-description: Schedule pipelines with Airflow DAGs, retries, and alerts. Use for orchestration.
+description: "Schedule pipelines with Airflow DAGs, retries, and alerts. Use for orchestration."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: data-platforms
   version: 1.0.0
   author: hornet-swarm
-  triggers: pipeline orchestration
+  triggers: "pipeline orchestration"
 ---
 
 ## What I do

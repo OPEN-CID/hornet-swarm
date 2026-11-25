@@ -1,13 +1,13 @@
 ---
 name: react-patterns
-description: Build React with hooks, colocation, and server components. Use for React apps.
+description: "Build React with hooks, colocation, and server components. Use for React apps."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: frameworks
   version: 1.0.0
   author: hornet-swarm
-  triggers: React apps
+  triggers: "React apps"
 ---
 
 ## What I do

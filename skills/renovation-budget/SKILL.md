@@ -1,13 +1,13 @@
 ---
 name: renovation-budget
-description: Budget renovations with contingencies and contractor bids. Use before remodeling.
+description: "Budget renovations with contingencies and contractor bids. Use before remodeling."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: housing
   version: 1.0.0
   author: hornet-swarm
-  triggers: before remodeling
+  triggers: "before remodeling"
 ---
 
 ## What I do

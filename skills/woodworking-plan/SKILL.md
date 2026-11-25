@@ -1,13 +1,13 @@
 ---
 name: woodworking-plan
-description: Plan beginner woodworking builds with cut lists. Use for furniture projects.
+description: "Plan beginner woodworking builds with cut lists. Use for furniture projects."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: diy-maker
   version: 1.0.0
   author: hornet-swarm
-  triggers: planning a woodworking build
+  triggers: "planning a woodworking build"
 ---
 
 ## What I do

@@ -1,6 +1,6 @@
 ---
 name: r-code
-description: Write vectorized R with renv reproducibility and testthat proof. Use for any R analysis or package code.
+description: "Write vectorized R with renv reproducibility and testthat proof. Use for any R analysis or package code."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
@@ -8,7 +8,7 @@ metadata:
   version: 1.0.0
   author: hornet-swarm
   language: R
-  triggers: writing or reviewing R code, setting up renv or testthat
+  triggers: "writing or reviewing R code, setting up renv or testthat"
 ---
 
 ## What I do

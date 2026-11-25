@@ -1,13 +1,13 @@
 ---
 name: nonprofit-start
-description: Start a nonprofit with mission, filing, and board basics. Use for causes. Lawyer for filings.
+description: "Start a nonprofit with mission, filing, and board basics. Use for causes. Lawyer for filings."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: starting a nonprofit
+  triggers: "starting a nonprofit"
 ---
 
 ## What I do

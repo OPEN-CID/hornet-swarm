@@ -1,13 +1,13 @@
 ---
 name: roommate-guide
-description: Live well with roommates using splits and house rules. Use for shared homes.
+description: "Live well with roommates using splits and house rules. Use for shared homes."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: relationships
   version: 1.0.0
   author: hornet-swarm
-  triggers: shared homes
+  triggers: "shared homes"
 ---
 
 ## What I do

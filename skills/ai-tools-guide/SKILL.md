@@ -1,13 +1,13 @@
 ---
 name: ai-tools-guide
-description: Pick AI tools with privacy checks and workflow fits. Use for team adoption.
+description: "Pick AI tools with privacy checks and workflow fits. Use for team adoption."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: everyday-tech
   version: 1.0.0
   author: hornet-swarm
-  triggers: team AI adoption
+  triggers: "team AI adoption"
 ---
 
 ## What I do

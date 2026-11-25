@@ -1,13 +1,13 @@
 ---
 name: med-lab-reader
-description: Explain lab results in plain language with questions to ask. Use when reviewing bloodwork or test reports. Information only.
+description: "Explain lab results in plain language with questions to ask. Use when reviewing bloodwork or test reports. Information only."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: medical-health
   version: 1.0.0
   author: hornet-swarm
-  triggers: reviewing bloodwork or test reports
+  triggers: "reviewing bloodwork or test reports"
 ---
 
 ## What I do

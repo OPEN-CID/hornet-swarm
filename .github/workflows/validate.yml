@@ -65,3 +65,15 @@ jobs:
 
       - name: MCP server smoke test (stdlib only)
         run: python mcp-server/test_smoke.py || python3 mcp-server/test_smoke.py
+
+  frontmatter:
+    # Strict YAML check: lenient tools drop bad fields, strict tools (npx
+    # skills CLI, skills-ref) skip the whole skill. Gate the strict case.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Strict frontmatter parse (pyyaml)
+        run: |
+          python3 -m pip install -q pyyaml || python -m pip install -q pyyaml
+          python3 scripts/check_frontmatter.py || python scripts/check_frontmatter.py

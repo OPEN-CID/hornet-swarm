@@ -1,13 +1,13 @@
 ---
 name: blender-basics
-description: Model in Blender with mesh basics and lighting. Use for 3D beginners.
+description: "Model in Blender with mesh basics and lighting. Use for 3D beginners."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: creative-media
   version: 1.0.0
   author: hornet-swarm
-  triggers: 3D beginners
+  triggers: "3D beginners"
 ---
 
 ## What I do

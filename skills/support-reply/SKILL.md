@@ -1,13 +1,13 @@
 ---
 name: support-reply
-description: Draft empathetic customer support responses. Use for tickets and bad reviews.
+description: "Draft empathetic customer support responses. Use for tickets and bad reviews."
 license: MIT
 compatibility: opencode, claude-code, cursor, copilot, generic
 metadata:
   category: business-ops
   version: 1.0.0
   author: hornet-swarm
-  triggers: answering support tickets
+  triggers: "answering support tickets"
 ---
 
 ## What I do
